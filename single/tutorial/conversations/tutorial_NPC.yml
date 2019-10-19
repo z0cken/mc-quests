@@ -1,0 +1,133 @@
+quester: 'Tutorial'
+first: 'NA_tut_start,NA_def_start,NA_tut_inTutorial'
+stop: 'false'
+
+# PA = "Player Answer"
+# NA = "NPC Answer"
+
+NPC_options:
+# === NPC Tutorial Conversation === #
+  
+# Tutorial begin
+  'NA_tut_start':
+    text: 'Willkommen auf dem Pr0gramm Minecraft server - ein pr0jekt von z0cken.com. \nIch würde dir gerne Hilfe anbieten, damit du dich auf dem Server besser zurecht findest. Möchtest du ein Tutorial? (Dauer: ~15 minuten)'
+    conditions: '!isTutorialFinished,!isInTutorial'
+    pointer: 'PA_tut_accept,PA_tut_deny'
+
+  'NA_tut_inTutorial':
+    text: 'Hallo %player%, du bist noch im Tutorial. Benötigst du Hilfe dabei?'
+    conditions: 'isInTutorial,!isTutorialFinished'
+    pointer: 'PA_tut_abort,PA_tut_restart,PA_tut_help,PA_tut_noHelp'
+
+# Tutorial conversation
+  'NA_tut_explain':
+    text: 'Die Stadt in der du dich gerade befindest ist Gambberg, die Hauptstadt des Servers. \nHier findest du das Rathaus, welches sich hinter dir befindet. \nZu deiner Rechten liegt das Portalhaus, von dem aus man weitere Städte bereisen kann.'
+    pointer: 'PA_tut_cityHall_caseA,PA_tut_otherCities_caseA'
+
+  'NA_tut_cityHallAnswer_caseA':
+    text: 'Im Rathaus findest du den Bürgermeister, das Portal zum End, ein Netherportal. Weiteres wird dir der Bürgermeister erklären.'
+    pointer: 'PA_tut_otherCities_caseB'
+
+  'NA_tut_cityHallAnswer_caseB':
+    text: 'Im Rathaus findest du den Bürgermeister, das Portal zum End, ein Netherportal. Weiteres wird dir der Bürgermeister erklären.'
+    pointer: 'PA_tut_continue'
+
+  'NA_tut_otherCitiesAnswer_caseA':
+    text: 'Es gibt hier auf dem Server verschiedene Städte in denen du Grundstücke erwerben kannst: Gabberg, Darmstadt, Lokus und Erbgut.'
+    pointer: 'PA_tut_cityHall_caseB'
+
+  'NA_tut_otherCitiesAnswer_caseB':
+    text: 'Es gibt hier auf dem Server verschiedene Städte in denen du Grundstücke erwerben kannst: Gabberg, Darmstadt, Lokus und Erbgut.'
+    pointer: 'PA_tut_continue'
+
+# Tutorial Running
+  'NA_tut_abort':
+    text: 'Okay, dein tutorial fortschritt wurde zurückgesetzt.'
+    events: 'end_tutorial'
+    pointer: ''
+
+  'NA_tut_restart':
+    text: 'Kein problem, fangen wir von vorne an. \n Die Stadt in der du dich gerade befindest ist Gambberg, die Hauptstadt des Servers. \nHier findest du das Rathaus, welches sich hinter dir befindet. \nZu deiner Rechten liegt das Portalhaus, von dem aus man weitere Städte bereisen kann.'
+    pointer: 'PA_tut_cityHall_caseA,PA_tut_otherCities_caseA'
+
+  'NA_tut_help':
+    text: Du musst im moment zu [TUTORIAL CHARACTER] gehen. Er befindet sich [ORT / LOCATION]. Ich hoffe, ich konnte dir weiterhelfen.
+    pointer: ''
+
+
+# Endings
+  'NA_tut_denyResponse':
+    text: 'Alles klar, dann wünsche ich dir viel Spaß auf dem Server. \nSolltest du doch mal Hilfe benötigen, stehe ich dir gerne zur Verfügung.'
+    pointer: ''
+
+  'NA_tut_continueAnswer':
+    text: 'Natürlich. Bitte geh in das Rathaus und sprich mit dem Bürgermeister.'
+    events: 'addProgress_tutorialNPC'
+    pointer: ''
+
+  'NA_end':
+    text: 'Ich wünsche dir noch einen schönen aufenthalt.'
+    pointer: ''
+
+# === NPC Default Conversation === #
+
+  'NA_def_start':
+    text: 'Hallo %player%, was kann ich für dich tun?'
+    conditions: '!isInTutorial,isTutorialFinished'
+    pointer: ''
+
+
+player_options:
+# === Player Tutorial Conversation === #
+
+# Tutorial accept/deny
+  'PA_tut_accept':
+    text: 'Gerne, ich denke Hilfe könnte nicht schaden.'
+    events: 'start_tutorial'
+    pointer: 'NA_tut_explain'
+
+  'PA_tut_deny':
+    text: 'Nein danke, ich finde mich schon zurecht.'
+    pointer: 'NA_tut_denyResponse'
+
+# Tutorial Conversation
+  'PA_tut_cityHall_caseA':
+    text: 'Was ist im Rathaus?'
+    pointer: 'NA_tut_cityHallAnswer_caseA'
+
+  'PA_tut_cityHall_caseB':
+    text: 'Was ist im Rathaus?'
+    pointer: 'NA_tut_cityHallAnswer_caseB'
+
+  'PA_tut_otherCities_caseA':
+    text: 'Welche anderen städte?'
+    pointer: 'NA_tut_otherCitiesAnswer_caseA'
+
+  'PA_tut_otherCities_caseB':
+    text: 'Welche anderen städte?'
+    pointer: 'NA_tut_otherCitiesAnswer_caseB'
+
+  'PA_tut_continue':
+    text: 'Gibt es noch etwas, was ich wissen sollte?'
+    pointer: 'NA_tut_continueAnswer'
+
+# Tutorial Running
+  'PA_tut_abort':
+    text: 'Ich würde das Tutorial gerne abbrechen.'
+    pointer: 'NA_tut_abort'
+
+  'PA_tut_restart':
+    text: 'Ich möchte das Tutorial neu starten.'
+    pointer: 'NA_tut_restart, NA_tut_explain'
+
+  'PA_tut_help':
+    text: 'Ich weiß nichtmehr, wo im Tutorial ich mich befinde.'
+    pointer: 'NA_tut_help'
+
+  'PA_tut_noHelp':
+    text: 'Nein, alles gut.'
+    pointer: ''
+
+
+# === Player Default Conversation === #
+

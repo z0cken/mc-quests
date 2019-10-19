@@ -1,17 +1,35 @@
-variables:
+
 npcs:
-  'Manfred': farmer
-  '12': farmer
-cancel:
-  trash:
-    name: 'Unkraut entfernen'
-    conditions: 
-    objectives: 
-    tags: 
-    journal: 
-    events: 
-journal_main_page:
-  greeting:
-    priority: 1
-    text: "Unkraut"
-    conditions: ''
+  '1': tutorial_NPC
+  '2': mayor_Steinhoff
+  '3': digger_Oliver
+  '4': miner_Gernod
+  '5': hotel_Lydia
+  '6': metro_Vladimir
+
+tag_point_prefix: 'false'
+
+cancel: ()
+
+variables:
+  world: 'Games'
+
+  # Digger Quest
+  pitLocation: '56;56;178;$world$'
+  pitRadius: '10'
+
+  dirt_amount: '5'
+  sand_amount: '3'
+  gravel_amount: '3'
+
+  # Miner Quest
+  quarryLocation: '56;56;189;$world$'
+  quarryRadius: '10'
+
+  stone_amount: '3'
+  diorite_amount: '3'
+
+  digger_reward: '25'
+  miner_reward: '25'
+  hotel_discount: '10'
+  finish_reward: '100'
