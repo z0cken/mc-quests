@@ -1,0 +1,76 @@
+quester: ''
+first: ''
+stop: ''
+
+
+NPC_options:
+  '':
+    text: ''
+    conditions: ''
+    pointer: ''
+  '':
+    text: ''
+    conditions: ''
+    pointer: ''
+  '':
+    text: ''
+    conditions: ''
+    pointer: ''
+  '':
+    text: ''
+    conditions: ''
+    pointer: ''
+  '':
+    text: ''
+    conditions: ''
+    pointer: ''
+  '':
+    text: ''
+    conditions: ''
+    pointer: ''
+  '':
+    text: ''
+    conditions: ''
+    pointer: ''
+  '':
+    text: ''
+    conditions: ''
+    pointer: ''
+
+    
+    
+    
+#########################################################################
+player_options:
+  '':
+    text: ''
+    conditions: ''
+    pointer: ''
+  '':
+    text: ''
+    conditions: ''
+    pointer: ''
+  '':
+    text: ''
+    conditions: ''
+    pointer: ''
+  '':
+    text: ''
+    conditions: ''
+    pointer: ''
+  '':
+    text: ''
+    conditions: ''
+    pointer: ''
+  '':
+    text: ''
+    conditions: ''
+    pointer: ''
+  '':
+    text: ''
+    conditions: ''
+    pointer: ''
+  '':
+    text: ''
+    conditions: ''
+    pointer: ''

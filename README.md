@@ -5,18 +5,24 @@ BetonQuest Quests Repo
 Aktuelle Quests:
 
  Fertig: 
- - Alchemist DAILY (Item für 2x Zutaten + Cooldown)
- - Farmer DAILY (7x Daily Job)
- - Fisher DAILY (Shop + kleine Fischeraufgabe)
- - Smith DAILY (Itemabgabe + Shop) 
- - Trash DAILY (Basic Job)
- - Deathloc UTIL (Todes-Skip oder Todes Location)
- - Discs UTIL (Schallplatten Listener für neue Soundtickets)
+ - alchemist DAILY (Item für 2x Zutaten + Cooldown)
+ - farmer DAILY (7x Daily Job)
+ - fisher DAILY (Shop + kleine Fischeraufgabe)
+ - smith DAILY (Itemabgabe + Shop) 
+ - trash DAILY (Basic Job)
+ - deathloc UTIL (Todes-Skip oder Todes Location)
+ - discs UTIL (Schallplatten Listener für neue Soundtickets)
  - water_plants UTIL (Pflanzen im Park gießen | respawnen)
  - holywater WEEKLY (2 Pfarrer mit Subquest & Daily Potioneffect "Segen")
 
  Testen:
- - Fishmeal DAILY (Große Angelquest ohne Itemabgabe auf Zeit)
+ - fishmeal DAILY (Große Angelquest ohne Itemabgabe auf Zeit)
 
  Progress:
- - Tutorial SINGLE (Tutorial Quest)
+ - tutorial SINGLE (Tutorial Quest)
+ 
+ Ideas:
+ - Feuerwehr MONTHLY - 1 USER (Brennendes Haus löschen)
+ - Kammerjäger WEEKLY (Silverfish in Kanalisation töten - Silverfish spawner)
+ - Irendwas mit Drogen (Farmerdorf)
+

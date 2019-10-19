@@ -1,0 +1,20 @@
+variables:
+  empty: 10
+
+npcs:
+  "1": exterminator
+  "Name": exterminator
+
+cancel:
+  exterminator:
+    name: "Kammerjäger"
+    conditions: ""
+    objectives: ""
+    tags: ""
+    journal: ""
+    events: ""
+journal_main_page:
+  exterminator:
+    priority: 2
+    text: "Kammerjäger"
+    conditions: ""
