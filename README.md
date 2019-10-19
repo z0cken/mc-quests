@@ -3,11 +3,11 @@
 BetonQuest Quests Repo 
 
 Aktuelle Quests:
+
  Fertig: 
  - Alchemist DAILY (Item für 2x Zutaten + Cooldown)
  - Farmer DAILY (7x Daily Job)
  - Fisher DAILY (Shop + kleine Fischeraufgabe)
-
  - Smith DAILY (Itemabgabe + Shop) 
  - Trash DAILY (Basic Job)
  - Deathloc UTIL (Todes-Skip oder Todes Location)
