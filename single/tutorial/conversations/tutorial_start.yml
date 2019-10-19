@@ -1,20 +1,16 @@
-quester: 'Manfred'
-first: 'start'
-stop: 'false'
-
+quester: "Manfred"
+first: "start"
+stop: "false"
 
 NPC_options:
-  #start
-  'start':
-    text: 'Was willst du?'
-    conditions: ''
-    pointer: 'start_nichts'
-    
-    
-    
-    
+  #start TEST
+  "start":
+    text: "Was willst du?"
+    conditions: ""
+    pointer: "start_nichts"
+
 #########################################################################
 player_options:
   #start
-  'start_nichts':
-    text: 'Nichts. Tschüss'
+  "start_nichts":
+    text: "Nichts. Tschüss"
