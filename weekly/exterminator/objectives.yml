@@ -1,0 +1,4 @@
+entrance1: 'location $entrance1$ $entrance1radius$ events:found_entrance'
+entrance2: 'location $entrance2$ $entrance2radius$ events:found_entrance'
+entrance3: 'location $entrance3$ $entrance3radius$ events:found_entrance'
+kill: 'mobkill SILVERFISH $amount_rats$ name:Ratte events:done_killing conditions:in_canals'

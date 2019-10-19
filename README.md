@@ -20,9 +20,9 @@ Aktuelle Quests:
 
  Progress:
  - tutorial SINGLE (Tutorial Quest)
+ - Kammerjäger WEEKLY (Silverfish in Kanalisation töten - Silverfish spawner)
  
  Ideas:
  - Feuerwehr MONTHLY - 1 USER (Brennendes Haus löschen)
- - Kammerjäger WEEKLY (Silverfish in Kanalisation töten - Silverfish spawner)
  - Irendwas mit Drogen (Farmerdorf)
 

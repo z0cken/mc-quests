@@ -1,0 +1,26 @@
+journal_reload: 'journal update'
+journal_add_goto: 'journal add goto'
+journal_del_goto: 'journal del goto'
+journal_add_kill: 'journal add kill'
+journal_del_kill: 'journal del kill'
+journal_add_done: 'journal add done'
+journal_del_done: 'journal del done'
+tag_add_active: 'tag add active'
+tag_del_active: 'tag del active'
+tag_add_search: 'tag add search'
+tad_del_search: 'tag del search'
+tag_add_cooldown: 'tag add cooldown'
+tag_del_cooldown: 'tag del cooldown'
+
+objective_start_location: 'run ^objective start entrance1 ^objective start entrance2 ^objective start entrance3'
+objective_stop_location: 'run ^objective remove entrance1 ^objective remove entrance2 ^objective remove entrance3'
+
+found_entrance: 'folder tad_del_search,objective_stop_location,message_found,journal_del_goto,journal_add_kill,objective_start_kill,journal_reload'
+message_found: 'message §7§oDas dürfte die Kanalisation sein die Egon meinte.'
+objective_start_kill: 'objective start kill'
+
+done_killing: 'folder journal_del_kill,journal_add_done,message_done,journal_reload'
+message_done: 'message §7§oDas waren genug Ratten.'
+
+payout: 'money $payout$' #(Add function, make quest infinite? ~15*log(x))
+cooldown_timer: 'folder tag_del_cooldown delay:$cooldown$'

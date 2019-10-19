@@ -1,20 +1,34 @@
 variables:
-  empty: 10
+  amount_rats: 15
+  zone1: 0;0;0;world #location
+  zone1radius: 20
+  zone2: 0;0;0;world #location
+  zone2radius: 20
+  zone3: 0;0;0;world #location
+  zone3radius: 20
+  entrance1: 0;0;0;world #location
+  entrance1radius: 2
+  entrance2: 0;0;0;world #location
+  entrance2radius: 2
+  entrance3: 0;0;0;world #location
+  entrance3radius: 2
+  payout: 50 #Schekel (Add function, make quest infinite @events.yml? ~15*log(x))
+  cooldown: 3000 #Minutes - Should be more than 2 days
 
 npcs:
-  "1": exterminator
-  "Name": exterminator
+  '1': exterminator
+  'Egon Spengler': exterminator
 
 cancel:
   exterminator:
-    name: "Kammerjäger"
-    conditions: ""
-    objectives: ""
-    tags: ""
-    journal: ""
-    events: ""
+    name: 'Kammerjäger'
+    conditions: 'not_finished'
+    objectives: 'entrance1,entrance2,entrance3,kill'
+    tags: 'active,search'
+    journal: 'goto,kill,done'
+    events: 'cooldown_timer,tag_add_cooldown'
 journal_main_page:
   exterminator:
     priority: 2
-    text: "Kammerjäger"
-    conditions: ""
+    text: 'Kammerjäger'
+    conditions: 'tag_active'
