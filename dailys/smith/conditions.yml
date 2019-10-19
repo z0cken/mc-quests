@@ -1,0 +1,16 @@
+blocked: 'objective blocked'
+cooldown: 'objective cooldown'
+get_ores: 'tag get_ores'
+deal_done: 'tag deal_done'
+gave_items: 'tag gave_items'
+
+bought_iron: 'objective bought_iron'
+bought_gold: 'objective bought_gold'
+bought_coal: 'objective bought_coal'
+is_empty: 'and bought_coal,bought_gold,bought_iron'
+
+no_money_iron: 'money 100'
+no_money_coal: 'money 50'
+no_money_gold: 'money 60'
+
+has_items: 'item iron:3,coal:6'

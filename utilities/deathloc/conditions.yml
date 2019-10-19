@@ -1,0 +1,7 @@
+death_loc: 'objective death_loc_listener'
+death_skip: 'objective death_skip_listener'
+has_loc_money: 'money 500'
+has_skip_money: 'money 5000'
+got_location: 'tag got_location'
+active: 'or death_loc,death_skip'
+cooldown: 'objective cooldown'

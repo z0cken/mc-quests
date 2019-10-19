@@ -1,0 +1,38 @@
+variables:
+  trash_bin1: 8;64;27;world
+  trash_bin2: 7;64;40;world
+  trash_bin3: 14;64;52;world
+  trash_bin4: -5;64;33;world
+  trash_bin5: -18;64;46;world
+  trash_bin6: -9;64;19;world
+  trash_bin7: -7;64;5;world
+  trash_bin8: -30;64;7;world
+  trash_bin9: -38;64;-1;world
+  trash_bin10: -44;64;-14;world
+  trash_bin11: -61;64;-17;world
+  trash_bin12: -54;64;-38;world
+  trash_bin13: -58;64;-56;world
+  trash_bin14: -22;64;-7;world
+  trash_bin15: -11;64;-37;world
+  trash_bin16: 7;64;-11;world
+  trash_bin17: 6;64;15;world
+  trash_bin18: 42;64;25;world
+  trash_bin19: 34;64;-8;world
+  trash_bin20: 35;64;43;world
+  trash_bin21: 33;64;7;world
+npcs:
+  'Dieter': trashman
+  '6': trashman
+cancel:
+  trash:
+    name: 'Müll für die Müllabfuhr'
+    conditions: trash_active,!trash_end
+    objectives: trash_bin1,trash_bin2,trash_bin3,trash_bin4,trash_bin5,trash_bin6,trash_bin7,trash_bin8,trash_bin9,trash_bin10,trash_bin11,trash_bin12,trash_bin13,trash_bin14,trash_bin15,trash_bin16,trash_bin17,trash_bin18,trash_bin19,trash_bin20,trash_bin21
+    tags: trash_active,trash_end,trash_bin1,trash_bin2,trash_bin3,trash_bin4,trash_bin5,trash_bin6,trash_bin7,trash_bin8,trash_bin9,trash_bin10,trash_bin11,trash_bin12,trash_bin13,trash_bin14,trash_bin15,trash_bin16,trash_bin17,trash_bin18,trash_bin19,trash_bin20,trash_bin21
+    journal: trash_started,trash_done,trash_end
+    events: trash_reset
+journal_main_page:
+  greeting:
+    priority: 2
+    text: "Müllabfuhr"
+    conditions: 'trash_active'

@@ -1,0 +1,17 @@
+variables:
+npcs:
+  'Manfred': farmer
+  '12': farmer
+cancel:
+  trash:
+    name: 'Unkraut entfernen'
+    conditions: 
+    objectives: 
+    tags: 
+    journal: 
+    events: 
+journal_main_page:
+  greeting:
+    priority: 1
+    text: "Unkraut"
+    conditions: ''

@@ -1,0 +1,17 @@
+variables:
+  fishing_location: -80;64;-18;world
+npcs:
+  '5': fisher
+  'Tjark': fischer
+cancel:
+  trash:
+    name: 'Fisherman`s Friend'
+    conditions: jobActive,!hasAllFish
+    objectives: fishing,findRoses
+    tags: catchedFish,jobActive
+    journal: job_start,location_found,job_done,job_end
+journal_main_page:
+  greeting:
+    priority: 2
+    text: 'Fisherman`s Friend'
+    conditions: 'jobActive'

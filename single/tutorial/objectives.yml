@@ -1,0 +1,2 @@
+break_tall_grass: action right TALL_GRASS 
+break_farn: action right FERN

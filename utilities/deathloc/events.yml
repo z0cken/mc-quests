@@ -1,0 +1,13 @@
+sound_laugh: 'playsound minecraft:entity.ravager.celebrate category:AMBIENT pitch:2'
+
+death_loc_buy: 'run ^money -500 ^objective start death_loc_listener ^objective start location'
+death_skip_buy: 'run ^money -5000 ^objective start death_skip_listener'
+del_location: 'objective delete location'
+
+get_loc: "variable location location %location%"
+
+add_got_location: 'tag add got_location'
+del_got_location: 'tag del got_location '
+skip_death: 'message §4Thanatos: §c§oGrüße aus dem Reich der Toten.'
+
+start_cooldown: 'objective start cooldown'

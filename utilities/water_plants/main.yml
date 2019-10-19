@@ -1,0 +1,42 @@
+variables: 
+  plant1: 6;108;-40;world
+  plant2: 6;108;-42;world
+  plant3: 6;108;-44;world
+  plant4: 6;108;-46;world
+  plant5: 6;108;-48;world
+  plant6: 6;108;-50;world
+  plant7: 6;108;-52;world
+  plant8: 6;108;-54;world
+  plant9: 6;108;-56;world
+  plant10: 6;108;-58;world
+  plant11: 6;108;-60;world
+  plant12: 6;108;-62;world
+  plant13: 6;108;-64;world
+  plant14: 6;108;-66;world
+  plant15: 6;108;-68;world
+  plant16: 6;108;-70;world
+  plant17: 6;108;-72;world
+  plant18: 6;108;-74;world
+  plant19: 6;108;-76;world
+  plant20: 6;108;-78;world
+  dead_plant: DEAD_BRAIN_CORAL
+  normal_plant: CORNFLOWER
+  location_lake: 11;107;-43;world
+  delay: 1 #in minutes
+  cooldown: 30 #in minutes
+npcs:
+  'Stephanie': gardener
+  '15': gardener
+cancel:
+  trash:
+    name: 'Pflanzen gießen'
+    conditions: 'quest_active'
+    objectives: 
+    tags: 
+    journal: 
+    events: 
+journal_main_page:
+  greeting:
+    priority: 1
+    text: "Pflanzen gießen"
+    conditions: 'quest_active'

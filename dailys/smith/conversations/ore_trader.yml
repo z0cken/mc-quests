@@ -1,0 +1,125 @@
+quester: 'Stefan'
+first: 'start_empty,start'
+stop: 'false'
+NPC_options:
+  #start
+  'start_empty': 
+    text: 'Ich habe heute nichts mehr zu verkaufen, aber wie kann ich ihnen behilflich sein?'
+    conditions: 'is_empty'
+    pointer: 'start_sent,start_force,nothing'
+  'start':
+    text: 'Ich habe viele Sorten von Erzen anzubieten - seht euch ruhig um! Gold ist heute vergünstigt!'
+    conditions: ''
+    pointer: 'start_buy,start_sent,start_force'
+    
+  'sent_ask':
+    text: 'Ähh.. okay.. wieviel sagte er denn, würde er benötigen?'
+    pointer: 'ask_truth,ask_lie,ask_fail'
+  'force_give':
+    text: 'Okay okay, bitte tut mir nicht weh!'
+    event: 'give_force'
+    
+  'truth_reply':
+    text: 'Natürlich.. ich denke, dass ich ihm das sicherlich eh noch schuldig bin.'
+    events: 'give_truth,add_deal_done'
+  'lie_reply':
+    text: 'Oh.. man dieser Kerl macht mich arm! Aber.. hier.. nimm es.'
+    events: 'give_lie,add_deal_done'
+  'fail_reply':
+    text: 'Diamanten? Für.. eine Stahl Spitzhacke.. ich ähh.. bezweifele das irgendwie. Was braucht er wirklich?'
+    pointer: 'ask_truth,ask_lie'
+    
+    
+    #Trading
+  'buy_offer1':
+    text: 'Wundervoll, ich biete ihnen \n - 10 Eisenerz für 100 Schekel \n - 8 Kohle für 50 Schekel \n - 4 Gold für 60 Schekel, ein wirklich gutes Angebot!'
+    conditions: '!bought_iron,!bought_gold,!bought_coal'
+    pointer: 'buy_nothing,buy_iron,buy_coal,buy_gold'
+  'buy_offer2':
+    text: 'Wundervoll, ich biete ihnen \n - 8 Kohle für 50 Schekel \n - 4 Gold für 60 Schekel, ein wirklich gutes Angebot!'
+    conditions: 'bought_iron,!bought_gold,!bought_coal'
+    pointer: 'buy_nothing,buy_coal,buy_gold'
+  'buy_offer3':
+    text: 'Wundervoll, ich biete ihnen \n - 10 Eisenerz für 100 Schekel \n - 8 Kohle für 50 Schekel.'
+    conditions: '!bought_iron,bought_gold,!bought_coal'
+    pointer: 'buy_nothing,buy_iron,buy_coal'
+  'buy_offer4':
+    text: 'Wundervoll, ich biete ihnen \n - 10 Eisenerz für 100 Schekel \n - 4 Gold für 60 Schekel, ein wirklich gutes Angebot!'
+    conditions: '!bought_iron,!bought_gold,bought_coal'
+    pointer: 'buy_nothing,buy_iron,buy_iron'
+  'buy_offer5':
+    text: 'Wundervoll, ich biete ihnen 8 Kohle für 50 Schekel.'
+    conditions: 'bought_iron,bought_gold,!bought_coal'
+    pointer: 'buy_nothing,buy_coal'
+  'buy_offer6':
+    text: 'Wundervoll, ich biete ihnen 4 Gold für 60 Schekel.'
+    conditions: 'bought_iron,!bought_gold,bought_coal'
+    pointer: 'buy_nothing,buy_gold'
+  'buy_offer7':
+    text: 'Wundervoll, ich biete ihnen 10 Eisenerz für 100 Schekel.'
+    conditions: '!bought_iron,bought_gold,bought_coal'
+    pointer: 'buy_nothing,buy_iron'
+    
+  'bought_nothing':
+    text: 'Wie sie wünschen, was ist dann ihr Anliegen?'
+    pointer: 'start_sent,start_force'
+  'bought_sth':
+    text: 'Bitteschön. Wie kann ich ihnen sonst helfen?'
+    pointer: 'start_buy,start_sent,start_force,nothing'
+  'no_money_iron':
+    text: 'Sie haben dafür nicht genug Geld. Wie kann ich ihnen sonst helfen?'
+    conditions: '!no_money_iron'
+    pointer: 'start_buy,start_sent,start_force'
+  'no_money_coal':
+    text: 'Sie haben dafür nicht genug Geld. Wie kann ich ihnen sonst helfen?'
+    conditions: '!no_money_coal'
+    pointer: 'start_buy,start_sent,start_force'
+  'no_money_gold':
+    text: 'Sie haben dafür nicht genug Geld. Wie kann ich ihnen sonst helfen?'
+    conditions: '!no_money_gold'
+    pointer: 'start_buy,start_sent,start_force'
+#################################################################
+player_options:
+  #start
+  'start_buy':
+    text: 'Ich würde gerne etwas von euch kaufen.'
+    conditions: '!is_empty'
+    pointer: 'buy_offer1,buy_offer2,buy_offer3,buy_offer4,buy_offer5,buy_offer6,buy_offer7'
+  'start_sent':
+    text: 'Rebron schickt mich. Er sagte, benötige dringend Resourcen um eine neue Stahl Spitzhacke schmieden zu können.'
+    conditions: 'get_ores,!deal_done'
+    pointer: 'sent_ask'
+  'start_force':
+    text: 'Her mit Resourcen für Rebron!'
+    conditions: 'get_ores,!deal_done'
+    pointer: 'force_give'
+    
+  'ask_truth':
+    text: 'Er braucht, 3 Eisenerz und 6 Stücke Kohle.'
+    pointer: 'truth_reply'
+  'ask_lie':
+    text: 'Er braucht 12 Eisenerz.'
+    pointer: 'lie_reply'
+  'ask_fail':
+    text: 'Er braucht 5 Diamanten.'
+    pointer: 'fail_reply'
+    
+    # Trading
+  'buy_iron':
+    text: 'Ich möchte das Eisen für 100 Schekel kaufen'
+    events: 'buy_iron'
+    pointer: 'no_money_iron,bought_sth'
+  'buy_coal':
+    text: 'Ich möchte die Kohle für 50 Schekel kaufen'
+    events: 'buy_coal'
+    pointer: 'no_money_coal,bought_sth'
+  'buy_gold':
+    text: 'Ich möchte das Gold für 60 Schekel kaufen'
+    events: 'buy_gold'
+    pointer: 'no_money_gold,bought_sth'
+  'buy_nothing':
+    text: 'Naja, eigentlich brauche ich doch nichts.'
+    conditions: ''
+    pointer: 'bought_nothing' 
+  'nothing':
+    text: 'Ach, ich schaue nur ein bisschen.'

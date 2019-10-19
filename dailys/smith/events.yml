@@ -1,0 +1,27 @@
+blocked: 'objective start blocked'
+cooldown: 'objective start cooldown'
+
+add_get_ores: 'tag add get_ores'
+del_get_ores: 'tag del get_ores'
+
+add_journal_ores: 'journal add get_ores'
+del_journal_ores: 'journal del get_ores'
+
+add_deal_done: 'tag add deal_done' #with trader
+del_deal_done: 'tag del deal_done' #with trader
+
+add_gave_items: 'tag add gave_items'
+del_gave_items: 'tag del gave_items'
+
+buy_gold: 'run ^money -60 ^give gold:4 ^objective start bought_gold condition:no_money_gold'
+buy_coal: 'run ^money -50 ^give coal:8 ^objective start bought_coal condition:no_money_coal'
+buy_iron: 'run ^money -100 ^give iron:10 ^objective start bought_iron condition:no_money_iron'
+
+give_truth: 'give iron:3,coal:6'
+give_lie: 'give iron:12'
+give_force: 'give diamond:1,gold:2,iron:2'
+update_journal: 'journal update'
+take_items: 'run ^take iron:3,coal:6 ^tag add gave_items ^journal del get_ores ^tag del get_ores conditions:has_items'
+
+give_pickaxe: 'command minecraft:give %player% minecraft:iron_pickaxe{display:{Name:"\"§fStahl Spitzhacke\""},Damage:154,Enchantments:[{id:"minecraft:fortune",lvl:2},{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:efficiency",lvl:3}]} 1'
+give_money: 'money 20'

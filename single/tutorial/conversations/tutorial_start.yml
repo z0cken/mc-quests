@@ -1,0 +1,20 @@
+quester: 'Manfred'
+first: 'start'
+stop: 'false'
+
+
+NPC_options:
+  #start
+  'start':
+    text: 'Was willst du?'
+    conditions: ''
+    pointer: 'start_nichts'
+    
+    
+    
+    
+#########################################################################
+player_options:
+  #start
+  'start_nichts':
+    text: 'Nichts. Tschüss'

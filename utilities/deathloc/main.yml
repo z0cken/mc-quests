@@ -1,0 +1,17 @@
+variables:
+  respawn_location: -9;65;-36;world
+npcs:
+  '9': death
+  'Thanatos': death
+cancel:
+  trash:
+    name: 'Deal mit dem Tod'
+    conditions: active
+    objectives: death_skip_listener,death_loc_listener,location
+    tags: got_location,jobActive
+    journal: ''
+journal_main_page:
+  greeting:
+    priority: 0
+    text: 'Deal mit dem Tod'
+    conditions: 'active'

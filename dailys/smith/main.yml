@@ -1,0 +1,18 @@
+variables:
+  placeholder: 0;0;0;world
+npcs:
+  '10': ore_trader
+  'Stefan': ore_trader
+  '11': smith
+  'Rebron': smith
+cancel:
+  trash:
+    name: 'Schmied Rebron'
+    conditions: 'get_ores,!deal_done'
+    tags: 'get_ores,deal_done'
+    journal: 'get_ores'
+journal_main_page:
+  greeting:
+    priority: 2
+    text: 'Schmied Rebron'
+    conditions: 'get_ores'

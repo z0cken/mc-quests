@@ -1,0 +1,80 @@
+quester: 'Thanatos'
+first: 'start_cooldown,start,start_loc,start_skip,start_dead'
+stop: 'false'
+NPC_options:
+  #start
+  'start_cooldown':
+    text: 'Du bist erst gestorben! Meine Fähigkeiten sind nicht unendlich.'
+    condition: 'cooldown,!got_location'
+    pointer: 'sad'
+  'start':
+    text: 'Salve, sterblicher. Hast du Angst vor dem Tod? Vielleicht kann ich dir helfen.'
+    conditions: '!death_loc,!death_skip,!got_location'
+    pointer: 'help,death_loc,death_skip'
+  'start_loc':
+    text: 'Salve, sterblicher. Du bist noch nicht gestorben, also habe ich auch keine Koordinaten für dich.'
+    conditions: 'death_loc,!death_skip,!got_location'
+    pointer: 'ok'
+  'start_skip':
+    text: 'Salve, sterblicher. Du bist noch nicht gestorben und hast noch einen Tod frei bei mir. Also zisch ab!'
+    conditions: '!death_loc,death_skip,!got_location'
+    pointer: 'ok'
+  'start_dead':
+    text: 'Salve, sterblicher. Endlich bist du gestorben. Dein Tod war bei %objective.location.location.y%.'
+    conditions: '!death_loc,!death_skip,got_location'
+    pointer: 'ok'
+    events: 'del_got_location,del_location'
+    
+  'help_text':
+    text: 'Ich bestimme Ort und Zeit für jeden Tod auf dieser Welt. Also kann ich auch deinen nächsten Tod bestimmen oder dir sagen, wo du gestorben bist! Aber natürlich nicht umosnst. Die Hölle ist auch knapp bei Kasse.'
+    pointer: 'death_loc,death_skip'
+  'death_loc_ask':
+    text: 'Ich kann dir einmal die Koordinaten deines nächsten Todes sagen, sobald du gestorben bist. Das kostet dich aber 500 Schekel'
+    pointer: 'death_loc_confirm,no'
+  'death_skip_ask':
+    text: 'Ich kann deinen nächsten Tod verhindern. Er wird einfach nicht passieren. Aus Tod wird Leben. Kein Verlust, Keine Nebenwirkungen. Nur 5000 Schekel.'
+    pointer: 'death_skip_confirm,no'
+  'bye':
+    text: 'Alles klar, wir sehen uns!'
+    events: 'sound_laugh'
+  'deal_loc':
+    text: 'Wundervoll. Einen frohen Tod!'
+    condition: 'has_loc_money'
+    events: 'death_loc_buy,sound_laugh'
+  'deal_skip':
+    text: 'Wundervoll. Einen frohen Tod!'
+    condition: 'has_skip_money'
+    events: 'death_skip_buy,sound_laugh'
+  'deal_loc_fail':
+    text: 'Moment! Du bist ja pleite! Verpiss dich du Pöbel'
+    condition: '!has_loc_money'
+  'deal_skip_fail':
+    text: 'Moment! Du bist ja pleite! Verpiss dich du Pöbel'
+    condition: '!has_skip_money'
+player_options:
+  #start
+  'help':
+    text: 'Wie meinst du das?'
+    pointer: 'help_text'
+  'death_loc':
+    text: 'Ich möchte beim nächsten Tod wissen, wo ich gestorben bin!'
+    pointer: 'death_loc_ask'
+  'death_skip':
+    text: 'Ich möchte den Tod überlisten!'
+    pointer: 'death_skip_ask'
+  'death_loc_confirm':
+    text: 'Deal!'
+    conditions: 'has_loc_money'
+    pointer: 'deal_loc,deal_loc_fail'
+  'death_skip_confirm':
+    text: 'Deal!'
+    conditions: 'has_skip_money'
+    pointer: 'deal_skip,deal_skip_fail'
+  'no':
+    text: 'Ach nein, besser nicht. Ist mir eh zu teuer.'
+    conditions: ''
+    pointer: 'bye'
+  'ok':
+    text: 'Gut zu wissen.'
+  'sad':
+    text: 'Schade'

@@ -1,0 +1,5 @@
+blocked: delay 1200
+cooldown: delay 1200
+bought_iron: delay 1200
+bought_gold: delay 1200
+bought_coal: delay 1200

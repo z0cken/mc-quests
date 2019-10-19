@@ -1,0 +1,15 @@
+noFish: 'tag noFish'
+saidSorry: 'tag saidSorry'
+blocked: 'objective blockQuest'
+hasMoney: 'money 10'
+isDay: 'time 7-19'
+moneyScam: 'tag moneyScam'
+atRoses: 'location $fishing_location$ 7'
+
+jobActive: 'tag jobActive' #Objective gestartet - Blockt conversationen
+jobCatched: 'tag catchedFish' #Min 1 Fisch
+jobDone: 'tag jobDone' #Objective abgeschlossen
+hasAllFish: 'item big_salmon:3' #< 3 fische
+hasSalmon: 'item salmon'
+
+jobCooldown: 'objective cooldown'

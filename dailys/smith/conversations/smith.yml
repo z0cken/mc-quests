@@ -1,0 +1,117 @@
+quester: 'Rebron'
+first: 'start_cooldown,start_items,start_blocked,start_get_ores,start'
+stop: 'false'
+NPC_options:
+  #start
+  'start_cooldown':
+    text: 'Hey %player%! Dank dir kann ich wieder arbeiten!'
+    conditions: 'cooldown'
+    pointer: 'cooldown_help'
+  'start_blocked':
+    text: 'Verdammtes Arschloch, verzieh dich!'
+    conditions: 'blocked'
+    pointer: 'blocked_bye'
+  'start_get_ores':
+    text: 'Und.. habt ihr das zeug? Hat Stefan probleme bereitet?'
+    conditions: 'get_ores'
+    pointer: 'ores_yes,ores_self,ores_no'
+  'start':
+    text: 'Hey du! .. EY, HIER DRÜBEN!!.. Ja, genau. DU bist genau der Mann den ich gerade brauche!'
+    conditions: ''
+    pointer: 'start_ask,start_no'
+  
+    
+  'ask_text':
+    text: 'Ich wollte mich eben auf den Weg in die Mine machen, als ich sah dass diese beschissene Spitzhacke einen Riss hat! Meine nächste Warenlieferung kommt erst morgen an. Wenn ich heute keine Erze fördern kann bin ich am Arsch! Helft ihr mir, damit ich eine neue Stahl Spitzhacke schmieden kann? Ihr bekommt dafür eine kleine Entlohnung oder dieses Schrottteil! Holt Eisen vom Erzhändler Stefan am Dock. Sag ihm ich habe euch geschickt... Achja und bring Kohle mit!'
+    events: ''
+    pointer: 'text_yes,text_no'
+  'no_block':
+    text: 'Verdammtes sollst du sein! Wegen dir kann ich den laden dicht machen! VERSCHWINDE ODER DU ERLEBST WAS!'
+    events: 'blocked'
+    pointer: ''
+  'yes_answer':
+    text: 'Vielen Dank!'
+    events: 'add_get_ores,add_journal_ores'
+    
+  'yes_reply':
+    text: 'Haha, recht hat er. Endlich sieht dieser Idiot auch mal was ein. Nungut, gib her das Zeug. \n \n Nungut, ihr habt mir einen gefallen getan. Nun muss ich wohl meinen Teil der abmachung auch einhalten. Wie möchtet ihr entlohnt werden? Schekel oder meine alte schrott Spitzhacke?'
+    conditions: 'has_items'
+    events: 'take_items' 
+    pointer: 'get_pickaxe,get_money'
+  'self_reply':
+    text: 'WAS?! Diesen Bastard werde ich nachher aufmischen. Ich habe ihm schon so oft etwas geschmiedet! Aber nun zurück zur Sache. Gebt mir die Resourcen. \n \n Nungut, ihr habt mir einen gefallen getan. Nun muss ich wohl meinen Teil der abmachung auch einhalten. Wie möchtet ihr entlohnt werden? Schekel oder meine alte schrott Spitzhacke?'
+    conditions: 'has_items' 
+    events: 'take_items' 
+    pointer: 'get_pickaxe,get_money,scam'
+   
+  'start_items':
+    text: 'Wie möchtet ihr entlohnt werden? Schekel oder meine alte schrott Spitzhacke?'
+    conditions: 'gave_items'
+    pointer: 'get_pickaxe,get_money,scam'
+    
+  'no_items':
+    text: 'Ähm? Wo sind die Items?'
+    conditions: '!has_items'
+    
+  'no':
+    text: 'Ich wüsste nicht wie, aber danke!' #New Idle QUEST?
+  'no_reply':
+    text: 'Ich habe nicht den ganzen tag zeit!'
+    
+  'money_reply':
+    text: 'Das war mir irgendwie klar... Geld. IMMER DIESES GELD. Nungut, hier habt ihr 20 Schekel'
+    events: 'give_money,cooldown,del_deal_done,del_gave_items,update_journal'
+  'pickaxe_reply':
+    text: 'Dieses Stück Schrott? Nagut, wie du willst...'
+    events: 'give_pickaxe,cooldown,del_deal_done,del_gave_items,update_journal'
+    
+    
+    
+    
+#################################################################
+player_options:
+  #start
+  'blocked_bye':
+    text: 'Ok ok...'
+  'start_ask':
+    text: 'Was ist denn passiert?'
+    pointer: 'ask_text'
+  'start_no':
+    text: 'Ich habe keine Zeit für euch.'
+    pointer: 'no_block'
+  'text_yes':
+    text: 'Ich werte die benötigten Materialien besorgen.'
+    pointer: 'yes_answer'
+  'text_no':
+    text: 'Für so einen wie dich habe ich sicherlich keine Zeit.'
+    pointer: 'no_block'
+  'yes':
+    text: 'Ich beeile mich!'
+    
+  'ores_yes':
+    text: 'Ja, ich habe alles bekommen. Stefan meinte, er würde euch eh noch etwas schulden.'
+    conditions: 'deal_done,has_items'
+    pointer: 'yes_reply'
+  'ores_self':
+    text: 'Ich habe es selber besorgt. Dieser Stefan ist ein ziemlicher geizkragen.'
+    conditions: 'has_items'
+    pointer: 'self_reply'
+  'ores_no':
+    text: 'Noch nicht, ich werde mich drum kümmern'
+    pointer: 'no_reply'
+    
+    
+  'get_pickaxe':
+    text: 'Ich möchte eure alte Spitzhacke'
+    conditions: 'gave_items'
+    pointer: 'pickaxe_reply'
+  'get_money':
+    text: 'Ich nehme das Geld'
+    conditions: 'gave_items'
+    pointer: 'money_reply'
+  'scam':
+    text: 'Sie haben die Spitzhacke nicht bekommen.'
+    conditions: '!gave_items'
+  'cooldown_help':
+    text: 'Kann ich dir sonst behilflich sein?'
+    pointer: 'no'
