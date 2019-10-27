@@ -6,17 +6,19 @@ stop: 'false'
 # NA = "NPC Answer"
 
 NPC_options:
-# === NPC Tutorial Conversation === #
-  
-# Quest not running
+  # === NPC Tutorial Conversation === #
+
+  # Quest not running
   'NA_tut_start':
-    text: 'Hallo %player%!. Mein Name ist Oliver. Ich bin der Vorarbeiter des Baggersees. \n
-      Hier am Baggersee kannst du jederzeit soviel Erde, Kies, Sand und Lehm abbauen wie du möchtest.\n
+    text:
+      'Hallo %player%!. Mein Name ist Oliver. Ich bin der Vorarbeiter des Baggersees. \n
+      Hier am Baggersee kannst du jederzeit soviel Erde, Kies, Sand und Lehm abbauen wie du möchtest.\n'
     conditions: 'isMayorFinished,isInTutorial,!DQ_rewardGiven,!DQ_isRunning,!DQ_isFinished,!isDiggerFinished'
     pointer: 'PA_tut_quarryGood'
 
   'NA_tut_offerQuest':
-    text: 'Ich möchte dich mit dem Baggersee und Quests vertraut machen. Desweges habe eine Aufgabe für dich:\n
+    text:
+      'Ich möchte dich mit dem Baggersee und Quests vertraut machen. Desweges habe eine Aufgabe für dich:\n
       Buddel bitte $dirt_amount$ Erde, $sand_amount$ Sand und $gravel_amount$ Kies aus. Ich werde dich dafür auch ein wenig entlohnen.'
     pointer: 'PA_tut_acceptQuestWithoutShovel, PA_tut_shovelMissing'
 
@@ -26,7 +28,8 @@ NPC_options:
     pointer: 'PA_tut_acceptQuestWithShovel'
 
   'NA_tut_rewardGiven_start':
-    text: 'Hallo %player%!. Mein Name ist Oliver. Ich bin der Vorarbeiter des Baggersees. \n
+    text:
+      'Hallo %player%!. Mein Name ist Oliver. Ich bin der Vorarbeiter des Baggersees. \n
       Hier am Baggersee kannst du jederzeit soviel Erde, Kies, Sand und Lehm abbauen wie du möchtest.\n
       Es gibt einiges über Quests zu wissen, möchtest du etwas erfahren?'
     conditions: 'isInTutorial,DQ_rewardGiven,isMayorFinished,!isDiggerFinished'
@@ -35,14 +38,15 @@ NPC_options:
   'NA_tut_endQuestAccepted':
     text: 'Bis gleich.'
 
-# Quest running
+  # Quest running
   'NA_tut_inQuest_start':
     text: 'Willkommen zurück %player%, hast du die Blöcke ausgebuddelt?'
     conditions: 'isInTutorial,DQ_isRunning'
     pointer: 'PA_tut_hasBlocks,PA_tut_noBlocks_B,PA_tut_noBlocks_A'
 
   'NA_tut_takeBlocks':
-    text: 'Sehr schön, damit hast du schon erfolgreich deine erste Quest abgeschlossen!\n
+    text:
+      'Sehr schön, damit hast du schon erfolgreich deine erste Quest abgeschlossen!\n
       Es gibt einiges über Quests zu wissen, möchtest du mehr erfahren?'
     conditions: 'DQ_hasBlocks'
     events: 'DQ_takeBlocks, finishQuest_digger'
@@ -53,19 +57,21 @@ NPC_options:
     conditions: '!DQ_hasBlocks'
     pointer: ''
 
-# Quest finished
+  # Quest finished
   'NA_tut_questFinished_start':
     text: 'Willkommen zurück, %player%. Ich würde dir gerne noch etwas zu Quests erklären, bevor du weiter gehst.'
     conditions: 'isInTutorial,DQ_isFinished'
     pointer: 'PA_whatAreQuests,PA_howDoQuestsWork,PA_whereAreQuests,PA_whatsTheJournal,PA_tut_continue_noInfo'
 
   'NA_tut_continue':
-    text: 'Gerne. Falls du mal wieder Fragen bezüglich Quests hast stehe ich hier für dich bereit.\n
+    text:
+      'Gerne. Falls du mal wieder Fragen bezüglich Quests hast stehe ich hier für dich bereit.\n
       Ich möchte dich als nächstes bitten zu meinem Kollegen am Steinbruch zu gehen. Wähle das Ziel am besten wieder mit deinem Kompass aus.'
     events: 'addProgress_digger'
 
   'NA_tut_continue_noInfo':
-    text: 'Alles klar, kein ding. Solltest du doch mal fragen zu Quests haben bin ich jederzeit bereit dir diese zu beantworten.\n
+    text:
+      'Alles klar, kein ding. Solltest du doch mal fragen zu Quests haben bin ich jederzeit bereit dir diese zu beantworten.\n
       Ich möchte dich als nächstes bitten zu meinem Kollegen am Steinbruch zu gehen. Wähle das Ziel am besten wieder mit deinem Kompass aus.'
     events: 'addProgress_digger,tt_add_gotoMiner'
 
@@ -74,25 +80,29 @@ NPC_options:
     text: 'Hallo %player%, gibt es etwas, was ich für dich tun kann?'
     pointer: 'PA_whatAreQuests,PA_howDoQuestsWork,PA_whereAreQuests,PA_whatsTheJournal,PA_end'
 
-# Giving Quests info
+  # Giving Quests info
   'NA_whatAreQuests':
-    text: 'Quests sind von NPC gestellte aufgaben, die du annehmen und erfüllen kannst um dir ein wenig Geld zu verdienen.\n
+    text:
+      'Quests sind von NPC gestellte aufgaben, die du annehmen und erfüllen kannst um dir ein wenig Geld zu verdienen.\n
       Manche Quests sind einmalig wie die Tutorial Questreihe, manche täglich, wöchentlich oder monatlich abschließbar.\n
       Aktive Quests kannst du jederzeit in deinem Journal einsehen (/j um es zu erhalten).'
     pointer: 'PA_howDoQuestsWork,PA_whereAreQuests,PA_whatsTheJournal,PA_tut_continue,PA_end'
 
   'NA_howDoQuestsWork':
-    text: 'Du musst Quests bei einem Questgeber (Quest NPCs) annehmen. Nimmst du eine an, so erhältst du eine Aufgabe, welche auch in deinem Journal steht.\n
+    text:
+      'Du musst Quests bei einem Questgeber (Quest NPCs) annehmen. Nimmst du eine an, so erhältst du eine Aufgabe, welche auch in deinem Journal steht.\n
       Um die Quest abzuschließen musst du die genannte Aufgabe erfüllen. Ist die Quest fertig, kannst du sie beim Questgeber-NPC abscließen und erhältst für gewöhnlich eine belohnung.'
     pointer: 'PA_whatAreQuests,PA_whereAreQuests,PA_whatsTheJournal,PA_tut_continue,PA_end'
 
   'NA_whereAreQuests':
-    text: 'Du kannst Quests an verschiedenen Orten finden, dafür gibt es keine Karte. Erkunde einfach ein bisschen die Welt (natürlich hauptsächlich Server-Städte/-dörfer).\n
+    text:
+      'Du kannst Quests an verschiedenen Orten finden, dafür gibt es keine Karte. Erkunde einfach ein bisschen die Welt (natürlich hauptsächlich Server-Städte/-dörfer).\n
       Findest du einen NPC, sprich ihn an - er wird nicht beißen - und vielleicht entdeckst du eine Quest.'
     pointer: 'PA_whatAreQuests,PA_howDoQuestsWork,PA_whatsTheJournal,PA_tut_continue,PA_end'
 
   'NA_whatsTheJournal':
-    text: 'Das Journal ist dein Questbuch. Darin siehst du jederzeit, welche Quests du im moment aktiv hast.\n
+    text:
+      'Das Journal ist dein Questbuch. Darin siehst du jederzeit, welche Quests du im moment aktiv hast.\n
       Eine Questinfo im Journal besteht aus Datum/Zeit der annahme, Quester NPC und Aufgabe.\n
       Siehst du im chat Journal Updated hast du einen neuen eintrag bzw. ein Quest update.\n
       Du kannst dein Journal überall ablegen oder entsorgen. Mit /j kannst du es jederzeit wieder erhalten.'
@@ -100,11 +110,9 @@ NPC_options:
 
   'NA_end':
     text: 'Auf wiedersehen.'
-      
-
 
 player_options:
-# === Player Tutorial Conversation === #
+  # === Player Tutorial Conversation === #
   'PA_tut_quarryGood':
     text: 'Klingt nicht schlecht.'
     pointer: 'NA_tut_offerQuest'
@@ -148,9 +156,7 @@ player_options:
     text: 'Nein, danke. Ich möchte lieber weiter gehen. (Direkt weiter im tutorial)'
     pointer: 'NA_tut_continue_noInfo'
 
-
-
-# === Player Default Conversation === #
+  # === Player Default Conversation === #
 
   'PA_whatAreQuests':
     text: 'Was sind Quests?'
@@ -172,4 +178,3 @@ player_options:
     text: 'Auf Wiedersehen.'
     conditions: '!DQ_isFinished'
     pointer: 'NA_end'
-
