@@ -47,7 +47,7 @@ NPC_options:
 # Tutorial Running
   'NA_tut_abort':
     text: 'Alles klar, dein fortschritt wurde zurückgesetzt. Sprich mich wieder an, solltest du das Tutorial wieder starten wollen.'
-    events: 'end_tutorial'
+    events: 'clear_tutorial'
     pointer: ''
 
   'NA_tut_help1':

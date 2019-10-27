@@ -89,6 +89,7 @@ player_options:
   'PA_tut_end':
     text: 'Schönen Tag noch. (Weiter im tutorial)'
     conditions: 'isInTutorial'
+    pointer: 'NA_tut_end'
 
   'PA_tut_gotIt':
     text: 'Okay, werde ich tun. Danke.'
