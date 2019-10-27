@@ -37,4 +37,4 @@ journal_main_page:
   greeting:
     priority: 10
     text: 'Tutorial'
-    conditions: ''
+    conditions: 'isInTutorial'
