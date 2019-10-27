@@ -12,9 +12,12 @@ NPC_options:
   'NA_tut_start':
     text: 'Hallo %player%!. Mein Name ist Oliver. Ich bin der Vorarbeiter des Baggersees. \n
       Hier am Baggersee kannst du jederzeit soviel Erde, Kies, Sand und Lehm abbauen wie du möchtest.\n
-      Ich möchte dich mit dem Baggersee und Quests vertraut machen. Deswegen möchte ich dir eine Aufgabe geben:\n
+    conditions: 'isMayorFinished,isInTutorial,!DQ_rewardGiven,!DQ_isRunning,!DQ_isFinished,!isDiggerFinished'
+    pointer: 'PA_tut_quarryGood'
+
+  'NA_tut_offerQuest':
+    text: 'Ich möchte dich mit dem Baggersee und Quests vertraut machen. Desweges habe eine Aufgabe für dich:\n
       Buddel bitte $dirt_amount$ Erde, $sand_amount$ Sand und $gravel_amount$ Kies aus. Ich werde dich dafür auch ein wenig entlohnen.'
-    conditions: 'isMayorFinished,isInTutorial,!DQ_isRunning,!DQ_isFinished,!isDiggerFinished'
     pointer: 'PA_tut_acceptQuestWithoutShovel, PA_tut_shovelMissing'
 
   'NA_tut_shovelGive':
@@ -102,6 +105,10 @@ NPC_options:
 
 player_options:
 # === Player Tutorial Conversation === #
+  'PA_tut_quarryGood':
+    text: 'Klingt nicht schlecht.'
+    pointer: 'NA_tut_offerQuest'
+
   'PA_tut_acceptQuestWithoutShovel':
     text: 'Gerne, das sollte mir nicht schwer fallen.'
     events: 'addQuest_digger'
