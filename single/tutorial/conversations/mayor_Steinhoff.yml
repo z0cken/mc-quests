@@ -159,7 +159,7 @@ player_options:
   'PA_tut_thanksMoney':
     text: 'Danke sehr. Nein, ich werde es keinem verraten. (Tutorial abschließen)'
     events: 'givePlayer_mayor_reward'
-    pointer: 'NA_tut_finish'
+    pointer: 'NA_tut_complete'
 
 
 # === Player Default Conversation === #
