@@ -7,12 +7,10 @@ npcs:
   '5': hotel_Lydia
   '6': metro_Vladimir
 
-tag_point_prefix: 'false'
-
 cancel: ()
 
 variables:
-  world: 'Games'
+  world: 'world'
 
   # Digger Quest
   pitLocation: '56;56;178;$world$'
@@ -29,6 +27,7 @@ variables:
   stone_amount: '3'
   diorite_amount: '3'
 
+  # Rewqards
   digger_reward: '25'
   miner_reward: '25'
   hotel_discount: '10'
