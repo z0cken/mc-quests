@@ -12,6 +12,7 @@ NPC_options:
   'NA_tut_start_food':
     text: 'Hallo %player% und ein herzliches Willkommen in Gambberg. Ich bin der Bürgermeister dieser Stadt.\n
       Sicherlich bist du hungrig nach der Reise, möchtest du etwas zu Essen haben?'
+    events: 'tt_del_gotoCityHall'
     conditions: '!isMayorFinished,!foodGiven,isInTutorial,!isTutorialFinished,!isMetroFinished'
     pointer: 'PA_tut_nameAsk,PA_tut_food_bigHunger,PA_tut_food_lowHunger,PA_tut_food_noHunger'
 
@@ -57,7 +58,7 @@ NPC_options:
   'NA_tut_nextStep':
     text: 'Gerne. Ich stehe immer für Hilfe zur verfügung.\n
       Ich möchte dich als nächstes bitten zum Baggersee zu gehen und mit Oliver zu sprechen. Wähl den Baggersee am besten als Ziel in deinem Kompass aus.'
-    events: 'addProgress_mayor'
+    events: 'addProgress_mayor,tt_add_gotoDigger'
     pointer: 'PA_tut_nextStepEnd'
 
 # Finishing the Tutorial

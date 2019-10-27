@@ -43,6 +43,10 @@ addProgress_tutorialFinished: 'tag add isTutorialFinished'
 
 # ============================================================================================ #
 # === "TT" Tutorial Travels" === #
+tt_add_gotoCityHall: 'journal add gotoCityHall'
+tt_del_gotoCityHall: 'journal del gotoCityCall'
+tt_add_gotoDigger: 'journal add gotoDigger'
+tt_del_gotoDigger: 'journal add gotoDigger'
 tt_add_gotoMiner: 'journal add gotoMiner'
 tt_del_gotoMiner: 'journal del gotoMiner'
 tt_add_gotoHotel: 'journal add gotoHotel'

@@ -89,7 +89,7 @@ NPC_options:
 
   'NA_tut_continueAnswer':
     text: 'Natürlich. Bitte geh in das Rathaus und sprich mit dem Bürgermeister.'
-    events: 'addProgress_tutorialNPC'
+    events: 'addProgress_tutorialNPC,tt_add_gotoCityHall'
     pointer: ''
 
   'NA_end':

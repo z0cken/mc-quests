@@ -13,6 +13,7 @@ NPC_options:
     text:
       'Hallo %player%!. Mein Name ist Oliver. Ich bin der Vorarbeiter des Baggersees. \n
       Hier am Baggersee kannst du jederzeit soviel Erde, Kies, Sand und Lehm abbauen wie du möchtest.\n'
+    events: 'tt_del_gotoDigger'
     conditions: 'isMayorFinished,isInTutorial,!DQ_rewardGiven,!DQ_isRunning,!DQ_isFinished,!isDiggerFinished'
     pointer: 'PA_tut_quarryGood'
 
