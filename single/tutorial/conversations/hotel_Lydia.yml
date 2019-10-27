@@ -79,7 +79,7 @@ player_options:
 
   'PA_tut_rentRoom':
     text: 'Ich würde gerne ein Zimmer mieten.'
-    conditions: 'isInTutorial'
+    conditions: 'isInTutorial, isMinerFinished'
     pointer: 'NA_tut_rentRoom_discount,NA_tut_rentRoom_noDiscount'
 
   'PA_tut_thanks':
