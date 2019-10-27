@@ -90,7 +90,7 @@ NPC_options:
     text: 'Chestshops sind Kisten mit Schildern dran, drüber oder drunter, an denen du Items kaufen und/oder verkaufen kannst.\n
       Auf den Schildern siehst du in der 2. Reihe die Menge der angebotenen Items, in der 3. Reihe B: [Betrag] und S: [Betrag] was für Buy und Sell, also Kaufen und Verkaufen steht.\n
       Wichtig hierbei: Rechtsklick => KAUFEN, Linksklick => Verkaufen! In der letzten Reihe auf dem Schild siehst du dann um welches Item es sich handelt.'
-    pointer: 'PA_currencyAsk,NA_capitalAnswer,PA_tut_thanksInfo,PA_def_end'
+    pointer: 'PA_currencyAsk,PA_capitalAsk,PA_tut_thanksInfo,PA_def_end'
 
   'NA_getMoneyAnswer':
     text: 'Geld erhältst du, wie schon erwähnt, z.b. durch Handeln mit Spielern.\n
@@ -171,7 +171,7 @@ player_options:
     text: 'Okay, danke. Und wie erhalte ich Geld?'
     pointer: 'NA_getMoneyAnswer'
 
-  'NA_chestShopsAsk':
+  'PA_chestShopsAsk':
     text: 'Was sind Chestshops?'
     pointer: 'NA_chestShopsAnswer'
 
