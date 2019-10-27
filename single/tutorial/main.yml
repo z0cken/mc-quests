@@ -32,3 +32,9 @@ variables:
   miner_reward: '25'
   hotel_discount: '10'
   finish_reward: '100'
+
+journal_main_page:
+  greeting:
+    priority: 10
+    text: 'Tutorial'
+    conditions: ''
