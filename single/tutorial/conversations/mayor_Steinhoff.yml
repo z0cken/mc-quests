@@ -65,9 +65,10 @@ NPC_options:
     text: 'Willkommen zurück $player%, ich hoffe, dir hat die Tour über den Server gefallen.\n
       Solltest du jemals fragen haben, kannst du die besuchten NPCs jederzeit wieder ansprechen. Ansonsten stehen dir auch Mods und Admins des Servers für Hilfe zur verfügung.\n
       Um dir den Start noch etwas zu erleichtern möchte ich dir noch ein present machen, aber sag es nicht weiter.'
+    conditions: 'isMetroFinished'
     pointer: 'PA_tut_thanksMoney'
 
-  'NA_tut_finish':
+  'NA_tut_complete':
     text: 'Sehr gut. Alles klar, dann danke ich für deine Gedult und wünsche dir noch viel spaß auf dem Server.'
     events: 'clear_tutorial, addProgress_tutorialFinished'
 
