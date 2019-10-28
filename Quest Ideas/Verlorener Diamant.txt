@@ -9,7 +9,7 @@ Background Story:
     Kurz vor dem Ufer kam er mit seinem Schiff in einen Strudel, den das Schiff auf den Meeresboden zog.
     Er verlor einen Diamant, den er bei der Kaperfahrt erbeutet hatte.
     Diesen Diamant wollte er an einen Ring schmieden lassen als Hochzeitsgeschenk für seine Frau.
-    Der Diamant befindet sich in seiner Schatzliste in dem Schiffswrack.
+    Der Diamant befindet sich in seiner Schatzkiste in dem Schiffswrack.
 
 Aufgabe:
     Berge den Diamant auf dem Wrack und bringe ihn zu William
