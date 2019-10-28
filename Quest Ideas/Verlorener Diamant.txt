@@ -32,7 +32,12 @@ Schatzkiste Inhalt:
         Hover text:     Starkes alkoholisches Getränk
         Effekt:         Strength II, Regeneration I (2 minutes)
         Nebeneffekt:    Neusea (1 Minute)
-        
+
+        ODER:
+        Effekt:             Strength II, Regeneration I (3 minutes)
+        danach Nebeneffekt: Neusea (1 Minute)
+        danach Nebeneffekt: Weakness II (1 Minute)
+       
 
 
 
