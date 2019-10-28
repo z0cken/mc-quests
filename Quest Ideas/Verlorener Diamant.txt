@@ -2,6 +2,7 @@
 Questname:  Velorener Diamant
 Quester:    William
 Questtyp:   Einmalig
+Location:   Fischerdorf?
 
 Background Story:
     William ist ein Pirat, der von einer Kaperfahrt zurückkam.
