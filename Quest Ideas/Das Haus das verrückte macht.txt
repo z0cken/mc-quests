@@ -2,6 +2,7 @@
 Questname:  Das Haus das verrückte Macht
 Quester:    BewohnerXY
 Questtyp:   Weekly/Monthly
+Location:   Darmstadt
 
 Background Story:
     BewohnerXY hat seine Schlüsselkarte für das Hotelzimmer A38 verloren.
