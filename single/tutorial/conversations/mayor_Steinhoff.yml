@@ -61,11 +61,13 @@ NPC_options:
     events: 'addProgress_mayor,tt_add_gotoDigger'
     pointer: 'PA_tut_nextStepEnd'
 
+
 # Finishing the Tutorial
   'NA_tut_finish':
     text: 'Willkommen zurück %player%, ich hoffe, dir hat die Tour über den Server gefallen.\n
       Solltest du jemals fragen haben, kannst du die besuchten NPCs jederzeit wieder ansprechen. Ansonsten stehen dir auch Mods und Admins des Servers für Hilfe zur verfügung.\n
       Um dir den Start noch etwas zu erleichtern möchte ich dir noch ein present machen, aber sag es nicht weiter.'
+    events: 'tt_del_gotoMayor'
     conditions: 'isMetroFinished'
     pointer: 'PA_tut_thanksMoney'
 
