@@ -25,7 +25,7 @@ NPC_options:
   'NA_tut_nameAnswer':
     text: 'Er steht über deinem Kopf. Jeder kann deinen Namen sehen. Außerdem.. bitte lass uns duzen.\n
       Aber zurück zu meiner Frage: Möchtest du etwas zu Essen haben?'
-    events: 'addTag_mayor_nameAsked,addTag_mayor_foodGiven'
+    events: 'addTag_mayor_nameAsked'
     pointer: 'PA_tut_food_bigHunger,PA_tut_food_lowHunger,PA_tut_food_noHunger'
 
   'NA_tut_food_bigHungerResponse':
@@ -40,7 +40,7 @@ NPC_options:
 
   'NA_tut_food_noHungerResponse':
     text: 'Ich bitte dich. Etwas zu Essen hat noch nie jemandem geschadet. Nimm wenigstens ein paar Kartoffeln.'
-    events: 'givePlayer_mayor_foodC'
+    events: 'givePlayer_mayor_foodC,addTag_mayor_foodGiven'
     pointer: 'PA_tut_food_continue'
 
 # Tutorial Conversation
@@ -63,7 +63,7 @@ NPC_options:
 
 # Finishing the Tutorial
   'NA_tut_finish':
-    text: 'Willkommen zurück $player%, ich hoffe, dir hat die Tour über den Server gefallen.\n
+    text: 'Willkommen zurück %player%, ich hoffe, dir hat die Tour über den Server gefallen.\n
       Solltest du jemals fragen haben, kannst du die besuchten NPCs jederzeit wieder ansprechen. Ansonsten stehen dir auch Mods und Admins des Servers für Hilfe zur verfügung.\n
       Um dir den Start noch etwas zu erleichtern möchte ich dir noch ein present machen, aber sag es nicht weiter.'
     conditions: 'isMetroFinished'
