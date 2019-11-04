@@ -60,10 +60,12 @@ NPC_options:
     text: 'Hallo! Bereit in den Kampf zu ziehen?'
     pointer: 'PA_boni,PA_metroHelp,PA_betterNot'
 
+  # TODO
   'NA_boni':
     text: 'Ich denke, es wäre zuviel es dir hier zu erklären. Die informationen dazu findest du im Serverkonzept unter dem Punkt Metro - Boni/Mali'
     pointer: 'PA_tut_continue,PA_end'
 
+  # TODO
   'NA_metroHelp':
     text: 'Ich denke schon, lass mich nachsehen.'
     conditions: ''
