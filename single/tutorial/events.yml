@@ -3,7 +3,7 @@
 
 start_tutorial: 'tag add isInTutorial'
 end_tutorial: 'tag del isInTutorial'
-restart_tutorial: 'run ^tag del isTutorialNPCFinished ^tag del isMayorFinished ^tag del isDiggerFinished ^tag del isHotelFinished ^tag del isMinerFinished ^tag del isMetroFinished'
+restart_tutorial: 'run ^tag del isTutorialNPCFinished ^tag del isMayorFinished ^tag del isDiggerFinished ^tag del isHotelFinished ^tag del isMinerFinished ^tag del isMetroFinished ^tag del isInTutorial'
 clear_tutorial: 'run ^tag del nameAsked ^tag del foodGiven ^tag del shovelGiven ^tag del pickaxeGiven ^tag del discountGiven ^tag del isTutorialNPCFinished ^tag del isMayorFinished ^tag del isDiggerFinished ^tag del isMinerFinished ^tag del isHotelFinished ^tag del isMetroFinished ^tag del DQ_rewardGiven ^tag del MQ_rewardGiven'
 
 # Mayor
