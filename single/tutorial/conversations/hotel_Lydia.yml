@@ -13,6 +13,7 @@ NPC_options:
     events: 'tt_del_gotoHotel'
     pointer: 'PA_tut_hotelInfo'
 
+  #TODO givePlayer_hotel_discount
   'NA_tut_rentRoom_discount':
     text: 'Natürlich.. lassen Sie mich eben einmal nachgucken. Perfekt, Sie haben Glück.\n
       Für neue Spieler haben wir im moment eine Aktion. Sie erhalten 10 Schekel Rabatt für ihre erste Einmietung.\n

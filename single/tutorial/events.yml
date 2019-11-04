@@ -12,7 +12,7 @@ addTag_mayor_foodGiven: 'tag add foodGiven'
 givePlayer_mayor_foodA: 'command give %player% cooked_porkchop 32'
 givePlayer_mayor_foodB: 'command give %player% bread 16'
 givePlayer_mayor_foodC: 'command give %player% baked_potato 8'
-#Geld einfügen ($finish_reward)
+#TODO ($finish_reward$)
 givePlayer_mayor_reward: 'message §7§oDu hast 100 Schekel erhalten'
 
 # Digger
@@ -27,7 +27,7 @@ givePlayer_miner_pickaxe: 'command minecraft:give %player% minecraft:iron_pickax
 
 # Hotel
 addTag_hotel_discountGiven: 'tag add discountGiven'
-# Geld einfügen ($hotel_discount$)
+# TODO ($hotel_discount$)
 givePlayer_hotel_discount: 'run ^message §7§oDu hast 10 Schekel erhalten'
 
 # ============================================================================================ #
@@ -72,7 +72,7 @@ DQ_takeBlocks: 'take dirt:$dirt_amount$,sand:$sand_amount$,gravel:$gravel_amount
 
 # Miner Quest
 addQuest_miner: 'run ^journal add getBlocks_miner ^tag add MQ_isRunning ^objective start get_MQ_stone ^objective start get_MQ_diorite'
-# Geld einfügen ($miner_reward$)
+# TODO ($miner_reward$)
 finishQuest_miner: 'run ^journal del returnBlocks_miner ^tag del MQ_isRunning ^tag del MQ_stoneFinished ^tag del MQ_dioriteFinished ^message §7§oDu hast 25 Schekel erhalten ^tag add MQ_rewardGiven'
 
 MQ_stoneFinished: 'run ^tag add MQ_stoneFinished ^message §7§oDu hast genug Stein abgebaut'
