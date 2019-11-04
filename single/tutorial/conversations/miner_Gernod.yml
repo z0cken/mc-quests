@@ -96,7 +96,7 @@ NPC_options:
     text: 'Bist n fleißiges kerlchen, gefällt mir. Die Blöcke kannst du behalten oder wegschmeißen, wie du magst.
       Und hier hast du noch eine kleine belohnung für deine mühen.\n
       Ich denke, ich habe hier nichtsmehr für dich zu tun. Geh als nächstes zum Hotel, du hast bestimmt noch kein Zuhause, oder?'
-    events: 'finishQuest_miner, addProgress_miner'
+    events: 'finishQuest_miner,addProgress_miner'
     pointer: 'PA_tut_end'
 
   # Continuing

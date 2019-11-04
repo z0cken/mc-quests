@@ -65,14 +65,12 @@ NPC_options:
     pointer: 'PA_whatAreQuests,PA_howDoQuestsWork,PA_whereAreQuests,PA_whatsTheJournal,PA_tut_continue_noInfo'
 
   'NA_tut_continue':
-    text:
-      'Gerne. Falls du mal wieder Fragen bezüglich Quests hast stehe ich hier für dich bereit.\n
+    text: 'Gerne. Falls du mal wieder Fragen bezüglich Quests hast stehe ich hier für dich bereit.\n
       Ich möchte dich als nächstes bitten zu meinem Kollegen am Steinbruch zu gehen. Wähle das Ziel am besten wieder mit deinem Kompass aus.'
-    events: 'addProgress_digger'
+    events: 'addProgress_digger,tt_add_gotoMiner'
 
   'NA_tut_continue_noInfo':
-    text:
-      'Alles klar, kein ding. Solltest du doch mal fragen zu Quests haben bin ich jederzeit bereit dir diese zu beantworten.\n
+    text: 'Alles klar, kein ding. Solltest du doch mal fragen zu Quests haben bin ich jederzeit bereit dir diese zu beantworten.\n
       Ich möchte dich als nächstes bitten zu meinem Kollegen am Steinbruch zu gehen. Wähle das Ziel am besten wieder mit deinem Kompass aus.'
     events: 'addProgress_digger,tt_add_gotoMiner'
 
