@@ -87,7 +87,7 @@ NPC_options:
     text: 'Hier auf dem Server gibt es eine Währung namens Schekel. Mit deinem Geld kannst du mit Spielern handeln oder Items von Chestshops kaufen\n.
       Handeln mit Spielern kannst du auf 2 arten: Per schreiben und items zuwerfen, Geld kannst du dann mit /pay [Name] [Betrag] überweisen.\n
       Oder aber mit /trade [Name] wenn sich der Spieler in deine nähe befindet - Das ist die sichere variante.'
-    pointer: 'PA_getMoneyAsk,PA_chestShopsAsk'
+    pointer: 'PA_getMoneyAsk,PA_chestShopsAsk,PA_tut_thanksInfo,PA_def_end'
 
   'NA_chestShopsAnswer':
     text: 'Chestshops sind Kisten mit Schildern dran, drüber oder drunter, an denen du Items kaufen und/oder verkaufen kannst.\n
@@ -105,7 +105,7 @@ NPC_options:
       Im Rathaus findest du einen Händler für Claimblöcke, ein Portal zum End, zur Farmwelt und zum Nether.\n
       Wenn du aus dem Rathaus und nach rechts gehst findest du das Portalhaus und den Marktplatz. Über das Portalhaus kannst du weitere Städte des Servers bereisen und auf dem Marktplatz mit Spielern handeln oder ein paar Items an Server NPCs verkaufen.\n
       Kann ich dir sonst noch behilflich sein?'
-    pointer: 'PA_currencyAsk,PA_chestShopsAsk,PA_tut_thanksInfo,PA_def_end'
+    pointer: 'PA_currencyAsk,PA_tut_thanksInfo,PA_def_end'
 
 # End
   'NA_def_end':
