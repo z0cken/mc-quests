@@ -1,8 +1,46 @@
-quester: ''
-first: ''
+quester: 'NAME'
+first: 'start'
 stop: ''
 
 NPC_options:
+  'start':
+    text: 'Guten Tag, wie kann ich ihnen helfen?'
+    pointer: 'start_claim,start_nothing'
+  'claim_1':
+    text: 'Ich habe eine Aufgabe. Die Stadt ist mal wieder pleite und braucht etwas unterstützung bei aktuellen Projekten. Würden Sie uns mit Materialien unterstützen?'
+    conditions: 'cooldown1,!cooldown2'
+    pointer: 'claim1_yes,claim1_no'
+  'claim_2':
+    text: 'Ich habe eine Aufgabe. Gamb fordert, dass auf dem Server mehr gebaut wird. Spielst du aktiv und würdest mithelfen beim bauen?'
+    conditions: '!cooldown1,cooldown2'
+    pointer: 'claim2_yes,claim2_no'
+  'claim_both':
+    text: ''
+    conditions: '!cooldown1,!cooldown2'
+    pointer: ''
+  'claim_none':
+    text: 'Leider habe ich aktuell keine Aufgaben.'
+    conditions: 'cooldown1,cooldown2'
+  'bye':
+    text: 'Alles klar, dann noch einen schönen Tag.'
+  'claim1_text':
+    text: 'Super. Ich schaue kurz nach was wir brauchen und schreibe es in ihr Tagebuch (/j)'
+    conditions: ''
+    pointer: ''
+  'claim2_text':
+    text: 'Super. ..........TODO'
+    conditions: ''
+    pointer: ''
+  '':
+    text: ''
+    conditions: ''
+    pointer: ''
+    events: ''
+  '':
+    text: ''
+    conditions: ''
+    pointer: ''
+    events: ''
   '':
     text: ''
     conditions: ''
@@ -11,6 +49,34 @@ NPC_options:
 
 #########################################################################
 player_options:
+  'start_claim':
+    text: 'Ich würde gerne einen Claimblock erwerben.'
+    pointer: 'claim_1,claim_2,claim_both,claim_none'
+  'start_nothing':
+    text: 'Eigentlich nichts, tschüss.'
+  'claim1_yes':
+    text: 'Ja, mache ich!'
+    events: 'claim1_start'
+    pointer: 'claim1_text'
+  'claim1_no':
+    text: 'Leider nein, aber danke für das Angebot. Ich komme darauf zurück.'
+    pointer: 'bye'
+  'claim2_yes':
+    text: 'Ja, mache ich!'
+    events: 'claim2_start'
+    pointer: 'claim2_text'
+  'claim2_no':
+    text: 'Leider nein, aber danke für das Angebot. Ich komme darauf zurück.'
+    pointer: 'bye'
+  '':
+    text: ''
+    pointer: ''
+  '':
+    text: ''
+    pointer: ''
+  '':
+    text: ''
+    pointer: ''
   '':
     text: ''
     pointer: ''

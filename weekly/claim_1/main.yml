@@ -1,0 +1,42 @@
+variables:
+  material1: 'material1:' #STONE
+  material2: 'material2:' #ANDESITE
+  material3: 'material3:' #DIORITE
+  material4: 'material4:' #GRANITE
+  material5: 'material5:' #SAND
+  material6: 'material6:' #DIRT
+  material7: 'material7:' #GRAVEL
+  material8: 'material8:' #NETHER_QUARTZ_ORE
+  material9: 'material9:' #NETHERRACK
+  material10: 'material10:' #COAL_ORE
+  material11: 'material11:' #IRON_ORE
+  material12: 'material12:' #GOLD_ORE
+
+npcs:
+  '': claimnpc
+  '13': claimnpc
+cancel:
+  claim1:
+    name: 'Claim 1'
+    conditions: ''
+    objectives:
+    tags:
+    journal:
+    events:
+  claim2:
+    name: 'Claim 2'
+    conditions: ''
+    objectives:
+    tags:
+    journal:
+    events:
+
+journal_main_page:
+  claim1:
+    priority: 3
+    text: 'Claimblock'
+    conditions: ''
+  claim2:
+    priority: 4
+    text: 'Claimblock'
+    conditions: ''

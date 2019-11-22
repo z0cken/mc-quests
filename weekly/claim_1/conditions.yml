@@ -1,0 +1,6 @@
+cooldown1: 'or cooldown1_delay,cooldown1_folder'
+cooldown1_delay: 'objective cooldown1'
+cooldown1_folder: 'tag cooldown1'
+cooldown2: 'or cooldown2_delay,cooldown2_folder'
+cooldown2_delay: 'objective cooldown2'
+cooldown2_folder: 'tag cooldown2'
