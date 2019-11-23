@@ -7,35 +7,35 @@ NPC_options:
     text: 'Guten Tag, wie kann ich ihnen helfen?'
     pointer: 'start_claim,start_nothing'
   'claim_1':
-    text: 'Ich habe eine Aufgabe. Die Stadt ist mal wieder pleite und braucht etwas unterstützung bei aktuellen Projekten. Würden Sie uns mit Materialien unterstützen?'
-    conditions: 'cooldown1,!cooldown2'
-    pointer: 'claim1_yes,claim1_no'
+    text: 'Die Stadt ist mal wieder pleite und braucht etwas unterstützung bei aktuellen Projekten. Würden Sie uns mit Materialien unterstützen?'
+    conditions: '!cooldown1'
+    pointer: 'claim1_yes,claim1_no,bye'
   'claim_2':
-    text: 'Ich habe eine Aufgabe. Gamb fordert, dass auf dem Server mehr gebaut wird. Spielst du aktiv und würdest mithelfen beim bauen?'
-    conditions: '!cooldown1,cooldown2'
-    pointer: 'claim2_yes,claim2_no'
-  'claim_both':
-    text: ''
-    conditions: '!cooldown1,!cooldown2'
-    pointer: ''
+    text: 'Gamb fordert, dass auf dem Server mehr gebaut wird. Spielst du aktiv und würdest mithelfen beim bauen?'
+    conditions: '!cooldown2,'
+    pointer: 'claim2_yes,claim2_no,bye'
+  'claim_3':
+    text: '___MOBSKILLEN____'
+    conditions: '!cooldown3'
+    pointer: 'claim3_yes,claim3_no,bye'
   'claim_none':
-    text: 'Leider habe ich aktuell keine Aufgaben.'
-    conditions: 'cooldown1,cooldown2'
-  'bye':
-    text: 'Alles klar, dann noch einen schönen Tag.'
+    text: 'Leider habe ich aktuell keine weiteren Aufgaben.'
+    pointer: 'claim_restart,bye'
   'claim1_text':
     text: 'Super. Ich schaue kurz nach was wir brauchen und schreibe es in ihr Tagebuch (/j)'
     conditions: ''
     pointer: ''
   'claim2_text':
-    text: 'Super. ..........TODO'
+    text: 'AUFGABE'
     conditions: ''
     pointer: ''
-  '':
-    text: ''
+  'claim3_text':
+    text: 'AUFGABE'
     conditions: ''
     pointer: ''
     events: ''
+  'bye':
+    text: 'Alles klar, dann noch einen schönen Tag.'
   '':
     text: ''
     conditions: ''
@@ -51,7 +51,7 @@ NPC_options:
 player_options:
   'start_claim':
     text: 'Ich würde gerne einen Claimblock erwerben.'
-    pointer: 'claim_1,claim_2,claim_both,claim_none'
+    pointer: 'claim_1,claim_2,claim_3,claim_none'
   'start_nothing':
     text: 'Eigentlich nichts, tschüss.'
   'claim1_yes':
@@ -59,15 +59,28 @@ player_options:
     events: 'claim1_start'
     pointer: 'claim1_text'
   'claim1_no':
-    text: 'Leider nein, aber danke für das Angebot. Ich komme darauf zurück.'
-    pointer: 'bye'
+    text: 'Das ist nichts für mich, gibts es noch andere Aufgaben?'
+    pointer: 'claim_2,claim_3,claim_none'
   'claim2_yes':
     text: 'Ja, mache ich!'
     events: 'claim2_start'
     pointer: 'claim2_text'
   'claim2_no':
-    text: 'Leider nein, aber danke für das Angebot. Ich komme darauf zurück.'
-    pointer: 'bye'
+    text: 'Das ist nichts für mich, gibts es noch andere Aufgaben?'
+    pointer: 'claim_3,claim_none'
+  'claim3_yes':
+    text: 'Ja, mache ich!'
+    events: 'claim3_start'
+    pointer: 'claim3_text'
+  'claim3_no':
+    text: 'Das ist nichts für mich, gibts es noch andere Aufgaben?'
+    pointer: 'claim_none'
+  'claim_restart':
+    text: 'Können sie mir die Aufgaben noch einmal sagen?'
+    conditions: 'one_open'
+    pointer: 'claim_1,claim_2,claim_3'
+  'bye':
+    text: 'Ok, dann gehe ich wieder. Tschüss'
   '':
     text: ''
     pointer: ''
