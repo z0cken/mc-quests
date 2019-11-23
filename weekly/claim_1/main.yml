@@ -1,16 +1,18 @@
 variables:
-  material1: 'material1:' #STONE
-  material2: 'material2:' #ANDESITE
-  material3: 'material3:' #DIORITE
-  material4: 'material4:' #GRANITE
-  material5: 'material5:' #SAND
-  material6: 'material6:' #DIRT
-  material7: 'material7:' #GRAVEL
-  material8: 'material8:' #NETHER_QUARTZ_ORE
-  material9: 'material9:' #NETHERRACK
-  material10: 'material10:' #COAL_ORE
-  material11: 'material11:' #IRON_ORE
-  material12: 'material12:' #GOLD_ORE
+  
+  #blocks to break
+  material1: 'STONE'
+  material2: 'ANDESITE'
+  material3: 'DIORITE'
+  material4: 'GRANITE'
+  material5: 'SAND'
+  material6: 'DIRT'
+  material7: 'GRAVEL'
+  material8: 'NETHER_QUARTZ_ORE'
+  material9: 'NETHERRACK'
+  material10: 'COAL_ORE'
+  material11: 'IRON_ORE'
+  material12: 'GOLD_ORE'
 
 npcs:
   '': claimnpc

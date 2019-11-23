@@ -1,5 +1,5 @@
 quester: 'NAME'
-first: 'start'
+first: 'start,claim1_start,claim2_start,claim3_start,claim1_finish,claim2_finish,claim3_finish'
 stop: ''
 
 NPC_options:
@@ -23,19 +23,42 @@ NPC_options:
     pointer: 'claim_restart,bye'
   'claim1_text':
     text: 'Super. Ich schaue kurz nach was wir brauchen und schreibe es in ihr Tagebuch (/j)'
-    conditions: ''
-    pointer: ''
+    pointer: 'ok'
   'claim2_text':
     text: 'AUFGABE'
-    conditions: ''
-    pointer: ''
+    pointer: 'ok'
   'claim3_text':
     text: 'AUFGABE'
-    conditions: ''
-    pointer: ''
-    events: ''
+    pointer: 'ok'
   'bye':
     text: 'Alles klar, dann noch einen schönen Tag.'
+  'claim1_start': #claim mission 1 is active
+    text: '__NOT FINISHED__'
+    conditions: 'claim1_active'
+    pointer: '' #TODO
+  'claim2_start': #claim mission 2 is active
+    text: '__NOT FINISHED__'
+    conditions: 'claim2_active'
+    pointer: '' #TODO
+  'claim3_start': #claim mission 3 is active
+    text: '__NOT FINISHED__'
+    conditions: 'claim3_active'
+    pointer: '' #TODO
+  'claim1_finish': #TODO
+    text: '__THX__'
+    conditions: '' 
+    pointer: ''
+    events: 'claim1_end'
+  'claim2_finish': #TODO
+    text: '__THX__'
+    conditions: ''
+    pointer: ''
+    events: 'claim2_end'
+  'claim3_finish': #TODO
+    text: '__THX__'
+    conditions: ''
+    pointer: ''
+    events: 'claim3_end'
   '':
     text: ''
     conditions: ''
@@ -46,6 +69,27 @@ NPC_options:
     conditions: ''
     pointer: ''
     events: ''
+  '':
+    text: ''
+    conditions: ''
+    pointer: ''
+    events: ''
+  '':
+    text: ''
+    conditions: ''
+    pointer: ''
+    events: ''
+  '':
+    text: ''
+    conditions: ''
+    pointer: ''
+    events: ''
+  '':
+    text: ''
+    conditions: ''
+    pointer: ''
+    events: ''
+
 
 #########################################################################
 player_options:
@@ -81,6 +125,8 @@ player_options:
     pointer: 'claim_1,claim_2,claim_3'
   'bye':
     text: 'Ok, dann gehe ich wieder. Tschüss'
+  'ok':
+    text: 'Ok, ich mache mich auf den Weg!'
   '':
     text: ''
     pointer: ''
@@ -92,4 +138,21 @@ player_options:
     pointer: ''
   '':
     text: ''
+    conditions: ''
     pointer: ''
+    events: ''
+  '':
+    text: ''
+    conditions: ''
+    pointer: ''
+    events: ''
+  '':
+    text: ''
+    conditions: ''
+    pointer: ''
+    events: ''
+  '':
+    text: ''
+    conditions: ''
+    pointer: ''
+    events: ''

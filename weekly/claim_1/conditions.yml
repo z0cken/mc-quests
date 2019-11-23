@@ -1,3 +1,14 @@
+
+
+
+
+
+
+
+
+
+
+
 one_open: 'or !cooldown1,!cooldown2,!cooldown3'
 cooldown1: 'or cooldown1_delay,cooldown1_folder'
 cooldown1_delay: 'objective cooldown1'
@@ -8,6 +19,7 @@ cooldown2_folder: 'tag cooldown2'
 cooldown3: 'or cooldown3_delay,cooldown3_folder'
 cooldown3_delay: 'objective cooldown3'
 cooldown3_folder: 'tag cooldown3'
+
 material1: 'tag material1'
 material2: 'tag material2'
 material3: 'tag material3'
@@ -20,3 +32,14 @@ material9: 'tag material9'
 material10: 'tag material10'
 material11: 'tag material11'
 material12: 'tag material12'
+
+block1: 'objective block1'
+block2: 'objective block2'
+block3: 'objective block3'
+block4: 'objective block4'
+block5: 'objective block5'
+block6: 'objective block6'
+block7: 'objective block7'
+block8: 'objective block8'
+block9: 'objective block9'
+block10: 'objective block10'
