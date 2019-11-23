@@ -33,9 +33,9 @@ NPC_options:
   'bye':
     text: 'Alles klar, dann noch einen schönen Tag.'
   'claim1_start': #claim mission 1 is active
-    text: '__NOT FINISHED__'
+    text: 'Hey, hat du schon die Materialien dabei?'
     conditions: 'claim1_active'
-    pointer: '' #TODO
+    pointer: 'claim1_take' #TODO
   'claim2_start': #claim mission 2 is active
     text: '__NOT FINISHED__'
     conditions: 'claim2_active'
@@ -59,11 +59,11 @@ NPC_options:
     conditions: ''
     pointer: ''
     events: 'claim3_end'
-  '':
-    text: ''
-    conditions: ''
-    pointer: ''
-    events: ''
+  'claim1_confirm_take':
+    text: 'Dankeschön'
+    conditions: 'has_material'
+    pointer: '' # TODO: If Empty -> Give Claimblock
+    events: 'take_mats'
   '':
     text: ''
     conditions: ''
@@ -124,15 +124,15 @@ player_options:
     conditions: 'one_open'
     pointer: 'claim_1,claim_2,claim_3'
   'bye':
-    text: 'Ok, dann gehe ich wieder. Tschüss'
+    text: 'Ok, dann gehe ich wieder. Tschüss!'
   'ok':
     text: 'Ok, ich mache mich auf den Weg!'
-  '':
-    text: ''
-    pointer: ''
-  '':
-    text: ''
-    pointer: ''
+  'claim1_take':
+    text: 'Ja, hier bitte.'
+    conditions: 'has_material'
+    pointer: 'claim1_confirm_take'
+  'claim1_notake':
+    text: 'Nein, noch nicht.'
   '':
     text: ''
     pointer: ''
