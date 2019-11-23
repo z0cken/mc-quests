@@ -1,13 +1,13 @@
-#Materials to deliver TODO CAPS?
-material1: STONE
-material2: ANDESITE
-material3: DIORITE
-material4: GRANITE
-material5: SAND
-material6: DIRT
-material7: GRAVEL
-material8: NETHER_QUARTZ_ORE
-material9: NETHERRACK
-material10: COAL_ORE
-material11: IRON_ORE
-material12: GOLD_ORE
+#Materials to deliver TODO remove CAPS?
+material1: stone_bricks
+material2: apple
+material3: oak_log
+material4: glass
+material5: quartz_block
+material6: purpur_block
+material7: white_wool
+material8: bricks
+material9: redstone_block
+material10: coal
+material11: iron_ingot
+material12: gold_ingot

@@ -1,18 +1,41 @@
 variables:
-  
   #blocks to break
-  material1: 'STONE'
-  material2: 'ANDESITE'
-  material3: 'DIORITE'
-  material4: 'GRANITE'
-  material5: 'SAND'
-  material6: 'DIRT'
-  material7: 'GRAVEL'
-  material8: 'NETHER_QUARTZ_ORE'
-  material9: 'NETHERRACK'
-  material10: 'COAL_ORE'
-  material11: 'IRON_ORE'
-  material12: 'GOLD_ORE'
+  block1: 'STONE'
+  block2: 'ANDESITE'
+  block3: 'DIORITE'
+  block4: 'GRANITE'
+  block5: 'SAND'
+  block6: 'DIRT'
+  block7: 'GRAVEL'
+  block8: 'NETHER_QUARTZ_ORE'
+  block9: 'NETHERRACK'
+  block10: 'COAL_ORE'
+  block11: 'IRON_ORE'
+  block12: 'GOLD_ORE'
+
+  mob1: 'ZOMBIE'
+  mob2: 'SKELETON'
+  mob3: 'CREEPER'
+  mob4: 'ENDERMAN'
+  mob5: 'PHANTOM'
+  mob6: 'PIG_ZOMBIE'
+  mob7: 'STRAY'
+  mob8: 'WITHER_SKELETON'
+  mob9: 'HUSK'
+  mob10: 'GHAST'
+
+  material1: 'material1:300' #stone_bricks
+  material2: 'material2:50' #apple
+  material3: 'material3:200' #oak_log
+  material4: 'material4:400' #glass
+  material5: 'material5:64' #quartz_block
+  material6: 'material6:64' #purpur_block
+  material7: 'material7:64' #white_wool
+  material8: 'material8:64' #bricks
+  material9: 'material9:64' #redstone_block
+  material10: 'material10:64' #coal
+  material11: 'material11:32' #iron_ingot
+  material12: 'material12:16' #gold_ingot
 
 npcs:
   '': claimnpc
@@ -32,6 +55,13 @@ cancel:
     tags:
     journal:
     events:
+  claim3:
+    name: 'Claim 3'
+    conditions: ''
+    objectives:
+    tags:
+    journal:
+    events:
 
 journal_main_page:
   claim1:
@@ -39,6 +69,10 @@ journal_main_page:
     text: 'Claimblock'
     conditions: ''
   claim2:
+    priority: 4
+    text: 'Claimblock'
+    conditions: ''
+  claim3:
     priority: 4
     text: 'Claimblock'
     conditions: ''
