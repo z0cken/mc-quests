@@ -1,5 +1,6 @@
 variables:
   cooldown_offline: '20160' #in Minuntes (20160 = 14 Tage)
+  cooldown_offline_short: '10080' #in Minutes (10080 = 7 Tage)
   cooldown_online: '720' #in Minutes (720 = 12 Stunden)
   #blocks to break
   block1: 'STONE'
@@ -46,7 +47,6 @@ cancel:
   claim1:
     name: 'Claim 1'
     conditions: 'material_active'
-    objectives: ''
     tags: 'claim1,material1,material2,material3,material4,material5,material6,material7,material8,material9,material10,material11,material12'
     journal: 'mat1,mat2,mat3,mat4,mat5,mat6,mat7,mat8,mat9,mat10,mat11,mat12'
     events: 'tag_cooldown1_short,tag_add_cooldown1'
