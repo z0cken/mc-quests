@@ -27,7 +27,6 @@ tag_cooldown3: 'folder tag_del_cooldown3 delay:$cooldown_offline$ minutes'
 
 tag_add_claim1: 'tag add claim1'
 tag_del_claim1: 'tag del claim1'
-take_mats: 'folder take_mat1,take_mat2,take_mat3,take_mat4,take_mat5,take_mat6,take_mat7,take_mat8,take_mat9,take_mat10,take_mat11,take_mat12'
 claim1_givemats: 'folder give_mat1,give_mat2,give_mat3,give_mat4,give_mat5,give_mat6,give_mat7,give_mat8,give_mat9,give_mat10,give_mat11,give_mat12 random:6'
 give_mat1: 'run ^journal add mat1 ^tag add material1'
 give_mat2: 'run ^journal add mat2 ^tag add material2'

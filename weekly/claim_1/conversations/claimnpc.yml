@@ -33,7 +33,7 @@ NPC_options:
   'bye':
     text: 'Alles klar, dann noch einen schönen Tag.'
   'claim1_start': #claim mission 1 is active
-    text: 'Hey, hat du schon Materialien dabei?'
+    text: 'Hey, hast du schon Materialien dabei?'
     conditions: 'claim1_active,material_active'
     pointer: 'claim1_take,claim1_abort'
   'claim2_start': #claim mission 2 is active
@@ -115,7 +115,7 @@ player_options:
   'claim1_take':
     text: 'Ja, hier bitte.'
     conditions: 'has_material'
-    events: 'take_mats'
+    events: 'take_mat1,take_mat2,take_mat3,take_mat4,take_mat5,take_mat6,take_mat7,take_mat8,take_mat9,take_mat10,take_mat11,take_mat12'
     pointer: 'claim1_confirm_take,claim1_done'
   'claim1_notake':
     text: 'Nein, noch nicht.'
