@@ -40,8 +40,8 @@ variables:
   material12: 'material12:16' #gold_ingot
 
 npcs:
-  '': claimnpc
-  '13': claimnpc
+  '26': claimnpc
+  'Claim': claimnpc
 cancel:
   claim1:
     name: 'Claim 1'
