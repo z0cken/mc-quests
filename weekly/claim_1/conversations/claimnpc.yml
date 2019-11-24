@@ -1,5 +1,5 @@
 quester: 'Claims'
-first: 'claim1_start,claim2_start,claim3_start,claim2_finish,claim3_finish,start'
+first: 'claim1_giveclaim,claim1_start,claim2_start,claim3_start,claim2_finish,claim3_finish,start'
 stop: ''
 
 NPC_options:
@@ -55,14 +55,16 @@ NPC_options:
     pointer: 'thx,more_claims'
     events: 'claim3_end'
   'claim1_confirm_take':
-    text: 'Dankeschön. Es fehlen aber noch welche. In deinem Journal stehen die restlichen Materialien. (/j)'
-    pointer: 'ok'
-    conditions: 'material_active'
-  'claim1_done':
-    text: 'Vielen Dank! Das war alles. Hier hast du deinen Claimblock.'
+    text: 'Dankeschön.'
+    pointer: 'claim1_ask,claim1_finished'
+  'claim1_giveclaim':
+    text: 'Hier hast du deinen Claimblock.'
     pointer: 'thx,more_claims'
-    conditions: '!material_active'
+    conditions: '!material_active,claim1_active'
     events: 'claim3_end'
+  'claim1_todo':
+    text: 'Du musst noch weitere Materialien bringen. Sie stehen in deinem Journal.'
+    conditions: 'material_active'
   'canceled':
     text: 'Alles klar, kann ich dir sonst irgendwie helfen?'
     pointer: 'start_claim,start_nothing'
@@ -116,7 +118,7 @@ player_options:
     text: 'Ja, hier bitte.'
     conditions: 'has_material'
     events: 'take_mat1,take_mat2,take_mat3,take_mat4,take_mat5,take_mat6,take_mat7,take_mat8,take_mat9,take_mat10,take_mat11,take_mat12'
-    pointer: 'claim1_confirm_take,claim1_done'
+    pointer: 'claim1_confirm_take'
   'claim1_notake':
     text: 'Nein, noch nicht.'
   'claim1_abort':
@@ -148,3 +150,10 @@ player_options:
   'more_claims':
     text: 'Ich würde gerne noch eine Aufgabe machen.'
     pointer: 'claim_1,claim_2,claim_3,claim_none'
+  'claim1_ask':
+    text: 'Was jetzt?'
+    pointer: 'claim1_todo,claim1_giveclaim'
+  'claim1_finished':
+    text: 'Bekomme ich jetzt meinen Claimblock?'
+    pointer: 'claim1_giveclaim'
+    conditions: '!material_active'
