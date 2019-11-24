@@ -75,11 +75,6 @@ NPC_options:
   'abort3_text':
     text: 'Bist du dir sicher? Dann kannst du die Aufgabe für eine Woche nicht mehr annehmen.'
     pointer: 'abort3_confirm,abort_cancel'
-  '':
-    text: ''
-    conditions: ''
-    pointer: ''
-    events: ''
 
 #########################################################################
 player_options:
@@ -153,7 +148,3 @@ player_options:
   'more_claims':
     text: 'Ich würde gerne noch eine Aufgabe machen.'
     pointer: 'claim_1,claim_2,claim_3,claim_none'
-  '':
-    text: ''
-    conditions: ''
-    pointer: ''
