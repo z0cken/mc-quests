@@ -52,7 +52,7 @@ NPC_options:
   'claim3_finish':
     text: 'Endlich sind die Fiecher wieder weg! Hier hast du deinen Claimblock.'
     conditions: 'claim3_active,!mob_active'
-    pointer: 'text,more_claims'
+    pointer: 'thx,more_claims'
     events: 'claim3_end'
   'claim1_confirm_take':
     text: 'Dankeschön. Es fehlen aber noch welche. In deinem Journal stehen die restlichen Materialien. (/j)'
