@@ -21,12 +21,12 @@ Fertig:
 Testen:
 
 - fishmeal DAILY (Große Angelquest ohne Itemabgabe auf Zeit)
+- Claim Quest (3 Missions)
+- Kammerjäger WEEKLY (Silverfish in Kanalisation töten - Silverfish spawner)
 
 Progress:
 
 - tutorial SINGLE (Tutorial Quest)
-- Claim Quest (3 Missions)
-- Kammerjäger WEEKLY (Silverfish in Kanalisation töten - Silverfish spawner)
 
 Ideas:
 
