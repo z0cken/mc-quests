@@ -1,5 +1,5 @@
 quester: 'NAME'
-first: 'start,claim1_start,claim2_start,claim3_start,claim1_finish,claim2_finish,claim3_finish'
+first: 'claim1_start,claim2_start,claim3_start,claim2_finish,claim3_finish,start'
 stop: ''
 
 NPC_options:
@@ -15,7 +15,7 @@ NPC_options:
     conditions: '!cooldown2,'
     pointer: 'claim2_yes,claim2_no,bye'
   'claim_3':
-    text: '___MOBSKILLEN____'
+    text: 'Es sind zu viele Monster auf dem Server. Die Fiecher müssten mal wieder weg. Kannst du sie töten?'
     conditions: '!cooldown3'
     pointer: 'claim3_yes,claim3_no,bye'
   'claim_none':
@@ -33,63 +33,53 @@ NPC_options:
   'bye':
     text: 'Alles klar, dann noch einen schönen Tag.'
   'claim1_start': #claim mission 1 is active
-    text: 'Hey, hat du schon die Materialien dabei?'
-    conditions: 'claim1_active'
-    pointer: 'claim1_take' #TODO
+    text: 'Hey, hat du schon Materialien dabei?'
+    conditions: 'claim1_active,material_active'
+    pointer: 'claim1_take,claim1_abort'
   'claim2_start': #claim mission 2 is active
-    text: '__NOT FINISHED__'
-    conditions: 'claim2_active'
-    pointer: '' #TODO
+    text: 'Du musst alle Aufgaben erfüllen. Sie stehen in deinem Journal.'
+    conditions: 'claim2_active,block_active'
+    pointer: 'claim2_abort,ok'
   'claim3_start': #claim mission 3 is active
-    text: '__NOT FINISHED__'
-    conditions: 'claim3_active'
-    pointer: '' #TODO
-  'claim1_finish': #TODO
-    text: '__THX__'
-    conditions: '' 
-    pointer: ''
-    events: 'claim1_end'
-  'claim2_finish': #TODO
-    text: '__THX__'
-    conditions: ''
-    pointer: ''
+    text: 'Du musst alle Aufgaben erfüllen. Sie stehen in deinem Journal.'
+    conditions: 'claim3_active,mob_active'
+    pointer: 'claim3_abort,ok'
+  'claim2_finish':
+    text: 'Super, gamb ist endlich wieder zufrieden! Hier hast du deinen Claimblock.'
+    conditions: 'claim2_active,!block_active'
+    pointer: 'thx,more_claims'
     events: 'claim2_end'
-  'claim3_finish': #TODO
-    text: '__THX__'
-    conditions: ''
-    pointer: ''
+  'claim3_finish':
+    text: 'Endlich sind die Fiecher wieder weg! Hier hast du deinen Claimblock.'
+    conditions: 'claim3_active,!mob_active'
+    pointer: 'text,more_claims'
     events: 'claim3_end'
   'claim1_confirm_take':
-    text: 'Dankeschön'
-    conditions: 'has_material'
-    pointer: '' # TODO: If Empty -> Give Claimblock
-    events: 'take_mats'
+    text: 'Dankeschön. Es fehlen aber noch welche. In deinem Journal stehen die restlichen Materialien. (/j)'
+    pointer: 'ok'
+    conditions: 'material_active'
+  'claim1_done':
+    text: 'Vielen Dank! Das war alles. Hier hast du deinen Claimblock.'
+    pointer: 'thx,more_claims'
+    conditions: '!material_active'
+    events: 'claim3_end'
+  'canceled':
+    text: 'Alles klar, kann ich dir sonst irgendwie helfen?'
+    pointer: 'start_claim,start_nothing'
+  'abort1_text':
+    text: 'Bist du dir sicher? Dann kannst du die Aufgabe für eine Woche nicht mehr annehmen.'
+    pointer: 'abort1_confirm,abort_cancel'
+  'abort2_text':
+    text: 'Bist du dir sicher? Dann kannst du die Aufgabe für eine Woche nicht mehr annehmen.'
+    pointer: 'abort2_confirm,abort_cancel'
+  'abort3_text':
+    text: 'Bist du dir sicher? Dann kannst du die Aufgabe für eine Woche nicht mehr annehmen.'
+    pointer: 'abort3_confirm,abort_cancel'
   '':
     text: ''
     conditions: ''
     pointer: ''
     events: ''
-  '':
-    text: ''
-    conditions: ''
-    pointer: ''
-    events: ''
-  '':
-    text: ''
-    conditions: ''
-    pointer: ''
-    events: ''
-  '':
-    text: ''
-    conditions: ''
-    pointer: ''
-    events: ''
-  '':
-    text: ''
-    conditions: ''
-    pointer: ''
-    events: ''
-
 
 #########################################################################
 player_options:
@@ -97,7 +87,7 @@ player_options:
     text: 'Ich würde gerne einen Claimblock erwerben.'
     pointer: 'claim_1,claim_2,claim_3,claim_none'
   'start_nothing':
-    text: 'Eigentlich nichts, tschüss.'
+    text: 'Eigentlich nicht, tschüss.'
   'claim1_yes':
     text: 'Ja, mache ich!'
     events: 'claim1_start'
@@ -130,29 +120,40 @@ player_options:
   'claim1_take':
     text: 'Ja, hier bitte.'
     conditions: 'has_material'
-    pointer: 'claim1_confirm_take'
+    events: 'take_mats'
+    pointer: 'claim1_confirm_take,claim1_done'
   'claim1_notake':
     text: 'Nein, noch nicht.'
-  '':
-    text: ''
-    pointer: ''
+  'claim1_abort':
+    text: 'Ich möchte die Aufgabe abbrechen.'
+    pointer: 'abort1_text'
+  'claim2_abort':
+    text: 'Ich möchte die Aufgabe abbrechen.'
+    pointer: 'abort2_text'
+  'claim3_abort':
+    text: 'Ich möchte die Aufgabe abbrechen.'
+    pointer: 'abort3_text'
+  'abort1_confirm':
+    text: 'Ja, ich möchte abbrechen!'
+    pointer: 'canceled'
+    events: 'cancel_claim1,tag_cooldown1_short,tag_add_cooldown1'
+  'abort2_confirm':
+    text: 'Ja, ich möchte abbrechen!'
+    pointer: 'canceled'
+    events: 'cancel_claim2,tag_cooldown2_short,tag_add_cooldown2'
+  'abort3_confirm':
+    text: 'Ja, ich möchte abbrechen!'
+    pointer: 'canceled'
+    events: 'cancel_claim3,tag_cooldown3_short,tag_add_cooldown3'
+  'abort_cancel':
+    text: 'Nein, ich versuche es weiter!'
+    pointer: 'bye'
+  'thx':
+    text: 'Vielen Dank!'
+  'more_claims':
+    text: 'Ich würde gerne noch eine Aufgabe machen.'
+    pointer: 'claim_1,claim_2,claim_3,claim_none'
   '':
     text: ''
     conditions: ''
     pointer: ''
-    events: ''
-  '':
-    text: ''
-    conditions: ''
-    pointer: ''
-    events: ''
-  '':
-    text: ''
-    conditions: ''
-    pointer: ''
-    events: ''
-  '':
-    text: ''
-    conditions: ''
-    pointer: ''
-    events: ''

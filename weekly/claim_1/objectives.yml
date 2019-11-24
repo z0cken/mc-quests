@@ -21,3 +21,7 @@ mob7: 'mobkill $mob7$ 10 events:mob7'
 mob8: 'mobkill $mob8$ 10 events:mob8'
 mob9: 'mobkill $mob9$ 10 events:mob9'
 mob10: 'mobkill $mob10$ 10 events:mob10'
+
+cooldown1: 'delay $cooldown_offline$ interval:12000'
+cooldown2: 'delay $cooldown_offline$ interval:12000'
+cooldown3: 'delay $cooldown_offline$ interval:12000'
