@@ -1,1 +1,1 @@
-teleport_farmwelt: teleport farmwelt_location
+teleport_farmwelt: teleport $farmwelt_location$

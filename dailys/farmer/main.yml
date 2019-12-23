@@ -1,22 +1,22 @@
 variables:
   #money payout per step
-  payout1: '30'
-  payout2: '40'
-  payout3: '50'
-  payout4: '60'
-  payout5: '70'
-  payout6: '80'
-  payout7: '100'
-  #Amout for objectives 
+  payout1: '1'
+  payout2: '1'
+  payout3: '1'
+  payout4: '1'
+  payout5: '1'
+  payout6: '1'
+  payout7: '1'
+  #Amout for objectives
   amount1: '200' #wheat farm
-  amount2: '300' #carrots farm 
+  amount2: '300' #carrots farm
   amount3: '30' #cow breed
   amount4: '300' #melon farm
   amount5: '40' #sheep shear
   amount6: '400' #potato farm
   amount7: '50' #chicken kill
   timer: '120' #in Minutes for a job
-  
+
 npcs:
   'Manfred': farmer
   '16': farmer
@@ -30,5 +30,5 @@ cancel:
 journal_main_page:
   greeting:
     priority: 1
-    text: "Farmen üben"
+    text: 'Farmen üben'
     conditions: 'running'

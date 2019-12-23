@@ -2,7 +2,6 @@ quester: 'Manfred'
 first: 'start_failed,start_end,start_wait7,start_job7,start_wait6,start_job6,start_wait5,start_job5,start_wait4,start_job4,start_wait3,start_job3,start_wait2,start_job2,start_wait1,start'
 stop: 'false'
 
-
 NPC_options:
   'start_failed':
     text: 'Du hast dir zu viel Zeit gelassen, da verlernt man alles wieder. Aber du kannst es gerne nochmal vesuchen.'
@@ -80,14 +79,14 @@ NPC_options:
     conditions: 'job7_running'
     pointer: 'ok,stop_quest'
   'start_end':
-    text: 'Glückwunsch! Du hast alle Aufgaben geschafft. Möchtest du als Belohnung einen Dekokopf oder Geld?'
+    text: 'Glückwunsch! Du hast alle Aufgaben geschafft. Möchtest du als Belohnung einen Dekokopf oder ein Pferd?'
     conditions: 'job7'
     events: 'del_job_done'
     pointer: 'money,head'
-    
+
     # Conversation
   'money_give':
-    text: 'Nur Bares ist Wahres. Bitteschön.'
+    text: 'Hier dein geiler Gaul. Bitteschön.'
     events: 'money7,reset_quest'
   'head_give':
     text: 'Gute Wahl! Halte ihn in Ehren.'
@@ -95,33 +94,32 @@ NPC_options:
   'stop_ask':
     text: 'Bist du dir sicher? Danach musst du wieder von vorne anfangen.'
     pointer: 'stop_accept,stop_no'
-    
-    
+
 #########################################################################
 player_options:
   #start
   'start_yes':
     text: 'Ja, klar!'
     pointer: 'accept'
-  'accept_2': 
+  'accept_2':
     text: 'Und weiter gehts!'
     events: 'job2'
-  'accept_3': 
+  'accept_3':
     text: 'Meine Kühe haben eh hunger!'
     events: 'job3'
-  'accept_4': 
+  'accept_4':
     text: 'Kein Problem.'
     events: 'job4'
-  'accept_5': 
+  'accept_5':
     text: 'Zeit für einen Wollpullover!'
     events: 'job5'
-  'accept_6': 
+  'accept_6':
     text: 'Deutsche Kartoffel voraus!'
     events: 'job6'
-  'accept_7': 
+  'accept_7':
     text: 'Grausam, aber auch das will ich lernen.'
     events: 'job7'
-   
+
   'start_no':
     text: 'Ne, danke.'
     pointer: 'no_bye'
@@ -137,7 +135,7 @@ player_options:
     text: 'Ich möchte das nicht mehr machen.'
     pointer: 'stop_ask'
   'money':
-    text: 'Ich nehme lieber das Geld.'
+    text: 'Ich nehme lieber das PFerd.'
     pointer: 'money_give'
   'head':
     text: 'Ich nehme lieber den Dekokopf.'

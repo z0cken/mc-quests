@@ -9,7 +9,7 @@ del_timeout: 'tag del timeout'
 
 start_timer: 'folder add_timeout delay:$timeout$ minutes'
 cancel: 'cancel fishmeal'
-payout: 'run ^message §7§o$payout$ Schekel erhalten. ^money $payout$'
+payout: 'run ^message §7§o$payout$ TODO erhalten. ^give payout:$payout$'
 cooldown: 'objective start cooldown'
 
 cod1: 'run ^journal add cod1 ^objective start obj_cod1'
@@ -28,8 +28,8 @@ tropical3: 'run ^journal add tropical3 ^objective start obj_tropical3'
 cod_journal: 'run ^journal del cod1 ^journal del cod2 ^journal del cod3'
 salmon_journal: 'run ^journal del salmon1 ^journal del salmon2 ^journal del salmon3'
 puffer_journal: 'run ^journal del puffer1 ^journal del puffer2 ^journal del puffer3'
-tropical_journal: 'run ^journal del tropical1 ^journal del tropical2 ^journal del tropical3'
-
+tropical_journal:
+  'run ^journal del tropical1 ^journal del tropical2 ^journal del tropical3'
   # redundant repetitive code
 cod_finish: 'journal add done_fishing conditions:!obj_active'
 salmon_finish: 'journal add done_fishing conditions:!obj_active'

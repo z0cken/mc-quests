@@ -2,15 +2,6 @@ quester: 'Oswald'
 first: 'start,start_busy,start_get_ingredients,start_during_ingredients,start_end_ingredients'
 stop: 'false'
 
-
-##############
-#   
-#   (Optional: Items bringen für Geld)
-#   (Im Lagerraum)
-#   0. Konversation | Password herausfinden
-#   2. Konversation | Selbst liefern der Zutaten, Lager leer. Alchemist ist unorganisierter Spinner
-#   4. Konversation | Fisch am Marktplatz
-#
 NPC_options:
   # 0 Password start
   'start':
@@ -39,10 +30,9 @@ NPC_options:
     text: 'W...Willkommen zurück %player%.! Das Lager ist so durcheinander...'
     pointer: 'leave'
     conditions: 'know_password,!get_ingredients,!got_ingredients'
-    
-    
-    #2 Get Ingredients 
-      # (Pre Quest)
+
+    #2 Get Ingredients
+    # (Pre Quest)
   'start_get_ingredients':
     text: 'L... Leider ist das Lager so gut wie l... leer. Edmund wird das nie v...verstehen'
     pointer: 'ingredients_start,ingredients_conversation'
@@ -54,8 +44,8 @@ NPC_options:
     text: 'Ähm... ja, natürlich. Sob...bald sie die Zutaten haben.'
     pointer: 'ingredients_start'
   'ingredients_quest_start':
-    text: 'Ich habe dir eine Liste in dein Tagebuch geschrieben §7§o[/journal]'
-
+    text:
+      'Ich habe dir eine Liste in dein Tagebuch geschrieben §7§o[/journal]'
       # (During Quest)
   'start_during_ingredients':
     text: 'Das ging a...aber schnell, hast du Zut...taten für mich dabei?'
@@ -71,16 +61,11 @@ NPC_options:
     text: 'Jetzt wo alle Zut...taten da sind, solltest du mir Herr van D...dickinson sprechen'
     pointer: 'yes'
     conditions: '!ingredients_left,got_ingredients'
-  
 
-  
   'smalltalk':
     text: 'M...mein Name i...ist Oswald. Auch w...wenn Herr van Dickinson mich immer Oskar n...nennt. I..ich kümmere mich hier nur um das L...lager.'
     pointer: 'start_ask,leave'
-    
-    
-    
-    
+
 #################################################
 player_options:
   #start
@@ -104,9 +89,9 @@ player_options:
     text: 'Wie kann ich ihn dazu bringen, mit mir zu sprechen?'
     condition: 'talked_alchemist'
     pointer: 'tell_password'
-    
+
     # 2 get ingredients
-      # (pre Quest)
+    # (pre Quest)
   'ingredients_start':
     text: 'Kein Problem, was muss ich besorgen?'
     pointer: 'ingredients_quest_start'
@@ -118,7 +103,8 @@ player_options:
     text: 'Oh... Kann ich etwas von dem Schwarzpulver bekommen?'
     pointer: 'gunpowder_yes'
     conditions: '!gunpowder'
-    events: 'add_gunpowder'
+    events:
+      'add_gunpowder'
       # (during Quest)
   'no_ingredients':
     text: 'Leider nein, ich suche noch'
@@ -132,8 +118,7 @@ player_options:
     text: 'Das dürften dann alle Zutaten gewesen sein, oder?'
     pointer: 'finished_yes'
     conditions: 'active_ingredients,!ingredients_left'
-    
-    
+
     #smalltalk
   'yes':
     text: 'Alles klar!'

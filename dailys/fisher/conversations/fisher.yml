@@ -31,7 +31,7 @@ NPC_options:
     text: 'Leere Worte! Heute brauchen sie mich nicht mehr ansprechen!'
   #buy
   'buy_price':
-    text: 'Der beste Lachs der Stadt nur 10 Schekel.'
+    text: 'Der beste Lachs der Stadt nur 2 Eisenbarren.'
     pointer: 'buy_yes,buy_no'
   'buy_done':
     text: 'Gute Wahl! Das war auch der letzte. Werde aber gleich wieder welchen Angeln. Guten Appetit.'
@@ -40,16 +40,16 @@ NPC_options:
   'buy_no_done':
     text: 'Qualität hat nunmal ihren Preis, schönen Tag noch!'
   'money_scam':
-    text: 'Sie haben zu wenig Geld.'
+    text: 'Sie haben zu wenig Eisen.'
     condition: 'moneyScam'
     event: 'doneAnswer'
   #job
   'job':
-    text: 'Beim Fische Angeln? Vielleicht? Wissen sie wie das geht?'
+    text: 'Beim Fische Angeln? Vielleicht? Wissen sie wie das geht? Ich habe unmengen an Lapis Lazulli geangelt, die können sie dafür haben.'
     pointer: 'job_yes,job_no'
     condition: '!jobCooldown'
   'job_start':
-    text: 'Wunderbar, dann nehmen sie doch ihre Angel. Sie müssen aber an einer bestimmten Stelle angeln, um die besten Lachse zu fangen. Laufen sie einfach hier hinter die Kirche. Dort sind ein paar Rosen die habe ich gepflanzt um meine Ruhe zu haben. An dieser Stelle beißen die schönsten Lachse. Bringen sie mir 3 große Lachse und ich gebe ihnen pro Kilo Fisch einen Schekel'
+    text: 'Wunderbar, dann nehmen sie doch ihre Angel. Sie müssen aber an einer bestimmten Stelle angeln, um die besten Lachse zu fangen. Laufen sie einfach hier hinter die Kirche. Dort sind ein paar Rosen die habe ich gepflanzt um meine Ruhe zu haben. An dieser Stelle beißen die schönsten Lachse. Bringen sie mir 3 große Lachse und ich gebe ihnen pro Kilo Fisch Lapis Lazulli'
     pointer: 'job_accept'
   'job_active':
     text: 'Sie müssen sich hinter der Kirche hier im Fischerdorf in die Rosen stellen, nur dort gibt es die Lachse die ich brauche.'
@@ -64,7 +64,7 @@ NPC_options:
   #smalltalk
   'ok':
     text: 'Kein Problem, tschüss!'
-    
+
 player_options:
   #start
   'start_buy':

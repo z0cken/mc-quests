@@ -1,1 +1,8 @@
 player_head: PLAYER_HEAD
+chicken_egg: CHICKEN_SPAWN_EGG
+sheep_egg: SHEEP_SPAWN_EGG
+pig_egg: PIG_SPAWN_EGG
+cow_egg: COW_SPAWN_EGG
+bee_egg: BEE_SPAWN_EGG
+wolf_egg: WOLF_SPAWN_EGG
+horse_egg: HORSE_SPAWN_EGG
