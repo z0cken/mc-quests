@@ -52,11 +52,11 @@ NPC_options:
     pointer: 'job_accept'
   'job_active':
     text: 'Sie müssen sich hinter der Kirche hier im Fischerdorf in die Rosen stellen, nur dort gibt es die Lachse die ich brauche.'
-    condition: 'jobActive,!jobCatched,!moneyScam'
+    condition: 'jobActive,!jobCatched'
     pointer: 'job_accept'
   'job_catch':
     text: 'Haben sie genug Lachs gefangen?'
-    condition: 'jobActive,jobCatched,!moneyScam'
+    condition: 'jobActive,jobCatched'
     pointer: 'catch_yes,catch_no'
   'job_pay':
     text: 'Vielen Dank, das sind insgesamt %point.payout.amount% Kilo!'
