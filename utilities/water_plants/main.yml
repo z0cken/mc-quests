@@ -23,7 +23,7 @@ variables:
   dead_plant: DEAD_BRAIN_CORAL
   normal_plant: CORNFLOWER
   location_lake: 5144;70;-471;world
-  delay: 1 #in minutes
+  delay: 45 #in minutes
   cooldown: 30 #in minutes
 npcs:
   'Stephanie': gardener
