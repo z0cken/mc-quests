@@ -1,0 +1,1 @@
+plate_listener: step $location$ events:send_text persistent global
