@@ -6,10 +6,8 @@ removeSorry: 'tag del saidSorry'
 
 #buy fish
 buyFish: 'if hasMoney makeTransaction else noMoney'
-noMoney: 'tag add moneyScam'
 makeTransaction: 'run ^take iron_ingot:2 ^give cooked_salmon:1 condition:hasMoney ^tag add noFish'
-doneAnswer: 'tag del moneyScam'
-
+noMoney: 'message §7§oDu hast nicht genug Eisen.'
 #Journal Update
 startJob: 'run ^journal add job_start ^tag add jobActive ^objective start findRoses' #restart Quest with <2 fish in Location & jobactive
 

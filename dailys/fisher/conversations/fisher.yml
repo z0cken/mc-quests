@@ -35,14 +35,13 @@ NPC_options:
     pointer: 'buy_yes,buy_no'
   'buy_done':
     text: 'Gute Wahl! Das war auch der letzte. Werde aber gleich wieder welchen Angeln. Guten Appetit.'
-    condition: '!moneyScam'
+    condition: 'hasMoney'
     pointer: 'thanks, start_help_2'
   'buy_no_done':
     text: 'Qualität hat nunmal ihren Preis, schönen Tag noch!'
   'money_scam':
     text: 'Sie haben zu wenig Eisen.'
-    condition: 'moneyScam'
-    event: 'doneAnswer'
+    condition: '!hasMoney'
   #job
   'job':
     text: 'Beim Fische Angeln? Vielleicht? Wissen sie wie das geht? Ich habe unmengen an Lapis Lazulli geangelt, die können sie dafür haben.'

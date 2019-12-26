@@ -3,7 +3,6 @@ saidSorry: 'tag saidSorry'
 blocked: 'objective blockQuest'
 hasMoney: 'item iron_ingot:2'
 isDay: 'time 7-19'
-moneyScam: 'tag moneyScam'
 atRoses: 'location $fishing_location$ 7'
 
 jobActive: 'tag jobActive' #Objective gestartet - Blockt conversationen
