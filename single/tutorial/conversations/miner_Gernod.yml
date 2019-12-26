@@ -96,17 +96,17 @@ NPC_options:
     text: 'Bist n fleißiges kerlchen, gefällt mir. Die Blöcke kannst du behalten oder wegschmeißen, wie du magst.
       Und hier hast du noch eine kleine belohnung für deine mühen.\n
       Ich denke, ich habe hier nichtsmehr für dich zu tun. Geh als nächstes zum Hotel, du hast bestimmt noch kein Zuhause, oder?'
-    events: 'finishQuest_miner, addProgress_miner'
+    events: 'finishQuest_miner,addProgress_miner'
     pointer: 'PA_tut_end'
 
   # Continuing
   'NA_tut_end':
     text: 'Bis irgendwann mal, viel spaß noch!'
-    events: 'tt_add_gotoHotel'
+    events: 'addProgress_miner,tt_add_gotoHotel'
 
   'NA_tut_fastFinish':
     text: 'Kein problem, dann geh bitte als nächstes zum Hotel. Du kannst es wie immer mit dem Kompass auswählen. Einen schönen Tag noch.'
-    events: 'tt_add_gotoHotel'
+    events: 'addProgress_miner,tt_add_gotoHotel'
 
 # === NPC Default Conversation === #
   'NA_def_start':

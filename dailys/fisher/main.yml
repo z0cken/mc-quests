@@ -1,7 +1,7 @@
 variables:
   fishing_location: -80;64;-18;world
 npcs:
-  '5': fisher
+  '353': fisher
   'Tjark': fischer
 cancel:
   trash:

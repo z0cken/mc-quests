@@ -2,4 +2,4 @@ cooked_salmon: 'COOKED_SALMON name:Gebratener_Lachs lore:Sehr_lecker;;&2Quest_It
 big_salmon: 'SALMON name:Großer_Lachs lore:Sehr_groß;;&2Quest_Item'
 salmon: 'SALMON lore:none'
 iron_ingot: 'IRON_INGOT'
-lapis_lazulli: 'LAPIS_LAZULLI'
+lapis_lazuli: 'LAPIS_LAZULI'

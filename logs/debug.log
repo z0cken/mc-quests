@@ -1,0 +1,1845 @@
+--------------------[New debug session]--------------------
+[05.10.2019 22:19:37] DEBUG: Loaded pl language
+[05.10.2019 22:19:37] DEBUG: Loaded en language
+[05.10.2019 22:19:37] DEBUG: Loaded de language
+[05.10.2019 22:19:37] DEBUG: Loaded fr language
+[05.10.2019 22:19:37] DEBUG: Loaded cn language
+[05.10.2019 22:19:37] DEBUG: Loaded es language
+[05.10.2019 22:19:37] DEBUG: Loaded nl language
+[05.10.2019 22:19:37] DEBUG: Loaded it language
+[05.10.2019 22:19:37] DEBUG: Loaded hu language
+[05.10.2019 22:19:37] DEBUG: Connecting to MySQL database
+[05.10.2019 22:19:37] DEBUG: MySQL says: Must specify port after ':' in connection string
+[05.10.2019 22:19:37] BROAD: Using SQLite for storing data!
+[05.10.2019 22:19:37] DEBUG: Initializing updater with version v59, destination is v59
+[05.10.2019 22:19:37] BROAD: Configuration up to date!
+[05.10.2019 22:19:37] DEBUG: Initializing static events
+[05.10.2019 22:19:37] DEBUG: Searching package utilities-water_plants
+[05.10.2019 22:19:37] DEBUG: There are no static events defined, skipping
+[05.10.2019 22:19:37] DEBUG: Searching package dailys-trash
+[05.10.2019 22:19:37] DEBUG: There are no static events defined, skipping
+[05.10.2019 22:19:37] DEBUG: Searching package single-tutorial
+[05.10.2019 22:19:37] DEBUG: There are no static events defined, skipping
+[05.10.2019 22:19:37] DEBUG: Searching package dailys-fisher
+[05.10.2019 22:19:37] DEBUG: There are no static events defined, skipping
+[05.10.2019 22:19:37] DEBUG: Searching package dailys-alchemist
+[05.10.2019 22:19:37] DEBUG: There are no static events defined, skipping
+[05.10.2019 22:19:37] DEBUG: Searching package dailys-smith
+[05.10.2019 22:19:37] DEBUG: There are no static events defined, skipping
+[05.10.2019 22:19:37] DEBUG: Searching package weekly-holywater
+[05.10.2019 22:19:37] DEBUG: There are no static events defined, skipping
+[05.10.2019 22:19:37] DEBUG: Searching package utilities-deathloc
+[05.10.2019 22:19:37] DEBUG: There are no static events defined, skipping
+[05.10.2019 22:19:37] DEBUG: Searching package dailys-farmer
+[05.10.2019 22:19:37] DEBUG: There are no static events defined, skipping
+[05.10.2019 22:19:37] DEBUG: Static events initialization done
+[05.10.2019 22:19:37] DEBUG: Registering health condition type
+[05.10.2019 22:19:37] DEBUG: Registering permission condition type
+[05.10.2019 22:19:37] DEBUG: Registering experience condition type
+[05.10.2019 22:19:37] DEBUG: Registering tag condition type
+[05.10.2019 22:19:37] DEBUG: Registering globaltag condition type
+[05.10.2019 22:19:37] DEBUG: Registering point condition type
+[05.10.2019 22:19:37] DEBUG: Registering globalpoint condition type
+[05.10.2019 22:19:37] DEBUG: Registering and condition type
+[05.10.2019 22:19:37] DEBUG: Registering or condition type
+[05.10.2019 22:19:37] DEBUG: Registering time condition type
+[05.10.2019 22:19:37] DEBUG: Registering weather condition type
+[05.10.2019 22:19:37] DEBUG: Registering height condition type
+[05.10.2019 22:19:37] DEBUG: Registering item condition type
+[05.10.2019 22:19:37] DEBUG: Registering hand condition type
+[05.10.2019 22:19:37] DEBUG: Registering location condition type
+[05.10.2019 22:19:37] DEBUG: Registering armor condition type
+[05.10.2019 22:19:37] DEBUG: Registering effect condition type
+[05.10.2019 22:19:37] DEBUG: Registering rating condition type
+[05.10.2019 22:19:37] DEBUG: Registering sneak condition type
+[05.10.2019 22:19:37] DEBUG: Registering random condition type
+[05.10.2019 22:19:37] DEBUG: Registering journal condition type
+[05.10.2019 22:19:37] DEBUG: Registering testforblock condition type
+[05.10.2019 22:19:37] DEBUG: Registering empty condition type
+[05.10.2019 22:19:37] DEBUG: Registering party condition type
+[05.10.2019 22:19:37] DEBUG: Registering monsters condition type
+[05.10.2019 22:19:37] DEBUG: Registering objective condition type
+[05.10.2019 22:19:37] DEBUG: Registering check condition type
+[05.10.2019 22:19:37] DEBUG: Registering chestitem condition type
+[05.10.2019 22:19:37] DEBUG: Registering score condition type
+[05.10.2019 22:19:37] DEBUG: Registering riding condition type
+[05.10.2019 22:19:37] DEBUG: Registering world condition type
+[05.10.2019 22:19:37] DEBUG: Registering gamemode condition type
+[05.10.2019 22:19:37] DEBUG: Registering achievement condition type
+[05.10.2019 22:19:37] DEBUG: Registering variable condition type
+[05.10.2019 22:19:37] DEBUG: Registering fly condition type
+[05.10.2019 22:19:37] DEBUG: Registering biome condition type
+[05.10.2019 22:19:37] DEBUG: Registering dayofweek condition type
+[05.10.2019 22:19:37] DEBUG: Registering partialdate condition type
+[05.10.2019 22:19:37] DEBUG: Registering realtime condition type
+[05.10.2019 22:19:37] DEBUG: Registering looking condition type
+[05.10.2019 22:19:37] DEBUG: Registering facing condition type
+[05.10.2019 22:19:37] DEBUG: Registering conversation condition type
+[05.10.2019 22:19:37] DEBUG: Registering mooncycle condition type
+[05.10.2019 22:19:37] DEBUG: Registering message event type
+[05.10.2019 22:19:37] DEBUG: Registering objective event type
+[05.10.2019 22:19:37] DEBUG: Registering command event type
+[05.10.2019 22:19:37] DEBUG: Registering tag event type
+[05.10.2019 22:19:37] DEBUG: Registering globaltag event type
+[05.10.2019 22:19:37] DEBUG: Registering journal event type
+[05.10.2019 22:19:37] DEBUG: Registering teleport event type
+[05.10.2019 22:19:37] DEBUG: Registering explosion event type
+[05.10.2019 22:19:37] DEBUG: Registering lightning event type
+[05.10.2019 22:19:37] DEBUG: Registering point event type
+[05.10.2019 22:19:37] DEBUG: Registering globalpoint event type
+[05.10.2019 22:19:37] DEBUG: Registering give event type
+[05.10.2019 22:19:37] DEBUG: Registering take event type
+[05.10.2019 22:19:37] DEBUG: Registering conversation event type
+[05.10.2019 22:19:37] DEBUG: Registering kill event type
+[05.10.2019 22:19:37] DEBUG: Registering effect event type
+[05.10.2019 22:19:37] DEBUG: Registering deleffect event type
+[05.10.2019 22:19:37] DEBUG: Registering spawn event type
+[05.10.2019 22:19:37] DEBUG: Registering killmob event type
+[05.10.2019 22:19:37] DEBUG: Registering time event type
+[05.10.2019 22:19:37] DEBUG: Registering weather event type
+[05.10.2019 22:19:37] DEBUG: Registering folder event type
+[05.10.2019 22:19:37] DEBUG: Registering setblock event type
+[05.10.2019 22:19:37] DEBUG: Registering damage event type
+[05.10.2019 22:19:37] DEBUG: Registering party event type
+[05.10.2019 22:19:37] DEBUG: Registering clear event type
+[05.10.2019 22:19:37] DEBUG: Registering run event type
+[05.10.2019 22:19:37] DEBUG: Registering givejournal event type
+[05.10.2019 22:19:37] DEBUG: Registering sudo event type
+[05.10.2019 22:19:37] DEBUG: Registering opsudo event type
+[05.10.2019 22:19:37] DEBUG: Registering chestgive event type
+[05.10.2019 22:19:37] DEBUG: Registering chesttake event type
+[05.10.2019 22:19:37] DEBUG: Registering chestclear event type
+[05.10.2019 22:19:37] DEBUG: Registering compass event type
+[05.10.2019 22:19:37] DEBUG: Registering cancel event type
+[05.10.2019 22:19:37] DEBUG: Registering score event type
+[05.10.2019 22:19:37] DEBUG: Registering lever event type
+[05.10.2019 22:19:37] DEBUG: Registering door event type
+[05.10.2019 22:19:37] DEBUG: Registering if event type
+[05.10.2019 22:19:37] DEBUG: Registering variable event type
+[05.10.2019 22:19:37] DEBUG: Registering title event type
+[05.10.2019 22:19:37] DEBUG: Registering language event type
+[05.10.2019 22:19:37] DEBUG: Registering playsound event type
+[05.10.2019 22:19:37] DEBUG: Registering pickrandom event type
+[05.10.2019 22:19:37] DEBUG: Registering xp event type
+[05.10.2019 22:19:37] DEBUG: Registering notify event type
+[05.10.2019 22:19:37] DEBUG: Registering location objective type
+[05.10.2019 22:19:37] DEBUG: Registering block objective type
+[05.10.2019 22:19:37] DEBUG: Registering mobkill objective type
+[05.10.2019 22:19:37] DEBUG: Registering action objective type
+[05.10.2019 22:19:37] DEBUG: Registering die objective type
+[05.10.2019 22:19:37] DEBUG: Registering craft objective type
+[05.10.2019 22:19:37] DEBUG: Registering smelt objective type
+[05.10.2019 22:19:37] DEBUG: Registering tame objective type
+[05.10.2019 22:19:37] DEBUG: Registering delay objective type
+[05.10.2019 22:19:37] DEBUG: Registering arrow objective type
+[05.10.2019 22:19:37] DEBUG: Registering experience objective type
+[05.10.2019 22:19:37] DEBUG: Registering step objective type
+[05.10.2019 22:19:37] DEBUG: Registering logout objective type
+[05.10.2019 22:19:37] DEBUG: Registering password objective type
+[05.10.2019 22:19:37] DEBUG: Registering fish objective type
+[05.10.2019 22:19:37] DEBUG: Registering enchant objective type
+[05.10.2019 22:19:37] DEBUG: Registering shear objective type
+[05.10.2019 22:19:37] DEBUG: Registering chestput objective type
+[05.10.2019 22:19:37] DEBUG: Registering potion objective type
+[05.10.2019 22:19:37] DEBUG: Registering vehicle objective type
+[05.10.2019 22:19:37] DEBUG: Registering consume objective type
+[05.10.2019 22:19:37] DEBUG: Registering variable objective type
+[05.10.2019 22:19:37] DEBUG: Registering kill objective type
+[05.10.2019 22:19:37] DEBUG: Registering breed objective type
+[05.10.2019 22:19:37] DEBUG: Registering interact objective type
+[05.10.2019 22:19:37] DEBUG: Registering respawn objective type
+[05.10.2019 22:19:37] DEBUG: Registering simple conversation IO type
+[05.10.2019 22:19:37] DEBUG: Registering tellraw conversation IO type
+[05.10.2019 22:19:37] DEBUG: Registering chest conversation IO type
+[05.10.2019 22:19:37] DEBUG: Registering combined conversation IO type
+[05.10.2019 22:19:37] DEBUG: Registering slowtellraw conversation IO type
+[05.10.2019 22:19:37] DEBUG: Registering simple interceptor type
+[05.10.2019 22:19:37] DEBUG: Registering suppress notify IO type
+[05.10.2019 22:19:37] DEBUG: Registering chat notify IO type
+[05.10.2019 22:19:37] DEBUG: Registering advancement notify IO type
+[05.10.2019 22:19:37] DEBUG: Registering actionbar notify IO type
+[05.10.2019 22:19:37] DEBUG: Registering bossbar notify IO type
+[05.10.2019 22:19:37] DEBUG: Registering title notify IO type
+[05.10.2019 22:19:37] DEBUG: Registering subtitle notify IO type
+[05.10.2019 22:19:37] DEBUG: Registering player variable type
+[05.10.2019 22:19:37] DEBUG: Registering npc variable type
+[05.10.2019 22:19:37] DEBUG: Registering objective variable type
+[05.10.2019 22:19:37] DEBUG: Registering point variable type
+[05.10.2019 22:19:37] DEBUG: Registering globalpoint variable type
+[05.10.2019 22:19:37] DEBUG: Registering item variable type
+[05.10.2019 22:19:37] DEBUG: Registering version variable type
+[05.10.2019 22:19:37] DEBUG: Registering location variable type
+[05.10.2019 22:19:37] DEBUG: Registering math variable type
+[05.10.2019 22:19:37] BROAD: Hooking into WorldEdit
+[05.10.2019 22:19:37] DEBUG: Registering paste event type
+[05.10.2019 22:19:37] BROAD: Hooking into Vault
+[05.10.2019 22:19:37] DEBUG: Registering money event type
+[05.10.2019 22:19:37] DEBUG: Registering money condition type
+[05.10.2019 22:19:37] DEBUG: Registering money variable type
+[05.10.2019 22:19:37] DEBUG: Registering permission event type
+[05.10.2019 22:19:37] BROAD: Hooking into ProtocolLib
+[05.10.2019 22:19:37] DEBUG: Registering menu conversation IO type
+[05.10.2019 22:19:37] DEBUG: Registering packet interceptor type
+[05.10.2019 22:19:37] BROAD: Autoupdater enabled!
+[05.10.2019 22:19:37] BROAD: BetonQuest succesfully enabled!
+[05.10.2019 22:19:41] BROAD: Hooking into WorldGuard
+[05.10.2019 22:19:41] DEBUG: Registering region condition type
+[05.10.2019 22:19:41] DEBUG: Registering region objective type
+[05.10.2019 22:19:41] BROAD: Hooking into Citizens
+[05.10.2019 22:19:41] DEBUG: Registering updatevisibility event type
+[05.10.2019 22:19:41] DEBUG: Registering npckill objective type
+[05.10.2019 22:19:41] DEBUG: Registering npcinteract objective type
+[05.10.2019 22:19:41] DEBUG: Registering npcrange objective type
+[05.10.2019 22:19:41] DEBUG: Registering movenpc event type
+[05.10.2019 22:19:41] DEBUG: Registering chest conversation IO type
+[05.10.2019 22:19:41] DEBUG: Registering combined conversation IO type
+[05.10.2019 22:19:41] DEBUG: Registering citizen variable type
+[05.10.2019 22:19:41] DEBUG: Registering npcdistance condition type
+[05.10.2019 22:19:41] DEBUG: Registering npclocation condition type
+[05.10.2019 22:19:41] DEBUG: Registering npcregion condition type
+[05.10.2019 22:19:42] BROAD: Hooking into MythicMobs
+[05.10.2019 22:19:42] DEBUG: Registering mmobkill objective type
+[05.10.2019 22:19:42] DEBUG: Registering mspawnmob event type
+[05.10.2019 22:19:44] DEBUG: Loading stuff in package utilities-water_plants
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.start_objectives' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.stop_objectives' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.cooldown' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.add_point' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.reset_points' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.add_journal' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.del_journal' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.reload_journal' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.take_bucket' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.take_water_bucket' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.give_bucket' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.give_water_bucket' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.playsound_fill' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.playsound_empty' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.gets_water' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.message' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.empty_bucket' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.end_quest' loaded
+[05.10.2019 22:19:44] DEBUG: Variable utilities-water_plants-%point.watered.amount% loaded
+[05.10.2019 22:19:44] DEBUG: Variable utilities-water_plants-%math.calc:10*point.watered.amount% loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.give_money' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.item_luck' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.nothing' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.random_item' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.item1' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.item2' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.item3' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.item4' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.item5' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.item6' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.item7' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.item8' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.item9' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.item10' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.watered_plant1' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.watered_plant2' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.watered_plant3' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.watered_plant4' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.watered_plant5' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.watered_plant6' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.watered_plant7' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.watered_plant8' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.watered_plant9' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.watered_plant10' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.watered_plant11' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.watered_plant12' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.watered_plant13' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.watered_plant14' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.watered_plant15' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.watered_plant16' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.watered_plant17' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.watered_plant18' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.watered_plant19' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.watered_plant20' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.delay_plant1' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.delay_plant2' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.delay_plant3' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.delay_plant4' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.delay_plant5' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.delay_plant6' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.delay_plant7' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.delay_plant8' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.delay_plant9' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.delay_plant10' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.delay_plant11' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.delay_plant12' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.delay_plant13' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.delay_plant14' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.delay_plant15' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.delay_plant16' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.delay_plant17' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.delay_plant18' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.delay_plant19' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.delay_plant20' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.setblock_plant1' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.setblock_plant2' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.setblock_plant3' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.setblock_plant4' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.setblock_plant5' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.setblock_plant6' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.setblock_plant7' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.setblock_plant8' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.setblock_plant9' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.setblock_plant10' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.setblock_plant11' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.setblock_plant12' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.setblock_plant13' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.setblock_plant14' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.setblock_plant15' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.setblock_plant16' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.setblock_plant17' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.setblock_plant18' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.setblock_plant19' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.setblock_plant20' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.dead_plant1' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.dead_plant2' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.dead_plant3' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.dead_plant4' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.dead_plant5' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.dead_plant6' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.dead_plant7' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.dead_plant8' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.dead_plant9' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.dead_plant10' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.dead_plant11' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.dead_plant12' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.dead_plant13' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.dead_plant14' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.dead_plant15' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.dead_plant16' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.dead_plant17' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.dead_plant18' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.dead_plant19' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'utilities-water_plants.dead_plant20' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'utilities-water_plants.holding_water_bucket' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'utilities-water_plants.holding_empty_bucket' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'utilities-water_plants.cooldown' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'utilities-water_plants.watered_plant' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'utilities-water_plants.plant1_dead' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'utilities-water_plants.plant2_dead' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'utilities-water_plants.plant3_dead' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'utilities-water_plants.plant4_dead' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'utilities-water_plants.plant5_dead' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'utilities-water_plants.plant6_dead' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'utilities-water_plants.plant7_dead' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'utilities-water_plants.plant8_dead' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'utilities-water_plants.plant9_dead' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'utilities-water_plants.plant10_dead' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'utilities-water_plants.plant11_dead' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'utilities-water_plants.plant12_dead' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'utilities-water_plants.plant13_dead' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'utilities-water_plants.plant14_dead' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'utilities-water_plants.plant15_dead' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'utilities-water_plants.plant16_dead' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'utilities-water_plants.plant17_dead' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'utilities-water_plants.plant18_dead' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'utilities-water_plants.plant19_dead' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'utilities-water_plants.plant20_dead' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'utilities-water_plants.quest_active' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'utilities-water_plants.plants_listener_1' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'utilities-water_plants.plants_listener_2' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'utilities-water_plants.plants_listener_3' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'utilities-water_plants.plants_listener_4' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'utilities-water_plants.plants_listener_5' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'utilities-water_plants.plants_listener_6' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'utilities-water_plants.plants_listener_7' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'utilities-water_plants.plants_listener_8' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'utilities-water_plants.plants_listener_9' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'utilities-water_plants.plants_listener_10' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'utilities-water_plants.plants_listener_11' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'utilities-water_plants.plants_listener_12' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'utilities-water_plants.plants_listener_13' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'utilities-water_plants.plants_listener_14' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'utilities-water_plants.plants_listener_15' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'utilities-water_plants.plants_listener_16' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'utilities-water_plants.plants_listener_17' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'utilities-water_plants.plants_listener_18' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'utilities-water_plants.plants_listener_19' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'utilities-water_plants.plants_listener_20' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'utilities-water_plants.lake_listener' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'utilities-water_plants.cooldown' loaded
+[05.10.2019 22:19:44] DEBUG: Loading gardener conversation from utilities-water_plants package
+[05.10.2019 22:19:44] DEBUG: Conversation loaded: 8 NPC options and 6 player options
+[05.10.2019 22:19:44] DEBUG: Everything in package utilities-water_plants loaded
+[05.10.2019 22:19:44] DEBUG: Loading stuff in package dailys-trash
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.startQuest' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.addJournal' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.tag_active' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.start_objectives' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.randomTags' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.gehweg' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.bin1' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.bin2' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.bin3' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.bin4' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.bin5' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.bin6' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.bin7' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.bin8' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.bin9' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.bin10' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.bin11' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.bin12' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.bin13' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.bin14' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.bin15' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.bin16' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.bin17' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.bin18' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.bin19' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.bin20' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.bin21' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.tbin1' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.tbin2' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.tbin3' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.tbin4' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.tbin5' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.tbin6' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.tbin7' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.tbin8' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.tbin9' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.tbin10' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.tbin11' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.tbin12' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.tbin13' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.tbin14' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.tbin15' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.tbin16' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.tbin17' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.tbin18' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.tbin19' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.tbin20' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.tbin21' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.done_bin1' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.done_bin2' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.done_bin3' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.done_bin4' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.done_bin5' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.done_bin6' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.done_bin7' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.done_bin8' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.done_bin9' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.done_bin10' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.done_bin11' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.done_bin12' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.done_bin13' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.done_bin14' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.done_bin15' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.done_bin16' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.done_bin17' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.done_bin18' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.done_bin19' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.done_bin20' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.done_bin21' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.removeTags' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.removeObjectives' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.done_pos' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.done_neg' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.done_static' loaded
+[05.10.2019 22:19:44] DEBUG: Variable dailys-trash-%point.trash_amount.left:10% loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.done_message_multiple' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.done_message_one' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.done_message_none' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.trash_reward' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.trash_reward_delay' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.trash_cooldown' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.trash_reset' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-trash.trash_cancel' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-trash.trash_active' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-trash.trash_done' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-trash.trash_end' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-trash.message_one' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-trash.trash_bin1' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-trash.trash_bin2' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-trash.trash_bin3' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-trash.trash_bin4' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-trash.trash_bin5' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-trash.trash_bin6' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-trash.trash_bin7' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-trash.trash_bin8' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-trash.trash_bin9' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-trash.trash_bin10' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-trash.trash_bin11' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-trash.trash_bin12' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-trash.trash_bin13' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-trash.trash_bin14' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-trash.trash_bin15' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-trash.trash_bin16' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-trash.trash_bin17' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-trash.trash_bin18' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-trash.trash_bin19' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-trash.trash_bin20' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-trash.trash_bin21' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'dailys-trash.trash_bin1' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'dailys-trash.trash_bin2' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'dailys-trash.trash_bin3' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'dailys-trash.trash_bin4' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'dailys-trash.trash_bin5' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'dailys-trash.trash_bin6' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'dailys-trash.trash_bin7' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'dailys-trash.trash_bin8' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'dailys-trash.trash_bin9' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'dailys-trash.trash_bin10' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'dailys-trash.trash_bin11' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'dailys-trash.trash_bin12' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'dailys-trash.trash_bin13' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'dailys-trash.trash_bin14' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'dailys-trash.trash_bin15' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'dailys-trash.trash_bin16' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'dailys-trash.trash_bin17' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'dailys-trash.trash_bin18' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'dailys-trash.trash_bin19' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'dailys-trash.trash_bin20' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'dailys-trash.trash_bin21' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'dailys-trash.cooldown' loaded
+[05.10.2019 22:19:44] DEBUG: Loading trashman conversation from dailys-trash package
+[05.10.2019 22:19:44] DEBUG: Variable dailys-trash-%objective.cooldown.date% loaded
+[05.10.2019 22:19:44] DEBUG: Conversation loaded: 6 NPC options and 9 player options
+[05.10.2019 22:19:44] DEBUG: Everything in package dailys-trash loaded
+[05.10.2019 22:19:44] DEBUG: Loading stuff in package single-tutorial
+[05.10.2019 22:19:44] DEBUG:   Objective 'single-tutorial.break_tall_grass' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'single-tutorial.break_farn' loaded
+[05.10.2019 22:19:44] DEBUG: Loading tutorial_start conversation from single-tutorial package
+[05.10.2019 22:19:44] DEBUG: Conversation loaded: 1 NPC options and 1 player options
+[05.10.2019 22:19:44] DEBUG: Everything in package single-tutorial loaded
+[05.10.2019 22:19:44] DEBUG: Loading stuff in package dailys-fisher
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-fisher.setNoFish' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-fisher.removeNoFish' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-fisher.blockQuest' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-fisher.sorry' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-fisher.removeSorry' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-fisher.buyFish' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-fisher.noMoney' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-fisher.makeTransaction' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-fisher.doneAnswer' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-fisher.startJob' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-fisher.foundRoses' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-fisher.oneFish' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-fisher.changeSalmon' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-fisher.doChange' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-fisher.addObjective' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-fisher.doneFishing' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-fisher.jobPay' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-fisher.amount1' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-fisher.amount2' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-fisher.amount3' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-fisher.amount4' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-fisher.amount5' loaded
+[05.10.2019 22:19:44] DEBUG: Variable dailys-fisher-%point.payout.amount% loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-fisher.payout' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-fisher.payoutMessage' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-fisher.delayMessage' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-fisher.noFish' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-fisher.saidSorry' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-fisher.blocked' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-fisher.hasMoney' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-fisher.isDay' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-fisher.moneyScam' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-fisher.atRoses' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-fisher.jobActive' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-fisher.jobCatched' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-fisher.jobDone' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-fisher.hasAllFish' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-fisher.hasSalmon' loaded
+[05.10.2019 22:19:44] DEBUG:   Condition 'dailys-fisher.jobCooldown' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'dailys-fisher.blockQuest' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'dailys-fisher.findRoses' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'dailys-fisher.fishing' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'dailys-fisher.cooldown' loaded
+[05.10.2019 22:19:44] DEBUG:   Objective 'dailys-fisher.fishCooldown' loaded
+[05.10.2019 22:19:44] DEBUG: Loading fisher conversation from dailys-fisher package
+[05.10.2019 22:19:44] DEBUG: Variable dailys-fisher-%item.big_salmon.amount% loaded
+[05.10.2019 22:19:44] DEBUG: Conversation loaded: 17 NPC options and 15 player options
+[05.10.2019 22:19:44] DEBUG: Everything in package dailys-fisher loaded
+[05.10.2019 22:19:44] DEBUG: Loading stuff in package dailys-alchemist
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.add_talked_alchemist' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.got_password' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.add_ask_ingredients' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.del_ask_ingredients' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.journal_add_ask_ingredients' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.journal_del_ask_ingredients' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.add_gunpowder' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.del_gunpowder' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.add_active_ingredients' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.remove_active_ingredients' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.add_got_ingredients' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.del_got_ingredients' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.add_second_ingredients' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.reply_oswald' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.reply_oswald_delay' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.start_listening' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.ingredients_finished' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.ingredients_finished_run' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.ingredients_finished_2' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.give_gunpowder' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.gunpowder_1' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.gunpowder_2' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.gunpowder_3' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.gunpowder_4' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.gunpowder_5' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.gunpowder_text' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.start_brewing' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.brewing_sound' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.brewing_sound_2' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.brewing_playsound' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.done_brewing' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.final_brewing' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.give_potion' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.cooldown1' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.cooldown2' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.random_ingredients_1' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.random_ingredients_2' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.ingredient_1' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.ingredient_2' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.ingredient_3' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.ingredient_4' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.ingredient_5' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.ingredient_6' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.ingredient_7' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.ingredient_8' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.ingredient_9' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.ingredient_10' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.ingredient_11' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.ingredient_12' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.ingredient_13' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.ingredient_14' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.ingredient_15' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.ingredient_16' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.ingredient_17' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.ingredient_18' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.ingredient_19' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.ingredient_20' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.ingredient_fish' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.take_ingredient_1' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.take_ingredient_2' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.take_ingredient_3' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.take_ingredient_4' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.take_ingredient_5' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.take_ingredient_6' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.take_ingredient_7' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.take_ingredient_8' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.take_ingredient_9' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.take_ingredient_10' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.take_ingredient_11' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.take_ingredient_12' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.take_ingredient_13' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.take_ingredient_14' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.take_ingredient_15' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.take_ingredient_16' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.take_ingredient_17' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.take_ingredient_18' loaded
+[05.10.2019 22:19:44] DEBUG:   Event 'dailys-alchemist.take_ingredient_19' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'dailys-alchemist.take_ingredient_20' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'dailys-alchemist.take_ingredient_fish' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.talked_alchemist' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.know_password' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.is_listening' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.gunpowder' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.ask_ingredients' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.get_ingredients' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.active_ingredients' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.got_ingredients' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.is_brewing' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.potion_half' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.second_ingredients' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.second_brewing' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.has_potion' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.cooldown1' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.cooldown2' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.ingredient_inventory' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.has_ingredient_1' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.has_ingredient_2' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.has_ingredient_3' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.has_ingredient_4' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.has_ingredient_5' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.has_ingredient_6' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.has_ingredient_7' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.has_ingredient_8' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.has_ingredient_9' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.has_ingredient_10' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.has_ingredient_11' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.has_ingredient_12' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.has_ingredient_13' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.has_ingredient_14' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.has_ingredient_15' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.has_ingredient_16' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.has_ingredient_17' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.has_ingredient_18' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.has_ingredient_19' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.has_ingredient_20' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.has_ingredient_fish' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.item_ingredient_1' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.item_ingredient_2' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.item_ingredient_3' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.item_ingredient_4' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.item_ingredient_5' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.item_ingredient_6' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.item_ingredient_7' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.item_ingredient_8' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.item_ingredient_9' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.item_ingredient_10' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.item_ingredient_11' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.item_ingredient_12' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.item_ingredient_13' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.item_ingredient_14' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.item_ingredient_15' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.item_ingredient_16' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.item_ingredient_17' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.item_ingredient_18' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.item_ingredient_19' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.item_ingredient_20' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.item_ingredient_fish' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_1' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_2' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_3' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_4' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_5' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_6' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_7' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_8' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_9' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_10' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_11' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_12' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_13' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_14' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_15' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_16' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_17' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_18' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_19' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_20' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_fish' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-alchemist.ingredients_left' loaded
+[05.10.2019 22:19:45] DEBUG:   Objective 'dailys-alchemist.listening' loaded
+[05.10.2019 22:19:45] DEBUG:   Objective 'dailys-alchemist.brewing_1' loaded
+[05.10.2019 22:19:45] DEBUG:   Objective 'dailys-alchemist.brewing_2' loaded
+[05.10.2019 22:19:45] DEBUG:   Objective 'dailys-alchemist.cooldown1' loaded
+[05.10.2019 22:19:45] DEBUG:   Objective 'dailys-alchemist.cooldown2' loaded
+[05.10.2019 22:19:45] DEBUG: Loading alchemisthelper conversation from dailys-alchemist package
+[05.10.2019 22:19:45] DEBUG: Variable dailys-alchemist-%player% loaded
+[05.10.2019 22:19:45] DEBUG: Conversation loaded: 15 NPC options and 14 player options
+[05.10.2019 22:19:45] DEBUG: Loading alchemist conversation from dailys-alchemist package
+[05.10.2019 22:19:45] DEBUG: Variable dailys-alchemist-%objective.brewing_1.left% loaded
+[05.10.2019 22:19:45] DEBUG: Variable dailys-alchemist-%objective.brewing_2.left% loaded
+[05.10.2019 22:19:45] DEBUG: Conversation loaded: 26 NPC options and 25 player options
+[05.10.2019 22:19:45] DEBUG: Everything in package dailys-alchemist loaded
+[05.10.2019 22:19:45] DEBUG: Loading stuff in package dailys-smith
+[05.10.2019 22:19:45] DEBUG:   Event 'dailys-smith.blocked' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'dailys-smith.cooldown' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'dailys-smith.add_get_ores' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'dailys-smith.del_get_ores' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'dailys-smith.add_journal_ores' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'dailys-smith.del_journal_ores' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'dailys-smith.add_deal_done' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'dailys-smith.del_deal_done' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'dailys-smith.add_gave_items' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'dailys-smith.del_gave_items' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'dailys-smith.buy_gold' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'dailys-smith.buy_coal' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'dailys-smith.buy_iron' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'dailys-smith.give_truth' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'dailys-smith.give_lie' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'dailys-smith.give_force' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'dailys-smith.update_journal' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'dailys-smith.take_items' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'dailys-smith.give_pickaxe' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'dailys-smith.give_money' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-smith.blocked' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-smith.cooldown' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-smith.get_ores' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-smith.deal_done' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-smith.gave_items' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-smith.bought_iron' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-smith.bought_gold' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-smith.bought_coal' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-smith.is_empty' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-smith.no_money_iron' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-smith.no_money_coal' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-smith.no_money_gold' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'dailys-smith.has_items' loaded
+[05.10.2019 22:19:45] DEBUG:   Objective 'dailys-smith.blocked' loaded
+[05.10.2019 22:19:45] DEBUG:   Objective 'dailys-smith.cooldown' loaded
+[05.10.2019 22:19:45] DEBUG:   Objective 'dailys-smith.bought_iron' loaded
+[05.10.2019 22:19:45] DEBUG:   Objective 'dailys-smith.bought_gold' loaded
+[05.10.2019 22:19:45] DEBUG:   Objective 'dailys-smith.bought_coal' loaded
+[05.10.2019 22:19:45] DEBUG: Loading smith conversation from dailys-smith package
+[05.10.2019 22:19:45] DEBUG: Variable dailys-smith-%player% loaded
+[05.10.2019 22:19:45] DEBUG: Conversation loaded: 15 NPC options and 12 player options
+[05.10.2019 22:19:45] DEBUG: Loading ore_trader conversation from dailys-smith package
+[05.10.2019 22:19:45] DEBUG: Conversation loaded: 19 NPC options and 11 player options
+[05.10.2019 22:19:45] DEBUG: Everything in package dailys-smith loaded
+[05.10.2019 22:19:45] DEBUG: Loading stuff in package weekly-holywater
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.cooldown_quest' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.add_get_holywater' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.del_get_holywater' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.add_journal_get_holywater' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.del_journal_get_holywater' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.journal_reload' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.cooldown_materials' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.give_money_materials' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.give_money' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.money_1' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.money_2' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.money_3' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.money_4' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.take_holywater' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.start_get_holywater' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.switch_bottle' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.wrong_item' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.add_material_quest' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.del_material_quest' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.journal_materials' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.j_mat1' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.j_mat2' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.j_mat3' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.j_mat4' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.j_mat5' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.j_mat6' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.j_mat7' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.j_mat8' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.j_mat9' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.j_mat10' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.select_items' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.material1' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.material2' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.material3' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.material4' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.material5' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.material6' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.material7' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.material8' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.material9' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.material10' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.write_items' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.write_item1' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.write_item2' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.write_item3' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.write_item4' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.write_item5' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.write_item6' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.write_item7' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.write_item8' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.write_item9' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.write_item10' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.take_material_1' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.take_material_2' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.take_material_3' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.take_material_4' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.take_material_5' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.take_material_6' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.take_material_7' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.take_material_8' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.take_material_9' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.take_material_10' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.do_blessing' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.cooldown_blessing' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.cooldown_asked_blessing' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.cooldown_blessing2' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.cooldown_asked_blessing2' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.pay_blessing' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.blessing1' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.blessing2' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.blessing3' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.blessing4' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'weekly-holywater.blessing5' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.get_holywater' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.material_quest' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.cooldown_materials' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.cooldown_quest' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.cooldown_blessing' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.cooldown_asked_blessing' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.cooldown_blessing2' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.cooldown_asked_blessing2' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.has_holywater' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.holding_glass_bottle' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.has_money_blessing' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.has_material' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.has_selection' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.tag_material1' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.tag_material2' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.tag_material3' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.tag_material4' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.tag_material5' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.tag_material6' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.tag_material7' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.tag_material8' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.tag_material9' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.tag_material10' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.has_material1' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.has_material2' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.has_material3' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.has_material4' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.has_material5' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.has_material6' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.has_material7' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.has_material8' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.has_material9' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.has_material10' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.check_material1' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.check_material2' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.check_material3' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.check_material4' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.check_material5' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.check_material6' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.check_material7' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.check_material8' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.check_material9' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'weekly-holywater.check_material10' loaded
+[05.10.2019 22:19:45] DEBUG:   Objective 'weekly-holywater.cooldown_blessing' loaded
+[05.10.2019 22:19:45] DEBUG:   Objective 'weekly-holywater.cooldown_asked_blessing' loaded
+[05.10.2019 22:19:45] DEBUG:   Objective 'weekly-holywater.cooldown_blessing2' loaded
+[05.10.2019 22:19:45] DEBUG:   Objective 'weekly-holywater.cooldown_asked_blessing2' loaded
+[05.10.2019 22:19:45] DEBUG:   Objective 'weekly-holywater.cooldown_quest' loaded
+[05.10.2019 22:19:45] DEBUG:   Objective 'weekly-holywater.cooldown_materials' loaded
+[05.10.2019 22:19:45] DEBUG:   Objective 'weekly-holywater.take_holywater1' loaded
+[05.10.2019 22:19:45] DEBUG:   Objective 'weekly-holywater.take_holywater2' loaded
+[05.10.2019 22:19:45] DEBUG:   Objective 'weekly-holywater.wrong_holywater1' loaded
+[05.10.2019 22:19:45] DEBUG:   Objective 'weekly-holywater.wrong_holywater2' loaded
+[05.10.2019 22:19:45] DEBUG: Loading priest2 conversation from weekly-holywater package
+[05.10.2019 22:19:45] DEBUG: Conversation loaded: 18 NPC options and 13 player options
+[05.10.2019 22:19:45] DEBUG: Loading priest1 conversation from weekly-holywater package
+[05.10.2019 22:19:45] DEBUG: Conversation loaded: 16 NPC options and 11 player options
+[05.10.2019 22:19:45] DEBUG: Everything in package weekly-holywater loaded
+[05.10.2019 22:19:45] DEBUG: Loading stuff in package utilities-deathloc
+[05.10.2019 22:19:45] DEBUG:   Event 'utilities-deathloc.sound_laugh' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'utilities-deathloc.death_loc_buy' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'utilities-deathloc.death_skip_buy' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'utilities-deathloc.del_location' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'utilities-deathloc.get_loc' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'utilities-deathloc.add_got_location' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'utilities-deathloc.del_got_location' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'utilities-deathloc.skip_death' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'utilities-deathloc.start_cooldown' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'utilities-deathloc.death_loc' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'utilities-deathloc.death_skip' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'utilities-deathloc.has_loc_money' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'utilities-deathloc.has_skip_money' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'utilities-deathloc.got_location' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'utilities-deathloc.active' loaded
+[05.10.2019 22:19:45] DEBUG:   Condition 'utilities-deathloc.cooldown' loaded
+[05.10.2019 22:19:45] DEBUG:   Objective 'utilities-deathloc.death_loc_listener' loaded
+[05.10.2019 22:19:45] DEBUG:   Objective 'utilities-deathloc.death_skip_listener' loaded
+[05.10.2019 22:19:45] DEBUG:   Objective 'utilities-deathloc.location' loaded
+[05.10.2019 22:19:45] DEBUG:   Objective 'utilities-deathloc.cooldown' loaded
+[05.10.2019 22:19:45] DEBUG: Loading death conversation from utilities-deathloc package
+[05.10.2019 22:19:45] DEBUG: Variable utilities-deathloc-%objective.location.location.y% loaded
+[05.10.2019 22:19:45] DEBUG: Conversation loaded: 13 NPC options and 8 player options
+[05.10.2019 22:19:45] DEBUG: Everything in package utilities-deathloc loaded
+[05.10.2019 22:19:45] DEBUG: Loading stuff in package dailys-farmer
+[05.10.2019 22:19:45] DEBUG:   Event 'dailys-farmer.job1_low' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'dailys-farmer.job1_high' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'dailys-farmer.job1_low_end' loaded
+[05.10.2019 22:19:45] DEBUG:   Event 'dailys-farmer.job1_high_end' loaded
+[05.10.2019 22:19:45] ERROR: Condition type nujobs_joblevel is not registered, check if it's spelled correctly in 'dailys-farmer.low_level' condition.
+[05.10.2019 22:19:45] ERROR: Condition type nujobs_hasjob is not registered, check if it's spelled correctly in 'dailys-farmer.has_job' condition.
+[05.10.2019 22:19:45] DEBUG:   Objective 'dailys-farmer.job1_low' loaded
+[05.10.2019 22:19:45] DEBUG:   Objective 'dailys-farmer.job1_high' loaded
+[05.10.2019 22:19:45] DEBUG: Loading farmer conversation from dailys-farmer package
+[05.10.2019 22:19:45] ERROR: There was some error. Please send it to the developer: <coosheck@gmail.com>
+[05.10.2019 22:19:45] DEBUG: Everything in package dailys-farmer loaded
+[05.10.2019 22:19:45] BROAD: There are 206 conditions, 404 events, 77 objectives and 11 conversations loaded from 9 packages.
+[05.10.2019 22:19:45] DEBUG: There are 0 global_tags and 0 global_points loaded
+[05.10.2019 22:24:13] DEBUG: There are 0 objectives, 0 tags, 1 points, 0 journal entries and 0 items loaded for player KingJulian13
+[05.10.2019 22:24:13] DEBUG: Inserting data for KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition utilities-water_plants.quest_active for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-trash.trash_active for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-fisher.jobActive for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_1 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_2 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_3 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_4 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_5 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_6 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_7 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_8 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_9 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_10 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_11 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_12 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_13 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_14 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_15 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_16 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_17 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_18 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_19 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_20 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_fish for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.ingredients_left for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_1 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_2 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_3 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_4 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_5 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_6 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_7 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_8 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_9 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_10 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_11 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_12 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_13 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_14 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_15 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_16 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_17 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_18 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_19 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_20 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_fish for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-alchemist.ingredients_left for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition dailys-smith.get_ores for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition weekly-holywater.get_holywater for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition weekly-holywater.tag_material1 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition weekly-holywater.tag_material2 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition weekly-holywater.tag_material3 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition weekly-holywater.tag_material4 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition weekly-holywater.tag_material5 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition weekly-holywater.tag_material6 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition weekly-holywater.tag_material7 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition weekly-holywater.tag_material8 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition weekly-holywater.tag_material9 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition weekly-holywater.tag_material10 for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition weekly-holywater.has_selection for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition utilities-deathloc.death_loc for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition utilities-deathloc.death_skip for player KingJulian13
+[05.10.2019 22:24:14] DEBUG: FALSE:  condition utilities-deathloc.active for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: Executing /betonquest command for user CONSOLE with arguments: [reload]
+[05.10.2019 22:24:38] DEBUG: Reloading configuration
+[05.10.2019 22:24:38] DEBUG: Loaded pl language
+[05.10.2019 22:24:38] DEBUG: Loaded en language
+[05.10.2019 22:24:38] DEBUG: Loaded de language
+[05.10.2019 22:24:38] DEBUG: Loaded fr language
+[05.10.2019 22:24:38] DEBUG: Loaded cn language
+[05.10.2019 22:24:38] DEBUG: Loaded es language
+[05.10.2019 22:24:38] DEBUG: Loaded nl language
+[05.10.2019 22:24:38] DEBUG: Loaded it language
+[05.10.2019 22:24:38] DEBUG: Loaded hu language
+[05.10.2019 22:24:38] DEBUG: Initializing static events
+[05.10.2019 22:24:38] DEBUG: Searching package utilities-water_plants
+[05.10.2019 22:24:38] DEBUG: There are no static events defined, skipping
+[05.10.2019 22:24:38] DEBUG: Searching package dailys-trash
+[05.10.2019 22:24:38] DEBUG: There are no static events defined, skipping
+[05.10.2019 22:24:38] DEBUG: Searching package single-tutorial
+[05.10.2019 22:24:38] DEBUG: There are no static events defined, skipping
+[05.10.2019 22:24:38] DEBUG: Searching package dailys-fisher
+[05.10.2019 22:24:38] DEBUG: There are no static events defined, skipping
+[05.10.2019 22:24:38] DEBUG: Searching package dailys-alchemist
+[05.10.2019 22:24:38] DEBUG: There are no static events defined, skipping
+[05.10.2019 22:24:38] DEBUG: Searching package dailys-smith
+[05.10.2019 22:24:38] DEBUG: There are no static events defined, skipping
+[05.10.2019 22:24:38] DEBUG: Searching package weekly-holywater
+[05.10.2019 22:24:38] DEBUG: There are no static events defined, skipping
+[05.10.2019 22:24:38] DEBUG: Searching package utilities-deathloc
+[05.10.2019 22:24:38] DEBUG: There are no static events defined, skipping
+[05.10.2019 22:24:38] DEBUG: Searching package dailys-farmer
+[05.10.2019 22:24:38] DEBUG: There are no static events defined, skipping
+[05.10.2019 22:24:38] DEBUG: Static events initialization done
+[05.10.2019 22:24:38] DEBUG: Restarting global locations
+[05.10.2019 22:24:38] DEBUG: Loading stuff in package utilities-water_plants
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.start_objectives' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.stop_objectives' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.cooldown' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.add_point' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.reset_points' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.add_journal' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.del_journal' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.reload_journal' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.take_bucket' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.take_water_bucket' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.give_bucket' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.give_water_bucket' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.playsound_fill' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.playsound_empty' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.gets_water' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.message' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.empty_bucket' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.end_quest' loaded
+[05.10.2019 22:24:38] DEBUG: Variable utilities-water_plants-%point.watered.amount% loaded
+[05.10.2019 22:24:38] DEBUG: Variable utilities-water_plants-%math.calc:10*point.watered.amount% loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.give_money' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.item_luck' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.nothing' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.random_item' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.item1' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.item2' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.item3' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.item4' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.item5' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.item6' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.item7' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.item8' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.item9' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.item10' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.watered_plant1' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.watered_plant2' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.watered_plant3' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.watered_plant4' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.watered_plant5' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.watered_plant6' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.watered_plant7' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.watered_plant8' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.watered_plant9' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.watered_plant10' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.watered_plant11' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.watered_plant12' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.watered_plant13' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.watered_plant14' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.watered_plant15' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.watered_plant16' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.watered_plant17' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.watered_plant18' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.watered_plant19' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.watered_plant20' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.delay_plant1' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.delay_plant2' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.delay_plant3' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.delay_plant4' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.delay_plant5' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.delay_plant6' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.delay_plant7' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.delay_plant8' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.delay_plant9' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.delay_plant10' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.delay_plant11' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.delay_plant12' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.delay_plant13' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.delay_plant14' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.delay_plant15' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.delay_plant16' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.delay_plant17' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.delay_plant18' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.delay_plant19' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.delay_plant20' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.setblock_plant1' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.setblock_plant2' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.setblock_plant3' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.setblock_plant4' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.setblock_plant5' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.setblock_plant6' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.setblock_plant7' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.setblock_plant8' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.setblock_plant9' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.setblock_plant10' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.setblock_plant11' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.setblock_plant12' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.setblock_plant13' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.setblock_plant14' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.setblock_plant15' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.setblock_plant16' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.setblock_plant17' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.setblock_plant18' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.setblock_plant19' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.setblock_plant20' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.dead_plant1' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.dead_plant2' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.dead_plant3' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.dead_plant4' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.dead_plant5' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.dead_plant6' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.dead_plant7' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.dead_plant8' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.dead_plant9' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.dead_plant10' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.dead_plant11' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.dead_plant12' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.dead_plant13' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.dead_plant14' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.dead_plant15' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.dead_plant16' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.dead_plant17' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.dead_plant18' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.dead_plant19' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-water_plants.dead_plant20' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'utilities-water_plants.holding_water_bucket' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'utilities-water_plants.holding_empty_bucket' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'utilities-water_plants.cooldown' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'utilities-water_plants.watered_plant' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'utilities-water_plants.plant1_dead' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'utilities-water_plants.plant2_dead' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'utilities-water_plants.plant3_dead' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'utilities-water_plants.plant4_dead' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'utilities-water_plants.plant5_dead' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'utilities-water_plants.plant6_dead' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'utilities-water_plants.plant7_dead' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'utilities-water_plants.plant8_dead' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'utilities-water_plants.plant9_dead' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'utilities-water_plants.plant10_dead' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'utilities-water_plants.plant11_dead' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'utilities-water_plants.plant12_dead' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'utilities-water_plants.plant13_dead' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'utilities-water_plants.plant14_dead' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'utilities-water_plants.plant15_dead' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'utilities-water_plants.plant16_dead' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'utilities-water_plants.plant17_dead' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'utilities-water_plants.plant18_dead' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'utilities-water_plants.plant19_dead' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'utilities-water_plants.plant20_dead' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'utilities-water_plants.quest_active' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'utilities-water_plants.plants_listener_1' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'utilities-water_plants.plants_listener_2' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'utilities-water_plants.plants_listener_3' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'utilities-water_plants.plants_listener_4' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'utilities-water_plants.plants_listener_5' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'utilities-water_plants.plants_listener_6' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'utilities-water_plants.plants_listener_7' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'utilities-water_plants.plants_listener_8' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'utilities-water_plants.plants_listener_9' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'utilities-water_plants.plants_listener_10' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'utilities-water_plants.plants_listener_11' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'utilities-water_plants.plants_listener_12' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'utilities-water_plants.plants_listener_13' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'utilities-water_plants.plants_listener_14' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'utilities-water_plants.plants_listener_15' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'utilities-water_plants.plants_listener_16' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'utilities-water_plants.plants_listener_17' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'utilities-water_plants.plants_listener_18' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'utilities-water_plants.plants_listener_19' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'utilities-water_plants.plants_listener_20' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'utilities-water_plants.lake_listener' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'utilities-water_plants.cooldown' loaded
+[05.10.2019 22:24:38] DEBUG: Loading gardener conversation from utilities-water_plants package
+[05.10.2019 22:24:38] DEBUG: Conversation loaded: 8 NPC options and 6 player options
+[05.10.2019 22:24:38] DEBUG: Everything in package utilities-water_plants loaded
+[05.10.2019 22:24:38] DEBUG: Loading stuff in package dailys-trash
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.startQuest' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.addJournal' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.tag_active' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.start_objectives' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.randomTags' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.gehweg' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.bin1' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.bin2' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.bin3' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.bin4' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.bin5' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.bin6' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.bin7' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.bin8' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.bin9' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.bin10' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.bin11' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.bin12' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.bin13' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.bin14' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.bin15' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.bin16' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.bin17' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.bin18' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.bin19' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.bin20' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.bin21' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.tbin1' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.tbin2' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.tbin3' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.tbin4' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.tbin5' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.tbin6' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.tbin7' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.tbin8' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.tbin9' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.tbin10' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.tbin11' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.tbin12' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.tbin13' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.tbin14' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.tbin15' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.tbin16' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.tbin17' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.tbin18' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.tbin19' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.tbin20' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.tbin21' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.done_bin1' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.done_bin2' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.done_bin3' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.done_bin4' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.done_bin5' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.done_bin6' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.done_bin7' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.done_bin8' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.done_bin9' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.done_bin10' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.done_bin11' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.done_bin12' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.done_bin13' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.done_bin14' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.done_bin15' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.done_bin16' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.done_bin17' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.done_bin18' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.done_bin19' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.done_bin20' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.done_bin21' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.removeTags' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.removeObjectives' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.done_pos' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.done_neg' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.done_static' loaded
+[05.10.2019 22:24:38] DEBUG: Variable dailys-trash-%point.trash_amount.left:10% loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.done_message_multiple' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.done_message_one' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.done_message_none' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.trash_reward' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.trash_reward_delay' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.trash_cooldown' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.trash_reset' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-trash.trash_cancel' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-trash.trash_active' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-trash.trash_done' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-trash.trash_end' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-trash.message_one' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-trash.trash_bin1' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-trash.trash_bin2' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-trash.trash_bin3' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-trash.trash_bin4' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-trash.trash_bin5' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-trash.trash_bin6' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-trash.trash_bin7' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-trash.trash_bin8' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-trash.trash_bin9' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-trash.trash_bin10' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-trash.trash_bin11' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-trash.trash_bin12' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-trash.trash_bin13' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-trash.trash_bin14' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-trash.trash_bin15' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-trash.trash_bin16' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-trash.trash_bin17' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-trash.trash_bin18' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-trash.trash_bin19' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-trash.trash_bin20' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-trash.trash_bin21' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-trash.trash_bin1' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-trash.trash_bin2' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-trash.trash_bin3' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-trash.trash_bin4' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-trash.trash_bin5' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-trash.trash_bin6' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-trash.trash_bin7' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-trash.trash_bin8' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-trash.trash_bin9' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-trash.trash_bin10' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-trash.trash_bin11' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-trash.trash_bin12' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-trash.trash_bin13' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-trash.trash_bin14' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-trash.trash_bin15' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-trash.trash_bin16' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-trash.trash_bin17' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-trash.trash_bin18' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-trash.trash_bin19' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-trash.trash_bin20' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-trash.trash_bin21' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-trash.cooldown' loaded
+[05.10.2019 22:24:38] DEBUG: Loading trashman conversation from dailys-trash package
+[05.10.2019 22:24:38] DEBUG: Variable dailys-trash-%objective.cooldown.date% loaded
+[05.10.2019 22:24:38] DEBUG: Conversation loaded: 6 NPC options and 9 player options
+[05.10.2019 22:24:38] DEBUG: Everything in package dailys-trash loaded
+[05.10.2019 22:24:38] DEBUG: Loading stuff in package single-tutorial
+[05.10.2019 22:24:38] DEBUG:   Objective 'single-tutorial.break_tall_grass' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'single-tutorial.break_farn' loaded
+[05.10.2019 22:24:38] DEBUG: Loading tutorial_start conversation from single-tutorial package
+[05.10.2019 22:24:38] DEBUG: Conversation loaded: 1 NPC options and 1 player options
+[05.10.2019 22:24:38] DEBUG: Everything in package single-tutorial loaded
+[05.10.2019 22:24:38] DEBUG: Loading stuff in package dailys-fisher
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-fisher.setNoFish' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-fisher.removeNoFish' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-fisher.blockQuest' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-fisher.sorry' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-fisher.removeSorry' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-fisher.buyFish' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-fisher.noMoney' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-fisher.makeTransaction' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-fisher.doneAnswer' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-fisher.startJob' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-fisher.foundRoses' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-fisher.oneFish' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-fisher.changeSalmon' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-fisher.doChange' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-fisher.addObjective' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-fisher.doneFishing' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-fisher.jobPay' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-fisher.amount1' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-fisher.amount2' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-fisher.amount3' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-fisher.amount4' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-fisher.amount5' loaded
+[05.10.2019 22:24:38] DEBUG: Variable dailys-fisher-%point.payout.amount% loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-fisher.payout' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-fisher.payoutMessage' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-fisher.delayMessage' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-fisher.noFish' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-fisher.saidSorry' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-fisher.blocked' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-fisher.hasMoney' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-fisher.isDay' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-fisher.moneyScam' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-fisher.atRoses' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-fisher.jobActive' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-fisher.jobCatched' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-fisher.jobDone' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-fisher.hasAllFish' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-fisher.hasSalmon' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-fisher.jobCooldown' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-fisher.blockQuest' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-fisher.findRoses' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-fisher.fishing' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-fisher.cooldown' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-fisher.fishCooldown' loaded
+[05.10.2019 22:24:38] DEBUG: Loading fisher conversation from dailys-fisher package
+[05.10.2019 22:24:38] DEBUG: Variable dailys-fisher-%item.big_salmon.amount% loaded
+[05.10.2019 22:24:38] DEBUG: Conversation loaded: 17 NPC options and 15 player options
+[05.10.2019 22:24:38] DEBUG: Everything in package dailys-fisher loaded
+[05.10.2019 22:24:38] DEBUG: Loading stuff in package dailys-alchemist
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.add_talked_alchemist' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.got_password' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.add_ask_ingredients' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.del_ask_ingredients' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.journal_add_ask_ingredients' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.journal_del_ask_ingredients' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.add_gunpowder' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.del_gunpowder' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.add_active_ingredients' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.remove_active_ingredients' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.add_got_ingredients' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.del_got_ingredients' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.add_second_ingredients' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.reply_oswald' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.reply_oswald_delay' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.start_listening' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.ingredients_finished' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.ingredients_finished_run' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.ingredients_finished_2' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.give_gunpowder' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.gunpowder_1' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.gunpowder_2' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.gunpowder_3' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.gunpowder_4' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.gunpowder_5' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.gunpowder_text' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.start_brewing' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.brewing_sound' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.brewing_sound_2' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.brewing_playsound' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.done_brewing' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.final_brewing' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.give_potion' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.cooldown1' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.cooldown2' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.random_ingredients_1' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.random_ingredients_2' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.ingredient_1' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.ingredient_2' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.ingredient_3' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.ingredient_4' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.ingredient_5' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.ingredient_6' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.ingredient_7' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.ingredient_8' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.ingredient_9' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.ingredient_10' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.ingredient_11' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.ingredient_12' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.ingredient_13' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.ingredient_14' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.ingredient_15' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.ingredient_16' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.ingredient_17' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.ingredient_18' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.ingredient_19' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.ingredient_20' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.ingredient_fish' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.take_ingredient_1' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.take_ingredient_2' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.take_ingredient_3' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.take_ingredient_4' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.take_ingredient_5' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.take_ingredient_6' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.take_ingredient_7' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.take_ingredient_8' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.take_ingredient_9' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.take_ingredient_10' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.take_ingredient_11' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.take_ingredient_12' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.take_ingredient_13' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.take_ingredient_14' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.take_ingredient_15' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.take_ingredient_16' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.take_ingredient_17' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.take_ingredient_18' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.take_ingredient_19' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.take_ingredient_20' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-alchemist.take_ingredient_fish' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.talked_alchemist' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.know_password' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.is_listening' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.gunpowder' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.ask_ingredients' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.get_ingredients' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.active_ingredients' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.got_ingredients' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.is_brewing' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.potion_half' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.second_ingredients' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.second_brewing' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.has_potion' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.cooldown1' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.cooldown2' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.ingredient_inventory' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.has_ingredient_1' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.has_ingredient_2' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.has_ingredient_3' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.has_ingredient_4' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.has_ingredient_5' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.has_ingredient_6' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.has_ingredient_7' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.has_ingredient_8' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.has_ingredient_9' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.has_ingredient_10' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.has_ingredient_11' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.has_ingredient_12' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.has_ingredient_13' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.has_ingredient_14' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.has_ingredient_15' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.has_ingredient_16' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.has_ingredient_17' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.has_ingredient_18' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.has_ingredient_19' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.has_ingredient_20' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.has_ingredient_fish' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.item_ingredient_1' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.item_ingredient_2' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.item_ingredient_3' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.item_ingredient_4' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.item_ingredient_5' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.item_ingredient_6' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.item_ingredient_7' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.item_ingredient_8' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.item_ingredient_9' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.item_ingredient_10' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.item_ingredient_11' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.item_ingredient_12' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.item_ingredient_13' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.item_ingredient_14' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.item_ingredient_15' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.item_ingredient_16' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.item_ingredient_17' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.item_ingredient_18' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.item_ingredient_19' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.item_ingredient_20' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.item_ingredient_fish' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_1' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_2' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_3' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_4' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_5' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_6' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_7' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_8' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_9' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_10' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_11' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_12' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_13' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_14' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_15' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_16' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_17' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_18' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_19' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_20' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.tag_ingredient_fish' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-alchemist.ingredients_left' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-alchemist.listening' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-alchemist.brewing_1' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-alchemist.brewing_2' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-alchemist.cooldown1' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-alchemist.cooldown2' loaded
+[05.10.2019 22:24:38] DEBUG: Loading alchemisthelper conversation from dailys-alchemist package
+[05.10.2019 22:24:38] DEBUG: Variable dailys-alchemist-%player% loaded
+[05.10.2019 22:24:38] DEBUG: Conversation loaded: 15 NPC options and 14 player options
+[05.10.2019 22:24:38] DEBUG: Loading alchemist conversation from dailys-alchemist package
+[05.10.2019 22:24:38] DEBUG: Variable dailys-alchemist-%objective.brewing_1.left% loaded
+[05.10.2019 22:24:38] DEBUG: Variable dailys-alchemist-%objective.brewing_2.left% loaded
+[05.10.2019 22:24:38] DEBUG: Conversation loaded: 26 NPC options and 25 player options
+[05.10.2019 22:24:38] DEBUG: Everything in package dailys-alchemist loaded
+[05.10.2019 22:24:38] DEBUG: Loading stuff in package dailys-smith
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-smith.blocked' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-smith.cooldown' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-smith.add_get_ores' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-smith.del_get_ores' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-smith.add_journal_ores' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-smith.del_journal_ores' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-smith.add_deal_done' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-smith.del_deal_done' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-smith.add_gave_items' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-smith.del_gave_items' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-smith.buy_gold' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-smith.buy_coal' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-smith.buy_iron' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-smith.give_truth' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-smith.give_lie' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-smith.give_force' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-smith.update_journal' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-smith.take_items' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-smith.give_pickaxe' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-smith.give_money' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-smith.blocked' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-smith.cooldown' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-smith.get_ores' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-smith.deal_done' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-smith.gave_items' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-smith.bought_iron' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-smith.bought_gold' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-smith.bought_coal' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-smith.is_empty' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-smith.no_money_iron' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-smith.no_money_coal' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-smith.no_money_gold' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'dailys-smith.has_items' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-smith.blocked' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-smith.cooldown' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-smith.bought_iron' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-smith.bought_gold' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-smith.bought_coal' loaded
+[05.10.2019 22:24:38] DEBUG: Loading smith conversation from dailys-smith package
+[05.10.2019 22:24:38] DEBUG: Variable dailys-smith-%player% loaded
+[05.10.2019 22:24:38] DEBUG: Conversation loaded: 15 NPC options and 12 player options
+[05.10.2019 22:24:38] DEBUG: Loading ore_trader conversation from dailys-smith package
+[05.10.2019 22:24:38] DEBUG: Conversation loaded: 19 NPC options and 11 player options
+[05.10.2019 22:24:38] DEBUG: Everything in package dailys-smith loaded
+[05.10.2019 22:24:38] DEBUG: Loading stuff in package weekly-holywater
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.cooldown_quest' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.add_get_holywater' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.del_get_holywater' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.add_journal_get_holywater' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.del_journal_get_holywater' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.journal_reload' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.cooldown_materials' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.give_money_materials' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.give_money' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.money_1' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.money_2' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.money_3' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.money_4' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.take_holywater' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.start_get_holywater' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.switch_bottle' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.wrong_item' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.add_material_quest' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.del_material_quest' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.journal_materials' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.j_mat1' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.j_mat2' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.j_mat3' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.j_mat4' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.j_mat5' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.j_mat6' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.j_mat7' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.j_mat8' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.j_mat9' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.j_mat10' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.select_items' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.material1' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.material2' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.material3' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.material4' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.material5' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.material6' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.material7' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.material8' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.material9' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.material10' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.write_items' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.write_item1' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.write_item2' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.write_item3' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.write_item4' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.write_item5' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.write_item6' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.write_item7' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.write_item8' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.write_item9' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.write_item10' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.take_material_1' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.take_material_2' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.take_material_3' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.take_material_4' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.take_material_5' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.take_material_6' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.take_material_7' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.take_material_8' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.take_material_9' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.take_material_10' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.do_blessing' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.cooldown_blessing' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.cooldown_asked_blessing' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.cooldown_blessing2' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.cooldown_asked_blessing2' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.pay_blessing' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.blessing1' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.blessing2' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.blessing3' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.blessing4' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'weekly-holywater.blessing5' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.get_holywater' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.material_quest' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.cooldown_materials' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.cooldown_quest' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.cooldown_blessing' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.cooldown_asked_blessing' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.cooldown_blessing2' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.cooldown_asked_blessing2' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.has_holywater' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.holding_glass_bottle' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.has_money_blessing' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.has_material' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.has_selection' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.tag_material1' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.tag_material2' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.tag_material3' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.tag_material4' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.tag_material5' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.tag_material6' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.tag_material7' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.tag_material8' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.tag_material9' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.tag_material10' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.has_material1' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.has_material2' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.has_material3' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.has_material4' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.has_material5' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.has_material6' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.has_material7' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.has_material8' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.has_material9' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.has_material10' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.check_material1' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.check_material2' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.check_material3' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.check_material4' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.check_material5' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.check_material6' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.check_material7' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.check_material8' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.check_material9' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'weekly-holywater.check_material10' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'weekly-holywater.cooldown_blessing' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'weekly-holywater.cooldown_asked_blessing' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'weekly-holywater.cooldown_blessing2' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'weekly-holywater.cooldown_asked_blessing2' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'weekly-holywater.cooldown_quest' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'weekly-holywater.cooldown_materials' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'weekly-holywater.take_holywater1' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'weekly-holywater.take_holywater2' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'weekly-holywater.wrong_holywater1' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'weekly-holywater.wrong_holywater2' loaded
+[05.10.2019 22:24:38] DEBUG: Loading priest2 conversation from weekly-holywater package
+[05.10.2019 22:24:38] DEBUG: Conversation loaded: 18 NPC options and 13 player options
+[05.10.2019 22:24:38] DEBUG: Loading priest1 conversation from weekly-holywater package
+[05.10.2019 22:24:38] DEBUG: Conversation loaded: 16 NPC options and 11 player options
+[05.10.2019 22:24:38] DEBUG: Everything in package weekly-holywater loaded
+[05.10.2019 22:24:38] DEBUG: Loading stuff in package utilities-deathloc
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-deathloc.sound_laugh' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-deathloc.death_loc_buy' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-deathloc.death_skip_buy' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-deathloc.del_location' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-deathloc.get_loc' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-deathloc.add_got_location' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-deathloc.del_got_location' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-deathloc.skip_death' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'utilities-deathloc.start_cooldown' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'utilities-deathloc.death_loc' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'utilities-deathloc.death_skip' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'utilities-deathloc.has_loc_money' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'utilities-deathloc.has_skip_money' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'utilities-deathloc.got_location' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'utilities-deathloc.active' loaded
+[05.10.2019 22:24:38] DEBUG:   Condition 'utilities-deathloc.cooldown' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'utilities-deathloc.death_loc_listener' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'utilities-deathloc.death_skip_listener' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'utilities-deathloc.location' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'utilities-deathloc.cooldown' loaded
+[05.10.2019 22:24:38] DEBUG: Loading death conversation from utilities-deathloc package
+[05.10.2019 22:24:38] DEBUG: Variable utilities-deathloc-%objective.location.location.y% loaded
+[05.10.2019 22:24:38] DEBUG: Conversation loaded: 13 NPC options and 8 player options
+[05.10.2019 22:24:38] DEBUG: Everything in package utilities-deathloc loaded
+[05.10.2019 22:24:38] DEBUG: Loading stuff in package dailys-farmer
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-farmer.job1' loaded
+[05.10.2019 22:24:38] DEBUG:   Event 'dailys-farmer.job1_end' loaded
+[05.10.2019 22:24:38] DEBUG:   Objective 'dailys-farmer.job1' loaded
+[05.10.2019 22:24:38] DEBUG: Loading farmer conversation from dailys-farmer package
+[05.10.2019 22:24:38] ERROR: Error in 'dailys-farmer.farmer' conversation: Player option start_yes points to accept NPC option, but it does not exist
+[05.10.2019 22:24:38] DEBUG: Everything in package dailys-farmer loaded
+[05.10.2019 22:24:38] BROAD: There are 206 conditions, 402 events, 76 objectives and 11 conversations loaded from 9 packages.
+[05.10.2019 22:24:38] DEBUG: Updating journal for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition utilities-water_plants.quest_active for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-trash.trash_active for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-fisher.jobActive for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_1 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_2 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_3 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_4 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_5 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_6 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_7 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_8 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_9 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_10 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_11 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_12 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_13 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_14 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_15 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_16 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_17 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_18 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_19 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_20 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_fish for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.ingredients_left for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_1 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_2 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_3 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_4 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_5 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_6 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_7 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_8 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_9 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_10 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_11 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_12 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_13 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_14 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_15 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_16 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_17 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_18 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_19 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_20 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.tag_ingredient_fish for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-alchemist.ingredients_left for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition dailys-smith.get_ores for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition weekly-holywater.get_holywater for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition weekly-holywater.tag_material1 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition weekly-holywater.tag_material2 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition weekly-holywater.tag_material3 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition weekly-holywater.tag_material4 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition weekly-holywater.tag_material5 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition weekly-holywater.tag_material6 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition weekly-holywater.tag_material7 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition weekly-holywater.tag_material8 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition weekly-holywater.tag_material9 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition weekly-holywater.tag_material10 for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition weekly-holywater.has_selection for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition utilities-deathloc.death_loc for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition utilities-deathloc.death_skip for player KingJulian13
+[05.10.2019 22:24:38] DEBUG: FALSE:  condition utilities-deathloc.active for player KingJulian13

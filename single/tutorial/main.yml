@@ -1,35 +1,39 @@
-
 npcs:
-  '1': tutorial_NPC
-  '2': mayor_Steinhoff
-  '3': digger_Oliver
-  '4': miner_Gernod
-  '5': hotel_Lydia
-  '6': metro_Vladimir
-
-tag_point_prefix: 'false'
+  '18': tutorial_NPC
+  '19': mayor_Steinhoff
+  '20': digger_Oliver
+  '21': miner_Gernod
+  '22': hotel_Lydia
+  '23': metro_Vladimir
 
 cancel: ()
 
 variables:
-  world: 'Games'
+  world: 'world'
 
   # Digger Quest
-  pitLocation: '56;56;178;$world$'
+  pitLocation: '-8;64;-62;$world$'
   pitRadius: '10'
 
-  dirt_amount: '5'
+  dirt_amount: '3'
   sand_amount: '3'
   gravel_amount: '3'
 
   # Miner Quest
-  quarryLocation: '56;56;189;$world$'
+  quarryLocation: '-8;64;-73;$world$'
   quarryRadius: '10'
 
   stone_amount: '3'
   diorite_amount: '3'
 
+  # Rewqards
   digger_reward: '25'
   miner_reward: '25'
   hotel_discount: '10'
   finish_reward: '100'
+
+journal_main_page:
+  greeting:
+    priority: 10
+    text: 'Tutorial'
+    conditions: 'isInTutorial'

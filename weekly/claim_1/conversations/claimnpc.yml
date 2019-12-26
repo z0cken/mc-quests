@@ -22,13 +22,13 @@ NPC_options:
     text: 'Leider habe ich aktuell keine weiteren Aufgaben.'
     pointer: 'claim_restart,bye'
   'claim1_text':
-    text: 'Super. Ich schaue kurz nach was wir brauchen und schreibe es in ihr Tagebuch (/j)'
+    text: 'Super. Ich schaue kurz nach was wir brauchen und schreibe es in ihr Tagebuch. (/j)'
     pointer: 'ok'
   'claim2_text':
-    text: 'AUFGABE'
+    text: 'Sehr gut. Ich habe alle Aufgaben in ihr Tagebuch geschrieben. (/j)'
     pointer: 'ok'
   'claim3_text':
-    text: 'AUFGABE'
+    text: 'Vielen Dank! Ich habe alle Monster in ihr Tagebuch geschrieben. (/j)'
     pointer: 'ok'
   'bye':
     text: 'Alles klar, dann noch einen schönen Tag.'

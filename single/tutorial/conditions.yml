@@ -10,8 +10,8 @@ isTutorialFinished: 'tag isTutorialFinished'
 isTutorialNPCFinished: 'tag isTutorialNPCFinished'
 isMayorFinished: 'tag isMayorFinished'
 isDiggerFinished: 'tag isDiggerFinished'
-isHotelFinished: 'tag isHotelFinished'
 isMinerFinished: 'tag isMinerFinished'
+isHotelFinished: 'tag isHotelFinished'
 isMetroFinished: 'tag isMetroFinished'
 
 # ============================================================================================ #

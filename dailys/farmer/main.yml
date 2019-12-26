@@ -19,7 +19,7 @@ variables:
 
 npcs:
   'Manfred': farmer
-  '16': farmer
+  '352': farmer
 cancel:
   farmer:
     name: 'Farmen üben'

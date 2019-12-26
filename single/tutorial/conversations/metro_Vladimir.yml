@@ -48,22 +48,24 @@ NPC_options:
     text: 'In der Tat. Bist du einmal in die Metro gegangen, so musst du auch selbstständig wieder heraus. /home und /spawn funktionieren da unten nicht.
       Aber nun gut.. genug der Schauergeschichten und keine Sorge, niemand verlangt von dir in die Metro zu gehen. Erst recht nicht direkt am Anfang.\n
       Möchtest du mal hier rein, frag andere Spieler oder bereite dich gut vor.'
-    pointer: 'PA_boni, PA_tut_continue'
+    pointer: 'PA_boni,PA_tut_continue'
 
   'NA_tut_continue':
     text: 'Es sind keine Geschichten, aber es war mir eine freude. Gelegentlich kann ich dir übrigens ein wenig Hilfe für die Metro anbieten.\n
       Geh als nächstes wieder zum Bürgermeister, sobald du dich beruhigt hast.'
-    events: 'tt_add_gotoMayor, addProgress_metro'
+    events: 'tt_add_gotoMayor,addProgress_metro'
     
 # === NPC Default Conversation === #
   'NA_def_start':
     text: 'Hallo! Bereit in den Kampf zu ziehen?'
     pointer: 'PA_boni,PA_metroHelp,PA_betterNot'
 
+  # TODO
   'NA_boni':
     text: 'Ich denke, es wäre zuviel es dir hier zu erklären. Die informationen dazu findest du im Serverkonzept unter dem Punkt Metro - Boni/Mali'
     pointer: 'PA_tut_continue,PA_end'
 
+  # TODO
   'NA_metroHelp':
     text: 'Ich denke schon, lass mich nachsehen.'
     conditions: ''

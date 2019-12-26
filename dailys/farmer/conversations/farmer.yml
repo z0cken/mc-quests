@@ -79,7 +79,7 @@ NPC_options:
     conditions: 'job7_running'
     pointer: 'ok,stop_quest'
   'start_end':
-    text: 'Glückwunsch! Du hast alle Aufgaben geschafft. Möchtest du als Belohnung einen Dekokopf oder ein Pferd?'
+    text: 'Glückwunsch! Du hast alle Aufgaben geschafft. Möchtest du als Belohnung eine dekorative Uhr die ich übrig habe oder ein Pferd?'
     conditions: 'job7'
     events: 'del_job_done'
     pointer: 'money,head'
@@ -89,7 +89,7 @@ NPC_options:
     text: 'Hier dein geiler Gaul. Bitteschön.'
     events: 'money7,reset_quest'
   'head_give':
-    text: 'Gute Wahl! Halte ihn in Ehren.'
+    text: 'Gute Wahl! Halte die Uhr in Ehren.'
     events: 'head,reset_quest'
   'stop_ask':
     text: 'Bist du dir sicher? Danach musst du wieder von vorne anfangen.'

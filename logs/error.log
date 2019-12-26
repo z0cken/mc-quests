@@ -1,0 +1,432 @@
+[05.10.2019 22:19:45] ERROR: Condition type nujobs_joblevel is not registered, check if it's spelled correctly in 'dailys-farmer.low_level' condition.
+[05.10.2019 22:19:45] ERROR: Condition type nujobs_hasjob is not registered, check if it's spelled correctly in 'dailys-farmer.has_job' condition.
+[05.10.2019 22:19:45] ERROR: There was some error. Please send it to the developer: <coosheck@gmail.com>
+[05.10.2019 22:24:38] ERROR: Error in 'dailys-farmer.farmer' conversation: Player option start_yes points to accept NPC option, but it does not exist
+[06.10.2019 15:46:49] ERROR: Variable payout1 not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Error in 'dailys-farmer.money1' event (money): Could not parse money amount
+[06.10.2019 15:46:49] ERROR: Variable payout2 not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Error in 'dailys-farmer.money2' event (money): Could not parse money amount
+[06.10.2019 15:46:49] ERROR: Variable payout3 not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Error in 'dailys-farmer.money3' event (money): Could not parse money amount
+[06.10.2019 15:46:49] ERROR: Variable payout4 not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Error in 'dailys-farmer.money4' event (money): Could not parse money amount
+[06.10.2019 15:46:49] ERROR: Variable payout5 not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Error in 'dailys-farmer.money5' event (money): Could not parse money amount
+[06.10.2019 15:46:49] ERROR: Variable payout6 not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Error in 'dailys-farmer.money6' event (money): Could not parse money amount
+[06.10.2019 15:46:49] ERROR: Variable payout7 not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Error in 'dailys-farmer.money7' event (money): Could not parse money amount
+[06.10.2019 15:46:49] ERROR: Variable amount1 not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Variable timer not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Variable timer not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Variable amount1 not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Variable amount2 not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Variable timer not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Variable amount2 not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Variable amount3 not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Variable timer not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Variable amount3 not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Variable amount4 not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Variable timer not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Variable amount4 not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Variable amount5 not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Variable timer not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Variable amount5 not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Variable amount6 not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Variable timer not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Variable amount6 not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Variable amount7 not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Variable timer not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Variable amount7 not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Variable amount1 not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Variable amount2 not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Variable amount3 not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Variable amount4 not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Variable amount5 not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Variable amount6 not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Variable amount7 not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Variable amount1 not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Error in 'dailys-farmer.job1' objective (block): Error while parsing 2 argument: Could not parse a number: -$amount1$
+[06.10.2019 15:46:49] ERROR: Variable amount2 not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Error in 'dailys-farmer.job2' objective (block): Error while parsing 2 argument: Could not parse a number: -$amount2$
+[06.10.2019 15:46:49] ERROR: Variable amount3 not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Error in 'dailys-farmer.job3' objective (breed): Error while parsing 2 argument: Could not parse a number: $amount3$
+[06.10.2019 15:46:49] ERROR: Variable amount4 not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Error in 'dailys-farmer.job4' objective (block): Error while parsing 2 argument: Could not parse a number: -$amount4$
+[06.10.2019 15:46:49] ERROR: Variable amount5 not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Error in 'dailys-farmer.job5' objective (shear): Error while parsing 1 argument: Could not parse a number: $amount5$
+[06.10.2019 15:46:49] ERROR: Variable amount6 not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Error in 'dailys-farmer.job6' objective (block): Error while parsing 2 argument: Could not parse a number: -$amount6$
+[06.10.2019 15:46:49] ERROR: Variable amount7 not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Error in 'dailys-farmer.job7' objective (mobkill): Error while parsing 2 argument: Could not parse a number: $amount7$
+[06.10.2019 15:46:49] ERROR: Variable timer not defined in package dailys-farmer
+[06.10.2019 15:46:49] ERROR: Error in 'dailys-farmer.timer' objective (delay): Error while parsing 1 argument: Could not parse decimal value: $timer$
+[06.10.2019 15:46:49] ERROR: Error in 'dailys-farmer.farmer' conversation: Quester's name is not defined
+[06.10.2019 15:47:11] ERROR: Variable payout1 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Error in 'dailys-farmer.money1' event (money): Could not parse money amount
+[06.10.2019 15:47:11] ERROR: Variable payout2 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Error in 'dailys-farmer.money2' event (money): Could not parse money amount
+[06.10.2019 15:47:11] ERROR: Variable payout3 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Error in 'dailys-farmer.money3' event (money): Could not parse money amount
+[06.10.2019 15:47:11] ERROR: Variable payout4 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Error in 'dailys-farmer.money4' event (money): Could not parse money amount
+[06.10.2019 15:47:11] ERROR: Variable payout5 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Error in 'dailys-farmer.money5' event (money): Could not parse money amount
+[06.10.2019 15:47:11] ERROR: Variable payout6 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Error in 'dailys-farmer.money6' event (money): Could not parse money amount
+[06.10.2019 15:47:11] ERROR: Variable payout7 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Error in 'dailys-farmer.money7' event (money): Could not parse money amount
+[06.10.2019 15:47:11] ERROR: Variable amount1 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable timer not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable timer not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable amount1 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable amount2 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable timer not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable amount2 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable amount3 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable timer not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable amount3 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable amount4 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable timer not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable amount4 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable amount5 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable timer not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable amount5 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable amount6 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable timer not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable amount6 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable amount7 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable timer not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable amount7 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable amount1 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable amount2 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable amount3 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable amount4 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable amount5 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable amount6 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable amount7 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable amount1 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Error in 'dailys-farmer.job1' objective (block): Error while parsing 2 argument: Could not parse a number: -$amount1$
+[06.10.2019 15:47:11] ERROR: Variable amount2 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Error in 'dailys-farmer.job2' objective (block): Error while parsing 2 argument: Could not parse a number: -$amount2$
+[06.10.2019 15:47:11] ERROR: Variable amount3 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Error in 'dailys-farmer.job3' objective (breed): Error while parsing 2 argument: Could not parse a number: $amount3$
+[06.10.2019 15:47:11] ERROR: Variable amount4 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Error in 'dailys-farmer.job4' objective (block): Error while parsing 2 argument: Could not parse a number: -$amount4$
+[06.10.2019 15:47:11] ERROR: Variable amount5 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Error in 'dailys-farmer.job5' objective (shear): Error while parsing 1 argument: Could not parse a number: $amount5$
+[06.10.2019 15:47:11] ERROR: Variable amount6 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Error in 'dailys-farmer.job6' objective (block): Error while parsing 2 argument: Could not parse a number: -$amount6$
+[06.10.2019 15:47:11] ERROR: Variable amount7 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Error in 'dailys-farmer.job7' objective (mobkill): Error while parsing 2 argument: Could not parse a number: $amount7$
+[06.10.2019 15:47:11] ERROR: Variable timer not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Error in 'dailys-farmer.timer' objective (delay): Error while parsing 1 argument: Could not parse decimal value: $timer$
+[06.10.2019 15:47:11] ERROR: Variable amount1 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable amount1 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable timer not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable amount2 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable amount2 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable amount3 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable amount3 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable amount4 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable amount4 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable amount5 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable amount5 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable amount6 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable amount6 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable amount7 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable amount7 not defined in package dailys-farmer
+[06.10.2019 15:47:11] ERROR: Variable payout7 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable payout1 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Error in 'dailys-farmer.money1' event (money): Could not parse money amount
+[06.10.2019 15:47:51] ERROR: Variable payout2 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Error in 'dailys-farmer.money2' event (money): Could not parse money amount
+[06.10.2019 15:47:51] ERROR: Variable payout3 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Error in 'dailys-farmer.money3' event (money): Could not parse money amount
+[06.10.2019 15:47:51] ERROR: Variable payout4 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Error in 'dailys-farmer.money4' event (money): Could not parse money amount
+[06.10.2019 15:47:51] ERROR: Variable payout5 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Error in 'dailys-farmer.money5' event (money): Could not parse money amount
+[06.10.2019 15:47:51] ERROR: Variable payout6 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Error in 'dailys-farmer.money6' event (money): Could not parse money amount
+[06.10.2019 15:47:51] ERROR: Variable payout7 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Error in 'dailys-farmer.money7' event (money): Could not parse money amount
+[06.10.2019 15:47:51] ERROR: Variable amount1 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable timer not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable timer not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable amount1 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable amount2 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable timer not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable amount2 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable amount3 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable timer not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable amount3 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable amount4 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable timer not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable amount4 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable amount5 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable timer not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable amount5 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable amount6 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable timer not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable amount6 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable amount7 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable timer not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable amount7 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable amount1 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable amount2 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable amount3 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable amount4 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable amount5 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable amount6 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable amount7 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable amount1 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Error in 'dailys-farmer.job1' objective (block): Error while parsing 2 argument: Could not parse a number: -$amount1$
+[06.10.2019 15:47:51] ERROR: Variable amount2 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Error in 'dailys-farmer.job2' objective (block): Error while parsing 2 argument: Could not parse a number: -$amount2$
+[06.10.2019 15:47:51] ERROR: Variable amount3 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Error in 'dailys-farmer.job3' objective (breed): Error while parsing 2 argument: Could not parse a number: $amount3$
+[06.10.2019 15:47:51] ERROR: Variable amount4 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Error in 'dailys-farmer.job4' objective (block): Error while parsing 2 argument: Could not parse a number: -$amount4$
+[06.10.2019 15:47:51] ERROR: Variable amount5 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Error in 'dailys-farmer.job5' objective (shear): Error while parsing 1 argument: Could not parse a number: $amount5$
+[06.10.2019 15:47:51] ERROR: Variable amount6 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Error in 'dailys-farmer.job6' objective (block): Error while parsing 2 argument: Could not parse a number: -$amount6$
+[06.10.2019 15:47:51] ERROR: Variable amount7 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Error in 'dailys-farmer.job7' objective (mobkill): Error while parsing 2 argument: Could not parse a number: $amount7$
+[06.10.2019 15:47:51] ERROR: Variable timer not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Error in 'dailys-farmer.timer' objective (delay): Error while parsing 1 argument: Could not parse decimal value: $timer$
+[06.10.2019 15:47:51] ERROR: Variable amount1 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable amount1 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable timer not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable amount2 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable amount2 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable amount3 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable amount3 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable amount4 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable amount4 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable amount5 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable amount5 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable amount6 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable amount6 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable amount7 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable amount7 not defined in package dailys-farmer
+[06.10.2019 15:47:51] ERROR: Variable payout7 not defined in package dailys-farmer
+[06.10.2019 15:48:22] ERROR: Could not load 'dailys-farmer.farmer' quest canceler: Error while parsing quest canceler events: ID is null
+[06.10.2019 15:55:20] ERROR: No defined journal entry job1_done in package dailys-farmer
+[06.10.2019 15:55:31] ERROR: No defined journal entry job1_done in package dailys-farmer
+[06.10.2019 15:58:12] ERROR: No defined journal entry job1_done in package dailys-farmer
+[06.10.2019 15:58:19] ERROR: No defined journal entry job1_done in package dailys-farmer
+[06.10.2019 16:43:10] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 16:43:10] ERROR: Error in 'dailys-farmer.money1' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 16:43:10] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 16:43:10] ERROR: Error in 'dailys-farmer.money2' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 16:43:10] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 16:43:10] ERROR: Error in 'dailys-farmer.money3' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 16:43:10] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 16:43:10] ERROR: Error in 'dailys-farmer.money4' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 16:43:10] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 16:43:10] ERROR: Error in 'dailys-farmer.money5' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 16:43:10] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 16:43:10] ERROR: Error in 'dailys-farmer.money6' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 16:43:10] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 16:43:10] ERROR: Error in 'dailys-farmer.money7' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 16:43:10] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 16:58:47] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 16:58:47] ERROR: Error in 'dailys-farmer.money1' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 16:58:47] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 16:58:47] ERROR: Error in 'dailys-farmer.money2' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 16:58:47] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 16:58:47] ERROR: Error in 'dailys-farmer.money3' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 16:58:47] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 16:58:47] ERROR: Error in 'dailys-farmer.money4' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 16:58:47] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 16:58:47] ERROR: Error in 'dailys-farmer.money5' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 16:58:47] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 16:58:47] ERROR: Error in 'dailys-farmer.money6' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 16:58:47] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 16:58:47] ERROR: Error in 'dailys-farmer.money7' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 16:58:47] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:00:22] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:00:22] ERROR: Error in 'dailys-farmer.money1' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 17:00:22] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:00:22] ERROR: Error in 'dailys-farmer.money2' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 17:00:22] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:00:22] ERROR: Error in 'dailys-farmer.money3' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 17:00:22] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:00:22] ERROR: Error in 'dailys-farmer.money4' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 17:00:22] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:00:22] ERROR: Error in 'dailys-farmer.money5' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 17:00:22] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:00:22] ERROR: Error in 'dailys-farmer.money6' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 17:00:22] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:00:22] ERROR: Error in 'dailys-farmer.money7' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 17:00:22] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:04:20] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:04:20] ERROR: Error in 'dailys-farmer.money1' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 17:04:20] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:04:20] ERROR: Error in 'dailys-farmer.money2' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 17:04:20] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:04:20] ERROR: Error in 'dailys-farmer.money3' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 17:04:20] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:04:20] ERROR: Error in 'dailys-farmer.money4' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 17:04:20] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:04:20] ERROR: Error in 'dailys-farmer.money5' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 17:04:20] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:04:20] ERROR: Error in 'dailys-farmer.money6' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 17:04:20] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:04:20] ERROR: Error in 'dailys-farmer.money7' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 17:04:20] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:04:20] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:04:20] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:04:20] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:04:20] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:04:20] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:04:20] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:05:05] ERROR: Event dailys-farmer.money5 is not defined
+[06.10.2019 17:06:09] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:06:09] ERROR: Error in 'dailys-farmer.money1' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 17:06:09] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:06:09] ERROR: Error in 'dailys-farmer.money2' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 17:06:09] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:06:09] ERROR: Error in 'dailys-farmer.money3' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 17:06:09] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:06:09] ERROR: Error in 'dailys-farmer.money4' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 17:06:09] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:06:09] ERROR: Error in 'dailys-farmer.money5' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 17:06:09] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:06:09] ERROR: Error in 'dailys-farmer.money6' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 17:06:09] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:06:09] ERROR: Error in 'dailys-farmer.money7' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 17:06:09] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:06:09] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:06:09] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:06:09] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:06:09] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:06:09] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:06:09] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:06:12] ERROR: Event dailys-farmer.money6 is not defined
+[06.10.2019 17:08:14] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:08:14] ERROR: Error in 'dailys-farmer.money1' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 17:08:14] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:08:14] ERROR: Error in 'dailys-farmer.money2' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 17:08:14] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:08:14] ERROR: Error in 'dailys-farmer.money3' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 17:08:14] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:08:14] ERROR: Error in 'dailys-farmer.money4' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 17:08:14] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:08:14] ERROR: Error in 'dailys-farmer.money5' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 17:08:14] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:08:14] ERROR: Error in 'dailys-farmer.money6' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 17:08:14] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:08:14] ERROR: Error in 'dailys-farmer.money7' event (run): Error in internal event: Could not parse money amount
+[06.10.2019 17:08:14] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:08:14] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:08:14] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:08:14] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:08:14] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:08:14] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:08:14] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:09:31] ERROR: Event dailys-farmer.money7 is not defined
+[06.10.2019 17:10:05] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:10:05] ERROR: Event dailys-farmer.money1 is not defined
+[06.10.2019 17:10:10] ERROR: Variable 7 not defined in package dailys-farmer
+[06.10.2019 17:10:10] ERROR: Event dailys-farmer.money1 is not defined
+[16.10.2019 21:02:22] ERROR: Event utilities-discs.del_cooldown is not defined
+[16.10.2019 21:02:26] ERROR: Event utilities-discs.del_cooldown is not defined
+[16.10.2019 21:02:29] ERROR: Event utilities-discs.del_cooldown is not defined
+[16.10.2019 21:02:59] ERROR: Event utilities-discs.del_cooldown is not defined
+[16.10.2019 21:03:00] ERROR: Event utilities-discs.del_cooldown is not defined
+[16.10.2019 21:03:47] ERROR: Event utilities-discs.del_cooldown is not defined
+[19.10.2019 14:25:26] ERROR: Event type tad is not registered, check if it's spelled correctly in 'dailys-fishmeal.add_timeout' event.
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.cod1' event (run): Error in internal event: Error while parsing 2 argument: Error while loading objective: Objective 'dailys-fishmeal.cod1' is not defined
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.cod2' event (run): Error in internal event: Error while parsing 2 argument: Error while loading objective: Objective 'dailys-fishmeal.cod2' is not defined
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.cod3' event (run): Error in internal event: Error while parsing 2 argument: Error while loading objective: Objective 'dailys-fishmeal.cod3' is not defined
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.salmon1' event (run): Error in internal event: Error while parsing 2 argument: Error while loading objective: Objective 'dailys-fishmeal.salmon1' is not defined
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.salmon2' event (run): Error in internal event: Error while parsing 2 argument: Error while loading objective: Objective 'dailys-fishmeal.salmon2' is not defined
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.salmon3' event (run): Error in internal event: Error while parsing 2 argument: Error while loading objective: Objective 'dailys-fishmeal.salmon3' is not defined
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.puffer1' event (run): Error in internal event: Error while parsing 2 argument: Error while loading objective: Objective 'dailys-fishmeal.puffer1' is not defined
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.puffer2' event (run): Error in internal event: Error while parsing 2 argument: Error while loading objective: Objective 'dailys-fishmeal.puffer2' is not defined
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.puffer3' event (run): Error in internal event: Error while parsing 2 argument: Error while loading objective: Objective 'dailys-fishmeal.puffer3' is not defined
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.tropical1' event (run): Error in internal event: Error while parsing 2 argument: Error while loading objective: Objective 'dailys-fishmeal.tropical1' is not defined
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.tropical2' event (run): Error in internal event: Error while parsing 2 argument: Error while loading objective: Objective 'dailys-fishmeal.tropical2' is not defined
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.tropical3' event (run): Error in internal event: Error while parsing 2 argument: Error while loading objective: Objective 'dailys-fishmeal.tropical3' is not defined
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.cod_finish' event (journal): Error while parsing event conditions: Condition 'dailys-fishmeal.quest_running' is not defined
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.salmon_finish' event (journal): Error while parsing event conditions: Condition 'dailys-fishmeal.quest_running' is not defined
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.puffer_finish' event (journal): Error while parsing event conditions: Condition 'dailys-fishmeal.quest_running' is not defined
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.tropical_finish' event (journal): Error while parsing event conditions: Condition 'dailys-fishmeal.quest_running' is not defined
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.obj_cod1' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'dailys-fishmeal.cod1' is not defined
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.obj_cod2' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'dailys-fishmeal.cod2' is not defined
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.obj_cod3' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'dailys-fishmeal.cod3' is not defined
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.obj_salmon1' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'dailys-fishmeal.salmon1' is not defined
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.obj_salmon2' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'dailys-fishmeal.salmon2' is not defined
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.obj_salmon3' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'dailys-fishmeal.salmon3' is not defined
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.obj_puffer1' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'dailys-fishmeal.puffer1' is not defined
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.obj_puffer2' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'dailys-fishmeal.puffer2' is not defined
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.obj_puffer3' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'dailys-fishmeal.puffer3' is not defined
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.obj_tropical1' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'dailys-fishmeal.tropical1' is not defined
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.obj_tropical2' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'dailys-fishmeal.tropical2' is not defined
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.obj_tropical3' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'dailys-fishmeal.tropical3' is not defined
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.obj_cod1' objective (fish): Error while parsing 2 argument: Could not parse a number: cod1
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.obj_cod2' objective (fish): Error while parsing 2 argument: Could not parse a number: cod2
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.obj_cod3' objective (fish): Error while parsing 2 argument: Could not parse a number: cod3
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.obj_salmon1' objective (fish): Error while parsing 2 argument: Could not parse a number: salmon1
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.obj_salmon2' objective (fish): Error while parsing 2 argument: Could not parse a number: salmon2
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.obj_salmon3' objective (fish): Error while parsing 2 argument: Could not parse a number: salmon3
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.obj_puffer1' objective (fish): Error while parsing 2 argument: Could not parse a number: puffer1
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.obj_puffer2' objective (fish): Error while parsing 2 argument: Could not parse a number: puffer2
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.obj_puffer3' objective (fish): Error while parsing 2 argument: Could not parse a number: puffer3
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.obj_tropical1' objective (fish): Error while parsing 2 argument: Could not parse a number: tropical1
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.obj_tropical2' objective (fish): Error while parsing 2 argument: Could not parse a number: tropical2
+[19.10.2019 14:25:26] ERROR: Error in 'dailys-fishmeal.obj_tropical3' objective (fish): Error while parsing 2 argument: Could not parse a number: tropical3
+[19.10.2019 14:26:17] ERROR: Event type tad is not registered, check if it's spelled correctly in 'dailys-fishmeal.add_timeout' event.
+[19.10.2019 14:26:17] ERROR: Error in 'dailys-fishmeal.cod_finish' event (journal): Error while parsing event conditions: Condition 'dailys-fishmeal.quest_running' is not defined
+[19.10.2019 14:26:17] ERROR: Error in 'dailys-fishmeal.salmon_finish' event (journal): Error while parsing event conditions: Condition 'dailys-fishmeal.quest_running' is not defined
+[19.10.2019 14:26:17] ERROR: Error in 'dailys-fishmeal.puffer_finish' event (journal): Error while parsing event conditions: Condition 'dailys-fishmeal.quest_running' is not defined
+[19.10.2019 14:26:17] ERROR: Error in 'dailys-fishmeal.tropical_finish' event (journal): Error while parsing event conditions: Condition 'dailys-fishmeal.quest_running' is not defined
+[19.10.2019 14:26:17] ERROR: Error in 'dailys-fishmeal.obj_cod1' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'dailys-fishmeal.cod1' is not defined
+[19.10.2019 14:26:17] ERROR: Error in 'dailys-fishmeal.obj_cod2' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'dailys-fishmeal.cod2' is not defined
+[19.10.2019 14:26:17] ERROR: Error in 'dailys-fishmeal.obj_cod3' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'dailys-fishmeal.cod3' is not defined
+[19.10.2019 14:26:17] ERROR: Error in 'dailys-fishmeal.obj_salmon1' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'dailys-fishmeal.salmon1' is not defined
+[19.10.2019 14:26:17] ERROR: Error in 'dailys-fishmeal.obj_salmon2' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'dailys-fishmeal.salmon2' is not defined
+[19.10.2019 14:26:17] ERROR: Error in 'dailys-fishmeal.obj_salmon3' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'dailys-fishmeal.salmon3' is not defined
+[19.10.2019 14:26:17] ERROR: Error in 'dailys-fishmeal.obj_puffer1' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'dailys-fishmeal.puffer1' is not defined
+[19.10.2019 14:26:17] ERROR: Error in 'dailys-fishmeal.obj_puffer2' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'dailys-fishmeal.puffer2' is not defined
+[19.10.2019 14:26:17] ERROR: Error in 'dailys-fishmeal.obj_puffer3' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'dailys-fishmeal.puffer3' is not defined
+[19.10.2019 14:26:17] ERROR: Error in 'dailys-fishmeal.obj_tropical1' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'dailys-fishmeal.tropical1' is not defined
+[19.10.2019 14:26:17] ERROR: Error in 'dailys-fishmeal.obj_tropical2' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'dailys-fishmeal.tropical2' is not defined
+[19.10.2019 14:26:17] ERROR: Error in 'dailys-fishmeal.obj_tropical3' condition (objective): Error while parsing 1 argument: Error while loading objective: Objective 'dailys-fishmeal.tropical3' is not defined
+[19.10.2019 14:26:17] ERROR: Error in 'dailys-fishmeal.obj_cod1' objective (fish): Error while parsing 2 argument: Could not parse a number: cod1
+[19.10.2019 14:26:17] ERROR: Error in 'dailys-fishmeal.obj_cod2' objective (fish): Error while parsing 2 argument: Could not parse a number: cod2
+[19.10.2019 14:26:17] ERROR: Error in 'dailys-fishmeal.obj_cod3' objective (fish): Error while parsing 2 argument: Could not parse a number: cod3
+[19.10.2019 14:26:17] ERROR: Error in 'dailys-fishmeal.obj_salmon1' objective (fish): Error while parsing 2 argument: Could not parse a number: salmon1
+[19.10.2019 14:26:17] ERROR: Error in 'dailys-fishmeal.obj_salmon2' objective (fish): Error while parsing 2 argument: Could not parse a number: salmon2
+[19.10.2019 14:26:17] ERROR: Error in 'dailys-fishmeal.obj_salmon3' objective (fish): Error while parsing 2 argument: Could not parse a number: salmon3
+[19.10.2019 14:26:17] ERROR: Error in 'dailys-fishmeal.obj_puffer1' objective (fish): Error while parsing 2 argument: Could not parse a number: puffer1
+[19.10.2019 14:26:17] ERROR: Error in 'dailys-fishmeal.obj_puffer2' objective (fish): Error while parsing 2 argument: Could not parse a number: puffer2
+[19.10.2019 14:26:17] ERROR: Error in 'dailys-fishmeal.obj_puffer3' objective (fish): Error while parsing 2 argument: Could not parse a number: puffer3
+[19.10.2019 14:26:17] ERROR: Error in 'dailys-fishmeal.obj_tropical1' objective (fish): Error while parsing 2 argument: Could not parse a number: tropical1
+[19.10.2019 14:26:17] ERROR: Error in 'dailys-fishmeal.obj_tropical2' objective (fish): Error while parsing 2 argument: Could not parse a number: tropical2
+[19.10.2019 14:26:17] ERROR: Error in 'dailys-fishmeal.obj_tropical3' objective (fish): Error while parsing 2 argument: Could not parse a number: tropical3
+[19.10.2019 14:27:46] ERROR: Error in 'dailys-fishmeal.obj_cod1' objective (fish): Error while parsing 2 argument: Could not parse a number: cod1
+[19.10.2019 14:27:46] ERROR: Error in 'dailys-fishmeal.obj_cod2' objective (fish): Error while parsing 2 argument: Could not parse a number: cod2
+[19.10.2019 14:27:46] ERROR: Error in 'dailys-fishmeal.obj_cod3' objective (fish): Error while parsing 2 argument: Could not parse a number: cod3
+[19.10.2019 14:27:46] ERROR: Error in 'dailys-fishmeal.obj_salmon1' objective (fish): Error while parsing 2 argument: Could not parse a number: salmon1
+[19.10.2019 14:27:46] ERROR: Error in 'dailys-fishmeal.obj_salmon2' objective (fish): Error while parsing 2 argument: Could not parse a number: salmon2
+[19.10.2019 14:27:46] ERROR: Error in 'dailys-fishmeal.obj_salmon3' objective (fish): Error while parsing 2 argument: Could not parse a number: salmon3
+[19.10.2019 14:27:46] ERROR: Error in 'dailys-fishmeal.obj_puffer1' objective (fish): Error while parsing 2 argument: Could not parse a number: puffer1
+[19.10.2019 14:27:46] ERROR: Error in 'dailys-fishmeal.obj_puffer2' objective (fish): Error while parsing 2 argument: Could not parse a number: puffer2
+[19.10.2019 14:27:46] ERROR: Error in 'dailys-fishmeal.obj_puffer3' objective (fish): Error while parsing 2 argument: Could not parse a number: puffer3
+[19.10.2019 14:27:46] ERROR: Error in 'dailys-fishmeal.obj_tropical1' objective (fish): Error while parsing 2 argument: Could not parse a number: tropical1
+[19.10.2019 14:27:46] ERROR: Error in 'dailys-fishmeal.obj_tropical2' objective (fish): Error while parsing 2 argument: Could not parse a number: tropical2
+[19.10.2019 14:27:46] ERROR: Error in 'dailys-fishmeal.obj_tropical3' objective (fish): Error while parsing 2 argument: Could not parse a number: tropical3
+[27.10.2019 11:11:00] ERROR: Error in 'single-tutorial.DQ_isPlayerInPit' condition (location): Error while parsing 1 argument: Error while parsing location: World Games does not exists.
+[27.10.2019 11:11:00] ERROR: Error in 'single-tutorial.MQ_isPlayerInQuarry' condition (location): Error while parsing 1 argument: Error while parsing location: World Games does not exists.
+[27.10.2019 11:11:00] ERROR: Error in 'single-tutorial.mayor_Steinhoff' conversation: NPC option NA_chestShopsAnswer points to NA_capitalAnswer player option, but it does not exist
+[27.10.2019 11:11:00] ERROR: Error in 'single-tutorial.digger_Oliver' conversation: Quester's name is not defined
+[27.10.2019 11:15:06] ERROR: Error in 'single-tutorial.DQ_isPlayerInPit' condition (location): Error while parsing 1 argument: Error while parsing location: World Games does not exists.
+[27.10.2019 11:15:06] ERROR: Error in 'single-tutorial.MQ_isPlayerInQuarry' condition (location): Error while parsing 1 argument: Error while parsing location: World Games does not exists.
+[27.10.2019 11:15:06] ERROR: Error in 'single-tutorial.mayor_Steinhoff' conversation: NPC option NA_chestShopsAnswer points to NA_capitalAnswer player option, but it does not exist
+[27.10.2019 11:18:46] ERROR: Error in 'single-tutorial.mayor_Steinhoff' conversation: NPC option NA_chestShopsAnswer points to NA_capitalAnswer player option, but it does not exist
+[27.10.2019 11:19:14] ERROR: Error in 'single-tutorial.mayor_Steinhoff' conversation: NPC option NA_getMoneyAnswer points to PA_chestShopsAsk player option, but it does not exist
+[27.10.2019 12:47:55] ERROR: ./op luux

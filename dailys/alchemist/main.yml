@@ -24,14 +24,15 @@ variables:
   
   
 npcs:
-  '7': alchemist
+  '350': alchemist
   'Edmund': alchemist
-  '8': alchemisthelper
+  '351': alchemisthelper
   'Oswald': alchemisthelper
 cancel:
+#TODO
   alchemist:
     name: 'Alchemist'
-    conditions: 
+    conditions: 'get_ingredients' 
     objectives: 
     tags: 
     journal: 

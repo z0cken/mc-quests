@@ -10,18 +10,22 @@ NPC_options:
   
 # Tutorial begin
   'NA_tut_start':
-    text: 'Willkommen auf dem Pr0gramm Minecraft server - ein pr0jekt von z0cken.com. \nIch würde dir gerne Hilfe anbieten, damit du dich auf dem Server besser zurecht findest. Möchtest du ein Tutorial? (Dauer: ~15 minuten)'
+    text: 'Willkommen auf dem Pr0gramm Minecraft server - ein pr0jekt von z0cken.com.\n
+      Ich würde dir gerne Hilfe anbieten, damit du dich auf dem Server besser zurecht findest. 
+      Möchtest du ein Tutorial? (Dauer: ~20 minuten)'
     conditions: '!isTutorialFinished,!isInTutorial'
     pointer: 'PA_tut_accept,PA_tut_deny'
 
   'NA_tut_inTutorial':
-    text: 'Hallo %player%, du bist noch im Tutorial. Benötigst du Hilfe dabei?'
+    text: 'Hallo %player%, du befindest dich noch im Tutorial. Benötigst du Hilfe dabei?'
     conditions: 'isInTutorial,!isTutorialFinished'
-    pointer: 'PA_tut_abort,PA_tut_restart,PA_tut_help,PA_tut_noHelp'
+    pointer: 'PA_tut_abort,PA_tut_help,PA_tut_noHelp'
 
 # Tutorial conversation
   'NA_tut_explain':
-    text: 'Die Stadt in der du dich gerade befindest ist Gambberg, die Hauptstadt des Servers. \nHier findest du das Rathaus, welches sich hinter dir befindet. \nZu deiner Rechten liegt das Portalhaus, von dem aus man weitere Städte bereisen kann.'
+    text: 'Die Stadt in der du dich gerade befindest ist Gambberg, die Hauptstadt des Servers.\n
+      Hier findest du das Rathaus, welches sich hinter dir befindet.\n
+      Zu deiner Rechten liegt das Portalhaus, von dem aus man weitere Städte bereisen kann.'
     pointer: 'PA_tut_cityHall_caseA,PA_tut_otherCities_caseA'
 
   'NA_tut_cityHallAnswer_caseA':
@@ -42,27 +46,50 @@ NPC_options:
 
 # Tutorial Running
   'NA_tut_abort':
-    text: 'Okay, dein tutorial fortschritt wurde zurückgesetzt.'
-    events: 'end_tutorial'
+    text: 'Alles klar, dein fortschritt wurde zurückgesetzt. Sprich mich wieder an, solltest du das Tutorial wieder starten wollen.'
+    events: 'clear_tutorial'
     pointer: ''
 
-  'NA_tut_restart':
-    text: 'Kein problem, fangen wir von vorne an. \n Die Stadt in der du dich gerade befindest ist Gambberg, die Hauptstadt des Servers. \nHier findest du das Rathaus, welches sich hinter dir befindet. \nZu deiner Rechten liegt das Portalhaus, von dem aus man weitere Städte bereisen kann.'
-    pointer: 'PA_tut_cityHall_caseA,PA_tut_otherCities_caseA'
+  'NA_tut_help1':
+    text: 'Du musst im moment zum Bürgermeister gehen. Er befindet sich im Rathaus (hinter dir). Ich hoffe, ich konnte dir weiterhelfen.'
+    conditions: 'isTutorialNPCFinished,!isMayorFinished'
+    pointer: ''
 
-  'NA_tut_help':
-    text: Du musst im moment zu [TUTORIAL CHARACTER] gehen. Er befindet sich [ORT / LOCATION]. Ich hoffe, ich konnte dir weiterhelfen.
+  'NA_tut_help2':
+    text: 'Du musst im moment zu Oliver gehen. Er befindet sich beim Baggersee. Wähle den Ort am besten im Kompass aus. Ich hoffe, ich konnte dir weiterhelfen.'
+    conditions: 'isMayorFinished,!isDiggerFinished'
+    pointer: ''
+
+  'NA_tut_help3':
+    text: 'Du musst im moment zu Gernod gehen. Er befindet sich am Steinbruch. Wähle den Ort am besten im Kompass aus. Du siehst außerdem in deinem Journal (/j), was du tun musst. Ich hoffe, ich konnte dir weiterhelfen.'
+    conditions: 'isDiggerFinished,!isMinerFinished'
+    pointer: ''
+
+  'NA_tut_help4':
+    text: 'Du musst im moment zum Hotel gehen und mit der Rezeption sprechen. Wähle den Ort am besten im Kompass aus. Du siehst außerdem in deinem Journal (/j), was du tun musst. Ich hoffe, ich konnte dir weiterhelfen.'
+    conditions: 'isMinerFinished,!isHotelFinished'
+    pointer: ''
+
+  'NA_tut_help5':
+    text: 'Du musst im moment zu Vladimir gehen. Er befindet sich vor der Metro in Gambberg. Wähle den Ort am besten im Kompass aus. Du siehst außerdem in deinem Journal (/j), was du tun musst. Ich hoffe, ich konnte dir weiterhelfen.'
+    conditions: 'isHotelFinished,!isMetroFinished'
+    pointer: ''
+
+  'NA_tut_help6':
+    text: 'Du musst im moment zurück zum Bürgermeister gehen. Er befindet sich im Rathaus. Ich hoffe, ich konnte dir weiterhelfen.'
+    conditions: 'isMetroFinished,!isTutorialFinished'
     pointer: ''
 
 
 # Endings
   'NA_tut_denyResponse':
-    text: 'Alles klar, dann wünsche ich dir viel Spaß auf dem Server. \nSolltest du doch mal Hilfe benötigen, stehe ich dir gerne zur Verfügung.'
+    text: 'Alles klar, dann wünsche ich dir viel Spaß auf dem Server.\n
+      Solltest du doch mal Hilfe benötigen, stehe ich dir hier gerne zur Verfügung.'
     pointer: ''
 
   'NA_tut_continueAnswer':
     text: 'Natürlich. Bitte geh in das Rathaus und sprich mit dem Bürgermeister.'
-    events: 'addProgress_tutorialNPC'
+    events: 'addProgress_tutorialNPC,tt_add_gotoCityHall'
     pointer: ''
 
   'NA_end':
@@ -82,7 +109,7 @@ player_options:
 
 # Tutorial accept/deny
   'PA_tut_accept':
-    text: 'Gerne, ich denke Hilfe könnte nicht schaden.'
+    text: 'Gerne, ich denke etwas Hilfe könnte nicht schaden.'
     events: 'start_tutorial'
     pointer: 'NA_tut_explain'
 
@@ -113,16 +140,12 @@ player_options:
 
 # Tutorial Running
   'PA_tut_abort':
-    text: 'Ich würde das Tutorial gerne abbrechen.'
+    text: 'Ich würde das Tutorial gerne abbrechen / neu starten.'
     pointer: 'NA_tut_abort'
-
-  'PA_tut_restart':
-    text: 'Ich möchte das Tutorial neu starten.'
-    pointer: 'NA_tut_restart, NA_tut_explain'
 
   'PA_tut_help':
     text: 'Ich weiß nichtmehr, wo im Tutorial ich mich befinde.'
-    pointer: 'NA_tut_help'
+    pointer: 'NA_tut_help1,NA_tut_help2,NA_tut_help3,NA_tut_help4,NA_tut_help5,NA_tut_help6'
 
   'PA_tut_noHelp':
     text: 'Nein, alles gut.'
