@@ -98,11 +98,9 @@ player_options:
 
   'get_pickaxe':
     text: 'Ich möchte eure alte Spitzhacke'
-    conditions: 'gave_items'
     pointer: 'pickaxe_reply'
   'get_money':
     text: 'Ich nehme die Diamanten'
-    conditions: 'gave_items'
     pointer: 'money_reply'
   'scam':
     text: 'Sie haben die Spitzhacke nicht bekommen.'

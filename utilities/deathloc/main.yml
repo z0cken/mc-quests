@@ -1,7 +1,7 @@
 variables:
   respawn_location: -9;65;-36;world
 npcs:
-  '9': death
+  '358': death
   'Thanatos': death
 cancel:
   trash:

@@ -24,15 +24,15 @@ NPC_options:
     conditions: '!death_loc,!death_skip,got_location'
     pointer: 'ok'
     events: 'del_got_location,del_location'
-    
+
   'help_text':
-    text: 'Ich bestimme Ort und Zeit für jeden Tod auf dieser Welt. Also kann ich auch deinen nächsten Tod bestimmen oder dir sagen, wo du gestorben bist! Aber natürlich nicht umosnst. Die Hölle ist auch knapp bei Kasse.'
+    text: 'Ich bestimme Ort und Zeit für jeden Tod auf dieser Welt. Also kann ich auch deinen nächsten Tod bestimmen oder dir sagen, wo du gestorben bist! Aber natürlich nicht umsonst. Die Hölle ist auch knapp bei Kasse.'
     pointer: 'death_loc,death_skip'
   'death_loc_ask':
-    text: 'Ich kann dir einmal die Koordinaten deines nächsten Todes sagen, sobald du gestorben bist. Das kostet dich aber 500 Schekel'
+    text: 'Ich kann dir einmal die Koordinaten deines nächsten Todes sagen, sobald du gestorben bist. Das kostet dich aber 10 Diamanten'
     pointer: 'death_loc_confirm,no'
   'death_skip_ask':
-    text: 'Ich kann deinen nächsten Tod verhindern. Er wird einfach nicht passieren. Aus Tod wird Leben. Kein Verlust, Keine Nebenwirkungen. Nur 5000 Schekel.'
+    text: 'Ich kann deinen nächsten Tod verhindern. Er wird einfach nicht passieren. Aus Tod wird Leben. Kein Verlust, Keine Nebenwirkungen. Nur 10 Emeralds.'
     pointer: 'death_skip_confirm,no'
   'bye':
     text: 'Alles klar, wir sehen uns!'
