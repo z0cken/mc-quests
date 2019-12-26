@@ -1,5 +1,5 @@
-blockQuest: delay 60 events:removeSorry
+blockQuest: delay 30 events:removeSorry
 findRoses: location $fishing_location$ $radius_find$ events:foundRoses condition:jobActive,!hasAllFish
 fishing: fish SALMON 1 conditions:atRoses events:oneFish condition:!hasAllFish
-cooldown: delay 720
+cooldown: delay 360
 fishCooldown: delay 120 events:removeNoFish
