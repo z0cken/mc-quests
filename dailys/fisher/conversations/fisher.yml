@@ -112,7 +112,7 @@ player_options:
     text: 'Ja, hier bitte, ihre 3 Lachse.'
     condition: 'jobCatched,hasAllFish'
     pointer: 'job_pay'
-    event: 'jobPay,payout,payoutMessage'
+    event: 'payout,payoutMessage'
   'catch_no':
     text: 'Nein, leider erst %item.big_salmon.amount%.'
     pointer: 'job_active'

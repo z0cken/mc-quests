@@ -15,13 +15,13 @@ startJob: 'run ^journal add job_start ^tag add jobActive ^objective start findRo
 foundRoses: 'run ^message §7§oDas dürfte die Angelstelle sein, die Tjark gemeint hat. ^objective start fishing ^journal add location_found ^journal del job_start'
 
 oneFish: 'folder changeSalmon,addObjective delay:1' #1 Fish catched. Change to Questitem [+restart objective]
-changeSalmon: 'folder doChange,doneFishing condition:hasSalmon'
+changeSalmon: 'folder doChange,doneFishing,jobPay condition:hasSalmon'
 doChange: 'run ^take salmon ^give big_salmon ^message §7§oDieser Fisch sieht besonders groß aus! ^tag add catchedFish'
 addObjective: 'objective start fishing'
 #Journal Update
 doneFishing: 'run ^message §7§oIch sollte die Fische bei Tjark abgeben ^journal add job_done condition:hasAllFish'
 
-jobPay: 'folder amount1,amount2,amount3,amount4,amount5 random:1'
+jobPay: 'folder amount1,amount2,amount3,amount4,amount5 random:1 condition:hasAllFish,pointsZero'
 amount1: 'point payout 41'
 amount2: 'point payout 49'
 amount3: 'point payout 53'

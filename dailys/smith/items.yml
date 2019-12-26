@@ -2,3 +2,4 @@ coal: COAL
 iron: IRON_INGOT
 gold: GOLD_INGOT
 diamond: DIAMOND
+emerald: EMERALD
