@@ -5,4 +5,4 @@ cow_egg: COW_SPAWN_EGG
 bee_egg: BEE_SPAWN_EGG
 wolf_egg: WOLF_SPAWN_EGG
 horse_egg: HORSE_SPAWN_EGG
-player_head: PLAYER_HEAD name:Alte_Uhr owner:NoobMinatorX
+head1: PLAYER_HEAD name:Alte_Uhr owner:NoobMinatorX

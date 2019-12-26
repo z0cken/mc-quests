@@ -30,14 +30,14 @@ sounds:
   update: 'false'
   full: 'false'
 cmd_blacklist:
-- spawn
+  - spawn
 hook:
   citizens: 'true'
   mythicmobs: 'true'
   vault: 'true'
   worldguard: 'true'
   skript: 'false'
-  mcmmo: 'false'
+  mcmmo: 'true'
   effectlib: 'false'
   playerpoints: 'false'
   heroes: 'false'
@@ -55,7 +55,7 @@ hook:
   bountifulapi: 'false'
   protocollib: 'true'
   brewery: 'false'
-  jobsreborn: 'true'
+  jobsreborn: 'false'
 journal:
   chars_per_line: '19'
   lines_per_page: '13'
@@ -78,10 +78,10 @@ conversation_colors:
   option: aqua
 date_format: dd.MM.yyyy HH:mm
 packages:
-- monthly
-- weeklys
-- dailys
-- utilities
-- single
-- default
+  - monthly
+  - weeklys
+  - dailys
+  - utilities
+  - single
+  - default
 debug: 'false'
