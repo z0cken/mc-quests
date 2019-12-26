@@ -13,7 +13,7 @@ variables:
   tropical3: 5
   cooldown: 600 #minutes
   timeout: 60 #minutes
-  payout: 50 #Item x
+  payout: 48 #Item x
 npcs:
   '17': villager
   'Bernd': villager

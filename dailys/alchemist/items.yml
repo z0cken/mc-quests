@@ -11,4 +11,4 @@ ingredient_kelp: KELP
 ingredient_sugar: SUGAR
 ingredient_nether_wart: NETHER_WART
 gunpowder: GUNPOWDER
-levitation_potion: POTION durability:0 name:§5§lLevitation_Potion lore:Enthält_Nebenwirkungen;;&2Quest_Item type:WATER effects:LEVITATION:1:3
+levitation_potion: POTION durability:0 name:§5§lLevitation_Potion lore:Enthält_Nebenwirkungen;;&2Quest_Item type:WATER effects:LEVITATION:1:10
