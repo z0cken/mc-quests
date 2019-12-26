@@ -93,7 +93,7 @@ NPC_options:
     text: 'Hier dein geiler Gaul. Bitteschön.'
     events: 'money7,reset_quest,add_cooldown,cooldown_timer'
   'head_give':
-    text: 'Gute Wahl! Halte die Uhr in Ehren.'
+    text: 'Gute Wahl! Das Ding habe ich auf dem Dachboden gefunden.'
     events: 'head,reset_quest,add_cooldown,cooldown_timer'
   'stop_ask':
     text: 'Bist du dir sicher? Danach musst du wieder von vorne anfangen.'
