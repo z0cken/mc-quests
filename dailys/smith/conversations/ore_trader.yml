@@ -31,19 +31,19 @@ NPC_options:
 
     #Trading
   'buy_offer1':
-    text: 'Wundervoll, ich biete ihnen \n - 10 Eisenerz für 100 Schekel \n - 8 Kohle für 50 Schekel \n - 4 Gold für 60 Schekel, ein wirklich gutes Angebot!'
+    text: 'Wundervoll, ich biete ihnen \n - 10 Eisenerz für 2 Emeralds \n - 8 Kohle für 1 Emerald \n - 4 Gold für 1 Emerald, ein wirklich gutes Angebot!'
     conditions: '!bought_iron,!bought_gold,!bought_coal'
     pointer: 'buy_nothing,buy_iron,buy_coal,buy_gold'
   'buy_offer2':
-    text: 'Wundervoll, ich biete ihnen \n - 8 Kohle für 50 Schekel \n - 4 Gold für 60 Schekel, ein wirklich gutes Angebot!'
+    text: 'Wundervoll, ich biete ihnen \n - 8 Kohle für 1 Emerald \n - 4 Gold für 1 Emerald, ein wirklich gutes Angebot!'
     conditions: 'bought_iron,!bought_gold,!bought_coal'
     pointer: 'buy_nothing,buy_coal,buy_gold'
   'buy_offer3':
-    text: 'Wundervoll, ich biete ihnen \n - 10 Eisenerz für 2 Emeralds \n - 8 Kohle für 50 Schekel.'
+    text: 'Wundervoll, ich biete ihnen \n - 10 Eisenerz für 2 Emeralds \n - 8 Kohle für 1 Emerald.'
     conditions: '!bought_iron,bought_gold,!bought_coal'
     pointer: 'buy_nothing,buy_iron,buy_coal'
   'buy_offer4':
-    text: 'Wundervoll, ich biete ihnen \n - 10 Eisenerz für 2 Emeralds \n - 4 Gold für 60 Schekel, ein wirklich gutes Angebot!'
+    text: 'Wundervoll, ich biete ihnen \n - 10 Eisenerz für 2 Emeralds \n - 4 Gold für 1 Emerald, ein wirklich gutes Angebot!'
     conditions: '!bought_iron,!bought_gold,bought_coal'
     pointer: 'buy_nothing,buy_iron,buy_iron'
   'buy_offer5':
