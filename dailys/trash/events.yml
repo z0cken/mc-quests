@@ -78,13 +78,12 @@ done_pos: 'folder done_static,done_message_multiple,done_message_one,done_messag
 done_neg: 'message §7§oDieser Mülleimer ist leer, suche weiter.'
 done_static: 'run ^point trash_amount 1 ^playsound entity.bat.takeoff category:BLOCKS'
 
-
 done_message_multiple: 'message §7§oDieser Mülleimer war voll. Noch %point.trash_amount.left:10% weitere. conditions:!trash_done,!message_one'
 done_message_one: 'message §7§oDieser Mülleimer war voll. Jetzt fehlt nur noch einer. conditions:!trash_done,message_one'
 done_message_none: 'run ^message §7§oDas waren 10 Eimer. Ich sollte sie bei Dieter abgeben! ^journal del trash_started ^journal add trash_done conditions:trash_done,!message_one'
 trash_reward: 'folder trash_reward_delay delay:2'
 trash_reward_delay: 'run ^give honey:3 ^message §7§oDu hast 3 Honigwaben bekommen! ^playsound entity.experience_orb.pickup category:AMBIENT'
-trash_cooldown:  'run ^point trash_amount *0 ^tag add trash_end ^tag remove trash_done ^tag remove trash_active ^objective start cooldown ^journal add trash_end ^journal del trash_done'
+trash_cooldown: 'run ^point trash_amount *0 ^tag add trash_end ^tag remove trash_done ^tag remove trash_active ^objective start cooldown ^journal del trash_done'
 
 trash_reset: 'run ^point trash_amount *0 ^tag remove trash_end'
 trash_cancel: 'cancel trash'

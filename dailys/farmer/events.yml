@@ -11,7 +11,9 @@ money5: 'run ^message §7§o$payout5$ Biene erhalten. ^give bee_egg:1'
 money6: 'run ^message §7§o$payout6$ Wolf erhalten. ^give wolf_egg:1'
 money7: 'run ^message §7§o$payout7$ Pferd erhalten. ^give horse_egg:1'
 head: 'give player_head'
-
+add_cooldown: 'tag add cooldown'
+del_cooldown: 'tag del cooldown'
+cooldown_timer: 'folder del_cooldown delay:720 minutes'
 reset_quest: 'run ^tag del job1 ^tag del job2 ^tag del job3 ^tag del job4 ^tag del job5 ^tag del job6 ^tag del job7'
 
 #Jobs iterations

@@ -1,4 +1,4 @@
-job1: 'block wheat[age=7] -$amount1$ events:job1_done,notify_job1' 
+job1: 'block wheat[age=7] -$amount1$ events:job1_done,notify_job1'
 job2: 'block carrots[age=7] -$amount2$ events:job2_done,notify_job2'
 job3: 'breed COW $amount3$ events:job3_done,notify_job3'
 job4: 'block melon -$amount4$ events:job4_done,notify_job4'

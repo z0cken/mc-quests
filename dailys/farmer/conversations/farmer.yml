@@ -1,5 +1,5 @@
 quester: 'Manfred'
-first: 'start_failed,start_end,start_wait7,start_job7,start_wait6,start_job6,start_wait5,start_job5,start_wait4,start_job4,start_wait3,start_job3,start_wait2,start_job2,start_wait1,start'
+first: 'start_cooldown,start_failed,start_end,start_wait7,start_job7,start_wait6,start_job6,start_wait5,start_job5,start_wait4,start_job4,start_wait3,start_job3,start_wait2,start_job2,start_wait1,start'
 stop: 'false'
 
 NPC_options:
@@ -8,6 +8,10 @@ NPC_options:
     conditions: 'failed'
     events: 'del_failed'
     pointer: 'start_yes,start_no'
+  'start_cooldown':
+    text: 'Du warst tüchtig. Komm morgen wieder vorbei, dann kannst du weiter Üben.'
+    conditions: 'cooldown'
+    pointer: 'ok'
   'start':
     text: 'He, du! Wir brauchen unbedingt mehr gute Farmer. Willst du lernen wie das geht?'
     conditions: ''
@@ -87,10 +91,10 @@ NPC_options:
     # Conversation
   'money_give':
     text: 'Hier dein geiler Gaul. Bitteschön.'
-    events: 'money7,reset_quest'
+    events: 'money7,reset_quest,add_cooldown,cooldown_timer'
   'head_give':
     text: 'Gute Wahl! Halte die Uhr in Ehren.'
-    events: 'head,reset_quest'
+    events: 'head,reset_quest,add_cooldown,cooldown_timer'
   'stop_ask':
     text: 'Bist du dir sicher? Danach musst du wieder von vorne anfangen.'
     pointer: 'stop_accept,stop_no'
