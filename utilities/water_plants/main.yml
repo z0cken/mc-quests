@@ -1,42 +1,43 @@
-variables: 
-  plant1: 6;108;-40;world
-  plant2: 6;108;-42;world
-  plant3: 6;108;-44;world
-  plant4: 6;108;-46;world
-  plant5: 6;108;-48;world
-  plant6: 6;108;-50;world
-  plant7: 6;108;-52;world
-  plant8: 6;108;-54;world
-  plant9: 6;108;-56;world
-  plant10: 6;108;-58;world
-  plant11: 6;108;-60;world
-  plant12: 6;108;-62;world
-  plant13: 6;108;-64;world
-  plant14: 6;108;-66;world
-  plant15: 6;108;-68;world
-  plant16: 6;108;-70;world
-  plant17: 6;108;-72;world
-  plant18: 6;108;-74;world
-  plant19: 6;108;-76;world
-  plant20: 6;108;-78;world
+variables:
+  plant1: 5122;70;-462;world
+  plant2: 5150;71;-455;world
+  plant3: 5160;73;-472;world
+  plant4: 5182;75;-459;world
+  plant5: 5177;75;-471;world
+  plant6: 5154;71;-446;world
+  plant7: 5175;75;-486;world
+  plant8: 5187;75;-474;world
+  plant9: 5197;75;-469;world
+  plant10: 5194;75;-477;world
+  plant11: 5204;75;-481;world
+  plant12: 5200;75;-493;world
+  plant13: 5197;75;-504;world
+  plant14: 5188;75;-500;world
+  plant15: 5178;75;-507;world
+  plant16: 5189;75;-516;world
+  plant17: 5174;75;-521;world
+  plant18: 5162;75;-507;world
+  plant19: 5158;75;-518;world
+  plant20: 5152;75;-528;world
+  radius: 22
   dead_plant: DEAD_BRAIN_CORAL
   normal_plant: CORNFLOWER
-  location_lake: 11;107;-43;world
+  location_lake: 5144;70;-471;world
   delay: 1 #in minutes
   cooldown: 30 #in minutes
 npcs:
   'Stephanie': gardener
-  '15': gardener
+  '359': gardener
 cancel:
   trash:
     name: 'Pflanzen gießen'
     conditions: 'quest_active'
-    objectives: 
-    tags: 
-    journal: 
-    events: 
+    objectives:
+    tags:
+    journal:
+    events:
 journal_main_page:
   greeting:
     priority: 1
-    text: "Pflanzen gießen"
+    text: 'Pflanzen gießen'
     conditions: 'quest_active'

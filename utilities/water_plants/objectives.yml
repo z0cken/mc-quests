@@ -18,5 +18,5 @@ plants_listener_17: 'action right $dead_plant$ persistent cancel loc:$plant17$ e
 plants_listener_18: 'action right $dead_plant$ persistent cancel loc:$plant18$ events:watered_plant18 conditions:holding_water_bucket'
 plants_listener_19: 'action right $dead_plant$ persistent cancel loc:$plant19$ events:watered_plant19 conditions:holding_water_bucket'
 plants_listener_20: 'action right $dead_plant$ persistent cancel loc:$plant20$ events:watered_plant20 conditions:holding_water_bucket'
-lake_listener: 'action right WATER persistent cancel loc:$location_lake$ events:gets_water range:15'
+lake_listener: 'action right WATER persistent cancel loc:$location_lake$ events:gets_water range:$radius$'
 cooldown: 'delay $cooldown$'

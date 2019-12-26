@@ -21,9 +21,9 @@ message: 'message Wasser aufgehoben'
 empty_bucket: 'folder take_water_bucket,give_bucket conditions:holding_water_bucket'
 end_quest: 'folder give_money,stop_objectives,reset_points'
 
-give_money: 'run ^message §7§o%math.calc:10*point.watered.amount% Schekel erhalten. ^money %math.calc:10*point.watered.amount%'
+give_money: 'run ^message §7§o%point.watered.amount% Eisen erhalten. ^give iron_ingot:%point.watered.amount%'
 
-item_luck: 'pickrandom 10%random_item,90%nothing'
+item_luck: 'pickrandom 15%random_item,85%nothing'
 nothing: 'tag del nothing'
 random_item: 'pickrandom 10%item1,10%item2,10%item3,10%item4,10%item5,10%item6,10%item7,10%item8,10%item9,10%item10'
 item1: 'run ^message §7§oZuckerrohr gefunden ^give item1'

@@ -139,7 +139,7 @@ player_options:
     text: 'Ich möchte das nicht mehr machen.'
     pointer: 'stop_ask'
   'money':
-    text: 'Ich nehme lieber das PFerd.'
+    text: 'Ich nehme lieber das Pferd.'
     pointer: 'money_give'
   'head':
     text: 'Ich nehme lieber den Dekokopf.'

@@ -2,7 +2,6 @@ quester: 'Stephanie'
 first: 'cooldown,start,start_during'
 stop: 'false'
 
-
 NPC_options:
   #start
   'cooldown':
@@ -30,8 +29,7 @@ NPC_options:
   'no_pay':
     text: 'Macht nichts. Trotzdem noch einen schönen Tag!'
     events: 'del_journal,reload_journal,stop_objectives,reset_points'
-    
-    
+
 #########################################################################
 player_options:
   #start
