@@ -21,7 +21,7 @@ addObjective: 'objective start fishing'
 #Journal Update
 doneFishing: 'run ^message §7§oIch sollte die Fische bei Tjark abgeben ^journal add job_done condition:hasAllFish'
 
-jobPay: 'folder amount1,amount2,amount3,amount4,amount5 random:1 condition:hasAllFish,pointsZero'
+jobPay: 'folder amount1,amount2,amount3,amount4,amount5 random:1 condition:hasAllFish,!hasPoints'
 amount1: 'point payout 41'
 amount2: 'point payout 49'
 amount3: 'point payout 53'

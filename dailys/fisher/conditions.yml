@@ -8,7 +8,7 @@ atRoses: 'location $fishing_location$ $radius_fish$'
 jobActive: 'tag jobActive' #Objective gestartet - Blockt conversationen
 jobCatched: 'tag catchedFish' #Min 1 Fisch
 jobDone: 'tag jobDone' #Objective abgeschlossen
-pointsZero: 'point payout 0'
+hasPoints: 'point payout 1'
 hasAllFish: 'item big_salmon:3' #< 3 fische
 hasSalmon: 'item salmon'
 
