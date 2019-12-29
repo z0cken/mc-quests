@@ -77,7 +77,7 @@ NPC_options:
 
   'NA_tut_complete':
     text: 'Sehr gut. Alles klar, dann danke ich für deine Geduld und wünsche dir noch viel Spaß auf dem Server.'
-    events: 'clear_tutorial,end_tutorial,addProgress_tutorialFinished'
+    events: 'clear_tutorial,end_tutorial'
 
   # === NPC Default Conversation === #
 

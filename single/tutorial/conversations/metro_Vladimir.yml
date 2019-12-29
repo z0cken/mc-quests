@@ -39,7 +39,7 @@ NPC_options:
 
   'NA_tut_howToPower':
     text:
-      'In jeder Station gibt es Leuchtfeuer. Sind diese aktiv. so ist die jeweilige Station aktiv. Die Leuchtfeuer benötigen Lapislazulli als Brennstoff.\n
+      'In jeder Station gibt es Leuchtfeuer. Sind diese aktiv. so ist die jeweilige Station aktiv. Die Leuchtfeuer benötigen Lapislazuli als Brennstoff.\n
       Einmal komplett aufgefüllt reicht der Lapis Vorrat für 5 Tage je Station. Dabei verbraucht jede Station pro Tag 12 Lapis. Die Station erlischt, wenn der Vorrat aufgebraucht ist.'
     pointer: 'PA_tut_danger'
 
@@ -118,6 +118,7 @@ player_options:
 
   'PA_tut_continue':
     text: 'Danke für die Horrorgeschichten. Ich geh dann mal weiter. (Weiter im Tutorial)'
+    conditions: 'isInTutorial,isHotelFinished,!isMetroFinished'
     pointer: 'NA_tut_continue'
 
   # === Player Default Conversation === #

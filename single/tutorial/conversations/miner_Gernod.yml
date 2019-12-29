@@ -71,7 +71,7 @@ NPC_options:
 
   # Pre-Quest
   'NA_tut_questYes':
-    text: 'Sehr schön. Also folgendes: Gib /berbau ein und dir den Bergbau-Skill an. Sprich mich wieder an, wenn du einen Überblick hast.'
+    text: 'Sehr schön. Also folgendes: Gib /berbau ein und sieh dir den Bergbau-Skill an. Sprich mich wieder an, wenn du einen Überblick hast.'
     events: 'addTag_miner_prepareQuest'
 
   'NA_tut_questPrepared_start':
@@ -204,7 +204,7 @@ player_options:
 
   'PA_tut_questNotDone':
     text: 'Ich arbeite dran. Bis gleich.'
-    conditions: 'MQ_isRunning,!MQ_stoneFinished,!MQ_dioriteFinished'
+    conditions: 'MQ_isRunning'
     pointer: ''
 
   # Continuing

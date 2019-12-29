@@ -49,7 +49,7 @@ NPC_options:
   # Tutorial Running
   'NA_tut_abort':
     text: 'Alles klar, dein Fortschritt wurde zurückgesetzt. Sprich mich wieder an, solltest du das Tutorial wieder starten wollen.'
-    events: 'clear_tutorial'
+    events: 'restart_tutorial'
     pointer: ''
 
   'NA_tut_help1':
@@ -93,16 +93,24 @@ NPC_options:
     events: 'addProgress_tutorialNPC,tt_add_gotoCityHall'
     pointer: ''
 
-  'NA_end':
-    text: 'Ich wünsche dir noch einen schönen Aufenthalt.'
-    pointer: ''
-
   # === NPC Default Conversation === #
 
   'NA_def_start':
-    text: 'Hallo %player%, was kann ich für dich tun?'
+    text: 'Hallo %player%, kann ich etwas für dich tun?'
     conditions: '!isInTutorial,isTutorialFinished'
+    pointer: 'PA_def_cityHall,PA_def_otherCities,PA_def_end'
+
+  'NA_def_end':
+    text: 'Ich wünsche dir noch viel spaß auf dem Server.'
     pointer: ''
+
+  'NA_def_cityHall':
+    text: 'Im Rathaus findest du den Bürgermeister, das Portal zum End, ein Netherportal und das Portal zur Farmwelt. Außerdem findest du dort eine Karte von Gamberg, Statistiken und du kannst Claimblöcke erwerben.'
+    pointer: 'PA_def_otherCities,PA_def_end'    
+
+  'NA_def_otherCities':
+    text: 'Im Portalhaus findest du Portale zu den anderen Serverstädten.'
+    pointer: 'PA_def_cityHall,NA_def_end'
 
 player_options:
   # === Player Tutorial Conversation === #
@@ -150,5 +158,17 @@ player_options:
   'PA_tut_noHelp':
     text: 'Nein, alles gut.'
     pointer: ''
-# === Player Default Conversation === #
+
+  # === Player Default Conversation === #
+  'PA_def_cityHall':
+    text: 'Was ist im Rathaus?'
+    pointer: 'NA_def_cityHall'
+
+  'PA_def_otherCities':
+    text: 'Wie komme ich zu den anderen Städten?'
+    pointer: 'NA_def_otherCities'
+
+  'PA_def_end':
+    text: 'Auf Wiedersehen.'
+    pointer: 'NA_def_end'
 
