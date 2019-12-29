@@ -21,7 +21,7 @@ NPC_options:
   'help_accept':
     text: 'Klar. Geh einfach in die Kanalisation und töte möglichst viele Ratten.'
     pointer: 'accept_yes,accept_where'
-    events: 'start_objective,journal_add_goto,tag_add_active,tag_add_search'
+    events: 'objective_start_location,journal_add_goto,tag_add_active,tag_add_search'
   'where_tell':
     text: '[Beschreibung]' #TODO
   'start_search':
