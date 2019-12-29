@@ -41,7 +41,7 @@ NPC_options:
 
   'NA_tut_jobsDetailed_2':
     text:
-      'Du kannst die jeweilige Skillinfo mit /<SKILLNAME> sehen (/bergbau). Um eine Liste deiner Skills /stats ein.\n
+      'Du kannst die jeweilige Skillinfo mit /<SKILLNAME> sehen (/bergbau). Um eine Liste deiner Skills zu sehen, gib /stats ein.\n
       Achja, das Scoreboard eines Skills siehst du mit /skilltop.'
     pointer: 'PA_tut_jobsDetailed_3'
 
@@ -51,7 +51,7 @@ NPC_options:
 
   'NA_tut_jobsDetailed_4':
     text:
-      'Skill XP ist nichts notwendiges. Wenn du einen Skill ausführst erhältst du Skill-XP für deine Aktivität.\n
+      'Skill XP sind nichts notwendiges. Wenn du einen Skill ausführst erhältst du Skill-XP für deine Aktivität.\n
       Mit genügend XP steigt du im Skilllevel auf. Je höher dein Level, desto mehr neue Fähigkeiten bekommst du.'
     pointer: 'PA_tut_jobsDetailed_5'
 

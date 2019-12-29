@@ -69,7 +69,7 @@ NPC_options:
 
   # TODO
   'NA_boni':
-    text: 'Ich denke, es wäre zuviel es dir hier zu erklären. Die Informationen dazu findest du in der Hilfe unter Metro - Boni/Mali (/help metro)'
+    text: 'Ich denke, es wäre zuviel es dir hier zu erklären. Die Informationen dazu findest du in der Hilfe unter /help metro'
     pointer: 'PA_tut_continue,PA_end'
 
   # TODO

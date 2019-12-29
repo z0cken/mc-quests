@@ -13,7 +13,6 @@ NPC_options:
     events: 'tt_del_gotoHotel'
     pointer: 'PA_tut_hotelInfo'
 
-  #TODO givePlayer_hotel_discount
   'NA_tut_rentRoom_discount':
     text:
       'Natürlich.. lassen Sie mich eben einmal nachgucken. Perfekt, Sie haben Glück.\n
@@ -21,23 +20,23 @@ NPC_options:
       Gehen Sie hinter der Rezeption links oder rechts die Treppen hoch. Dort werden Sie Räume vorfinden auf den Etagen 1-4. Im Keller gibt es auch noch Räume,'
     conditions: '!discountGiven'
     events: 'addTag_hotel_discountGiven,givePlayer_hotel_discount'
-    pointer: 'PA_tut_thanks'
+    pointer: 'PA_rentInfo,PA_buildtInfo,PA_itemsInfo,PA_priceInfo,PA_tut_thanks' #Fixed: Allow Questions after Present
 
   'NA_tut_rentRoom_noDiscount':
     text:
       'Natürlich.. lassen Sie mich eben einmal nachgucken. Ich sehe, das Geschenk für Ihren ersten Besuch haben sie bereits erhalten.\n
       Gehen Sie hinter der Rezeption links oder rechts die Treppen hoch. Dort werden Sie Räume vorfinden auf den Etagen 1-4'
     conditions: 'discountGiven'
-    pointer: 'PA_tut_thanks'
+    pointer: 'PA_rentInfo,PA_buildtInfo,PA_itemsInfo,PA_priceInfo,PA_tut_thanks' #Fixed: Allow Questions after Present
 
   'NA_tut_end':
-    text: 'Bis bald... Moment, eine Sache noch: Besuchen Sie bitte als nächstes die Metro. Darüber sollten Sie umbedingt etwas erfahren.'
+    text: 'Bis bald... Moment, eine Sache noch: Besuchen Sie bitte als nächstes Vladimir vor der Metro. Über die Metro sollten Sie umbedingt etwas erfahren.'
     events: 'addProgress_hotel,tt_add_gotoMetro'
     pointer: 'PA_tut_gotIt'
 
   'NA_tut_thanks':
     text: 'Ich danke Ihnen. Ich wünsche einen angenehmen Aufenthalt.\n
-      Bevor ich es vergesse: Besuchen Sie bitte als nächstes die Metro. Darüber sollten Sie umbedingt etwas erfahren.'
+      Bevor ich es vergesse: Besuchen Sie bitte als nächstes Vladimir vor der Metro. Über die Metro sollten Sie umbedingt etwas erfahren.'
     events: 'addProgress_hotel,tt_add_gotoMetro'
 
   # === NPC Default Conversation === #

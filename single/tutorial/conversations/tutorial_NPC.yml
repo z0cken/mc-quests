@@ -106,11 +106,11 @@ NPC_options:
 
   'NA_def_cityHall':
     text: 'Im Rathaus findest du den Bürgermeister, das Portal zum End, ein Netherportal und das Portal zur Farmwelt. Außerdem findest du dort eine Karte von Gamberg, Statistiken und du kannst Claimblöcke erwerben.'
-    pointer: 'PA_def_otherCities,PA_def_end'    
+    pointer: 'PA_def_otherCities,PA_def_end'
 
   'NA_def_otherCities':
     text: 'Im Portalhaus findest du Portale zu den anderen Serverstädten.'
-    pointer: 'PA_def_cityHall,NA_def_end'
+    pointer: 'PA_def_cityHall,PA_def_end'
 
 player_options:
   # === Player Tutorial Conversation === #
@@ -171,4 +171,3 @@ player_options:
   'PA_def_end':
     text: 'Auf Wiedersehen.'
     pointer: 'NA_def_end'
-
