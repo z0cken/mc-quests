@@ -11,9 +11,9 @@ NPC_options:
   # Tutorial begin
   'NA_tut_start':
     text:
-      'Willkommen auf dem Pr0gramm Minecraft server - ein pr0jekt von z0cken.com.\n
+      'Willkommen auf dem Pr0gramm Minecraft Server - ein pr0jekt von z0cken.com.\n
       Ich würde dir gerne Hilfe anbieten, damit du dich auf dem Server besser zurecht findest.
-      Möchtest du ein Tutorial? (Dauer: ~20 minuten)'
+      Möchtest du ein Tutorial? (Dauer: ~20 Minuten)'
     conditions: '!isTutorialFinished,!isInTutorial'
     pointer: 'PA_tut_accept,PA_tut_deny'
 
