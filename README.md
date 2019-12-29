@@ -17,11 +17,11 @@ Fertig:
 - discs UTIL (Schallplatten Listener für neue Soundtickets)
 - water_plants UTIL (Pflanzen im Park gießen | respawnen)
 - holywater WEEKLY (2 Pfarrer mit Subquest & Daily Potioneffect "Segen")
+- Claim Quest (3 Missions)
+- fishmeal DAILY (Große Angelquest ohne Itemabgabe auf Zeit)
 
 Testen:
 
-- fishmeal DAILY (Große Angelquest ohne Itemabgabe auf Zeit)
-- Claim Quest (3 Missions)
 - Kammerjäger WEEKLY (Silverfish in Kanalisation töten - Silverfish spawner)
 
 Progress:
