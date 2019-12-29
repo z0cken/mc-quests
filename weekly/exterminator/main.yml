@@ -16,7 +16,7 @@ variables:
   cooldown: 3000 #Minutes - Should be more than 2 days
 
 npcs:
-  '24': exterminator
+  '367': exterminator
   'Egon Spengler': exterminator
 
 cancel:
