@@ -4,3 +4,8 @@ gravel: GRAVEL
 
 stone: STONE
 diorite: DIORITE
+
+iron_ingot: IRON_INGOT
+cookie: COOKIE
+bucket: BUCKET
+diamond: DIAMOND

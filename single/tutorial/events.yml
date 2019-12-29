@@ -12,8 +12,7 @@ addTag_mayor_foodGiven: 'tag add foodGiven'
 givePlayer_mayor_foodA: 'command give %player% cooked_porkchop 32'
 givePlayer_mayor_foodB: 'command give %player% bread 16'
 givePlayer_mayor_foodC: 'command give %player% baked_potato 8'
-#TODO ($finish_reward$)
-givePlayer_mayor_reward: 'message §7§oDu hast 100 Schekel erhalten'
+givePlayer_mayor_reward: 'run ^give iron_ingot:$finish_reward$ ^message §7§oDu hast $finish_reward$ Eisenbarren erhalten'
 
 # Digger
 addTag_digger_shovelGiven: 'tag add shovelGiven'
@@ -27,8 +26,7 @@ givePlayer_miner_pickaxe: 'command minecraft:give %player% minecraft:iron_pickax
 
 # Hotel
 addTag_hotel_discountGiven: 'tag add discountGiven'
-# TODO ($hotel_discount$)
-givePlayer_hotel_discount: 'run ^message §7§oDu hast 10 Schekel erhalten'
+givePlayer_hotel_discount: 'run ^give cookie:$hotel_discount$ ^message §7§oDu hast $hotel_discount$ Kekse erhalten'
 
 # ============================================================================================ #
 # === Tutorial Progress === #
@@ -61,8 +59,7 @@ tt_del_gotoMayor: 'journal del gotoMayor'
 
 # Digger Quest
 addQuest_digger: 'run ^journal add getBlocks_digger ^tag add DQ_isRunning ^objective start get_DQ_dirt ^objective start get_DQ_sand ^objective start get_DQ_gravel'
-# Geld einfügen ($digger_reward$)
-finishQuest_digger: 'run ^journal del returnBlocks_digger ^tag del DQ_isRunning ^tag del DQ_dirtFinished ^tag del DQ_sandFinished ^tag del DQ_gravelFinished ^tag add DQ_isFinished ^message §7§oDu hast 25 Schekel erhalten ^tag add DQ_rewardGiven'
+finishQuest_digger: 'run ^give bucket:$digger_reward$ ^journal del returnBlocks_digger ^tag del DQ_isRunning ^tag del DQ_dirtFinished ^tag del DQ_sandFinished ^tag del DQ_gravelFinished ^tag add DQ_isFinished ^message §7§oDu hast $digger_reward$ Eimer erhalten ^tag add DQ_rewardGiven'
 
 DQ_dirtFinished: 'run ^tag add DQ_dirtFinished ^message §7§oDu hast genug Erde ausgegraben'
 DQ_sandFinished: 'run ^tag add DQ_sandFinished ^message §7§oDu hast genug Sand ausgegraben'
@@ -72,16 +69,8 @@ DQ_takeBlocks: 'take dirt:$dirt_amount$,sand:$sand_amount$,gravel:$gravel_amount
 
 # Miner Quest
 addQuest_miner: 'run ^journal add getBlocks_miner ^tag add MQ_isRunning ^objective start get_MQ_stone ^objective start get_MQ_diorite'
-# TODO ($miner_reward$)
-finishQuest_miner: 'run ^journal del returnBlocks_miner ^tag del MQ_isRunning ^tag del MQ_stoneFinished ^tag del MQ_dioriteFinished ^message §7§oDu hast 25 Schekel erhalten ^tag add MQ_rewardGiven'
+finishQuest_miner: 'run ^give diamond:$miner_reward$ ^journal del returnBlocks_miner ^tag del MQ_isRunning ^tag del MQ_stoneFinished ^tag del MQ_dioriteFinished ^message §7§oDu hast $miner_reward$ Diamanten erhalten ^tag add MQ_rewardGiven'
 
 MQ_stoneFinished: 'run ^tag add MQ_stoneFinished ^message §7§oDu hast genug Stein abgebaut'
 MQ_dioriteFinished: 'run ^tag add MQ_dioriteFinished ^message §7§oDu hast genug Diorit abgebaut'
 MQ_finished: 'run ^journal del getBlocks_miner ^journal add returnBlocks_miner ^message §7§oDu hast alle benötigten blöcke. Geh zurück zu Gernod. conditions:MQ_stoneFinished,MQ_dioriteFinished'
-
-
-
-
-
-
-

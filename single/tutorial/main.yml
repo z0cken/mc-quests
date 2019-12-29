@@ -1,11 +1,10 @@
-
 npcs:
-  '1': tutorial_NPC
-  '2': mayor_Steinhoff
-  '3': digger_Oliver
-  '4': miner_Gernod
-  '5': hotel_Lydia
-  '6': metro_Vladimir
+  '360': tutorial_NPC
+  '361': mayor_Steinhoff
+  '362': digger_Oliver
+  '363': miner_Gernod
+  '364': hotel_Lydia
+  '365': metro_Vladimir
 
 cancel: ()
 
@@ -13,25 +12,25 @@ variables:
   world: 'world'
 
   # Digger Quest
-  pitLocation: '56;56;178;$world$'
-  pitRadius: '10'
+  pitLocation: '5227;62;-638;$world$'
+  pitRadius: '55'
 
-  dirt_amount: '5'
-  sand_amount: '3'
-  gravel_amount: '3'
+  dirt_amount: '32'
+  sand_amount: '16'
+  gravel_amount: '16'
 
   # Miner Quest
-  quarryLocation: '56;56;189;$world$'
-  quarryRadius: '10'
+  quarryLocation: '5031;78;-618;$world$'
+  quarryRadius: '70'
 
-  stone_amount: '3'
-  diorite_amount: '3'
+  stone_amount: '16'
+  diorite_amount: '8'
 
-  # Rewqards
-  digger_reward: '25'
-  miner_reward: '25'
-  hotel_discount: '10'
-  finish_reward: '100'
+  # Rewards
+  digger_reward: '3'
+  miner_reward: '2'
+  hotel_discount: '16'
+  finish_reward: '16'
 
 journal_main_page:
   greeting:
