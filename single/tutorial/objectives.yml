@@ -9,4 +9,3 @@ get_DQ_gravel: 'block gravel -$gravel_amount$ events:DQ_gravelFinished,DQ_finish
 # Miner Quest
 get_MQ_stone: 'block stone -$stone_amount$ events:MQ_stoneFinished,MQ_finished conditions:MQ_isPlayerInQuarry'
 get_MQ_diorite: 'block diorite -$diorite_amount$ events:MQ_dioriteFinished,MQ_finished conditions:MQ_isPlayerInQuarry'
-

@@ -24,7 +24,7 @@ NPC_options:
     pointer: 'PA_tut_acceptQuestWithoutShovel, PA_tut_shovelMissing'
 
   'NA_tut_shovelGive':
-    text: 'Entschuldigung, natürlich nicht. Hier hast du eine Stein Schaufel. Nicht die beste, aber dafür sollte es reichen.'
+    text: 'Entschuldigung, natürlich nicht. Hier hast du eine Steinschaufel. Nicht die beste, aber dafür sollte es reichen.'
     events: 'givePlayer_digger_shovel,addTag_digger_shovelGiven,addQuest_digger'
     pointer: 'PA_tut_acceptQuestWithShovel'
 
@@ -54,7 +54,7 @@ NPC_options:
     pointer: 'PA_whatAreQuests,PA_howDoQuestsWork,PA_whereAreQuests,PA_whatsTheJournal,PA_tut_continue_noInfo'
 
   'NA_tut_takeBlocks_playerTrolling':
-    text: 'Behalt die blöcke bitte im Inventar, wenn du sie abgeben möchtest.'
+    text: 'Behalt die Blöcke bitte im Inventar, wenn du sie abgeben möchtest.'
     conditions: '!DQ_hasBlocks'
     pointer: ''
 
@@ -65,12 +65,14 @@ NPC_options:
     pointer: 'PA_whatAreQuests,PA_howDoQuestsWork,PA_whereAreQuests,PA_whatsTheJournal,PA_tut_continue_noInfo'
 
   'NA_tut_continue':
-    text: 'Gerne. Falls du mal wieder Fragen bezüglich Quests hast stehe ich hier für dich bereit.\n
+    text:
+      'Gerne. Falls du mal wieder Fragen bezüglich Quests hast stehe ich hier für dich bereit.\n
       Ich möchte dich als nächstes bitten zu meinem Kollegen am Steinbruch zu gehen. Wähle das Ziel am besten wieder mit deinem Kompass aus.'
     events: 'addProgress_digger,tt_add_gotoMiner'
 
   'NA_tut_continue_noInfo':
-    text: 'Alles klar, kein ding. Solltest du doch mal fragen zu Quests haben bin ich jederzeit bereit dir diese zu beantworten.\n
+    text:
+      'Alles klar, kein Ding. Solltest du doch mal Fragen zu Quests haben bin ich jederzeit bereit dir diese zu beantworten.\n
       Ich möchte dich als nächstes bitten zu meinem Kollegen am Steinbruch zu gehen. Wähle das Ziel am besten wieder mit deinem Kompass aus.'
     events: 'addProgress_digger,tt_add_gotoMiner'
 
@@ -82,33 +84,33 @@ NPC_options:
   # Giving Quests info
   'NA_whatAreQuests':
     text:
-      'Quests sind von NPC gestellte aufgaben, die du annehmen und erfüllen kannst um dir ein wenig Geld zu verdienen.\n
+      'Quests sind von NPCs gestellte Aufgaben, die du annehmen und erfüllen kannst, um Items, Skills oder Belohnungen zu bekommen.\n
       Manche Quests sind einmalig wie die Tutorial Questreihe, manche täglich, wöchentlich oder monatlich abschließbar.\n
       Aktive Quests kannst du jederzeit in deinem Journal einsehen (/j um es zu erhalten).'
     pointer: 'PA_howDoQuestsWork,PA_whereAreQuests,PA_whatsTheJournal,PA_tut_continue,PA_end'
 
   'NA_howDoQuestsWork':
     text:
-      'Du musst Quests bei einem Questgeber (Quest NPCs) annehmen. Nimmst du eine an, so erhältst du eine Aufgabe, welche auch in deinem Journal steht.\n
-      Um die Quest abzuschließen musst du die genannte Aufgabe erfüllen. Ist die Quest fertig, kannst du sie beim Questgeber-NPC abscließen und erhältst für gewöhnlich eine belohnung.'
+      'Du musst Quests bei einem Questgeber (Quest NPCs) annehmen. Nimmst du eine an, so erhältst du eine Aufgabe, welche auch in deinem Tagebuch (Journal) steht.\n
+      Um die Quest abzuschließen musst du die genannte Aufgabe erfüllen. Ist die Quest fertig, kannst du sie beim Questgeber-NPC abscließen und erhältst für gewöhnlich eine Belohnung.'
     pointer: 'PA_whatAreQuests,PA_whereAreQuests,PA_whatsTheJournal,PA_tut_continue,PA_end'
 
   'NA_whereAreQuests':
     text:
-      'Du kannst Quests an verschiedenen Orten finden, dafür gibt es keine Karte. Erkunde einfach ein bisschen die Welt (natürlich hauptsächlich Server-Städte/-dörfer).\n
+      'Du kannst Quests an verschiedenen Orten finden, dafür gibt es keine Karte. Erkunde einfach ein bisschen die Welt (natürlich hauptsächlich Städte und Dörfer).\n
       Findest du einen NPC, sprich ihn an - er wird nicht beißen - und vielleicht entdeckst du eine Quest.'
     pointer: 'PA_whatAreQuests,PA_howDoQuestsWork,PA_whatsTheJournal,PA_tut_continue,PA_end'
 
   'NA_whatsTheJournal':
     text:
-      'Das Journal ist dein Questbuch. Darin siehst du jederzeit, welche Quests du im moment aktiv hast.\n
-      Eine Questinfo im Journal besteht aus Datum/Zeit der annahme, Quester NPC und Aufgabe.\n
-      Siehst du im chat Journal Updated hast du einen neuen eintrag bzw. ein Quest update.\n
+      'Das Journal ist dein Quest-Tagebuch. Darin siehst du jederzeit, welche Quests du im moment aktiv hast.\n
+      Eine Questinfo im Journal besteht aus Datum/Zeit der Annahme, Quester NPC und Aufgabe.\n
+      Siehst du im Chat *Journal updated* hast du einen neuen Eintrag bzw. ein Questupdate.\n
       Du kannst dein Journal überall ablegen oder entsorgen. Mit /j kannst du es jederzeit wieder erhalten.'
     pointer: 'PA_whatAreQuests,PA_howDoQuestsWork,PA_whereAreQuests,PA_tut_continue,PA_end'
 
   'NA_end':
-    text: 'Auf wiedersehen.'
+    text: 'Auf Wiedersehen.'
 
 player_options:
   # === Player Tutorial Conversation === #
@@ -131,7 +133,7 @@ player_options:
     pointer: 'NA_tut_endQuestAccepted'
 
   'PA_tut_hasBlocks':
-    text: 'Ja. Hier, deine gewünschten blöcke.'
+    text: 'Ja. Hier, deine gewünschten Blöcke.'
     conditions: 'DQ_hasBlocks'
     pointer: 'NA_tut_takeBlocks,NA_tut_takeBlocks_playerTrolling'
 
@@ -141,18 +143,18 @@ player_options:
     pointer: 'NA_tut_endQuestAccepted'
 
   'PA_tut_noBlocks_B':
-    text: 'Nein, anscheinend nicht. Ich habe aber genügend abgebaut.. Moment, ich werde nachsehen, ob ich alle eingesammelt habe.'
+    text: 'Nein, anscheinend nicht. Ich habe aber genügend abgebaut... Moment, ich werde nachsehen, ob ich alle eingesammelt habe.'
     conditions: '!DQ_hasBlocks,DQ_dirtFinished,DQ_sandFinished,DQ_gravelFinished'
     pointer: 'NA_tut_endQuestAccepted'
 
   # Continue Tutorial
   'PA_tut_continue':
-    text: 'Danke für die Informationen. (Weiter im tutorial)'
+    text: 'Danke für die Informationen. (Weiter im Tutorial)'
     conditions: '!isDiggerFinished,!isTutorialFinished'
     pointer: 'NA_tut_continue'
 
   'PA_tut_continue_noInfo':
-    text: 'Nein, danke. Ich möchte lieber weiter gehen. (Direkt weiter im tutorial)'
+    text: 'Nein, danke. Ich möchte lieber weiter gehen. (Direkt weiter im Tutorial)'
     pointer: 'NA_tut_continue_noInfo'
 
   # === Player Default Conversation === #
@@ -170,7 +172,7 @@ player_options:
     pointer: 'NA_whereAreQuests'
 
   'PA_whatsTheJournal':
-    text: 'Was ist das Journal?'
+    text: 'Was ist das Tagebuch/Journal?'
     pointer: 'NA_whatsTheJournal'
 
   'PA_end':

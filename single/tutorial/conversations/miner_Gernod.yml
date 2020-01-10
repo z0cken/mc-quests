@@ -6,7 +6,7 @@ stop: 'false'
 # NA = "NPC Answer"
 
 NPC_options:
-# === NPC Tutorial Conversation === #
+  # === NPC Tutorial Conversation === #
 
   # Quest not running
   'NA_tut_start':
@@ -16,72 +16,79 @@ NPC_options:
     pointer: 'PA_tut_start'
 
   'NA_tut_newbie':
-    text: 'Ahh.. ein Neuling. Ok, also was hätten wir denn zum erklären, mal sehen..\n
-      Jobs, genau! Möchtest du, dass ich dir etwas über jobs erzähle?'
+    text:
+      'Ahh.. ein Neuling. Ok, also was hätten wir denn zum erklären, mal sehen..\n
+      Skills, genau! Möchtest du, dass ich dir etwas über Skills erzähle?'
     pointer: 'PA_tut_jobsDetailed_1,PA_tut_jobsShort,PA_tut_jobsNoInfo'
 
   # Jobs
   'NA_jobs_summary':
-    text: 'Durch Jobs erhältst du Geld, wenn du deine gewählte tätigkeit ausführst. Du kannst 2 Jobs gleichzeitig haben. Mit /jobs browse siehst du verfügbare jobs und kannst welche annehmen. Mit /jobs erhältst du weitere chat hilfe. Noch fragen?'
+    text: 'Durch Skills erhältst du Vorteile, wenn du die jeweilige Tätigkeit ausführst. Sie leveln automatisch. Mit /stats siehst du die Skills und dein Level darin. Mit /<JOBNAME> siehst du was du dafür tun musst. Noch fragen?'
     pointer: 'PA_tut_gotIt,PA_tut_didntUnderstand'
 
   'NA_tut_didntUnderstand':
-    text: 'Alles schnell wollen und dann doch nicht... nagut, dann halt detailiert:\n
-      Hier auf dem Server gibt es verschiede Jobs durch die du etwas Geld erhältst, wenn du die gewählte tätigkeit ausführst.\n
-      Als Minenarbeiter bekommst du Geld fürs abbauen, als Jäger fürs töten usw.. Ich denke du verstehst.'
+    text:
+      'Alles schnell wollen und dann doch nicht... nagut, dann halt detailliert:\n
+      Hier auf dem Server gibt es verschiede Skills durch die du Vorteile erhältst, wenn du die gewählte Tätigkeit ausführst.\n
+      Bergbau levelst du durch Erze & Stein abbauen, Schwertkampf durch kämpfen mit dem Schwert... Ich denke du verstehst.'
     pointer: 'PA_tut_jobsDetailed_2'
 
   'NA_tut_jobsDetailed_1':
-    text: 'Hier auf dem Server gibt es verschiede Jobs durch die du etwas Geld erhältst, wenn du die gewählte tätigkeit ausführst.\n
-      Als Minenarbeiter bekommst du Geld fürs abbauen, als Jäger fürs töten usw.. Ich denke du verstehst.'
+    text:
+      'Hier auf dem Server gibt es verschiede Skills durch die du Vorteile erhältst, wenn du die gewählte Tätigkeit ausführst.\n
+      Bergbau levelst du durch Erze & Stein abbauen, Schwertkampf durch kämpfen mit dem Schwert... Ich denke du verstehst.'
     pointer: 'PA_tut_jobsDetailed_2'
 
   'NA_tut_jobsDetailed_2':
-    text: 'Du kannst jobs mit dem command /jobs join [jobname] annehmen. Um eine Liste verfügbarer Jobs und deren aufgabe zu sehen gib /jobs browse ein.\n
-      Achja, außerdem kannst du 2 Jobs erlernen.'
+    text:
+      'Du kannst die jeweilige Skillinfo mit /<SKILLNAME> sehen (/bergbau). Um eine Liste deiner Skills zu sehen, gib /stats ein.\n
+      Achja, das Scoreboard eines Skills siehst du mit /skilltop.'
     pointer: 'PA_tut_jobsDetailed_3'
 
   'NA_tut_jobsDetailed_3':
-    text: 'Ja und nein. Du kannst 2 Jobs gleichzeitig haben, aber du kannst Jobs auch wieder verlernen. Dabei ist jedoch vorsicht geboten, denn du verlierst job XP, wenn ihn verlernst.'
+    text: 'Nein, es sind immer alle aktiv. Einfach das tun, was in der Beschreibung steht und du bekommst XP.'
     pointer: 'PA_tut_jobsDetailed_4'
 
   'NA_tut_jobsDetailed_4':
-    text: 'Job XP ist nichts notwendiges um einen Job auszuführen. Wenn du einen Job ausführst erhältst du Job XP für deine arbeit.\n
-      Mit genügend XP steigt zu im Joblevel auf. Je höher dein Joblevel, sprich je länger du bei einem Job bleibst, desto mehr Geld kannst du verdienen.'
+    text:
+      'Skill XP sind nichts notwendiges. Wenn du einen Skill ausführst erhältst du Skill-XP für deine Aktivität.\n
+      Mit genügend XP steigt du im Skilllevel auf. Je höher dein Level, desto mehr neue Fähigkeiten bekommst du.'
     pointer: 'PA_tut_jobsDetailed_5'
 
   'NA_tut_jobsDetailed_5':
-    text: 'Nein nein, ich werde dich nicht weiter zutexten. Merk dir einfach noch folgendes: Mit /jobs erhältst du jederzeit chat hilfe zu den/deinen Jobs.'
+    text: 'Nein nein, ich werde dich nicht weiter zutexten. Merk dir einfach noch folgendes: Mit /stats siehst du jederzeit deine Skills und /skilltop für das Scoreboard.'
     pointer: 'PA_tut_gotIt'
 
   'NA_tut_prepareQuest':
-    text: 'Wenn du möchtest können wir direkt mal einen Job ausprobieren, hast du lust?'
+    text: 'Wenn du möchtest können wir direkt mal einen Skill ausprobieren, hast du Lust?'
     conditions: '!MQ_rewardGiven'
     pointer: 'PA_tut_questYes, PA_tut_questNo'
 
   'NA_tut_rewardGiven':
-    text: 'Geh bitte als nächstes zum Hotel. Du hast bestimmt noch kein zu Hause, oder?'
+    text: 'Geh bitte als nächstes zum Hotel. Du hast bestimmt noch kein Zuhause, oder?'
     conditions: 'MQ_rewardGiven'
     pointer: 'PA_tut_end'
 
   # Pre-Quest
   'NA_tut_questYes':
-    text: 'Sehr schön. Also folgendes: Gib /jobs browse ein und nimm den Minenarbeiter Job an. Sprich mich wieder an, wenn du ihn erlernt hast.'
+    text: 'Sehr schön. Also folgendes: Gib /berbau ein und sieh dir den Bergbau-Skill an. Sprich mich wieder an, wenn du einen Überblick hast.'
     events: 'addTag_miner_prepareQuest'
 
   'NA_tut_questPrepared_start':
-    text: 'Okay, bereit dir durch deinen Job deine ersten Schekel zu verdienen?'
+    text: 'Okay, bereit deine Bergbaulevel etwas zu boosten?'
     conditions: 'isInTutorial,MQ_preparingQuest'
     pointer: 'PA_tut_acceptQuest,PA_tut_denyQuest'
 
   'NA_tut_startQuest_givePickaxe':
-    text: 'Okay, dann geh bitte in den Steinbruch und baue $stone_amount$ Steine und $diorite_amount$ Diorit ab.\n
-      Du kannst dafür meine alte Spitzhacke haben. Viel erfolg und bis gleich!'
+    text:
+      'Okay, dann geh bitte in den Steinbruch und baue $stone_amount$ Steine und $diorite_amount$ Diorit ab.\n
+      Du kannst dafür meine alte Spitzhacke haben. Viel Erfolg und bis gleich!'
     conditions: '!pickaxeGiven'
     events: 'addTag_miner_pickaxeGiven,givePlayer_miner_pickaxe,addQuest_miner'
 
   'NA_tut_startQuest_noPickaxe':
-    text: 'Okay, dann geh bitte in den Steinbruch und baue $stone_amount$ Steine und $diorite_amount$ Diorit ab.\n
+    text:
+      'Okay, dann geh bitte in den Steinbruch und baue $stone_amount$ Steine und $diorite_amount$ Diorit ab.\n
       Meine alte Spitzhacke hatte ich dir schonmal gegeben. Ich hoffe du hast sie noch oder eine neue.'
     conditions: 'pickaxeGiven'
     events: 'addQuest_miner'
@@ -93,73 +100,73 @@ NPC_options:
     pointer: 'PA_tut_questDone,PA_tut_questNotDone'
 
   'NA_tut_praise':
-    text: 'Bist n fleißiges kerlchen, gefällt mir. Die Blöcke kannst du behalten oder wegschmeißen, wie du magst.
-      Und hier hast du noch eine kleine belohnung für deine mühen.\n
-      Ich denke, ich habe hier nichtsmehr für dich zu tun. Geh als nächstes zum Hotel, du hast bestimmt noch kein Zuhause, oder?'
+    text:
+      'Bist n fleißiges Kerlchen, gefällt mir. Die Blöcke kannst du behalten oder wegschmeißen, wie du magst.
+      Und hier hast du noch eine kleine Belohnung für deine Mühen.\n
+      Ich denke, ich habe hier nichts mehr für dich zu tun. Geh als nächstes zum Hotel, du hast bestimmt noch kein Zuhause, oder?'
     events: 'finishQuest_miner,addProgress_miner'
     pointer: 'PA_tut_end'
 
   # Continuing
   'NA_tut_end':
-    text: 'Bis irgendwann mal, viel spaß noch!'
+    text: 'Bis irgendwann mal, viel Spaß noch!'
     events: 'addProgress_miner,tt_add_gotoHotel'
 
   'NA_tut_fastFinish':
-    text: 'Kein problem, dann geh bitte als nächstes zum Hotel. Du kannst es wie immer mit dem Kompass auswählen. Einen schönen Tag noch.'
+    text: 'Kein Problem, dann geh bitte als nächstes zum Hotel. Du kannst es wie immer mit dem Kompass auswählen. Einen schönen Tag noch.'
     events: 'addProgress_miner,tt_add_gotoHotel'
 
-# === NPC Default Conversation === #
+  # === NPC Default Conversation === #
   'NA_def_start':
     text: 'Hallo, was kann ich für dich tun?'
     pointer: 'PA_jobsHelp,PA_howManyJobs,PA_nothing'
 
   'NA_jobsHelp':
-    text: 'Ich denke, dass es besser ist, wenn du dir die Hilfe selber durchliest mit /jobs.\n
+    text:
+      'Ich denke, dass es besser ist, wenn du dir die Hilfe selber durchliest mit /help Skills.\n
       Ich würde dir nur nen Roman erzählen während es dort kompakter und detailierter ist.'
     pointer: 'PA_howManyJobs,PA_bye'
 
   'NA_howManyJobs':
-    text: 'Du kannst 2 Jobs gleichzeitig ausführen. Du kannst sie aber auch jederzeit wechseln, wenn du möchtest.'
+    text: 'Alle! Sie sind immer aktiv. Einfach spielen!'
     pointer: 'PA_jobsHelp,PA_bye'
 
   'NA_bye':
     text: 'Einen schönen Tag noch.'
-  
-
 
 player_options:
   # === Player Tutorial Conversation === #
   'PA_tut_start':
-    text: 'Ich hoffe, dass kannst du mir sagen. Oliver schickt mich.'
+    text: 'Ich hoffe, das kannst du mir sagen. Oliver schickt mich.'
     pointer: 'NA_tut_newbie'
 
   # Jobs
   'PA_tut_jobsDetailed_1':
-    text: 'Jobs klingen interessant. Ich würde gerne alles darüber erfahren.'
+    text: 'Skills klingen interessant. Ich würde gerne alles darüber erfahren.'
     pointer: 'NA_tut_jobsDetailed_1'
 
   'PA_tut_jobsDetailed_2':
-    text: 'Wie nehme ich einen Job an?'
+    text: 'Was muss ich für die Skills tun?'
     pointer: 'NA_tut_jobsDetailed_2'
 
   'PA_tut_jobsDetailed_3':
-    text: 'Muss ich mich für 2 Jobs entscheiden?'
+    text: 'Muss ich mich für einen Skill entscheiden?'
     pointer: 'NA_tut_jobsDetailed_3'
 
   'PA_tut_jobsDetailed_4':
-    text: 'Job XP? Was ist das und wofür ist das gut?'
+    text: 'Skill XP? Was ist das und wofür ist das gut?'
     pointer: 'NA_tut_jobsDetailed_4'
 
   'PA_tut_jobsDetailed_5':
-    text: 'Was ne menge an informationen. Noch mehr?'
+    text: 'Was ne Menge an Informationen. Noch mehr?'
     pointer: 'NA_tut_jobsDetailed_5'
 
   'PA_tut_jobsShort':
-    text: 'Ja, eine schnelle zusammenfassung bitte.'
+    text: 'Ja, eine schnelle Zusammenfassung bitte.'
     pointer: 'NA_jobs_summary'
 
   'PA_tut_gotIt':
-    text: 'Alles klar. (Weiter im tutorial)'
+    text: 'Alles klar. (Weiter im Tutorial)'
     pointer: 'NA_tut_prepareQuest,NA_tut_rewardGiven'
 
   'PA_tut_didntUnderstand':
@@ -167,7 +174,7 @@ player_options:
     pointer: 'NA_tut_didntUnderstand'
 
   'PA_tut_jobsNoInfo':
-    text: 'Nein, ich brauche dazu keine informationen (Direkt weiter im tutorial)'
+    text: 'Nein, ich brauche dazu keine Informationen (Direkt weiter im Tutorial)'
     pointer: 'NA_tut_fastFinish'
 
   # Pre-Quest
@@ -176,7 +183,7 @@ player_options:
     pointer: 'NA_tut_questYes'
 
   'PA_tut_questNo':
-    text: 'Kein interesse im moment. (Weiter im tutorial)'
+    text: 'Kein Interesse im Moment. (Weiter im Tutorial)'
     pointer: 'NA_tut_fastFinish'
 
   'PA_tut_acceptQuest':
@@ -185,7 +192,7 @@ player_options:
     pointer: 'NA_tut_startQuest_givePickaxe,NA_tut_startQuest_noPickaxe'
 
   'PA_tut_denyQuest':
-    text: 'Habs mir anders überlegt, ich möchte doch keine Quest machen. (Direkt weiter im tutorial)'
+    text: 'Habs mir anders überlegt, ich möchte doch keine Quest machen. (Direkt weiter im Tutorial)'
     events: 'delTag_miner_prepareQuest'
     pointer: 'NA_tut_fastFinish'
 
@@ -197,22 +204,21 @@ player_options:
 
   'PA_tut_questNotDone':
     text: 'Ich arbeite dran. Bis gleich.'
-    conditions: 'MQ_isRunning,!MQ_stoneFinished,!MQ_dioriteFinished'
+    conditions: 'MQ_isRunning'
     pointer: ''
 
   # Continuing
   'PA_tut_end':
-    text: 'Nein habe ich noch nicht, das werde ich tun. Bis dann. (Weiter im tutorial)' 
+    text: 'Nein habe ich noch nicht, das werde ich tun. Bis dann. (Weiter im Tutorial)'
     pointer: 'NA_tut_end'
 
-  
-# === NPC Default Conversation === #
+  # === NPC Default Conversation === #
   'PA_jobsHelp':
-    text: 'Kannst du mir das mit den Jobs erklären?'
+    text: 'Kannst du mir das mit den Skills erklären?'
     pointer: 'NA_jobsHelp'
 
   'PA_howManyJobs':
-    text: 'Wieviele Jobs konnte man haben?'
+    text: 'Wie viele Skills kann man haben?'
     pointer: 'NA_howManyJobs'
 
   'PA_nothing':

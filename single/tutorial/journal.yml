@@ -13,4 +13,3 @@ returnBlocks_digger: 'Bringe die ausgegrabenen Blöcke zu Oliver.'
 # Miner
 getBlocks_miner: 'Baue $stone_amount$ Steine und $diorite_amount$ Diorit im Steinbruch ab.'
 returnBlocks_miner: 'Bringe die abgebauten Blöcke zu Gernod.'
-
