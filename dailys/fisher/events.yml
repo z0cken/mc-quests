@@ -27,7 +27,7 @@ amount2: 'point payout 49'
 amount3: 'point payout 53'
 amount4: 'point payout 65'
 amount5: 'point payout 78'
-payout: 'run ^take big_salmon:3 ^give lapis_lazuli:%point.payout.amount% ^tag del jobActive ^tag del catchedFish ^objective start fishCooldown ^objective start cooldown ^journal add job_end ^journal del job_done ^journal del location_found ^objective delete fishing'
+payout: 'run ^take big_salmon:3 ^give lapis_lazuli:%point.payout.amount% ^tag del jobActive ^tag del catchedFish ^objective start fishCooldown ^objective start cooldown ^journal del job_done ^journal del location_found ^objective delete fishing'
 payoutMessage: 'folder delayMessage delay:1'
 delayMessage: 'run ^message §7§oDu hast %point.payout.amount% Lapis Lazulli bekommen. ^point payout *0'
 #TODO: Remove global_location Event Tag
