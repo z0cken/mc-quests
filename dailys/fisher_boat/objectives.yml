@@ -1,3 +1,2 @@
-
 findLocation: 'location $swarmLocation$ $swarmRadius$ conditions:!isPlayerSwimming events:updateQuest'
-getFish: 'fish salmon $salmonAmount$ notify conditions:!isPlayerSwimming,isatLocation events:updateQuestFinish'
+getFish: 'fish salmon $salmonAmount$ notify conditions:!isPlayerSwimming,isatLocation events:updateQuestDone'
