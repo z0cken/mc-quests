@@ -30,7 +30,7 @@ variables:
   digger_reward: '3'
   miner_reward: '2'
   hotel_discount: '16'
-  finish_reward: '16'
+  finish_reward: '1'
 
 journal_main_page:
   greeting:
