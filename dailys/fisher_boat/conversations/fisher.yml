@@ -1,11 +1,11 @@
-quester: 'Tjark'
+quester: 'Lasse'
 first: 'NA_start,NA_start_inQuest,NA_start_questFinished,NA_start_questFailed'
 stop: 'false'
 
 NPC_options:
   #start
   'NA_start':
-    text: 'Moin moin min' Jung. Suchst du was bestimmtes?'
+    text: 'Moin moin min Jung. Suchst du was bestimmtes?'
     conditions: '!isQuestRunning,!isQuestFinished'
     pointer: 'PA_start,PA_smalltalk'
 
@@ -32,15 +32,14 @@ NPC_options:
     pointer: 'PA_acceptQuest_A,PA_denyQuest'
 
   'NA_acceptQuest':
-    text: 'Ich danke. Und es ist zu nett, dass du auch das noch fragst. In der tat habe ich einen Wunsch: Als ich vorhin hier in den Hafen zurückkehrte mit meinem Kahn habe ich ca 30 blöcke links vom Leuchtturm einen Schwarm junger Lachse gesehen.\n
+    text:
+      'Ich danke. Und es ist zu nett, dass du auch das noch fragst. In der tat habe ich einen Wunsch: Als ich vorhin hier in den Hafen zurückkehrte mit meinem Kahn habe ich ca 30 blöcke links vom Leuchtturm einen Schwarm junger Lachse gesehen.\n
       Nimm dieses Boot, wirf bei dem Schwarm die Angel aus. Junge Lachse sind am leckersten und da sie klein sind bitte ich dich $salmonAmount$ zu angeln. Bis bald und danke schonmal!'
     events: 'startQuest'
     pointer: 'PA_alright'
 
-
   'NA_denyQuest':
     text: 'Sehr schade. Aber ich danke dir dennoch für das Gespräch. Einen schönen Tag noch.'
-
 
 player_options:
   # Start
@@ -81,9 +80,6 @@ player_options:
   'PA_alright':
     text: 'Okay, werde ich tun. Bis gleich.'
 
-
   # Endings
   'PA_end_nothing':
     text: 'Nein, eigentlich nicht. Auf wiedersehen'
-
-

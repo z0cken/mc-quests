@@ -1,16 +1,16 @@
 # § means something needs to get placed in later on
 
 npcs:
-  '§ID': fisher
+  '0': fisher
   'Lasse': fischer
 
 journal_main_page:
   greeting:
     priority: 1
-    text: 'Lasse's Mahlzeit'
+    text: 'Lasses Mahlzeit'
     conditions: 'isQuestRunning'
 
 variables:
-  swarmLocation: §X;Y;Z;world
+  swarmLocation: 0;0;0;world
   salmonAmount: '4'
   seaLevel: '64' # The height for the condition if the player is in a boat or swimming
