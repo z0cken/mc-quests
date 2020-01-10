@@ -12,7 +12,7 @@ addTag_mayor_foodGiven: 'tag add foodGiven'
 givePlayer_mayor_foodA: 'command give %player% cooked_porkchop 32'
 givePlayer_mayor_foodB: 'command give %player% bread 16'
 givePlayer_mayor_foodC: 'command give %player% baked_potato 8'
-givePlayer_mayor_reward: 'run ^give iron_ingot:$finish_reward$ ^message §7§oDu hast $finish_reward$ Eisenbarren erhalten'
+givePlayer_mayor_reward: 'run ^give iron_helmet:$finish_reward$ iron_pants:$finish_reward$ iron_chestplate:$finish_reward$ iron_boots:$finish_reward$ iron_pickaxe:$finish_reward$ iron_sword:$finish_reward$ ^message §7§oDu hast etwas Equipment erhalten.'
 
 # Digger
 addTag_digger_shovelGiven: 'tag add shovelGiven'
