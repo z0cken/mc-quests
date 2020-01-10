@@ -17,7 +17,7 @@ NPC_options:
     pointer: 'ask_truth,ask_lie,ask_fail'
   'force_give':
     text: 'Okay okay, bitte tut mir nicht weh!'
-    event: 'give_force'
+    event: 'give_force,add_deal_done'
 
   'truth_reply':
     text: 'Natürlich.. ich denke, dass ich ihm das sicherlich eh noch schuldig bin.'
