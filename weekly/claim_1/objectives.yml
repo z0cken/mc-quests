@@ -9,7 +9,7 @@ block8: 'block $block8$ -50 events:block8'
 block9: 'block $block9$ -700 events:block9'
 block10: 'block $block10$ -100 events:block10'
 block11: 'block $block11$ -50 events:block11'
-block12: 'block $block11$ -25 events:block12'
+block12: 'block $block12$ -25 events:block12'
 
 mob1: 'mobkill $mob1$ 10 events:mob1'
 mob2: 'mobkill $mob2$ 10 events:mob2'
