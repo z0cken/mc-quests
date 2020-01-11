@@ -2,13 +2,12 @@ quester: 'Karl'
 first: 'start_quest_active,start_quest_done,start'
 stop: 'false'
 
-
 NPC_options:
-  #start no Quest 
+  #start no Quest
   'start': #fertig
     text: 'Sei gegrüßt mein Sohn, wie kann ich dir dienlich sein?'
     pointer: 'start_blessing,start_nothing,start_fair'
-    
+
   'start_quest_done': #fertig
     text: 'Ich danke dir vielmals! Gibt es nun etwas, was ich für dich tun kann mein Sohn?'
     conditions: 'cooldown_quest'
@@ -16,13 +15,12 @@ NPC_options:
 
   'start_quest_active':
     text: 'Es ist mir eine Freude dich wieder zu sehen. Hast du das Weihwasser?'
-    conditions: 'get_holywater' 
+    conditions: 'get_holywater'
     pointer: 'start_blessing,holywater_yes,holywater_no'
 
-    
   #Blessing Conversation
   'blessing_money':
-    text: 'Den suchen wir alle, mein Sohn. Mit einer kleinen Kirchenspende von 25 Schekel ist dir der Herr vielleicht gewillt dir seinen Segen zu erteilen.'
+    text: 'Den suchen wir alle, mein Sohn. Mit einer kleinen Kirchenspende von $blessing_price$ Gold ist dir der Herr vielleicht gewillt dir seinen Segen zu erteilen.'
     condition: '!cooldown_blessing,!cooldown_asked_blessing'
     pointer: 'money_accept'
   'accept_has_money':
@@ -41,7 +39,7 @@ NPC_options:
   'asked_cooldown':
     text: 'Du konntest dir keinen Segen leisten. Komm doch später wieder mein Sohn.'
     conditions: 'cooldown_asked_blessing,!cooldown_blessing'
-    
+
   #pre Quest
   'fair_talk1':
     text: 'Das ist korrekt. In kürze möchten wie eine Treffen zur Gelobigung des Herrn abhalten. Erstaunlich, dass du mich darauf anspricht, mein Sohn.'
@@ -51,13 +49,12 @@ NPC_options:
     pointer: 'quest_accept,quest_decline'
   'quest_decline_bye':
     text: 'Kein Problem. Ich finde bestimmt auch eine Lösung. Möge der Herr mit dir sein.'
-  
+
   # Quest start
   'quest_info':
     text: 'Vielen dank für deine Hilfsbereitschaft! In der Kirche von Erbgut sollte es noch einen Vorrat ein Weihwasser geben. Sprich dort bitte mit Pfarrer Albert. Er wird dich sicherlich freudig empfangen und helfen wollen.'
     events: 'add_journal_get_holywater,add_get_holywater' #QUEST START
     pointer: 'info_bye'
-
 
   #Quest End
   'get_holywater':
@@ -68,22 +65,14 @@ NPC_options:
     text: 'Du hast ja doch kein Weihwasser bei dir!'
     conditions: '!has_holywater'
 
-
-
-
-
-    
   #Smalltalk
   'no_water_bye':
     text: 'Auf ein baldiges wiedersehen!'
 
-    
-    
-    
 #########################################################################
 player_options:
   #start
-  
+
   #Blessing Conversation
   'start_blessing':
     text: 'Ich ersuche einen Segen'
@@ -99,12 +88,11 @@ player_options:
   'start_nothing':
     text: 'Danke, ich brauche nichts'
     pointer: 'decline_bye'
-    
+
   #Start Quest
   'start_fair':
     text: 'Guten Tag, Pfarrer Karl. Ich hörte, dass bald eine Messe stattfinden soll?'
     pointer: 'fair_talk1'
-    
 
   #pre Quest
   'fair_talk2':
@@ -116,7 +104,7 @@ player_options:
   'quest_decline':
     text: 'Es tut mir leid, aber dafür habe ich leider keine Zeit.'
     pointer: 'quest_decline_bye'
-    
+
   #during Quest
   'holywater_yes':
     text: 'Ja, ich habe es für euch besorgt.'

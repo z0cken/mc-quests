@@ -10,11 +10,11 @@ variables:
   #Amout for objectives
   amount1: '200' #wheat farm
   amount2: '300' #carrots farm
-  amount3: '30' #cow breed
+  amount3: '15' #cow breed
   amount4: '300' #melon farm
   amount5: '40' #sheep shear
   amount6: '400' #potato farm
-  amount7: '50' #chicken kill
+  amount7: '30' #chicken kill
   timer: '120' #in Minutes for a job
 
 npcs:

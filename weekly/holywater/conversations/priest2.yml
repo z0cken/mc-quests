@@ -22,7 +22,7 @@ NPC_options:
     
   #Blessing Conversation
   'blessing_money':
-    text: 'Ein Jeder von uns sucht den Schutz im Glaube an den Herrn. Für eine kleine Mitgift von 25 Schekel, für die Kirche versteht sich, würde ich euch diesen Segen gerne entgegenbringen.'
+    text: 'Ein Jeder von uns sucht den Schutz im Glaube an den Herrn. Für eine kleine Mitgift von $blessing_price$ Gold, für die Kirche versteht sich, würde ich euch diesen Segen gerne entgegenbringen.'
     condition: '!cooldown_blessing2,!cooldown_asked_blessing2'
     pointer: 'money_accept'
   'accept_has_money':
@@ -61,7 +61,7 @@ NPC_options:
     conditions: 'has_selection'
 
   'materials_without_quest':
-    text: 'Vielen vielen Dank, Ihr seid so gütig. Selbstverständlich werde ich Euch für diese gute Tat entlohnt. Nehmt diese $materials_payout$ Schekel als Zeichen meiner Dankbarkeit und im Namen des Herrn.'
+    text: 'Vielen vielen Dank, Ihr seid so gütig. Selbstverständlich werde ich Euch für diese gute Tat entlohnt. Nehmt diese $materials_payout$ Gold als Zeichen meiner Dankbarkeit und im Namen des Herrn.'
     conditions: '!get_holywater,!has_selection'
     events: 'give_money_materials,del_material_quest,cooldown_materials,journal_reload'
   'materials_with_quest':

@@ -11,18 +11,18 @@ journal_reload: 'journal update'
 
 cooldown_materials: 'objective start cooldown_materials'
 
-give_money_materials: 'money $materials_payout$'
+give_money_materials: 'give gold_ingot:$materials_payout$'
 give_money: 'folder money_1,money_2,money_3,money_4 random:1'
-money_1: 'run ^message §7§o100 Schekel erhalten ^money 100'
-money_2: 'run ^message §7§o125 Schekel erhalten ^money 125'
-money_3: 'run ^message §7§o150 Schekel erhalten ^money 150'
-money_4: 'run ^message §7§o175 Schekel erhalten ^money 175'
+money_1: 'run ^message §7§o10 Gold erhalten ^give gold_ingot:10'
+money_2: 'run ^message §7§o12 Gold erhalten ^give gold_ingot:12'
+money_3: 'run ^message §7§o15 Gold erhalten ^give gold_ingot:15'
+money_4: 'run ^message §7§o17 Gold erhalten ^give gold_ingot:17'
 
 take_holywater: 'take holywater:1' 
 
-start_get_holywater: 'run ^objective start take_holywater1 ^objective start take_holywater2 ^objective start wrong_holywater1 ^objective start wrong_holywater2 ^journal add take_holywater'
+start_get_holywater: 'run ^objective start take_holywater1 ^objective start wrong_holywater1 ^journal add take_holywater'
 
-switch_bottle: 'run ^take glass_bottle:1 ^give holywater:1 ^journal del take_holywater ^objective remove take_holywater1 ^objective remove take_holywater2 ^objective remove wrong_holywater1 ^objective remove wrong_holywater2 ^message §7§oWeihwasser erhalten!'
+switch_bottle: 'run ^take glass_bottle:1 ^give holywater:1 ^journal del take_holywater ^objective remove take_holywater1 ^objective remove wrong_holywater1 ^message §7§oWeihwasser erhalten!'
 wrong_item: 'message §7§oIch benötige eine Glasflasche um das Weihwasser zu transportieren.'
 
 #Materials Quest
@@ -84,9 +84,9 @@ cooldown_blessing: 'objective start cooldown_blessing'
 cooldown_asked_blessing: 'objective start cooldown_asked_blessing'
 cooldown_blessing2: 'objective start cooldown_blessing2'
 cooldown_asked_blessing2: 'objective start cooldown_asked_blessing2'
-pay_blessing: 'run ^money -$blessing_price$ ^message §7§o$blessing_price$ Schekel gegeben.'
+pay_blessing: 'run ^take gold_ingot:$blessing_price$ ^message §7§o$blessing_price$ Gold gegeben.'
 
-blessing1: 'effect REGENERATION 240 1 ' #via command to hide particles?
+blessing1: 'effect REGENERATION 240 1 '
 blessing2: 'effect SATURATION 600 1'
 blessing3: 'effect SPEED 300 1'
 blessing4: 'effect INCREASE_DAMAGE 240 2'

@@ -1,7 +1,7 @@
 variables:
-  blessing_price: '25'
-  materials_payout: '75'
-  
+  blessing_price: '10' #Gold_Ingots
+  materials_payout: '35' #Gold_Ingots
+
   material1: 'material1:30'
   material2: 'material2:60'
   material3: 'material3:20'
@@ -12,37 +12,22 @@ variables:
   material8: 'material8:24'
   material9: 'material9:24'
   material10: 'material10:24'
-  
-  location_holywater1: '-42;64;-32;world'
-  location_holywater2: '-43;64;-32;world'
-  
+
+  location_holywater1: '-5502;75;-3246;world'
+  water_range: '5'
+
 npcs:
   'Karl': priest1
-  '13': priest1
+  '368': priest1
   'Albert': priest2
-  '14': priest2
-cancel:
-#TODO
-  holywater:
-    name: 'Weihwasser'
-    conditions: 'get_holywater'
-    objectives: 
-    tags: 
-    journal: 
-    events: 
-  materials:
-    name: 'Materialien'
-    conditions: 'material_quest'
-    objectives: 
-    tags: 
-    journal: 
-    events: 
+  '369': priest2
+cancel: #TODO
 journal_main_page:
   holywater:
     priority: 2
-    text: "Weihwasser"
+    text: 'Weihwasser'
     conditions: 'get_holywater'
   materials:
     priority: 3
-    text: "Material für die Kirche"
+    text: 'Material für die Kirche'
     conditions: 'has_selection'

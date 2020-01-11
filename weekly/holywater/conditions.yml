@@ -1,8 +1,7 @@
 get_holywater: 'tag get_holywater'
 material_quest: 'tag material_quest'
 cooldown_materials: 'objective cooldown_materials'
-cooldown_quest: 'objective cooldown_quest' 
-
+cooldown_quest: 'objective cooldown_quest'
 
 cooldown_blessing: 'objective cooldown_blessing'
 cooldown_asked_blessing: 'objective cooldown_asked_blessing'
@@ -11,9 +10,9 @@ cooldown_asked_blessing2: 'objective cooldown_asked_blessing2'
 
 has_holywater: 'item holywater:1'
 holding_glass_bottle: 'hand glass_bottle'
-has_money_blessing: 'money $blessing_price$'
+has_money_blessing: 'item gold_ingot:$blessing_price$'
 
-has_material: 'or check_material1,check_material2,check_material3,check_material4,check_material5,check_material6,check_material7,check_material8,check_material9,check_material10' 
+has_material: 'or check_material1,check_material2,check_material3,check_material4,check_material5,check_material6,check_material7,check_material8,check_material9,check_material10'
 
 has_selection: 'or tag_material1,tag_material2,tag_material3,tag_material4,tag_material5,tag_material6,tag_material7,tag_material8,tag_material9,tag_material10'
 
