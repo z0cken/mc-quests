@@ -1,5 +1,5 @@
 quester: 'Bernd'
-first: 'start_cooldown,start_timeout,start_during,start_done,start,'
+first: 'start_cooldown,start_timeout,start_during,start_done,start'
 stop: 'false'
 NPC_options:
   #start
@@ -34,12 +34,12 @@ NPC_options:
     pointer: 'timeout_bye'
     events: 'del_timeout,cancel'
   'start_cooldown':
-    text: 'Hey, danke nochmal für deinen Einsatz!'
+    text: 'Hey, danke nochmal für deinen Einsatz! Komm doch in %objective.cooldown.left% wieder vorbei.'
     conditions: 'cooldown'
     pointer: 'cooldown_bye'
   'no_bye':
     text: 'Alles klar, Tschüss'
-    
+
 player_options:
   #start
   'start_yes':

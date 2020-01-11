@@ -19,7 +19,7 @@ NPC_options:
     conditions: '!cooldown3'
     pointer: 'claim3_yes,claim3_no,bye'
   'claim_none':
-    text: 'Leider habe ich aktuell keine weiteren Aufgaben.'
+    text: 'Leider habe ich aktuell keine weiteren Aufgaben. Kommen sie die Tage wieder vorbei!'
     pointer: 'claim_restart,bye'
   'claim1_text':
     text: 'Super. Ich schaue kurz nach was wir brauchen und schreibe es in ihr Tagebuch. (/j)'
