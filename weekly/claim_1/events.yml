@@ -10,7 +10,7 @@ claim3_end: 'folder tag_del_claim3,giveclaim,tag_add_cooldown3,tag_cooldown3,obj
 obj_cooldown1: 'objective start cooldown1'
 obj_cooldown2: 'objective start cooldown2'
 obj_cooldown3: 'objective start cooldown3'
-giveclaim: 'run ^message §7§oClaimblock erhalten ^give claimblock:1'
+giveclaim: 'run ^message §7§oClaimblock erhalten ^give claimblock:1 ^point claims 1'
 tag_add_cooldown1: 'tag add cooldown1'
 tag_add_cooldown2: 'tag add cooldown2'
 tag_add_cooldown3: 'tag add cooldown3'
