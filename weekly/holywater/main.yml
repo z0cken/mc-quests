@@ -18,9 +18,9 @@ variables:
 
 npcs:
   'Karl': priest1
-  '368': priest1
+  '0': priest1
   'Albert': priest2
-  '369': priest2
+  '0': priest2
 cancel: #TODO
 journal_main_page:
   holywater:

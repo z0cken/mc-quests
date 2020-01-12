@@ -46,7 +46,7 @@ NPC_options:
     
     
   'old_text1':
-    text: 'Berdauerlicherweise haben Sie recht. Seit vielen Jahren haben wir kaum Materialien und Rohstoffe um diese Kirche instand zu halten.'
+    text: 'Berdauerlicherweise haben Sie Recht. Seit vielen Jahren haben wir kaum Materialien und Rohstoffe um diese Kirche instand zu halten.'
     pointer: 'old_text2'
   'quest': 
     text: 'Ja, doch, ich denke Sie könnten mir behilflich sein. Für die Renovierung der Kirche fehlen uns im Moment die oben genannten Materialien.'

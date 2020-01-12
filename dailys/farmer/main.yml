@@ -25,7 +25,7 @@ cancel:
     name: 'Farmen üben'
     conditions: 'running'
     objectives: 'job1,job2,job3,job4,job5,job6,job7'
-    tags: 'job1,job2,job3,job4,job5,job6,job7'
+    tags: 'job1,job2,job3,job4,job5,job6,job7,money1,money2,money3,money4,money5,money6,money7'
     journal: 'job1,job2,job3,job4,job5,job6,job7'
 journal_main_page:
   greeting:

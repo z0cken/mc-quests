@@ -107,22 +107,22 @@ player_options:
     pointer: 'accept'
   'accept_2':
     text: 'Und weiter gehts!'
-    events: 'job2'
+    events: 'job2,del_money1'
   'accept_3':
     text: 'Meine Kühe haben eh hunger!'
-    events: 'job3'
+    events: 'job3,del_money2'
   'accept_4':
     text: 'Kein Problem.'
-    events: 'job4'
+    events: 'job4,del_money3'
   'accept_5':
     text: 'Zeit für einen Wollpullover!'
-    events: 'job5'
+    events: 'job5,del_money4'
   'accept_6':
     text: 'Deutsche Kartoffel voraus!'
-    events: 'job6'
+    events: 'job6,,del_money5'
   'accept_7':
     text: 'Grausam, aber auch das will ich lernen.'
-    events: 'job7'
+    events: 'job7,,del_money6'
 
   'start_no':
     text: 'Ne, danke.'
