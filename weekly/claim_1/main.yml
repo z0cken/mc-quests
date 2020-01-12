@@ -1,7 +1,7 @@
 variables:
-  cooldown_offline: '20160' #in Minuntes (20160 = 14 Tage)
-  cooldown_offline_short: '10080' #in Minutes (10080 = 7 Tage)
-  cooldown_online: '720' #in Minutes (720 = 12 Stunden)
+  cooldown_offline: '9500' #in Minuntes (10000 = 6,597222 Tage)
+  cooldown_offline_short: '4500' #in Minutes (4500 = 3,125 Tage)
+  cooldown_online: '600' #in Minutes (720 = 12 Stunden)
   #blocks to break
   block1: 'STONE'
   block2: 'ANDESITE'
