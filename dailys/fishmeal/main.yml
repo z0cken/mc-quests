@@ -8,9 +8,9 @@ variables:
   puffer1: 8
   puffer2: 9
   puffer3: 10
-  tropical1: 3
-  tropical2: 4
-  tropical3: 5
+  tropical1: 1
+  tropical2: 2
+  tropical3: 3
   cooldown: 600 #minutes
   timeout: 60 #minutes
   payout: 48 #Lapislazulli + 1 Emerald
