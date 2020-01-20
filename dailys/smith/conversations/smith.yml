@@ -76,7 +76,7 @@ player_options:
     text: 'Ich habe keine Zeit für euch.'
     pointer: 'no_block'
   'text_yes':
-    text: 'Ich werte die benötigten Materialien besorgen.'
+    text: 'Ich werde die benötigten Materialien besorgen.'
     pointer: 'yes_answer'
   'text_no':
     text: 'Für so einen wie dich habe ich sicherlich keine Zeit.'
