@@ -71,7 +71,7 @@ NPC_options:
 
   # Pre-Quest
   'NA_tut_questYes':
-    text: 'Sehr schön. Also folgendes: Gib /berbau ein und sieh dir den Bergbau-Skill an. Sprich mich wieder an, wenn du einen Überblick hast.'
+    text: 'Sehr schön. Also folgendes: Gib /bergbau ein und sieh dir den Bergbau-Skill an. Sprich mich wieder an, wenn du einen Überblick hast.'
     events: 'addTag_miner_prepareQuest'
 
   'NA_tut_questPrepared_start':

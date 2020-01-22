@@ -13,7 +13,7 @@ variables:
   tropical3: 3
   cooldown: 600 #minutes
   timeout: 60 #minutes
-  payout: 48 #Lapislazulli + 1 Emerald
+  payout: 32 #Lapislazulli + 1 Emerald
 npcs:
   '355': villager
   'Bernd': villager
