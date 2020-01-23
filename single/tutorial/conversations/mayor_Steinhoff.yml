@@ -114,8 +114,8 @@ NPC_options:
   'NA_capitalAnswer':
     text:
       'Hier in Gambberg findest du verschiedene Locations über deinen Kompass. Du befindest dich gerade im Rathaus, direkt am Spawn.\n
-      Im Rathaus findest du einen Händler für Claimblöcke, ein Portal zum End, zur Farmwelt und zum Nether.\n
-      Wenn du aus dem Rathaus und nach rechts gehst findest du das Portalhaus und den Marktplatz. Über das Portalhaus kannst du weitere Städte des Servers bereisen und auf dem Marktplatz mit Spielern handeln oder ein paar Items an Server NPCs verkaufen.\n
+      Im Rathaus findest du einen Händler für Claimblöcke, ein Portal zum End und zum Nether.\n
+      Wenn du aus dem Rathaus und nach rechts gehst findest du das Portalhaus und den Marktplatz. Über das Portalhaus kannst du weitere Städte des Servers und die Farmwelt bereisen und auf dem Marktplatz mit Spielern handeln oder ein paar Items an Server NPCs verkaufen.\n
       Kann ich dir sonst noch behilflich sein?'
     pointer: 'PA_currencyAsk,PA_tut_thanksInfo,PA_def_end'
 
