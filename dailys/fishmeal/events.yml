@@ -9,7 +9,9 @@ del_timeout: 'tag del timeout'
 
 start_timer: 'folder add_timeout delay:$timeout$ minutes'
 cancel: 'cancel fishmeal'
-payout: 'run ^message §7§o$payout$ Lapis Lazuli und 1 Shulkerschale erhalten. ^give payout:$payout$ ^give emerald:1 ^give shulker_shell:1 ^journal del done_fishing'
+payout: 'folder payout1,payout2 random:1'
+payout1: 'run ^message §7§o$payout$ Lapis Lazuli und 3 Emeralds erhalten. ^give payout:$payout$ ^give emerald:3 ^journal del done_fishing'
+payout2: 'run ^message §7§o$payout$ Lapis Lazuli und 1 Shulkerschale erhalten. ^give payout:$payout$ ^give shulker_shell:1 ^journal del done_fishing'
 cooldown: 'objective start cooldown'
 
 cod1: 'run ^journal add cod1 ^objective start obj_cod1'
