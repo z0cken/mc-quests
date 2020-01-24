@@ -106,3 +106,6 @@ mob7: 'run ^journal del c3_obj7 ^message §7§oStray Objective abgeschlossen'
 mob8: 'run ^journal del c3_obj8 ^message §7§oWitherskelett Objective abgeschlossen'
 mob9: 'run ^journal del c3_obj9 ^message §7§oHusk Objective abgeschlossen'
 mob10: 'run ^journal del c3_obj10 ^message §7§oGeist Objective abgeschlossen'
+
+#Home Events
+give_home1: 'permission add perm essentials.sethome.multiple.zwei world' #TODO give permission

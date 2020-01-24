@@ -4,7 +4,7 @@ first: 'claim1_giveclaim,claim1_start,claim2_start,claim3_start,claim2_finish,cl
 NPC_options:
   'start':
     text: 'Guten Tag, wie kann ich ihnen helfen?'
-    pointer: 'start_claim,start_nothing'
+    pointer: 'start_claim,start_nothing,start_homes'
   'claim_1':
     text: 'Die Stadt ist mal wieder pleite und braucht etwas unterstützung bei aktuellen Projekten. Würden Sie uns mit Materialien unterstützen?'
     conditions: '!cooldown1'
@@ -76,6 +76,26 @@ NPC_options:
   'abort3_text':
     text: 'Bist du dir sicher? Dann kannst du die Aufgabe für eine Woche nicht mehr annehmen.'
     pointer: 'abort3_confirm,abort_cancel'
+  'home_1':
+    text: 'Ich sehe, deine Teleportoptionen sind sehr begrenzt, aber ich kann da was machen. Spielst du denn aktiv genug?'
+    conditions: '!has_home1'
+    pointer: 'home_yes,home_no'
+  'home_decline':
+    text: 'Du hast schon die maximale Menge an Homes.'
+    conditions: 'has_home1'
+    pointer: 'home_ask,bye'
+  'home_bye':
+    text: 'Dann kann ich dir nicht helfen. Du musst schon aktiv spielen, um Vorteile zu erhalten.'
+  'home1_100h':
+    text: 'Perfekt, du hast über 100 Spielstunden und erhältst somit deinen zweiten Homepunkt!'
+    conditions: 'has_playtime'
+    events: 'give_home1'
+    pointer: 'thx'
+  'home_bye2':
+    text: 'Laut meinem Register hast du aber noch keine 100 Stunden Spielzeit. Komm doch wieder, wenn du länger aktiv warst.'
+    conditions: '!has_playtime'
+  'ask_text':
+    text: 'Du benennst deine Homes einfach beim setzen mit §3§o/sethome Haus§f und teleportierst dich mit §3§o/home Haus§f.'
 
 #########################################################################
 player_options:
@@ -156,3 +176,15 @@ player_options:
     text: 'Bekomme ich jetzt meinen Claimblock?'
     pointer: 'claim1_giveclaim'
     conditions: '!material_active'
+  'start_homes':
+    text: 'Ich würde gern ein weiteres Home besitzen.'
+    pointer: 'home_1,home_decline'
+  'home_yes':
+    text: 'Ja, klar mache ich das.'
+    pointer: 'home1_100h,home_bye2'
+  'home_no':
+    text: 'Nein, ich glaube nicht,'
+    pointer: 'home_bye'
+  'home_ask':
+    text: 'Wie geht das jetzt mit dem zweiten Homepunkt?'
+    pointer: 'ask_text'

@@ -65,3 +65,7 @@ mob7: 'objective mob7'
 mob8: 'objective mob8'
 mob9: 'objective mob9'
 mob10: 'objective mob10'
+
+#Home Conditions
+has_home1: 'permission essentials.sethome.multiple.zwei'
+has_playtime: 'variable %ph.statistic_hours_played% ^(?!(?:\d{1,2}|100)$)[0-9]\d+$'
