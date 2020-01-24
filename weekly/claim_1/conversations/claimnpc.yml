@@ -194,15 +194,15 @@ player_options:
   'abort1_confirm':
     text: 'Ja, ich möchte abbrechen!'
     pointer: 'canceled'
-    events: 'cancel_claim1,tag_cooldown1_short,tag_add_cooldown1'
+    events: 'cancel_claim1,cooldown_short1'
   'abort2_confirm':
     text: 'Ja, ich möchte abbrechen!'
     pointer: 'canceled'
-    events: 'cancel_claim2,tag_cooldown2_short,tag_add_cooldown2'
+    events: 'cancel_claim2,cooldown_short2'
   'abort3_confirm':
     text: 'Ja, ich möchte abbrechen!'
     pointer: 'canceled'
-    events: 'cancel_claim3,tag_cooldown3_short,tag_add_cooldown3'
+    events: 'cancel_claim3,cooldown_short3'
   'abort_cancel':
     text: 'Nein, ich versuche es weiter!'
     pointer: 'bye'
