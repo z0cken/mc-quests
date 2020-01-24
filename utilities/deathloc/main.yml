@@ -1,5 +1,6 @@
 variables:
   respawn_location: 5106.5;78;-493.5;world
+  cooldown: '120' #Online cooldown = 2h
 npcs:
   '358': death
   'Thanatos': death
