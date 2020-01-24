@@ -41,7 +41,7 @@ variables:
 
   #home variables:
   claims_for_home2: '10'
-  minlevel: '50'
+  minlevel: '40'
   toplevel: '100'
 
 npcs:

@@ -102,12 +102,13 @@ NPC_options:
     text: 'Laut meinem Register hast du aber noch keine 100 Stunden Spielzeit. Komm doch wieder, wenn du länger aktiv warst.'
     conditions: '!has_playtime'
   'home_bye3':
-    text: 'Deine Skills müssen alle auf mindestens Level 40 sein und einer deiner Skills auf Level 100.'
+    text: 'Deine Skills müssen alle auf mindestens Level $minlevel$ sein und einer deiner Skills auf Level $toplevel$.'
     conditions: '!home2_levels'
+    pointer: 'exit'
   'ask_text':
     text: 'Du benennst deine Homes einfach beim setzen mit §3/sethome Haus§c§o und teleportierst dich mit §3/home Haus§c§o.'
   'home2_levels':
-    text: 'Stimmt! Aber ich sehe gerade, ich brauche auch noch 10 Claimblöcke für deinen Antrag.'
+    text: 'Stimmt! Aber ich sehe gerade, ich brauche auch noch $claims_for_home2$ Claimblöcke für deinen Antrag.'
     conditions: 'home2_levels'
     pointer: 'claim_yes,claim_no'
   'claims_give':
@@ -234,7 +235,7 @@ player_options:
     text: 'Wie geht das jetzt mit dem zweiten Homepunkt?'
     pointer: 'ask_text'
   'claim_yes':
-    text: 'Hier bitte, ich habe die 10 Claimblöcke dabei.'
+    text: 'Hier bitte, ich habe die $claims_for_home2$ Claimblöcke dabei.'
     conditions: 'home2_claims'
     pointer: 'claims_give,claims_missing'
   'claim_no':
