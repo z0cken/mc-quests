@@ -68,4 +68,32 @@ mob10: 'objective mob10'
 
 #Home Conditions
 has_home1: 'permission essentials.sethome.multiple.zwei'
+has_home2: 'permission essentials.sethome.multiple.drei'
 has_playtime: 'variable %ph.javascript_hasHours% true'
+home2_levels: 'and has_minlevel,has_toplevel'
+home2_claims: 'item claimblock:$claims_for_home2$'
+tag_homeclaims: 'tag homeclaims'
+has_pass: 'item passierschein'
+
+has_minlevel: 'and mcmmo1,mcmmo2,mcmmo3,mcmmo4,mcmmo5,mcmmo6,mcmmo7,mcmmo8,mcmmo9'
+has_toplevel: 'or tmcmmo1,tmcmmo2,tmcmmo3,tmcmmo4,tmcmmo5,tmcmmo6,tmcmmo7,tmcmmo8,tmcmmo9'
+
+mcmmo1: mcmmolevel acrobatics $minlevel$
+mcmmo2: mcmmolevel archery $minlevel$
+mcmmo3: mcmmolevel axes $minlevel$
+mcmmo4: mcmmolevel excavation $minlevel$
+mcmmo5: mcmmolevel fishing $minlevel$
+mcmmo6: mcmmolevel herbalism $minlevel$
+mcmmo7: mcmmolevel mining $minlevel$
+mcmmo8: mcmmolevel swords $minlevel$
+mcmmo9: mcmmolevel unarmed $minlevel$
+
+tmcmmo1: mcmmolevel acrobatics $toplevel$
+tmcmmo2: mcmmolevel archery $toplevel$
+tmcmmo3: mcmmolevel axes $toplevel$
+tmcmmo4: mcmmolevel excavation $toplevel$
+tmcmmo5: mcmmolevel fishing $toplevel$
+tmcmmo6: mcmmolevel herbalism $toplevel$
+tmcmmo7: mcmmolevel mining $toplevel$
+tmcmmo8: mcmmolevel swords $toplevel$
+tmcmmo9: mcmmolevel unarmed $toplevel$

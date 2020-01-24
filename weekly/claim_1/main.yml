@@ -40,6 +40,11 @@ variables:
   material11: 'material11:32' #iron_ingot
   material12: 'material12:16' #gold_ingot
 
+  #home variables:
+  claims_for_home2: '10'
+  minlevel: '50'
+  toplevel: '100'
+
 npcs:
   '349': claimnpc
   'Claim': claimnpc

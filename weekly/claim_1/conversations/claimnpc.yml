@@ -5,6 +5,9 @@ NPC_options:
   'start':
     text: 'Guten Tag, wie kann ich ihnen helfen?'
     pointer: 'start_claim,start_nothing,start_homes'
+  'intext_start':
+    text: 'Kann ich ihnen sonst noch helfen?'
+    pointer: 'start_claim,start_nothing,start_homes'
   'claim_1':
     text: 'Die Stadt ist mal wieder pleite und braucht etwas unterstützung bei aktuellen Projekten. Würden Sie uns mit Materialien unterstützen?'
     conditions: '!cooldown1'
@@ -80,6 +83,10 @@ NPC_options:
     text: 'Ich sehe, deine Teleportoptionen sind sehr begrenzt, aber ich kann da was machen. Spielst du denn aktiv genug?'
     conditions: '!has_home1'
     pointer: 'home_yes,home_no'
+  'home_2':
+    text: 'Ich sehe, du hast bereits einen zweiten Home, aber da kann man noch was machen. Hast du schon genug Skills dafür?'
+    conditions: 'has_home1,!has_home2,!homeclaims'
+    pointer: 'home_2yes,home_no'
   'home_decline':
     text: 'Du hast schon die maximale Menge an Homes.'
     conditions: 'has_home1'
@@ -94,8 +101,43 @@ NPC_options:
   'home_bye2':
     text: 'Laut meinem Register hast du aber noch keine 100 Stunden Spielzeit. Komm doch wieder, wenn du länger aktiv warst.'
     conditions: '!has_playtime'
+  'home_bye3':
+    text: 'Deine Skills müssen alle auf mindestens Level 40 sein und einer deiner Skills auf Level 100.'
+    conditions: '!home2_levels'
   'ask_text':
     text: 'Du benennst deine Homes einfach beim setzen mit §3/sethome Haus§c§o und teleportierst dich mit §3/home Haus§c§o.'
+  'home2_levels':
+    text: 'Stimmt! Aber ich sehe gerade, ich brauche auch noch 10 Claimblöcke für deinen Antrag.'
+    conditions: 'home2_levels'
+    pointer: 'claim_yes,claim_no'
+  'claims_give':
+    text: 'Dankesehr. Dann geben sie mir bitte ihren Passierschein A38.'
+    conditions: 'home2_claims'
+    events: 'take_claims,tag_add_homeclaims'
+    pointer: 'claim_pass,claim_pass2'
+  'claims_missing':
+    text: 'Ähm. Nein? Sie haben nicht genug Claims im Inventar. Sie müssen die schon mitbringen.'
+    conditions: '!home2_claims'
+    pointer: 'ok'
+  'pass_text':
+    text: 'In Darmstadt im Hochhaus....' #TODO Erkärung ORT passierschein a38
+    pointer: 'bye_ok'
+  'pass_text2':
+    text: 'Sie benötigen den Passierschein A38. Ansonsten darf ich ihnen keinen weiteren Home geben.' #TODO Erkärung passierschein a38
+    pointer: 'claim_pass,bye_ok,pass_give'
+  'home2_pass':
+    text: 'Sie benötigen noch Passierschein A38 für ihren weiteren Homepunkt.'
+    conditions: 'homeclaims'
+    pointer: 'claim_pass,claim_pass2,pass_give'
+  'pass_take':
+    text: 'Vielen Dank. Dann haben sie jetzt die Möglichkeit einen dritten Homepunkt zu setzen.'
+    events: 'take_pass,give_home2,tag_del_homeclaims'
+    conditions: 'has_pass'
+    pointer: 'thx,home_ask'
+  'pass_fake':
+    text: 'Ähm nein. Ich sehe ihn nicht in ihrem Inventar.'
+    conditions: '!has_pass'
+    pointer: 'exit'
 
 #########################################################################
 player_options:
@@ -178,13 +220,40 @@ player_options:
     conditions: '!material_active'
   'start_homes':
     text: 'Ich würde gern ein weiteres Home besitzen.'
-    pointer: 'home_1,home_decline'
+    pointer: 'home_1,home_2,home2_pass,home_decline'
   'home_yes':
     text: 'Ja, klar mache ich das.'
     pointer: 'home1_100h,home_bye2'
+  'home_2yes':
+    text: 'Ja klar, hab schon total viele Skill-Level.'
+    pointer: 'home2_levels,home_bye3'
   'home_no':
-    text: 'Nein, ich glaube nicht,'
+    text: 'Nein, ich glaube nicht.'
     pointer: 'home_bye'
   'home_ask':
     text: 'Wie geht das jetzt mit dem zweiten Homepunkt?'
     pointer: 'ask_text'
+  'claim_yes':
+    text: 'Hier bitte, ich habe die 10 Claimblöcke dabei.'
+    conditions: 'home2_claims'
+    pointer: 'claims_give,claims_missing'
+  'claim_no':
+    text: 'Oh, die muss ich noch besorgen.'
+    conditions: '!home2_claims'
+    pointer: 'intext_start'
+  'claim_pass':
+    text: '...Wo bekomme ich diesen Schein?'
+    conditions: '!has_pass'
+    pointer: 'pass_text'
+  'claim_pass2':
+    text: 'Welcher Passierschein?'
+    conditions: '!has_pass'
+    pointer: 'pass_text2'
+  'bye_ok':
+    text: 'Danke für nichts... Bis später.'
+  'pass_give':
+    text: 'Ich habe ihn. Bitteschön.'
+    pointer: 'pass_take,pass_fake'
+    conditions: 'has_pass'
+  'exit':
+    text: 'Oh, ok.'
