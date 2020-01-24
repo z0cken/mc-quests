@@ -95,7 +95,7 @@ NPC_options:
     text: 'Laut meinem Register hast du aber noch keine 100 Stunden Spielzeit. Komm doch wieder, wenn du länger aktiv warst.'
     conditions: '!has_playtime'
   'ask_text':
-    text: 'Du benennst deine Homes einfach beim setzen mit §3§o/sethome Haus§f und teleportierst dich mit §3§o/home Haus§f.'
+    text: 'Du benennst deine Homes einfach beim setzen mit §3/sethome Haus§c§o und teleportierst dich mit §3/home Haus§c§o.'
 
 #########################################################################
 player_options:
