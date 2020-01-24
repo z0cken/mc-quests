@@ -68,4 +68,4 @@ mob10: 'objective mob10'
 
 #Home Conditions
 has_home1: 'permission essentials.sethome.multiple.zwei'
-has_playtime: 'variable %ph.statistic_hours_played% ^(?!(?:\d{1,2}|100)$)[0-9]\d+$'
+has_playtime: 'variable %ph.javascript_hasHours% true'
