@@ -12,4 +12,4 @@ material10: coal
 material11: iron_ingot
 material12: gold_ingot
 claimblock: end_portal_frame
-passierschein: paper #TODO TEXT/Title...
+passierschein: 'paper name:§fPassierschein_A38 lore:§5Sehr_Kompliziert_zu_bekommen;Ermöglicht_2._Home;;&2Quest_Item'
