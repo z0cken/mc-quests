@@ -85,7 +85,7 @@ NPC_options:
     pointer: 'home_yes,home_no'
   'home_2':
     text: 'Ich sehe, du hast bereits einen zweiten Home, aber da kann man noch was machen. Hast du schon genug Skills dafür?'
-    conditions: 'has_home1,!has_home2,!homeclaims'
+    conditions: 'has_home1,!has_home2,!tag_homeclaims'
     pointer: 'home_2yes,home_no'
   'home_decline':
     text: 'Du hast schon die maximale Menge an Homes.'
@@ -127,7 +127,7 @@ NPC_options:
     pointer: 'claim_pass,bye_ok,pass_give'
   'home2_pass':
     text: 'Sie benötigen noch Passierschein A38 für ihren weiteren Homepunkt.'
-    conditions: 'homeclaims'
+    conditions: 'tag_homeclaims'
     pointer: 'claim_pass,claim_pass2,pass_give'
   'pass_take':
     text: 'Vielen Dank. Dann haben sie jetzt die Möglichkeit einen dritten Homepunkt zu setzen.'

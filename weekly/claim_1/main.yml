@@ -53,21 +53,21 @@ cancel:
     conditions: 'material_active'
     tags: 'claim1,material1,material2,material3,material4,material5,material6,material7,material8,material9,material10,material11,material12'
     journal: 'mat1,mat2,mat3,mat4,mat5,mat6,mat7,mat8,mat9,mat10,mat11,mat12'
-    events: 'tag_cooldown1_short,tag_add_cooldown1'
+    events: 'cooldown_short1'
   claim2:
     name: 'Claim 2'
     conditions: 'block_active'
     objectives: 'block1,block2,block3,block4,block5,block6,block7,block8,block9,block10,block11,block12'
     tags: 'claim2'
     journal: 'c2_obj1,c2_obj2,c2_obj3,c2_obj4,c2_obj5,c2_obj6,c2_obj7,c2_obj8,c2_obj9,c2_obj10,c2_obj11,c2_obj12'
-    events: 'tag_cooldown2_short,tag_add_cooldown2'
+    events: 'cooldown_short2'
   claim3:
     name: 'Claim 3'
     conditions: 'mob_active'
     objectives: 'mob1,mob2,mob3,mob4,mob5,mob6,mob7,mob8,mob9,mob10'
     tags: 'claim3'
     journal: 'c3_obj1,c3_obj2,c3_obj3,c3_obj4,c3_obj5,c3_obj6,c3_obj7,c3_obj8,c3_obj9,c3_obj10,c3_obj11,c3_obj12'
-    events: 'tag_cooldown3_short,tag_add_cooldown3'
+    events: 'cooldown_short3'
 
 journal_main_page:
   claim1:
