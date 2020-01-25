@@ -22,7 +22,7 @@ objective_start_kill: 'objective start kill'
 done_killing: 'folder journal_del_kill,journal_add_done,message_done,journal_reload'
 message_done: 'message §7§oDas waren genug Ratten.'
 
-payout_value: 'run ^give gold_ingot:$payout$,emerald:1 ^message §7§o10 Gold und 1 Emerals erhalten.'
+payout_value: 'run ^give gold_ingot:$payout$,emerald:1 ^message §7§o10 Gold und 1 Emerald erhalten.'
 payout_random_armor: 'folder payout_armor1,payout_armor2,payout_armor3,payout_armor4 random:1'
 payout_armor1: 'run ^give chainmail_helmet:1 ^message §7§oKettenhelm erhalten.'
 payout_armor2: 'run ^give chainmail_chestplate:1 ^message §7§oKettenhemd erhalten.'
