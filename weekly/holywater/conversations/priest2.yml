@@ -1,5 +1,5 @@
 quester: 'Albert'
-first: 'start_active,start_done,start'
+first: 'start_get_payout,start_active,start_done,start'
 stop: 'false'
 # 2. Quest
 
@@ -9,8 +9,13 @@ NPC_options:
   #start quest active
   'start_active':
     text: 'Sehr schön, ihr seid wieder da. Ist es euch gelungen Materialien um die ich euch gebeten habe zu besorgen?'
-    conditions: 'material_quest'
+    conditions: 'material_quest,has_selection'
     pointer: 'start_blessing,start_materials_yes,start_materials_no'
+  'start_get_payout':
+    text: 'Ihr habt eure Belohnung vergessen!'
+    conditions: 'material_quest,!has_selection'
+    pointer: 'materials_finished_2'
+
   #Quest done (conversation finished)
   'start_done':
     text: 'Dank Ihnen erstahlt diese Kirche schon bald in neuem Glanz! Kann ich mich bei Ihnen erkenntlich zeigen?'
@@ -42,9 +47,6 @@ NPC_options:
     text: 'Eure Finanzen reichten das letzte mal  nicht aus. Sprecht mich bitte später erneut an.'
     conditions: 'cooldown_asked_blessing2,!cooldown_blessing2'
     
-    
-    
-    
   'old_text1':
     text: 'Berdauerlicherweise haben Sie Recht. Seit vielen Jahren haben wir kaum Materialien und Rohstoffe um diese Kirche instand zu halten.'
     pointer: 'old_text2'
@@ -56,22 +58,24 @@ NPC_options:
     text: 'Pfarrer Karl aus dem Fischerdorf? Ich habe ewig nichts mehr von ihm gehört. Ich hoffe es geht ihm gut. Nun... bedauerlicherweise kann ich dieser bitte nicht entgegenkommen. Wir haben selbst auch so schon genug Probleme. Unser Weihwasser ist das einzig vernünftige was uns bleibt.'
     pointer: 'mission_text2'
 
-  'not_all_materials':
-    text: 'Weiter so! Es fehlen nur noch wenige Materialien.'
-    conditions: 'has_selection'
 
+  'give_materials':
+    text: 'Vielen Dank!'
+    pointer: 'materials_finished,not_all_materials'
+  
   'materials_without_quest':
-    text: 'Vielen vielen Dank, Ihr seid so gütig. Selbstverständlich werde ich Euch für diese gute Tat entlohnt. Nehmt diese $materials_payout$ Gold als Zeichen meiner Dankbarkeit und im Namen des Herrn.'
+    text: 'Natürlich! Vielen vielen Dank, Ihr seid so gütig. Selbstverständlich werde ich Euch für diese gute Tat entlohnt. Nehmt diese $materials_payout$ Gold als Zeichen meiner Dankbarkeit und im Namen des Herrn.'
     conditions: '!get_holywater,!has_selection'
     events: 'give_money_materials,del_material_quest,cooldown_materials,journal_reload'
   'materials_with_quest':
-    text: 'Fabelhaft! Ich stehe nun zu tiefst in Ihrer Schuld. Kann ich was für Sie tun? Ohh ja, natürlich. Ihr wolltet für Pfarrer Karl das Weihwasser besorgen. Sicher, sicher. Nehmt soviel Ihr wollt. Ihr findet das Weihwasser (POSITION UNKLAR) Bitte richtet Pfarrer Karl meine besten Grüße und viel Erfolg bei der Messe aus.' #TODO POSITION
+    text: 'Natürlich! Ich stehe nun zu tiefst in Ihrer Schuld. Kann ich was für Sie tun? Ohh ja, natürlich. Ihr wolltet für Pfarrer Karl das Weihwasser besorgen. Sicher, sicher. Nehmt soviel Ihr wollt. Das Weihwasser finden sie am anderen Ende der Kirche. Bitte richtet Pfarrer Karl meine besten Grüße und viel Erfolg bei der Messe aus.'
     conditions: 'get_holywater,!has_selection'
-    events: 'del_material_quest,cooldown_materials,journal_reload,start_get_holywater' #TODO Function get water from well
+    events: 'del_material_quest,cooldown_materials,journal_reload,start_get_holywater' 
+
 
   'holywater_allow':
-    text: 'Das ist doch mal ein Wort! Wie du mir, so ich dir, wie es so schön heißt. Gerne helfe ich Ihnen. Das Weihwasser finden sie (POSITION UNBEKANNT) Danke, dass Sie damit zu mir gekommen sind. Einen schönen Tag noch.' #TODO POSITION
-    events: 'start_get_holywater' #TODO Function get water from well
+    text: 'Das ist doch mal ein Wort! Wie du mir, so ich dir, wie es so schön heißt. Gerne helfe ich Ihnen. Das Weihwasser finden sie am anderen Ende der Kirche. Einen schönen Tag noch.'
+    events: 'start_get_holywater' 
     
     #smalltalk
   'bye':
@@ -98,7 +102,7 @@ player_options:
 
   'start_ask_holywater': 
     text: 'Sie könnten sich in der Tat erkenntlich zeigen. Pfarrer Karl vom Fischerdorf hat mich entsandt um Weihwasser für ihn zu besorgen. Er benötigt es um die anstehende Messe durchführen zu können.'
-    conditions: 'get_holywater'
+    conditions: 'get_holywater,!has_holywater'
     pointer: 'holywater_allow'
   'start_mission':
     text: 'Guten Tag, Pfarrer Karl schickt mich. Er sagt, er bräuchte dringend Weihwasser für die anstehende Messe.'
@@ -126,12 +130,23 @@ player_options:
     text: 'Ich habe welche besorgt, ja'
     conditions: 'has_material' 
     events: 'take_material_1,take_material_2,take_material_3,take_material_4,take_material_5,take_material_6,take_material_7,take_material_8,take_material_9,take_material_10'
-    pointer: 'not_all_materials,materials_without_quest,materials_with_quest'
+    pointer: 'give_materials'
   'start_materials_no':
     text: 'In kürze werde ich alles zusammen haben.'
-    conditions: '!has_material' 
+    conditions: '!has_material,has_selection' 
     pointer: 'materials_no_bye'
 
+  'materials_finished': 
+    text: 'Bekomme ich nun meine Forderung erfüllt?'
+    pointer: 'materials_without_quest,materials_with_quest'
+    conditions: 'material_quest,!has_selection'
+  'materials_finished_2': 
+    text: 'Oh, stimmt. Bekomme ich nun meine Forderung erfüllt?'
+    pointer: 'materials_without_quest,materials_with_quest'
+
+  'not_all_materials':
+    text: 'Ich werde die fehlenden Materialien noch besorgen.'
+    condition: 'has_selection'
     
   #smalltalk
   'start_nothing':

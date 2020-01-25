@@ -13,15 +13,29 @@ variables:
   material9: 'material9:24'
   material10: 'material10:24'
 
-  location_holywater1: '-5502;75;-3246;world'
+  location_holywater1: '5502;75;-3246;world'
   water_range: '5'
 
 npcs:
   'Karl': priest1
-  '0': priest1
+  '368': priest1
   'Albert': priest2
-  '0': priest2
+  '369': priest2
 cancel: #TODO
+  holywater:
+    name: 'Weihwasser für Karl'
+    conditions: 'get_holywater'
+    tags: 'get_holywater,material_quest'
+    journal: 'get_holywater,take_holywater,material1,material2,material3,material4,material5,material6,material7,material8,material9,material10'
+    objectives: 'take_holywater1,wrong_holywater1'
+    events: 'cooldown_quest'
+  materials:
+    name: 'Kirchenmaterial für Albert'
+    conditions: 'material_quest,!get_holywater'
+    tags: 'material_quest'
+    journal: 'get_holywater,take_holywater,material1,material2,material3,material4,material5,material6,material7,material8,material9,material10'
+    objectives: 'take_holywater1,wrong_holywater1'
+    events: 'cooldown_materials'
 journal_main_page:
   holywater:
     priority: 2

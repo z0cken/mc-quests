@@ -9,8 +9,6 @@ del_journal_get_holywater: 'journal del get_holywater'
 
 journal_reload: 'journal update'
 
-cooldown_materials: 'objective start cooldown_materials'
-
 give_money_materials: 'give gold_ingot:$materials_payout$'
 give_money: 'folder money_1,money_2,money_3,money_4 random:1'
 money_1: 'run ^message §7§o10 Gold erhalten ^give gold_ingot:10'
@@ -18,7 +16,7 @@ money_2: 'run ^message §7§o12 Gold erhalten ^give gold_ingot:12'
 money_3: 'run ^message §7§o15 Gold erhalten ^give gold_ingot:15'
 money_4: 'run ^message §7§o17 Gold erhalten ^give gold_ingot:17'
 
-take_holywater: 'take holywater:1' 
+take_holywater: 'take holywater:1'
 
 start_get_holywater: 'run ^objective start take_holywater1 ^objective start wrong_holywater1 ^journal add take_holywater'
 
@@ -54,7 +52,7 @@ material9: 'tag add material9'
 material10: 'tag add material10'
 
 write_items: 'folder write_item1,write_item2,write_item3,write_item4,write_item5,write_item6,write_item7,write_item8,write_item9,write_item10 '
-write_item1: 'message §c&o - 30 Schwarzeichenstämme conditions:tag_material1' 
+write_item1: 'message §c&o - 30 Schwarzeichenstämme conditions:tag_material1'
 write_item2: 'message §c&o - 60 Fichtenholzbretter conditions:tag_material2'
 write_item3: 'message §c&o - 20 Fackeln conditions:tag_material3'
 write_item4: 'message §c&o - 100 Steinziegel conditions:tag_material4'
@@ -64,7 +62,6 @@ write_item7: 'message §c&o - 200 Bruchstein conditions:tag_material7'
 write_item8: 'message §c&o - 24 Blaues Glas conditions:tag_material8'
 write_item9: 'message §c&o - 24 Weißes Glas conditions:tag_material9'
 write_item10: 'message §c&o - 24 Rotes Glas conditions:tag_material10'
-
 
 take_material_1: 'run ^journal del material1 ^tag del material1 ^take $material1$ ^message §7§oItems genommen conditions:has_material1,tag_material1'
 take_material_2: 'run ^journal del material2 ^tag del material2 ^take $material2$ ^message §7§oItems genommen conditions:has_material2,tag_material2'
@@ -76,7 +73,6 @@ take_material_7: 'run ^journal del material7 ^tag del material7 ^take $material7
 take_material_8: 'run ^journal del material8 ^tag del material8 ^take $material8$ ^message §7§oItems genommen conditions:has_material8,tag_material8'
 take_material_9: 'run ^journal del material9 ^tag del material9 ^take $material9$ ^message §7§oItems genommen conditions:has_material9,tag_material9'
 take_material_10: 'run ^journal del material10 ^tag del material10 ^take $material10$ ^message §7§oItems genommen conditions:has_material10,tag_material10'
-
 
 #Blessing Events
 do_blessing: 'folder blessing1,blessing2,blessing3,blessing4,blessing5 random:1'

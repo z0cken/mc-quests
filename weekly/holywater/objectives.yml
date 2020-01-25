@@ -1,6 +1,6 @@
-cooldown_blessing: 'delay 180' #3 Stunden
+cooldown_blessing: 'delay 120' #3 Stunden
 cooldown_asked_blessing: 'delay 5'
-cooldown_blessing2: 'delay 180' #3 Stunden
+cooldown_blessing2: 'delay 120' #3 Stunden
 cooldown_asked_blessing2: 'delay 5'
 cooldown_quest: 'delay 1440' #24 stunden
 cooldown_materials: 'delay 1440' #24 stunden
