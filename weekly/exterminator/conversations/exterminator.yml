@@ -12,12 +12,12 @@ NPC_options:
     pointer: 'annoyed_nothing,start_ask'
   'ask_telljob':
     text: 'Ich beseitige die Ratten hier.'
-    pointer: 'telljob_help,telljob_disgusting'
+    pointer: 'telljob_help,telljob_disgusting,ask_loot'
   'nothing_bye':
     text: 'Dann mach dich weg.'
   'disgusting_tell':
     text: 'Jo. Ich muss hier jede Woche saubermachen.'
-    pointer: 'disg_tell_bye,telljob_help'
+    pointer: 'disg_tell_bye,telljob_help,ask_loot'
   'help_accept':
     text: 'Klar. Geh einfach in die Kanalisation und töte möglichst viele Ratten.'
     pointer: 'accept_yes,accept_where'
@@ -35,7 +35,7 @@ NPC_options:
   'start_done':
     text: 'Ich habe die Ratten quieken hören. Gute Arbeit, hier deine Belohnung.'
     conditions: 'tag_active,!tag_search,!objective_kill'
-    events: 'payout,tag_del_active,tag_add_cooldown,cooldown_timer'
+    events: 'payout_value,payout_random_armor,tag_del_active,tag_add_cooldown,cooldown_timer'
     pointer: 'done_thanks'
   'time':
     text: 'Jo. Bin immer Freitag und Samstag hier aktiv.'
@@ -50,6 +50,9 @@ NPC_options:
     text: 'Man sieht sich nächste Woche.'
     pointer: 'kill_ok'
     conditions: 'cooldown'
+  'loot_tell':
+    text: 'Natürlich etwas Gold und ein Stück Kettenrüstung, das ich letztens gefunden habe, kann ich bieten.'
+    pointer: 'telljob_help,start_bye'
 
 #########################################################################
 player_options:
@@ -89,3 +92,6 @@ player_options:
     pointer: 'no_thanks'
   'disg_tell_bye':
     text: 'Das wäre kein Job für mich, da will ich sie gar nicht aufhalten.'
+  'ask_loot':
+    text: 'Und was bekomme ich wenn ich ihnen helfe?'
+    pointer: 'loot_tell'
