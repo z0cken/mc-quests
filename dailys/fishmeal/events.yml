@@ -10,7 +10,7 @@ add_timeout_journal: 'journal add timeout'
 del_timeout_journal: 'journal del timeout'
 
 start_timer: 'objective start timeout'
-cancel: 'cancel fishmeal'
+cancel: 'cancel fishmeal's
 payout: 'folder payout1,payout2 random:1'
 payout1: 'run ^message §7§o$payout$ Lapis Lazuli und 3 Emeralds erhalten. ^give payout:$payout$ ^give emerald:3 ^journal del done_fishing'
 payout2: 'run ^message §7§o$payout$ Lapis Lazuli und 1 Shulkerschale erhalten. ^give payout:$payout$ ^give shulker_shell:1 ^journal del done_fishing'

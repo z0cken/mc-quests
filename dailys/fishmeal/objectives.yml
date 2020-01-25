@@ -11,4 +11,4 @@ obj_tropical1: 'fish tropical_fish $tropical1$ events:finish,tropical_journal,tr
 obj_tropical2: 'fish tropical_fish $tropical2$ events:finish,tropical_journal,tropical_notify'
 obj_tropical3: 'fish tropical_fish $tropical3$ events:finish,tropical_journal,tropical_notify'
 cooldown: 'delay $cooldown$'
-timer: 'delay $timeout$ events:add_timeout,add_timeout_journal'
+timeout: 'delay $timeout$ events:add_timeout,add_timeout_journal'
