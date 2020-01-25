@@ -23,9 +23,9 @@ NPC_options:
     pointer: 'accept_yes,accept_where'
     events: 'objective_start_location,journal_add_goto,tag_add_active,tag_add_search'
   'where_tell':
-    text: '[Beschreibung]' #TODO
+    text: 'Die Eingänge der Kanalisation sind alle hier am Spawn. Ein paar sind im Wasser, andere meistens hinter den Häusern hier versteckt.'
   'start_search':
-    text: 'Die Eingänge der Kanalisation sind bei [Beschreibung].' #TODO
+    text: 'Die Eingänge der Kanalisation sind alle hier am Spawn. Ein paar sind im Wasser, andere meistens hinter den Häusern hier versteckt.'
     conditions: 'tag_active,tag_search'
     pointer: 'search_ok'
   'start_kill':
