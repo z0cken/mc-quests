@@ -19,14 +19,11 @@ Fertig:
 - holywater WEEKLY (2 Pfarrer mit Subquest & Daily Potioneffect "Segen")
 - Claim Quest (3 Missions)
 - fishmeal DAILY (Große Angelquest ohne Itemabgabe auf Zeit)
+- tutorial SINGLE (Tutorial Quest)
 
-Testen:
+In Progress:
 
 - Kammerjäger WEEKLY (Silverfish in Kanalisation töten - Silverfish spawner)
-
-Progress:
-
-- tutorial SINGLE (Tutorial Quest)
 
 Ideas:
 

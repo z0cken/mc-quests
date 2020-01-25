@@ -1,18 +1,22 @@
 variables:
   amount_rats: 15
-  zone1: 0;0;0;world #location
+  zone1: 5349;57;-3261;world #location
   zone1radius: 20
-  zone2: 0;0;0;world #location
+  zone2: 5321;57;-3269;world #location
   zone2radius: 20
-  zone3: 0;0;0;world #location
+  zone3: 5290;57;-3261;world #location
   zone3radius: 20
-  entrance1: 0;0;0;world #location
-  entrance1radius: 2
-  entrance2: 0;0;0;world #location
+  entrance1: 5316;61;-3279;world #Eingang Unterwasser
+  entrance1radius: 3
+  entrance2: 5299;64;-3277;world #Eingang beim Spawn
   entrance2radius: 2
-  entrance3: 0;0;0;world #location
+  entrance3: 5357;64;-3279;world #location
   entrance3radius: 2
-  payout: 50 #Schekel (Add function, make quest infinite @events.yml? ~15*log(x))
+  entrance4: 5354;59;-3256;world #unterwater
+  entrance4radius: 2
+  entrance5: 5367;58;-3252;world #underwaterhole
+  entrance5radius: 2
+  payout: 50 #Gold_ingot (Add function, make quest infinite @events.yml? ~15*log(x))
   cooldown: 3000 #Minutes - Should be more than 2 days
 
 npcs:

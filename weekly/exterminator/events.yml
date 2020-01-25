@@ -12,8 +12,8 @@ tad_del_search: 'tag del search'
 tag_add_cooldown: 'tag add cooldown'
 tag_del_cooldown: 'tag del cooldown'
 
-objective_start_location: 'run ^objective start entrance1 ^objective start entrance2 ^objective start entrance3'
-objective_stop_location: 'run ^objective remove entrance1 ^objective remove entrance2 ^objective remove entrance3'
+objective_start_location: 'run ^objective start entrance1 ^objective start entrance2 ^objective start entrance3 ^objective start entrance4 ^objective start entrance5'
+objective_stop_location: 'run ^objective remove entrance1 ^objective remove entrance2 ^objective remove entrance3 ^objective remove entrance4 ^objective remove entrance5'
 
 found_entrance: 'folder tad_del_search,objective_stop_location,message_found,journal_del_goto,journal_add_kill,objective_start_kill,journal_reload'
 message_found: 'message §7§oDas dürfte die Kanalisation sein die Egon meinte.'
@@ -22,5 +22,5 @@ objective_start_kill: 'objective start kill'
 done_killing: 'folder journal_del_kill,journal_add_done,message_done,journal_reload'
 message_done: 'message §7§oDas waren genug Ratten.'
 
-payout: 'money $payout$' #(Add function, make quest infinite? ~15*log(x))
+payout: 'give gold_ingot:$payout$' #(Add function, make quest infinite? ~15*log(x))
 cooldown_timer: 'folder tag_del_cooldown delay:$cooldown$'
