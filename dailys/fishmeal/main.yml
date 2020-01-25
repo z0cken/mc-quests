@@ -23,7 +23,7 @@ cancel:
     conditions: 'obj_active'
     objectives: 'obj_cod1,obj_cod2,obj_cod3,obj_salmon1,obj_salmon2,obj_salmon3,obj_puffer1,obj_puffer2,obj_puffer3,obj_tropical1,obj_tropical2,obj_tropical3'
     tags: 'running'
-    journal: ''
+    journal: 'timeout,done_fishing,cod1,cod2,cod3,salmon1,salmon2,salmon3,puffer1,puffer2,puffer3,tropical1,tropical2,tropical3'
 journal_main_page:
   villager:
     priority: 2

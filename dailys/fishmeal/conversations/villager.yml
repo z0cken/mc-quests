@@ -5,7 +5,7 @@ NPC_options:
   #start
   'start':
     text: 'Hey du! Hast du kurz Zeit?'
-    conditions: ''
+    conditions: '!obj_active,!running,!timeout,!cooldown'
     pointer: 'start_yes,start_no'
     events: 'del_timeout'
   'yes_tell':
@@ -32,13 +32,16 @@ NPC_options:
     text: 'Hey, jetzt brauche ich die Fische nicht mehr. Ich hatte dir gesagt innerhalb einer Stunde!'
     conditions: 'timeout,running'
     pointer: 'timeout_bye'
-    events: 'del_timeout,cancel'
+    events: 'del_timeout,del_timeout_journal,cancel'
   'start_cooldown':
     text: 'Hey, danke nochmal für deinen Einsatz! Komm doch in %objective.cooldown.left% wieder vorbei.'
     conditions: 'cooldown'
     pointer: 'cooldown_bye'
   'no_bye':
     text: 'Alles klar, Tschüss'
+  'time_tell':
+    text: 'Noch %objective.timeout.left%! Beeil dich besser.'
+    pointer: 'during_cancel,cooldown_bye'
 
 player_options:
   #start
@@ -56,6 +59,9 @@ player_options:
     pointer: 'no_bye'
   'during_no':
     text: 'Leider nein. Ich bin noch dabei.'
+  'during_time':
+    text: 'Leider nein. Aber wie viel Zeit habe ich denn noch?'
+    pointer: 'time_tell'
   'during_cancel':
     text: 'Ich schaffe das nicht.'
     pointer: 'cancel_ask'
