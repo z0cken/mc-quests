@@ -1,6 +1,6 @@
 variables:
   cooldown_short: '180' #in Minutes [Online] (180 = 2 Stunden)
-  cooldown_online: '840' #in Minutes (840 = 14 Stunden)
+  cooldown_online: '1200' #in Minutes (1200 = 14 Stunden)
   #blocks to break
   block1: 'STONE'
   block2: 'ANDESITE'
