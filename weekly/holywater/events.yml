@@ -20,7 +20,7 @@ take_holywater: 'take holywater:1'
 
 start_get_holywater: 'run ^objective start take_holywater1 ^objective start wrong_holywater1 ^journal add take_holywater'
 
-switch_bottle: 'run ^take glass_bottle:1 ^give holywater:1 ^journal del take_holywater ^objective remove take_holywater1 ^objective remove wrong_holywater1 ^message §7§oWeihwasser erhalten!'
+switch_bottle: 'run ^take glass_bottle:1 ^journal del take_holywater ^objective remove take_holywater1 ^objective remove wrong_holywater1 ^message §7§oWeihwasser erhalten! ^give holywater:1'
 wrong_item: 'message §7§oIch benötige eine Glasflasche um das Weihwasser zu transportieren.'
 
 #Materials Quest
