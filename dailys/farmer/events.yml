@@ -22,9 +22,8 @@ head2: 'run ^message §7§oAlte Kiste erhalten ^give head2'
 head3: 'run ^message §7§oAlte Bücher erhalten ^give head3'
 head4: 'run ^message §7§oAusgestopften Karpfen erhalten ^give head4'
 head5: 'run ^message §7§oAusgestopftes Hühnchen erhalten ^give head5'
-add_cooldown: 'tag add cooldown'
 del_cooldown: 'tag del cooldown'
-cooldown_timer: 'folder del_cooldown delay:720 minutes'
+cooldown_timer: 'objective start cooldown'
 reset_quest: 'run ^tag del job1 ^tag del job2 ^tag del job3 ^tag del job4 ^tag del job5 ^tag del job6 ^tag del job7'
 
 #Jobs iterations

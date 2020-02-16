@@ -14,7 +14,7 @@ NPC_options:
     pointer: 'ok'
   'start':
     text: 'He, du! Wir brauchen unbedingt mehr gute Farmer. Willst du lernen wie das geht?'
-    conditions: ''
+    events: 'del_cooldown' #Removes artifact from invalid cooldown tag
     pointer: 'start_yes,start_no,start_showoff'
   'no_bye':
     text: 'Nur Weicheier hier!'
@@ -91,10 +91,10 @@ NPC_options:
     # Conversation
   'money_give':
     text: 'Hier dein geiler Gaul. Bitteschön.'
-    events: 'money7,reset_quest,add_cooldown,cooldown_timer'
+    events: 'money7,reset_quest,cooldown_timer'
   'head_give':
     text: 'Gute Wahl! Das Ding habe ich auf dem Dachboden gefunden.'
-    events: 'head,reset_quest,add_cooldown,cooldown_timer'
+    events: 'head,reset_quest,cooldown_timer'
   'stop_ask':
     text: 'Bist du dir sicher? Danach musst du wieder von vorne anfangen.'
     pointer: 'stop_accept,stop_no'

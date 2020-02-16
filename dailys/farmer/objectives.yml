@@ -7,3 +7,4 @@ job6: 'block potatoes[age=7] -$amount6$ events:job6_done,notify_job6'
 job7: 'mobkill CHICKEN $amount7$ events:job7_done,notify_job7'
 
 timer: 'delay $timer$ events:cancel_quest,add_failed'
+cooldown: 'delay $cooldown$'

@@ -16,7 +16,7 @@ variables:
   amount6: '400' #potato farm
   amount7: '30' #chicken kill
   timer: '120' #in Minutes for a job
-
+  cooldown: '600' #in Minutes for quest
 npcs:
   'Manfred': farmer
   '352': farmer
