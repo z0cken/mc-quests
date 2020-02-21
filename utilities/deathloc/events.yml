@@ -17,7 +17,7 @@ tag_add_get_egg: 'tag add get_egg'
 tag_del_get_egg: 'tag del get_egg'
 
 obj_add_egg: 'objective add egg'
-obj_del_egg: 'objective del egg'
+obj_del_egg: 'objective remove egg'
 journal_add_get_egg: 'journal add get_egg'
 journal_del_get_egg: 'journal del get_egg'
 journal_add_go_back: 'journal add go_back'
