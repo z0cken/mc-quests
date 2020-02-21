@@ -21,21 +21,27 @@ variables:
   ingredient_18: ingredient_kelp:5
   ingredient_19: ingredient_sugar:15
   ingredient_20: ingredient_nether_wart:6
-  
-  
+
+  #All NOT used in conversation! Hardcode artefact
+  cooldown1: 720 #minutes 0.5 Tag
+  cooldown2: 1440 #minutes 1 Tag
+  brewing_1: 15 #minutes
+  brewing_2: 5 #minutes
+  listening: 10 #minutes Edmund will listen after talking to oswald
+
 npcs:
   '350': alchemist
   'Edmund': alchemist
   '351': alchemisthelper
   'Oswald': alchemisthelper
 cancel:
-#TODO
+  #TODO
   alchemist:
     name: 'Alchemist'
-    conditions: 'get_ingredients' 
-    objectives: 
-    tags: 
-    journal: 
+    conditions: 'get_ingredients'
+    objectives:
+    tags:
+    journal:
 journal_main_page:
   get_ingredients:
     priority: 10

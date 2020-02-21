@@ -11,7 +11,7 @@ variables:
   tropical1: 1
   tropical2: 2
   tropical3: 3
-  cooldown: 600 #minutes
+  cooldown: 1200 #minutes = 20h
   timeout: 60 #minutes
   payout: 32 #Lapislazulli + 1 Emerald
 npcs:

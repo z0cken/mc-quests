@@ -1,5 +1,5 @@
 blocked: 'delay 600'
-cooldown: 'delay 600'
+cooldown: 'delay 1200'
 bought_iron: 'delay 600'
 bought_gold: 'delay 600'
 bought_coal: 'delay 600'

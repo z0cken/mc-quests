@@ -1,8 +1,8 @@
 variables:
   angry_time1: '60' #Minutes = 1h - pre quest angry
   angry_time2: '60' #Minutes = 1h - active
-  cooldown: '3600' #Minutes = 60h - Cooldown after complete Quest
-  cooldown_short: '480' #Mintes = 8h - Cooldown after canceling the Quest
+  cooldown: '40000' #Minutes = 27.7 Tage - Cooldown after complete Quest
+  cooldown_short: '1200' #Mintes = 20h - Cooldown after canceling the Quest
 
 npcs:
   '370': miner

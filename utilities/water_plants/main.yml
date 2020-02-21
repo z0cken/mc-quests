@@ -23,7 +23,7 @@ variables:
   dead_plant: DEAD_BRAIN_CORAL
   normal_plant: CORNFLOWER
   location_lake: 5144;70;-471;world
-  cooldown: 30 #in minutes
+  cooldown: 1200 #in minutes = 20h
 static:
   '01:00': regrow
   '02:00': regrow

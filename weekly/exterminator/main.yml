@@ -17,7 +17,7 @@ variables:
   entrance5: 5367;58;-3252;world #underwaterhole
   entrance5radius: 2
   payout: 10 #Gold_ingot (Add function, make quest infinite @events.yml? ~15*log(x))
-  cooldown: 1000 #Minutes - 16,6667 Hours
+  cooldown: 1200 #Minutes - 20h
 
 npcs:
   '367': exterminator

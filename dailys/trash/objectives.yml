@@ -19,4 +19,4 @@ trash_bin18: action right CAULDRON conditions:trash_active,!trash_done loc:$tras
 trash_bin19: action right CAULDRON conditions:trash_active,!trash_done loc:$trash_bin19$ events:done_bin19
 trash_bin20: action right CAULDRON conditions:trash_active,!trash_done loc:$trash_bin20$ events:done_bin20
 trash_bin21: action right CAULDRON conditions:trash_active,!trash_done loc:$trash_bin21$ events:done_bin21
-cooldown: delay 720 events:trash_reset
+cooldown: delay 1200 events:trash_reset
