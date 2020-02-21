@@ -55,7 +55,7 @@ NPC_options:
   #Minerquest
   'mq_start':
     text: 'Weiche zurück, Sterbliche Seele! Welch Wahnsinn treibt deinesgleichen dazu vor der anbestimmten Zeit meine Kreise zu stören?'
-    conditions: 'minerquest_active,!get_egg,!objective_egg,!has_bone,get_anorexium'
+    conditions: 'minerquest_active,!get_egg,!objective_egg,!has_bone,get_anorexium,!dailys-smith.wither_coal'
     pointer: 'mq_start_ask'
   'mq_ask_tell':
     text: 'Anorexium hmm? Du hast Glück. Mein altes Skelettpferd ist mir gerade an Osteoporose eingegangen. Skelettpferdknochen enthalten eine Menge Anorexium, nur so können die Pferde ihr Gewicht halten. Ich brauche ein neues Pferd. Jage ein Skelettpferd und bring mir ein Skelettpferd Ei, dann überlasse ich dir die alten Knochen.'
