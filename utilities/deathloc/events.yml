@@ -11,3 +11,23 @@ del_got_location: 'tag del got_location '
 skip_death: 'message §4Thanatos: §c§oGrüße aus dem Reich der Toten.'
 
 start_cooldown: 'objective start cooldown'
+
+#Minerquest
+tag_add_get_egg: 'tag add get_egg'
+tag_del_get_egg: 'tag del get_egg'
+
+obj_add_egg: 'objective add egg'
+obj_del_egg: 'objective del egg'
+journal_add_get_egg: 'journal add get_egg'
+journal_del_get_egg: 'journal del get_egg'
+journal_add_go_back: 'journal add go_back'
+journal_del_go_back: 'journal del go_back'
+journal_add_go_rebron: 'journal add go_rebron'
+journal_del_go_rebron: 'journal del go_rebron'
+message_egg: 'message §7§oSkelettpferdei erhalten. Geh zurück zu Thanatos.'
+
+kill_horse: 'give horse_egg:1'
+teleport_nether: 'teleport $mq_nether_location$'
+take_egg: 'take horse_egg:1'
+give_bone: 'give horse_bone:1'
+take_bone: 'take horse_bone'

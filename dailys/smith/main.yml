@@ -1,5 +1,7 @@
 variables:
-  placeholder: 0;0;0;world
+  coal_head_amount: '10' #Minerquest
+  coal_delay: '15' #Minuten #Minerquest
+  woodtype: 'ACACIA_LOG' #Minerquest
 npcs:
   '357': ore_trader
   'Stefan': ore_trader
