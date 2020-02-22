@@ -12,7 +12,7 @@ NPC_options:
     conditions: 'blocked'
     pointer: 'blocked_bye'
   'start_get_ores':
-    text: 'Und.. habt ihr das zeug? Hat Stefan probleme bereitet?'
+    text: 'Und.. habt ihr das zeug? Hat Gibmir al Deingeld Probleme bereitet?'
     conditions: 'get_ores'
     pointer: 'ores_yes,ores_self,ores_no'
   'start':
@@ -20,7 +20,7 @@ NPC_options:
     pointer: 'start_ask,start_no'
 
   'ask_text':
-    text: 'Ich wollte mich eben auf den Weg in die Mine machen, als ich sah dass diese beschissene Spitzhacke einen Riss hat! Meine nächste Warenlieferung kommt erst morgen an. Wenn ich heute keine Erze fördern kann bin ich am Arsch! Helft ihr mir, damit ich eine neue Stahl Spitzhacke schmieden kann? Ihr bekommt dafür eine kleine Entlohnung oder dieses Schrottteil! Holt Eisen vom Erzhändler Stefan am Dock. Sag ihm ich habe euch geschickt... Achja und bring Kohle mit!'
+    text: 'Ich wollte mich eben auf den Weg in die Mine machen, als ich sah dass diese beschissene Spitzhacke einen Riss hat! Meine nächste Warenlieferung kommt erst morgen an. Wenn ich heute keine Erze fördern kann bin ich am Arsch! Helft ihr mir, damit ich eine neue Stahl Spitzhacke schmieden kann? Ihr bekommt dafür eine kleine Entlohnung oder dieses Schrottteil! Holt Eisen vom Erzhändler Gibmir al Deingeld am Dock. Sag ihm ich habe euch geschickt... Achja und bring Kohle mit!'
     pointer: 'text_yes,text_no'
   'no_block':
     text: 'Verdammtes sollst du sein! Wegen dir kann ich den laden dicht machen! VERSCHWINDE ODER DU ERLEBST WAS!'
@@ -167,11 +167,11 @@ player_options:
     text: 'Ich beeile mich!'
 
   'ores_yes':
-    text: 'Ja, ich habe alles bekommen. Stefan meinte, er würde euch eh noch etwas schulden.'
+    text: 'Ja, ich habe alles bekommen. Gibmir al Deingeld meinte, er würde euch eh noch etwas schulden.'
     conditions: 'deal_done,has_items'
     pointer: 'yes_reply'
   'ores_self':
-    text: 'Ich habe es selber besorgt. Dieser Stefan ist ein ziemlicher geizkragen.'
+    text: 'Ich habe es selber besorgt. Dieser Gibmir ist ein ziemlicher geizkragen.'
     conditions: 'has_items'
     pointer: 'self_reply'
   'ores_no':

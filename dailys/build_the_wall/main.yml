@@ -1,5 +1,7 @@
 variables:
-  var1: 0
+  steinbruch: '5030;75;-620'
+  steinbruch_radius: '70'
+  cooldown: '1200' #in Minutes = 20h
 
 npcs:
   '0': hartmut
@@ -7,15 +9,26 @@ npcs:
   '2': trader
 
 cancel:
-  build_the_wall: #change!
-    name: ''
-    conditions: ''
+  build_the_wall:
+    name: 'Build the Wall'
+    conditions: 'active,!special'
+    objectives: ''
+    tags: ''
+    journal: ''
+    events: ''
+  klunker:
+    name: 'Klunker im B…erg'
+    conditions: '!active,special'
     objectives: ''
     tags: ''
     journal: ''
     events: ''
 journal_main_page:
-  build_the_wall: #change!
+  build_the_wall:
     priority: 1
-    text: ''
-    conditions: ''
+    text: 'Build the Wall'
+    conditions: 'active,!special'
+  klunker:
+    priority: 2
+    text: 'Klunker im B…erg'
+    conditions: '!active,special'

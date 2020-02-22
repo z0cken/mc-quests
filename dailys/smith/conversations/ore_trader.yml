@@ -1,24 +1,22 @@
-quester: 'Stefan'
-first: 'start_empty,start'
+quester: 'Gibmir al Deingeld'
+first: 'special_start,start_empty,start'
 stop: 'false'
 NPC_options:
   #start
   'start_empty':
     text: 'Ich habe heute nichts mehr zu verkaufen, aber wie kann ich ihnen behilflich sein?'
-    conditions: 'is_empty'
+    conditions: 'is_empty,!dailys-build_the_wall.has_special'
     pointer: 'start_sent,start_force,nothing'
   'start':
     text: 'Ich habe viele Sorten von Erzen anzubieten - seht euch ruhig um! Gold ist heute vergünstigt!'
-    conditions: ''
+    conditions: '!dailys-build_the_wall.has_special'
     pointer: 'start_buy,start_sent,start_force'
-
   'sent_ask':
     text: 'Ähh.. okay.. wieviel sagte er denn, würde er benötigen?'
     pointer: 'ask_truth,ask_lie,ask_fail'
   'force_give':
     text: 'Okay okay, bitte tut mir nicht weh!'
     event: 'give_force,add_deal_done'
-
   'truth_reply':
     text: 'Natürlich.. ich denke, dass ich ihm das sicherlich eh noch schuldig bin.'
     events: 'give_truth,add_deal_done'
@@ -77,6 +75,30 @@ NPC_options:
     text: 'Sie haben dafür nicht genug Emeralds. Wie kann ich ihnen sonst helfen?'
     conditions: '!no_money_gold'
     pointer: 'start_buy,start_sent,start_force'
+
+  #Special Quest from build_the_wall
+  'special_start':
+    text: 'Grüße Effendi. Was kann ich euch heute aus meinem bescheidenen Sortiment anbieten?'
+    conditions: 'dailys-build_the_wall.has_special'
+    pointer: 'special_start_offer,special_start_direct'
+  'special_offer_reply':
+    text: 'Beim Barte des Propheten! Ein Kurat Allah. Ich glaube ihr kennt ihn als Herrgottmarin. Ich biete euch 20 Diamanten. Aus zweiter Hand aber kaum Gebrauchsspuren! Fühl mal, fühlst du die Qualität?'
+    pointer: 'special_offer1,special_offer2'
+  'special_direct_price':
+    text: '…sieht ganz nett aus. Wasletzdepreis?'
+    pointer: 'special_offer3,special_offer4'
+  'special_offer1_reply':
+    text: 'Abgemacht!'
+    events: 'dailys-build_the_wall.offer1,dailys-build_the_wall.tag_del_special,dailys-build_the_wall.journal_del_find_trader'
+  'special_offer2_reply':
+    text: '22, mein letztes Angebot!'
+    events: 'dailys-build_the_wall.offer2,dailys-build_the_wall.tag_del_special,dailys-build_the_wall.journal_del_find_trader'
+  'special_offer3_reply':
+    text: 'Abgemacht!'
+    events: 'dailys-build_the_wall.offer3,dailys-build_the_wall.tag_del_special,dailys-build_the_wall.journal_del_find_trader'
+  'special_offer4_reply':
+    text: 'Abgemacht!'
+    events: 'dailys-build_the_wall.offer4,dailys-build_the_wall.tag_del_special,dailys-build_the_wall.journal_del_find_trader'
 #################################################################
 player_options:
   #start
@@ -122,3 +144,23 @@ player_options:
     pointer: 'bought_nothing'
   'nothing':
     text: 'Ach, ich schaue nur ein bisschen.'
+
+  #Special Quest from build_the_wall
+  'special_start_offer':
+    text: 'Hallo, ich möchte nichts kaufen, im Gegenteil. Was kannst du mir für diesen Stein anbieten?'
+    pointer: 'special_offer_reply'
+  'special_start_direct':
+    text: 'Spar dir das Geschwafel. Willst du den Klunker hier?'
+    pointer: 'special_direct_price'
+  'special_offer1':
+    text: 'Jaja, ich fühle ja schon. Klingt nach einem guten Angebot. Hand drauf!'
+    pointer: 'special_offer1_reply'
+  'special_offer2':
+    text: '25 Diamanten.'
+    pointer: 'special_offer2_reply'
+  'special_offer3':
+    text: '40 Lapislazuli'
+    pointer: 'special_offer3_reply'
+  'special_offer4':
+    text: '10 Diamanten'
+    pointer: 'special_offer4_reply'

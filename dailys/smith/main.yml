@@ -4,7 +4,7 @@ variables:
   woodtype: 'ACACIA_LOG' #Minerquest
 npcs:
   '357': ore_trader
-  'Stefan': ore_trader
+  'Gibmir al Deingeld': ore_trader
   '356': smith
   'Rebron': smith
 cancel:
