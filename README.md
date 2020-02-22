@@ -20,6 +20,7 @@ Fertig:
 - Claim Quest (3 Missions)
 - fishmeal DAILY (Große Angelquest ohne Itemabgabe auf Zeit)
 - tutorial SINGLE (Tutorial Quest)
+- lost_miner MONTHLY (Durch mehere NPCs)
 
 In Progress:
 
