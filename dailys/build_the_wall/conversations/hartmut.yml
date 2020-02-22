@@ -14,14 +14,14 @@ NPC_options:
     text: 'Ah ja, ich sehe du hast die samtweichen Hände eines Programmierers. Entschuldige, mir hätte deine Nutzlosigkeit sofort auffallen müssen.'
   'accept_givepick':
     text: 'Moment noch! Hier hast du eine Spitzhacke. Um eine gleichbleibende Qualität des Materials zu gewährleisten erhält jeder Arbeiter eine Hacke die der Norm Industrieller Grab- und Gartengeräte zur Einheitlichen Rohstoffgewinnung entsprechen.'
-    events: 'tag_add_active,start_points,give_pickaxe'
+    events: 'tag_add_active,start_points,give_pickaxe,journal_add_job'
     pointer: 'givepick_joke'
   'ask_tell':
     text: 'Qualität ist das Stichwort mein Freund. Denkst du wir schleppen die ganzen Steine von hier nach Erbgut weil wir als Steinmetze nicht genug körperliche Ertüchtigung bekommen? Nur mit den Steinen aus diesem Steinbruch hier können wir die Integrität der Stadtmauer ansatzweise garantieren. Also?'
     pointer: 'tell_bye'
   'bye_givepick':
     text: 'Prima. Hier ist eine Standard Hacke. Nur die sind von den Erbguter Behörden zugelassen. '
-    events: 'tag_add_active,start_points,give_pickaxe'
+    events: 'tag_add_active,start_points,give_pickaxe,journal_add_job'
   'joke_tell':
     text: 'Nein, bisher ist noch niemandem eins eingefallen. Jetzt stell keine doofen Fragen und ran an die Arbeit! '
   #End of accept-conversation

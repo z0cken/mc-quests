@@ -3,8 +3,7 @@ variables:
   coal_delay: '15' #Minuten #Minerquest
   woodtype: 'ACACIA_LOG' #Minerquest
 npcs:
-  '357': ore_trader
-  'Gibmir al Deingeld': ore_trader
+  '357': ore_trader #Gibmir al Deingeld
   '356': smith
   'Rebron': smith
 cancel:
