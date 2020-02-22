@@ -1,13 +1,12 @@
 variables:
-  steinbruch: '5030;75;-620'
+  steinbruch: '5030;75;-620;world'
   steinbruch_radius: '70'
   cooldown: '1200' #in Minutes = 20h
   miningblock: 'STONE'
 
 npcs:
-  '0': hartmut
-  '1': miner
-  '2': trader
+  '371': hartmut
+  '372': miner
 
 cancel:
   build_the_wall:
