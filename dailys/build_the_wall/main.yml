@@ -1,0 +1,21 @@
+variables:
+  var1: 0
+
+npcs:
+  '0': hartmut
+  '1': miner
+  '2': trader
+
+cancel:
+  build_the_wall: #change!
+    name: ''
+    conditions: ''
+    objectives: ''
+    tags: ''
+    journal: ''
+    events: ''
+journal_main_page:
+  build_the_wall: #change!
+    priority: 1
+    text: ''
+    conditions: ''
