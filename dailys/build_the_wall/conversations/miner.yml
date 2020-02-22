@@ -12,7 +12,7 @@ NPC_options:
     text: 'Nein, aber pack dir einfach eine Spitzhacke und los gehts. So klappt das hier.'
   'search_tell':
     text: 'So einen habe ich schon mal gesehen. Das ist ein Herrgottmarin, ein sehr seltenes Mineral. Man benutzt es ausschließlich zur Vervollständigung von Mineraliensammlungen. Ich kenne einen Händler am Hafen von Lachsbuttern der sich auf Erze und ähnliches spezialisiert hat. Der zahlt dir sicher einen guten Preis dafür.'
-    events: 'tag_add_knows_special,tag_del_search,replace_stone'
+    events: 'tag_add_knows_special,replace_stone'
     pointer: 'tell_bye'
 
 #########################################################################

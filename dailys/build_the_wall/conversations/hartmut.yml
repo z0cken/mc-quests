@@ -22,6 +22,8 @@ NPC_options:
   'bye_givepick':
     text: 'Prima. Hier ist eine Standard Hacke. Nur die sind von den Erbguter Behörden zugelassen. '
     events: 'tag_add_active,start_points,give_pickaxe'
+  'joke_tell':
+    text: 'Nein, bisher ist noch niemandem eins eingefallen. Jetzt stell keine doofen Fragen und ran an die Arbeit! '
   #End of accept-conversation
 
   'start_active':
