@@ -1,9 +1,9 @@
-standard_pickaxe: 'IRON_PICKAXE name:§fStandard_Spitzhacke' #TODO
+standard_pickaxe: 'IRON_PICKAXE name:§rStandard_Spitzhacke lore:&2Quest_Item'
 cobblestone: 'COBBLESTONE'
 emerald: 'EMERALD'
 
 #Rare Item Part
-unknown_stone: 'COBBLESTONE name:&fSeltsamer_Stein'
-special_stone: 'COBBLESTONE name:&fHerrgottmarin'
+unknown_stone: 'COBBLESTONE name:&rSeltsamer_Stein lore:&2Quest_Item'
+special_stone: 'COBBLESTONE name:&rHerrgottmarin lore:&2Quest_Item'
 diamond: 'DIAMOND'
 lapis_lazuli: 'LAPIS_LAZULI'
