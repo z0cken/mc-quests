@@ -51,11 +51,11 @@ NPC_options:
   'break_go':
     text: 'Pause?! Wir sind doch hier nicht an der Uni! Schwing die Hufe du fauler Hund!'
   'give_end':
-    text: 'Kein Problem. Ich habe beschlossen für heute Schluss zu machen. Hier hast du Fünf Smaragde und jetzt geht nach Hause.'
-    events: 'special_payout,take_cobble,take_pickaxe,tag_del_active,journal_del_go_back'
+    text: 'Kein Problem. Ich habe beschlossen für heute Schluss zu machen. Hier hast du fünf Smaragde und jetzt geht nach Hause.'
+    events: 'take_cobble,take_pickaxe,tag_del_active,journal_del_go_back,finish_quest,special_payout'
   'no_angry':
     text: '. Du widersetzt dich deinem Vorgesetzten? Ich glaube dir geht es zu gut! Du bist entlassen und glaub bloß nicht, dass du auch nur einen Smaragd bekommst!'
-    events: 'take_pickaxe,take_cobble,journal_del_go_back,journal_add_search,tag_del_active,tag_add_special'
+    events: 'take_pickaxe,take_cobble,journal_del_go_back,journal_add_search,tag_del_active,tag_add_special,finish_quest'
 
   'start_special':
     text: 'Verpiss dich doch mit deinem Stein!' #TODO Give option to give stone for 5 emeralds

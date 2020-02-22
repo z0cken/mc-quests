@@ -1,5 +1,5 @@
 standard_pickaxe: 'IRON_PICKAXE name:§rStandard_Spitzhacke lore:&2Quest_Item'
-cobblestone: 'COBBLESTONE'
+cobblestone: 'COBBLESTONE name:none'
 emerald: 'EMERALD'
 
 #Rare Item Part
