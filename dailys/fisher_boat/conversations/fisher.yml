@@ -1,5 +1,5 @@
 quester: 'Lasse'
-first: 'NA_start,NA_start_inQuest,NA_start_questFinished,NA_start_questFailed'
+first: 'NA_start,NA_start_questFinished,NA_start_questFailed' #Removed NA_start_inQuest in 2. pos
 stop: 'false'
 
 NPC_options:
