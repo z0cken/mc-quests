@@ -105,11 +105,11 @@ player_options:
     pointer: 'break_go'
   'fake_get':
     text: 'Oh, den habe ich wohl in eine Kiste gelegt, ich hole ihn schnell.'
-
   #End of normal Quest
+
   'special_give':
     text: 'Ja, hier bitte.'
-    events: 'take_unknown,special_payout'
+    events: 'tag_del_special,journal_del_search,journal_del_find_trader,take_unknown,start_cooldown,special_payout'
   'special_no':
     text: 'Nein!'
   'unknown_give':
