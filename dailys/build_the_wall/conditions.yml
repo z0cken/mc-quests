@@ -11,3 +11,6 @@ cooldown: 'objective cooldown'
 #Rare Item Part
 has_unknown: 'item unknown_stone'
 has_special: 'item special_stone'
+
+#Random
+random: 'random 1-10'
