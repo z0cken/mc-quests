@@ -1,1 +1,1 @@
-plate_listener: step $location$ events:send_text persistent global
+plate_listener: step $location$ events:send_text persistent,utilitites-statistics.util_panzer_of_the_lake global

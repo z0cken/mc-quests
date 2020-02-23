@@ -33,7 +33,7 @@ NPC_options:
   'accept_has_money':
     text: 'Ich danke Euch vielmals. Möge der Herr diese edle Spende nicht ungesehen lassen.'
     conditions: 'has_money_blessing'
-    events: 'do_blessing,cooldown_blessing2,pay_blessing'
+    events: 'utilities-statistics.weekly_blessing,do_blessing,cooldown_blessing2,pay_blessing'
   'accept_no_money':
     text: 'Es scheint als währet ihr nicht im Stande diese Spende zu leisten.'
     conditions: '!has_money_blessing'

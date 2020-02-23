@@ -26,7 +26,7 @@ NPC_options:
   'accept_has_money':
     text: 'Möge der Herr stets sein Licht für dich Leuchten lassen! \n Ich freue mich auf ein baldiges Wiedersehen!'
     conditions: 'has_money_blessing'
-    events: 'do_blessing,cooldown_blessing,pay_blessing'
+    events: 'utilities-statistics.weekly_blessing,do_blessing,cooldown_blessing,pay_blessing'
   'accept_no_money':
     text: 'Es tut mir leid, aber es scheint als könntest du dir das nicht leisten.'
     conditions: '!has_money_blessing'
@@ -60,7 +60,7 @@ NPC_options:
   'get_holywater':
     text: 'Ich danke dir vielmals mein Sohn, dank dir kann die Messe nun wie gewohnt stattfinden! Natürlich möchte ich dein wohlwollendes Handeln nicht unbedacht lassen, darum werde ich dir einen Teil der letzten Kirchenspenden überlassen. Es wird dir sicher weiterhelfen.'
     conditions: 'has_holywater'
-    events: 'take_holywater,give_money,del_get_holywater,del_journal_get_holywater,cooldown_quest'
+    events: 'utilities-statistics.weekly_holywater,take_holywater,give_money,del_get_holywater,del_journal_get_holywater,cooldown_quest'
   'get_holywater_fail':
     text: 'Du hast ja doch kein Weihwasser bei dir!'
     conditions: '!has_holywater'

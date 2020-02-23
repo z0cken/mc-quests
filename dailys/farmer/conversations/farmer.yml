@@ -91,10 +91,10 @@ NPC_options:
     # Conversation
   'money_give':
     text: 'Hier dein geiler Gaul. Bitteschön.'
-    events: 'money7,reset_quest,cooldown_timer'
+    events: 'utilities-statistics.daily_farmer,money7,reset_quest,cooldown_timer'
   'head_give':
     text: 'Gute Wahl! Das Ding habe ich auf dem Dachboden gefunden.'
-    events: 'head,reset_quest,cooldown_timer'
+    events: 'utilities-statistics.daily_farmer,head,reset_quest,cooldown_timer'
   'stop_ask':
     text: 'Bist du dir sicher? Danach musst du wieder von vorne anfangen.'
     pointer: 'stop_accept,stop_no'

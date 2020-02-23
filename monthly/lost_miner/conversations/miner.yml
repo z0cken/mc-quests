@@ -52,7 +52,7 @@ NPC_options:
   'pickaxe_take':
     text: 'Das sieht man. So, jetzt ist aber keine Zeit mehr um sich zu unterhalten. Ich muss los! Hier, ich habe dir Bezahlung versprochen und was ich verspreche halte ich auch.'
     conditions: 'has_pickaxe'
-    events: 'take_pickaxe,final_payout,start_cooldown,tag_del_minerquest,tags_del_smith'
+    events: 'utilities-statistics.monthly_lost_miner,take_pickaxe,final_payout,start_cooldown,tag_del_minerquest,tags_del_smith'
   'pickaxe_fake':
     text: 'Ich finde die Spitzhacke nicht in deinem Inventar. [BUG - BITTE MELDEN]'
     conditions: '!has_pickaxe'

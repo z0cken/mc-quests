@@ -40,11 +40,11 @@ NPC_options:
   'deal_loc':
     text: 'Wundervoll. Einen frohen Tod!'
     condition: 'has_loc_money'
-    events: 'death_loc_buy,sound_laugh'
+    events: 'utilities-statistics.util_deathloc_loc,death_loc_buy,sound_laugh'
   'deal_skip':
     text: 'Wundervoll. Einen frohen Tod!'
     condition: 'has_skip_money'
-    events: 'death_skip_buy,sound_laugh'
+    events: 'utilities-statistics.util_deathloc_skip,death_skip_buy,sound_laugh'
   'deal_loc_fail':
     text: 'Moment! Du bist ja pleite! Verpiss dich du Pöbel'
     condition: '!has_loc_money'

@@ -56,10 +56,10 @@ NPC_options:
 
   'money_reply':
     text: 'Das war mir irgendwie klar... Diamanten. IMMER DIESE DIAMANTEN. Nungut, hier habt ihr zwei.'
-    events: 'give_money,cooldown,del_deal_done,del_gave_items,update_journal'
+    events: 'utilities-statistics.daily_smith,give_money,cooldown,del_deal_done,del_gave_items,update_journal'
   'pickaxe_reply':
     text: 'Dieses Stück Schrott? Nagut, wie du willst...'
-    events: 'give_pickaxe,cooldown,del_deal_done,del_gave_items,update_journal'
+    events: 'utilities-statistics.daily_smith,give_pickaxe,cooldown,del_deal_done,del_gave_items,update_journal'
 
   #Minerquest
   'start_minerquest':
