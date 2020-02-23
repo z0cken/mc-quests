@@ -33,7 +33,7 @@ NPC_options:
   'finish_lot':
     text: 'Gut, hier ist dein Lohn. Komm gerne Morgen wieder wenn die nächste Lieferung fällig ist. '
     conditions: 'mined_stack,has_blocks,has_stack'
-    events: 'finish_quest,take_pickaxe,take_cobble,tag_del_active,journal_del_go_back,journal_del_job,start_points,start_cooldown,payout'
+    events: 'finish_quest,take_pickaxe,take_cobble,tag_del_active,journal_del_go_back,journal_del_job,start_cooldown,payout,start_points'
   'finish_little':
     text: 'Bisschen mau. Bist dir wohl zu fein für ehrliche Arbeit. Gib mir die Hacke wieder, ich gebe sie jemandem der bereit ist sie zu benutzen.'
     conditions: '!mined_stack,has_blocks'
