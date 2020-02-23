@@ -1,5 +1,5 @@
 quester: 'Hartmut Hautdrauf'
-first: 'start_cooldown,start_special,start_unknown,start,start_active'
+first: 'start_cooldown,start_known,start_special,start_unknown,start,start_active'
 stop: ''
 
 NPC_options:
@@ -33,11 +33,11 @@ NPC_options:
   'finish_lot':
     text: 'Gut, hier ist dein Lohn. Komm gerne Morgen wieder wenn die nächste Lieferung fällig ist. '
     conditions: 'mined_stack,has_blocks,has_stack'
-    events: 'take_pickaxe,take_cobble,tag_del_active,journal_del_job,payout,start_points'
+    events: 'start_cooldown,finish_quest,take_pickaxe,take_cobble,tag_del_active,journal_del_go_back,journal_del_job,start_points,payout'
   'finish_little':
     text: 'Bisschen mau. Bist dir wohl zu fein für ehrliche Arbeit. Gib mir die Hacke wieder, ich gebe sie jemandem der bereit ist sie zu benutzen.'
     conditions: '!mined_stack,has_blocks'
-    events: 'take_pickaxe,take_cobble,tag_del_active,journal_del_job'
+    events: 'start_cooldown,finish_quest,take_pickaxe,take_cobble,tag_del_active,journal_del_job,journal_del_go_back'
   'finish_fake':
     text: 'Aber du hast weniger Bruchstein im Inventar als du gefarmt hast. Wo ist der Rest hin?'
     conditions: '!has_blocks'
@@ -47,22 +47,33 @@ NPC_options:
   'start_unknown':
     text: 'Bei Steffipants Zitzen! Das…*hust* äh… ist äh… ein vollkommen herkömmlicher unbedeutender wertloser Stein. Gib ihn mir ich entsorge ihn für dich.'
     conditions: 'has_unknown,!special'
-    pointer: 'unknown_give,unknown_no'
+    pointer: 'unknown_give,unknown_no,'
+  'start_known':
+    text: 'Bei Steffipants Zitzen! Das…*hust* äh… ist äh… ein vollkommen herkömmlicher unbedeutender wertloser Stein. Gib ihn mir ich entsorge ihn für dich.'
+    conditions: 'has_special,active'
+    pointer: 'unknown_give,unknown_no,known'
   'break_go':
     text: 'Pause?! Wir sind doch hier nicht an der Uni! Schwing die Hufe du fauler Hund!'
   'give_end':
     text: 'Kein Problem. Ich habe beschlossen für heute Schluss zu machen. Hier hast du fünf Smaragde und jetzt geht nach Hause.'
-    events: 'take_cobble,take_pickaxe,tag_del_active,journal_del_go_back,finish_quest,special_payout'
+    events: 'start_cooldown,take_unknown,take_cobble,take_pickaxe,tag_del_active,journal_del_go_back,finish_quest,special_payout'
   'no_angry':
-    text: '. Du widersetzt dich deinem Vorgesetzten? Ich glaube dir geht es zu gut! Du bist entlassen und glaub bloß nicht, dass du auch nur einen Smaragd bekommst!'
+    text: 'Du widersetzt dich deinem Vorgesetzten? Ich glaube dir geht es zu gut! Du bist entlassen und glaub bloß nicht, dass du auch nur einen Smaragd bekommst!'
     events: 'take_pickaxe,take_cobble,journal_del_go_back,journal_add_search,tag_del_active,tag_add_special,finish_quest'
 
   'start_special':
-    text: 'Verpiss dich doch mit deinem Stein!' #TODO Give option to give stone for 5 emeralds
+    text: 'Hast du es dir anders überlegt und willst mir den schäbigen Stein doch überlassen?'
+    pointer: 'special_give,special_no,known'
     conditions: 'special'
   'start_cooldown':
-    text: 'Hey, komm doch einfach morgen wieder, wenn es arbeit gibt.'
+    text: 'Hey, ich kann dir erst morgen wieder Arbeit geben.'
     conditions: 'cooldown'
+  'known_price':
+    text: 'Verdammt, hätte ja klappen können... Wie wäre es mit 10 Emeralds?'
+    pointer: 'deal,nodeal'
+  'take_pickaxe':
+    text: 'Dann tschüss und her mit meiner Spitzhacke!'
+    events: 'take_pickaxe,start_cooldown,tag_del_active,finish_quest,tag_del_active'
 
 #########################################################################
 player_options:
@@ -94,10 +105,26 @@ player_options:
     pointer: 'break_go'
   'fake_get':
     text: 'Oh, den habe ich wohl in eine Kiste gelegt, ich hole ihn schnell.'
+
   #End of normal Quest
+  'special_give':
+    text: 'Ja, hier bitte.'
+    events: 'take_unknown,special_payout'
+  'special_no':
+    text: 'Nein!'
   'unknown_give':
     text: 'Sehr freundlich von dir! Echter Ehrenmann. Hier hast du den Stein.'
     pointer: 'give_end'
   'unknown_no':
     text: 'Netter Versuch! Dann versuche ich eben selbst herauszufinden was das Ding wert ist.'
     pointer: 'no_angry'
+  'known':
+    text: 'Laber kein Scheiß, ich weiß, dass das Herrgottmarin ist. Was kannst du mir dafür geben?'
+    pointer: 'known_price'
+    conditions: 'has_special'
+  'deal':
+    text: 'Deal!'
+    events: 'finish_quest,start_cooldown,tag_del_special,known_payout,take_pickaxe,take_special,journal_del_search,journal_del_find_trader'
+  'nodeal':
+    text: 'Da suche ich mir lieber jemanden anderen zum verkaufen!'
+    pointer: 'take_pickaxe'
