@@ -12,7 +12,7 @@ tag_add_special: 'tag add special'
 tag_del_special: 'tag del special'
 tag_add_knows_special: 'tag add knows_special'
 nothing: 'tag del nothing'
-start_cooldown: 'objective start cooldown'
+start_cooldown: 'objective start cooldown condition:!active'
 start_counter: 'objective start cobble_counter'
 
 give_pickaxe: 'give standard_pickaxe:1'

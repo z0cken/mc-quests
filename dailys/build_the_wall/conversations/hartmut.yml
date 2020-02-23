@@ -33,11 +33,11 @@ NPC_options:
   'finish_lot':
     text: 'Gut, hier ist dein Lohn. Komm gerne Morgen wieder wenn die nächste Lieferung fällig ist. '
     conditions: 'mined_stack,has_blocks,has_stack'
-    events: 'start_cooldown,finish_quest,take_pickaxe,take_cobble,tag_del_active,journal_del_go_back,journal_del_job,start_points,payout'
+    events: 'finish_quest,take_pickaxe,take_cobble,tag_del_active,journal_del_go_back,journal_del_job,start_points,start_cooldown,payout'
   'finish_little':
     text: 'Bisschen mau. Bist dir wohl zu fein für ehrliche Arbeit. Gib mir die Hacke wieder, ich gebe sie jemandem der bereit ist sie zu benutzen.'
     conditions: '!mined_stack,has_blocks'
-    events: 'start_cooldown,finish_quest,take_pickaxe,take_cobble,tag_del_active,journal_del_job,journal_del_go_back'
+    events: 'finish_quest,take_pickaxe,take_cobble,tag_del_active,journal_del_job,journal_del_go_back,start_cooldown'
   'finish_fake':
     text: 'Aber du hast weniger Bruchstein im Inventar als du gefarmt hast. Wo ist der Rest hin?'
     conditions: '!has_blocks'
@@ -56,7 +56,7 @@ NPC_options:
     text: 'Pause?! Wir sind doch hier nicht an der Uni! Schwing die Hufe du fauler Hund!'
   'give_end':
     text: 'Kein Problem. Ich habe beschlossen für heute Schluss zu machen. Hier hast du fünf Smaragde und jetzt geht nach Hause.'
-    events: 'start_cooldown,take_unknown,take_cobble,take_pickaxe,tag_del_active,journal_del_go_back,finish_quest,special_payout'
+    events: 'take_unknown,take_cobble,take_pickaxe,tag_del_active,start_cooldown,journal_del_go_back,finish_quest,special_payout'
   'no_angry':
     text: 'Du widersetzt dich deinem Vorgesetzten? Ich glaube dir geht es zu gut! Du bist entlassen und glaub bloß nicht, dass du auch nur einen Smaragd bekommst!'
     events: 'take_pickaxe,take_cobble,journal_del_go_back,journal_add_search,journal_add_find_trader,tag_del_active,tag_add_special,finish_quest'
@@ -73,7 +73,7 @@ NPC_options:
     pointer: 'deal,nodeal'
   'take_pickaxe':
     text: 'Dann tschüss und her mit meiner Spitzhacke!'
-    events: 'take_pickaxe,start_cooldown,tag_del_active,finish_quest,tag_del_active'
+    events: 'take_pickaxe,tag_del_active,finish_quest,start_cooldown'
 
 #########################################################################
 player_options:
@@ -124,7 +124,7 @@ player_options:
     conditions: 'has_special'
   'deal':
     text: 'Deal!'
-    events: 'finish_quest,start_cooldown,tag_del_special,known_payout,take_pickaxe,take_special,journal_del_search,journal_del_find_trader'
+    events: 'finish_quest,tag_del_active,journal_del_go_back,start_cooldown,tag_del_special,known_payout,take_pickaxe,take_special,journal_del_search,journal_del_find_trader'
   'nodeal':
     text: 'Da suche ich mir lieber jemanden anderen zum verkaufen!'
     pointer: 'take_pickaxe'
