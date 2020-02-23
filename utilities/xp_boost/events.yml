@@ -1,0 +1,21 @@
+change_boost: 'folder day1,day2,day3,day4,day5,day6,day7'
+day1: 'run ^command lp group guest permission set mcmmo.perks.xp.50percentboost.acrobatics ^command lp group guest permission unset mcmmo.perks.xp.50percentboost.fishing condition:day1'
+day2: 'run ^command lp group guest permission set mcmmo.perks.xp.50percentboost.fishing ^command lp group guest permission unset mcmmo.perks.xp.50percentboost.acrobatics  condition:day2'
+
+day3: 'folder skill1,skill2,skill3,skill4,removeday2 condition:day3'
+removeday2: 'command lp group guest permission unset mcmmo.perks.xp.50percentboost.fishing'
+skill1: 'command lp group guest permission set mcmmo.perks.xp.50percentboost.swords'
+skill2: 'command lp group guest permission set mcmmo.perks.xp.50percentboost.axes'
+skill3: 'command lp group guest permission set mcmmo.perks.xp.50percentboost.archery'
+skill4: 'command lp group guest permission set mcmmo.perks.xp.50percentboost.unarmed'
+
+day4: 'folder remove1,remove2,remove3,remove4,addday4 condition:day4'
+addday4: 'command lp group guest permission set mcmmo.perks.xp.50percentboost.herbalism'
+remove1: 'command lp group guest permission unset mcmmo.perks.xp.50percentboost.swords'
+remove2: 'command lp group guest permission unset mcmmo.perks.xp.50percentboost.axes'
+remove3: 'command lp group guest permission unset mcmmo.perks.xp.50percentboost.archery'
+remove4: 'command lp group guest permission unset mcmmo.perks.xp.50percentboost.unarmed'
+
+day5: 'run ^command lp group guest permission set mcmmo.perks.xp.50percentboost.excavation ^command lp group guest permission unset mcmmo.perks.xp.50percentboost.herbalism  condition:day5'
+day6: 'run ^command lp group guest permission set mcmmo.perks.xp.50percentboost.mining ^command lp group guest permission unset mcmmo.perks.xp.50percentboost.excavation  condition:day6'
+day7: 'run ^command lp group guest permission set mcmmo.perks.xp.50percentboost.fishing ^command lp group guest permission unset mcmmo.perks.xp.50percentboost.mining  condition:day7'
