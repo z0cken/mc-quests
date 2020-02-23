@@ -59,7 +59,7 @@ NPC_options:
     events: 'take_unknown,take_cobble,take_pickaxe,tag_del_active,start_cooldown,journal_del_go_back,finish_quest,special_payout'
   'no_angry':
     text: 'Du widersetzt dich deinem Vorgesetzten? Ich glaube dir geht es zu gut! Du bist entlassen und glaub bloß nicht, dass du auch nur einen Smaragd bekommst!'
-    events: 'take_pickaxe,take_cobble,journal_del_go_back,journal_add_search,journal_add_find_trader,tag_del_active,tag_add_special,finish_quest'
+    events: 'take_pickaxe,take_cobble,journal_del_go_back,journal_add_search,journal_add_find_trader,tag_del_active,tag_add_special,finish_quest,journal_update'
 
   'start_special':
     text: 'Hast du es dir anders überlegt und willst mir den schäbigen Stein doch überlassen?'
