@@ -57,6 +57,9 @@ NPC_options:
   'give_end':
     text: 'Kein Problem. Ich habe beschlossen für heute Schluss zu machen. Hier hast du fünf Smaragde und jetzt geht nach Hause.'
     events: 'take_unknown,take_cobble,take_pickaxe,tag_del_active,start_cooldown,journal_del_go_back,finish_quest,special_payout'
+  'special_give_bye':
+    text: 'Super, Ich habe beschlossen für heute Schluss zu machen. Hier hast du fünf Smaragde und jetzt geht nach Hause.'
+    events: 'tag_del_special,journal_del_search,journal_del_find_trader,take_unknown,start_cooldown,special_payout'
   'no_angry':
     text: 'Du widersetzt dich deinem Vorgesetzten? Ich glaube dir geht es zu gut! Du bist entlassen und glaub bloß nicht, dass du auch nur einen Smaragd bekommst!'
     events: 'take_pickaxe,take_cobble,journal_del_go_back,journal_add_search,journal_add_find_trader,tag_del_active,tag_add_special,finish_quest,journal_update'
@@ -109,7 +112,7 @@ player_options:
 
   'special_give':
     text: 'Ja, hier bitte.'
-    events: 'tag_del_special,journal_del_search,journal_del_find_trader,take_unknown,start_cooldown,special_payout'
+    pointer: 'special_give_bye'
   'special_no':
     text: 'Nein!'
   'unknown_give':

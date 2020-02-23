@@ -3,7 +3,7 @@ cobblestone: 'COBBLESTONE lore:none'
 emerald: 'EMERALD'
 
 #Rare Item Part
-unknown_stone: 'COBBLESTONE name:&rSeltsamer_Stein lore:&2Quest_Item'
-special_stone: 'COBBLESTONE name:&rHerrgottmarin lore:&2Quest_Item'
+unknown_stone: 'COBBLESTONE name:&rSeltsamer_Stein lore:&2Quest_Item enchants:LOYALTY:1'
+special_stone: 'COBBLESTONE name:&rHerrgottmarin lore:&2Quest_Item enchants:LOYALTY:1'
 diamond: 'DIAMOND'
 lapis_lazuli: 'LAPIS_LAZULI'
