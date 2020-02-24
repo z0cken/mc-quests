@@ -11,3 +11,7 @@ too_many_in_teleporter: 'party %math.calc:2*$teleporter_radius$% in_teleporter e
 no_spam: 'tag no_spam'
 
 active_player: 'objective death_listener'
+
+death_quest: 'or has_deathloc,has_deathskip'
+has_deathloc: 'objective utilities-deathloc.death_loc_listener'
+has_deathskip: 'objective utilities-deathloc.death_skip_listener'
