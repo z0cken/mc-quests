@@ -1,6 +1,6 @@
 variables:
-  arena_location: '5563;72;-3246;world'
-  arena_radius: '13'
+  arena_location: '5563;73;-3246;world'
+  arena_radius: '14'
   teleporter_location: '5541;67;-3239;world'
   teleporter_radius: '2'
   entry_item: 'IRON_INGOT'

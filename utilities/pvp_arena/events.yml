@@ -11,7 +11,7 @@ remove_listeners: 'run ^objective remove disconnect_listener ^objective remove d
 
 message_entry: 'message §cDu benötigst $entry_amount$ $entry_name$ als Einsatz für PvP conditions:!has_entry,!no_spam'
 message_pvp: 'message §cDu musst PvP mit /pvp on aktivieren. conditions:!pvp_on,!no_spam'
-message_waiting: 'message §cEs fehlt noch ein Spieler um die Runde zu starten. conditions:pvp_on,has_entry,!full_party,!no_spam'
+message_waiting: 'message §cEs fehlt noch ein Spieler um die Runde zu starten. conditions:pvp_on,has_entry,!full_party,!no_spam,!too_many_in_teleporter'
 message_arena_full: 'message §cDie Arena ist gerade besetzt. conditions:player_in_arena,pvp_on,has_entry,full_party,!no_spam'
 message_teleporter_full: 'message §cMaximal 2 Spieler gleichzeitig! conditions:too_many_in_teleporter,!no_spam'
 message_deathquest: 'message §cDu hast die Quest von Thanatos aktiv. Deshalb kannst du aktuell NICHT teilnehmen. conditions:death_quest,!no_spam'
