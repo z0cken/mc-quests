@@ -1,0 +1,4 @@
+join_listener: 'location $teleporter_location$ $teleporter_radius$ persistent global events:message_entry,message_pvp,message_waiting,message_arena_full,join,no_spam,tag_add_spam'
+disconnect_listener: 'logout events:win,on_disconnect' #remove listeners, (teleport offline player?)
+death_listener: 'die cancel respawn:$respawn_location$ events:win,on_death' #remove listeners
+

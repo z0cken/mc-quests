@@ -1,0 +1,9 @@
+in_arena: 'location $arena_location$ $arena_radius$'
+in_teleporter: 'location $teleporter_location$ $teleporter_radius$'
+full_party: 'party %math.calc:2*$teleporter_radius$% has_entry,pvp_on every:in_teleporter,has_entry,pvp_on count:2'
+player_in_arena: 'party 100 has_entry any:in_arena count:1'
+
+has_entry: 'item entry:$entry_amount$'
+pvp_on: 'variable %ph.pvptoggle_pvp_state% §cOn'
+
+no_spam: 'tag no_spam'

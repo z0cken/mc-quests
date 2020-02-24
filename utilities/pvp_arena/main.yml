@@ -1,0 +1,9 @@
+variables:
+  arena_location: '4766;72;-220;world'
+  arena_radius: '4'
+  teleporter_location: '4783;72;-220;world'
+  teleporter_radius: '2'
+  entry_item: 'EMERALD'
+  entry_name: 'Emeralds'
+  entry_amount: '5'
+  respawn_location: '4789;71;-216;world;0;0'
