@@ -31,4 +31,5 @@ util_deathloc_skip: 'run ^point util_deathloc_skip 1 ^globalpoint util_deathloc_
 util_watered_plants: 'run ^point util_watered_plants 1 ^globalpoint util_watered_plants 1' #No Quest
 util_farmwelt: 'run ^point util_farmwelt 1 ^globalpoint util_farmwelt 1' #No Quest
 util_panzer_of_the_lake: 'run ^point util_panzer_of_the_lake 1 ^globalpoint util_panzer_of_the_lake 1' #No Quest
-
+util_pvp_won: 'run ^point util_pvp_won 1 ^globalpoint util_pvp_won 1' #No Quest
+util_pvp_lost: 'run ^point util_pvp_lost 1 ^globalpoint util_pvp_lost 1' #No Quest
