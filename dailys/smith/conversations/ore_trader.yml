@@ -89,21 +89,21 @@ NPC_options:
     pointer: 'special_offer3,special_offer4'
   'special_offer1_reply':
     text: 'Abgemacht!'
-    events: 'dailys-build_the_wall.offer1,dailys-build_the_wall.tag_del_special,dailys-build_the_wall.journal_del_find_trader,dailys-build_the_wall.journal_del_go_back,dailys-build_the_wall.journal_add_job,dailys-build_the_wall.start_cooldown'
+    events: 'utilities-statistics.daily_build_the_wall_sidequest,dailys-build_the_wall.offer1,dailys-build_the_wall.tag_del_special,dailys-build_the_wall.journal_del_find_trader,dailys-build_the_wall.journal_del_go_back,dailys-build_the_wall.journal_add_job,dailys-build_the_wall.start_cooldown'
   'special_offer2_reply':
     text: '22, mein letztes Angebot!'
     conditions: '!dailys-build_the_wall.random'
-    events: 'dailys-build_the_wall.offer2,dailys-build_the_wall.tag_del_special,dailys-build_the_wall.journal_del_find_trader,dailys-build_the_wall.journal_del_go_back,dailys-build_the_wall.journal_add_job,dailys-build_the_wall.start_cooldown'
+    events: 'utilities-statistics.daily_build_the_wall_sidequest,dailys-build_the_wall.offer2,dailys-build_the_wall.tag_del_special,dailys-build_the_wall.journal_del_find_trader,dailys-build_the_wall.journal_del_go_back,dailys-build_the_wall.journal_add_job,dailys-build_the_wall.start_cooldown'
   'special_offer2_reply2':
-    text: 'Wucher!! Sowas unterstütze ich nicht. 10 Diamanten und das Ding ist gut gezahlt!'
+    text: 'Wucher! Sowas unterstütze ich nicht. 10 Diamanten und das Ding ist gut gezahlt!'
     conditions: 'dailys-build_the_wall.random'
-    events: 'dailys-build_the_wall.offer4,dailys-build_the_wall.tag_del_special,dailys-build_the_wall.journal_del_find_trader,dailys-build_the_wall.journal_del_go_back,dailys-build_the_wall.journal_add_job,dailys-build_the_wall.start_cooldown'
+    events: 'utilities-statistics.daily_build_the_wall_sidequest,dailys-build_the_wall.offer4,dailys-build_the_wall.tag_del_special,dailys-build_the_wall.journal_del_find_trader,dailys-build_the_wall.journal_del_go_back,dailys-build_the_wall.journal_add_job,dailys-build_the_wall.start_cooldown'
   'special_offer3_reply':
     text: 'Abgemacht!'
-    events: 'dailys-build_the_wall.offer3,dailys-build_the_wall.tag_del_special,dailys-build_the_wall.journal_del_find_trader,dailys-build_the_wall.journal_del_go_back,dailys-build_the_wall.journal_add_job,dailys-build_the_wall.start_cooldown'
+    events: 'utilities-statistics.daily_build_the_wall_sidequest,dailys-build_the_wall.offer3,dailys-build_the_wall.tag_del_special,dailys-build_the_wall.journal_del_find_trader,dailys-build_the_wall.journal_del_go_back,dailys-build_the_wall.journal_add_job,dailys-build_the_wall.start_cooldown'
   'special_offer4_reply':
     text: 'Abgemacht!'
-    events: 'dailys-build_the_wall.offer4,dailys-build_the_wall.tag_del_special,dailys-build_the_wall.journal_del_find_trader,dailys-build_the_wall.journal_del_go_back,dailys-build_the_wall.journal_add_job,dailys-build_the_wall.start_cooldown'
+    events: 'utilities-statistics.daily_build_the_wall_sidequest,dailys-build_the_wall.offer4,dailys-build_the_wall.tag_del_special,dailys-build_the_wall.journal_del_find_trader,dailys-build_the_wall.journal_del_go_back,dailys-build_the_wall.journal_add_job,dailys-build_the_wall.start_cooldown'
 #################################################################
 player_options:
   #start

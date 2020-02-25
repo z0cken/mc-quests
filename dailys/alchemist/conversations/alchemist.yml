@@ -24,7 +24,7 @@ NPC_options:
     text: 'WEG da! OSKAR, meeehr Spinnenaugen!'
     conditions: '!is_listening'
     events: 'reply_oswald'
-    
+
   # 1 Konversation über Trank
   'hello_realize':
     text: 'JA? Was? Wer sind sie? Was wollen sie?'
@@ -56,7 +56,7 @@ NPC_options:
     text: 'Was? Ah Sie schon wieder. Haben sie schon alle Zutaten organisiert?'
     conditions: 'get_ingredients,!got_ingredients'
     pointer: 'ok_ingredients'
-    
+
   # Got ingredients
   'start_brewing':
     text: 'Ich habe ihren Trank schon begonnen.'
@@ -65,7 +65,7 @@ NPC_options:
   'time_reply':
     text: 'Puh, schauen sie in %objective.brewing_1.left% nochmal vorbei'
     events: 'brewing_sound'
-    
+
   # Did first half of the potion
   'start_first_half':
     text: 'Dein Trank ist fast fertig, ich habe mir nur etwas bei der Menge der Zutaten vertan.'
@@ -78,7 +78,7 @@ NPC_options:
     events: 'ingredient_fish,random_ingredients_2,add_second_ingredients'
   'salmon_answer':
     text: 'Auch ein Alchemist bekommt mal Hunger bei der ganzen Arbeit.'
-    
+
   #got second ingredient mission
   'start_half_ingredients':
     text: 'Haben sie alles?'
@@ -95,7 +95,7 @@ NPC_options:
     conditions: 'second_brewing'
     events: 'brewing_sound'
     pointer: 'ok'
-    
+
     #get potion from alchemist
   'start_get_potion':
     text: 'Ich habe es geschafft! Also Fast... '
@@ -103,16 +103,16 @@ NPC_options:
     pointer: 'potion_ask,potion_give'
   'ask_reply':
     text: 'Nunja, es gibt ein paar Nebenwirkungen. Übelkeit und Müdigkeit nur als Beispiel. Aber sie sollten ihn überleben! Hier bitte.'
-    events: 'give_potion,cooldown1'
+    events: 'give_potion,cooldown1,utilities-statistics.daily_alchemist'
     pointer: 'thanks_ok'
   'give_reply':
     text: 'Ist ja gut... Bitteschön.'
-    events: 'give_potion,cooldown1'
+    events: 'give_potion,cooldown1,utilities-statistics.daily_alchemist'
   'give_force':
     text: 'Hey, ganz ruhig.... Nehmen sie und beehren sich mich nicht wieder'
-    events: 'give_potion,cooldown2'
-    
-   #cooldowns
+    events: 'give_potion,cooldown2,utilities-statistics.daily_alchemist'
+
+    #cooldowns
   'start_cooldown1':
     text: 'Ich bin beschäftigt'
     conditions: 'cooldown1'
@@ -121,7 +121,7 @@ NPC_options:
     text: 'Ich habe keine Zeit für weitere ihrer Wünsche'
     conditions: 'cooldown2'
     pointer: 'ok'
-    
+
 ###################################################################
 player_options:
   'hello_password':
@@ -129,7 +129,7 @@ player_options:
     conditions: 'know_password'
     pointer: 'hello_realize'
     events: 'start_listening'
-  # 0 blocking 
+  # 0 blocking
   'blocking_ask':
     text: 'Ich benötige aber einen Trank von ihnen.'
     pointer: 'blocking_send'
@@ -167,12 +167,10 @@ player_options:
   'brewing_time':
     text: 'Wie lange dauert das noch?'
     pointer: 'time_reply'
-  
+
   # 2 Get ingredients
-  'ok_ingredients': 
+  'ok_ingredients':
     text: 'Ich bin dabei!'
-    
-    
 
   # 4 Next ingredients
   'half_what':
@@ -186,7 +184,7 @@ player_options:
     pointer: 'salmon_answer'
   'ok':
     text: 'Alles klar.'
-    
+
   # Take 2 Ingredients
   'no_ingredients':
     text: 'Leider nein, ich suche noch'
@@ -200,8 +198,8 @@ player_options:
     text: 'Wie lange benötigen sie jetzt noch?'
     conditions: 'second_brewing'
     pointer: 'brewing_timing'
-    
-    # final 
+
+    # final
   'potion_ask':
     text: 'Inwiefern fast...?'
     pointer: 'ask_reply'

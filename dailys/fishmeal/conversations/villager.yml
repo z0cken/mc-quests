@@ -27,7 +27,7 @@ NPC_options:
     pointer: 'done_finished'
   'finished_tell':
     text: 'Ja... Meine Freunde haben mit gerade mitgeteilt, dass sie gar keinen Fisch mögen. Das tut mir wirklich Leid! Hier hast du aber etwas Entschädigung für deinen Aufwand.'
-    events: 'del_running,cooldown,payout'
+    events: 'utilities-statistics.daily_fishmeal,del_running,cooldown,payout'
   'start_timeout':
     text: 'Hey, jetzt brauche ich die Fische nicht mehr. Ich hatte dir gesagt innerhalb einer Stunde!'
     conditions: 'timeout,running'

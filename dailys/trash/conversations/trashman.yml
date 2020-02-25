@@ -21,7 +21,7 @@ NPC_options:
   #ende
   'ende':
     text: 'Vielen Dank für deine Hilfe! Hier, eine Kleinigkeit für deine Unterstützung.'
-    event: trash_reward,trash_cooldown,removeTags,removeObjectives
+    event: 'utilities-statistics.daily_trash,trash_reward,trash_cooldown,removeTags,removeObjectives'
     conditions: 'trash_done'
     pointer: 'pay'
   #no Job

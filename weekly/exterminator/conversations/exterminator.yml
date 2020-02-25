@@ -35,7 +35,7 @@ NPC_options:
   'start_done':
     text: 'Ich habe die Ratten quieken hören. Gute Arbeit, hier deine Belohnung.'
     conditions: 'tag_active,!tag_search,!objective_kill'
-    events: 'journal_del_done,tag_del_active,tag_add_cooldown,cooldown_timer,payout_value,payout_random_armor'
+    events: 'utilities-statistics.weekly_exterminator,journal_del_done,tag_del_active,tag_add_cooldown,cooldown_timer,payout_value,payout_random_armor'
     pointer: 'done_thanks'
   'time':
     text: 'Jo. Bin immer Freitag und Samstag hier aktiv.'
