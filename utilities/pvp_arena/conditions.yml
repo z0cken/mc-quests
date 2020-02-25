@@ -1,6 +1,6 @@
 in_arena: 'location $arena_location$ $arena_radius$'
 in_teleporter: 'location $teleporter_location$ $teleporter_radius$'
-full_party: 'party %math.calc:2*$teleporter_radius$% has_entry,pvp_on every:in_teleporter,has_entry,pvp_on count:2'
+full_party: 'party %math.calc:2*$teleporter_radius$% has_entry,pvp_on every:in_teleporter,has_entry,pvp_on,!has_elytra,!death_quest count:2'
 player_in_arena: 'party $global_radius$ in_arena any:in_arena count:1'
 
 has_entry: 'item entry:$entry_amount$'

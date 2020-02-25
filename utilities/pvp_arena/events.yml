@@ -1,4 +1,4 @@
-join: 'party %math.calc:2*$teleporter_radius$% has_entry,pvp_on disconnect_listener,death_listener,teleport,take_entry,winner_listener,tag_del_spam conditions:full_party,!player_in_arena,!too_many_in_teleporter,!death_quest,!has_elytra'
+join: 'party %math.calc:2*$teleporter_radius$% has_entry,pvp_on,!has_elytra,!death_quest disconnect_listener,death_listener,teleport,take_entry,winner_listener,tag_del_spam conditions:full_party,!player_in_arena,!too_many_in_teleporter,!death_quest,!has_elytra'
 
 teleport: 'teleport $arena_location$'
 disconnect_listener: 'objective start disconnect_listener'
