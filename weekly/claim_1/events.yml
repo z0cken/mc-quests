@@ -101,8 +101,8 @@ mob9: 'run ^journal del c3_obj9 ^message §7§oHusk Objective abgeschlossen'
 mob10: 'run ^journal del c3_obj10 ^message §7§oGeist Objective abgeschlossen'
 
 #Home Events
-give_home1: 'permission add perm essentials.sethome.multiple.zwei world'
-give_home2: 'permission add perm essentials.sethome.multiple.drei world'
+give_home1: 'permission add perm essentials.sethome.multiple.zwei'
+give_home2: 'permission add perm essentials.sethome.multiple.drei'
 tag_add_homeclaims: 'tag add homeclaims'
 tag_del_homeclaims: 'tag del homeclaims'
 take_claims: 'take claimblock:$claims_for_home2$'
