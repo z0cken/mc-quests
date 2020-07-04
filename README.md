@@ -1,8 +1,10 @@
-# BetonQuest
+# Server Quests
 
-BetonQuest Quests Repo
+Das verwendete Plugin ist [BetonQuest](https://www.spigotmc.org/resources/betonquest.2117/) - Zur [Dokumentation](https://betonquest.github.io/BetonQuest/versions/v1.11/)
 
 Template für Files unter /template
+
+
 
 ## Aktuelle Quests:
 ### Daily
