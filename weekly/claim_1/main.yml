@@ -20,7 +20,7 @@ variables:
   mob3: 'CREEPER'
   mob4: 'ENDERMAN'
   mob5: 'PHANTOM'
-  mob6: 'ZOMBIEFIED_PIGLIN'
+  mob6: 'ZOMBIFIED_PIGLIN'
   mob7: 'STRAY'
   mob8: 'WITHER_SKELETON'
   mob9: 'HUSK'
