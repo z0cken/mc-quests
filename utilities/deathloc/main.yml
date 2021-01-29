@@ -4,7 +4,6 @@ variables:
   mq_nether_location: '0;0;0;world_nether;0;0'
 npcs:
   '358': death
-  'Thanatos': death
 cancel:
   trash:
     name: 'Deal mit dem Tod'

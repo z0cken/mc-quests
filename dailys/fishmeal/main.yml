@@ -16,7 +16,6 @@ variables:
   payout: 32 #Lapislazulli + 1 Emerald
 npcs:
   '355': villager
-  'Bernd': villager
 cancel:
   fishmeal:
     name: 'Fischige Tafelrunde'

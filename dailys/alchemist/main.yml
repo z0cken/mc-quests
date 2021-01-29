@@ -31,9 +31,7 @@ variables:
 
 npcs:
   '350': alchemist
-  'Edmund': alchemist
   '351': alchemisthelper
-  'Oswald': alchemisthelper
 cancel:
   #TODO
   alchemist:

@@ -2,7 +2,6 @@
 
 npcs:
   '0': fisher
-  'Lasse': fischer
 
 journal_main_page:
   greeting:

@@ -50,7 +50,6 @@ static:
   '23:00': regrow
   '23:50': regrow
 npcs:
-  'Stephanie': gardener
   '359': gardener
 cancel:
   trash:

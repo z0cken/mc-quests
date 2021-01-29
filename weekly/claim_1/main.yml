@@ -46,7 +46,6 @@ variables:
 
 npcs:
   '349': claimnpc
-  'Claim': claimnpc
 cancel:
   claim1:
     name: 'Claim 1'

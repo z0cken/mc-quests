@@ -5,7 +5,6 @@ variables:
   cooldown: '1200' # minutes = 20h
 npcs:
   '353': fisher
-  'Tjark': fischer
 cancel:
   trash:
     name: 'Fisherman`s Friend'

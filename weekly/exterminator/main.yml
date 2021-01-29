@@ -21,7 +21,6 @@ variables:
 
 npcs:
   '367': exterminator
-  'Egon Spengler': exterminator
 
 cancel:
   exterminator:

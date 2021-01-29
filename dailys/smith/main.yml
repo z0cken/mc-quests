@@ -5,7 +5,6 @@ variables:
 npcs:
   '357': ore_trader #Gibmir al Deingeld
   '356': smith
-  'Rebron': smith
 cancel:
   trash:
     name: 'Rebron'

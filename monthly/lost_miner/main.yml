@@ -6,7 +6,6 @@ variables:
 
 npcs:
   '370': miner
-  'Helmuth': miner
 
 cancel:
   lost_miner:

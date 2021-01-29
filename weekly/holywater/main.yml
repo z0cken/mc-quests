@@ -17,9 +17,7 @@ variables:
   water_range: '5'
 
 npcs:
-  'Karl': priest1
   '368': priest1
-  'Albert': priest2
   '369': priest2
 cancel: #TODO
   holywater:

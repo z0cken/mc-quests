@@ -21,7 +21,6 @@ variables:
   trash_bin20: 5121;74;-568;world
   trash_bin21: 5124;74;-552;world
 npcs:
-  'Dieter': trashman
   '354': trashman
 cancel:
   trash:

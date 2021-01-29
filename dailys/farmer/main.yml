@@ -18,7 +18,6 @@ variables:
   timer: '120' #in Minutes for a job
   cooldown: '1200' #in Minutes for quest 20h
 npcs:
-  'Manfred': farmer
   '352': farmer
 cancel:
   farmer:
