@@ -30,7 +30,7 @@ Template für Files unter https://github.com/z0cken/mc-quests/tree/master/templa
 - discs (Schallplatten Listener für neue Soundtickets)
 - water_plants (Pflanzen im Park gießen | respawnen)
 - farmwelt_teleport (Farmwelt)
-- panzer_of_the_lake (Messages via Pressureplate)
+- panzer_of_the_lake (chats via Pressureplate)
 - pvp_arena (PvP Arena in Erbgut - Verbesserungswürdig)
 - statistics (Globaler Quest-Tracker)
 - xp_boost (Daily McMMO XP-Boost Manager +PlaceholderAPI)
