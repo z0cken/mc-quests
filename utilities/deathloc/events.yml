@@ -8,7 +8,7 @@ get_loc: 'variable location location %location%'
 
 add_got_location: 'tag add got_location'
 del_got_location: 'tag del got_location '
-skip_death: 'message §4Thanatos: §c§oGrüße aus dem Reich der Toten.'
+skip_death: 'notify §4Thanatos: §c§oGrüße aus dem Reich der Toten.'
 
 start_cooldown: 'objective start cooldown'
 
@@ -24,7 +24,7 @@ journal_add_go_back: 'journal add go_back conditions:!has_journal_go_back'
 journal_del_go_back: 'journal del go_back'
 journal_add_go_rebron: 'journal add go_rebron'
 journal_del_go_rebron: 'journal del go_rebron'
-message_egg: 'message §7§oSkelettpferdei erhalten. Geh zurück zu Thanatos.'
+notify_egg: 'notify §7§oSkelettpferdei erhalten. Geh zurück zu Thanatos.'
 
 #kill_horse: 'give horse_egg:1'
 kill_horse: 'command minecraft:give %player% skeleton_horse_spawn_egg{display:{Lore:["[{\"text\":\"Quest Item\",\"italic\":false,\"color\":\"dark_green\"}]"]},EntityTag:{id:"minecraft:skeleton_horse",DeathLootTable:empty,Tags:["&aQuest_Item"]}}'

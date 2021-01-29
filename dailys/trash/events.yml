@@ -74,15 +74,15 @@ done_bin21: if trash_bin21 done_pos else done_neg
 removeTags: 'run ^tag remove trash_bin1 ^tag remove trash_bin2 ^tag remove trash_bin3 ^tag remove trash_bin4 ^tag remove trash_bin5 ^tag remove trash_bin6 ^tag remove trash_bin7 ^tag remove trash_bin8 ^tag remove trash_bin9 ^tag remove trash_bin10 ^tag remove trash_bin11 ^tag remove trash_bin12 ^tag remove trash_bin13 ^tag remove trash_bin14 ^tag remove trash_bin15 ^tag remove trash_bin16 ^tag remove trash_bin17 ^tag remove trash_bin18 ^tag remove trash_bin19 ^tag remove trash_bin20 ^tag remove trash_bin21'
 removeObjectives: 'run ^objective delete trash_bin1 ^objective delete trash_bin2 ^objective delete trash_bin3 ^objective delete trash_bin4 ^objective delete trash_bin5 ^objective delete trash_bin6 ^objective delete trash_bin7 ^objective delete trash_bin8 ^objective delete trash_bin9 ^objective delete trash_bin10 ^objective delete trash_bin11 ^objective delete trash_bin12 ^objective delete trash_bin13 ^objective delete trash_bin14 ^objective delete trash_bin15 ^objective delete trash_bin16 ^objective delete trash_bin17 ^objective delete trash_bin18 ^objective delete trash_bin19 ^objective delete trash_bin20 ^objective delete trash_bin21'
 
-done_pos: 'folder done_static,done_message_multiple,done_message_one,done_message_none'
-done_neg: 'message §7§oDieser Mülleimer ist leer, suche weiter.'
+done_pos: 'folder done_static,done_notify_multiple,done_notify_one,done_notify_none'
+done_neg: 'notify §7§oDieser Mülleimer ist leer, suche weiter.'
 done_static: 'run ^point trash_amount 1 ^playsound entity.bat.takeoff category:BLOCKS'
 
-done_message_multiple: 'message §7§oDieser Mülleimer war voll. Noch %point.trash_amount.left:10% weitere. conditions:!trash_done,!message_one'
-done_message_one: 'message §7§oDieser Mülleimer war voll. Jetzt fehlt nur noch einer. conditions:!trash_done,message_one'
-done_message_none: 'run ^message §7§oDas waren 10 Eimer. Ich sollte sie bei Dieter abgeben! ^journal del trash_started ^journal add trash_done conditions:trash_done,!message_one'
+done_notify_multiple: 'notify §7§oDieser Mülleimer war voll. Noch %point.trash_amount.left:10% weitere. conditions:!trash_done,!notify_one'
+done_notify_one: 'notify §7§oDieser Mülleimer war voll. Jetzt fehlt nur noch einer. conditions:!trash_done,notify_one'
+done_notify_none: 'run ^notify §7§oDas waren 10 Eimer. Ich sollte sie bei Dieter abgeben! ^journal del trash_started ^journal add trash_done conditions:trash_done,!notify_one'
 trash_reward: 'folder trash_reward_delay delay:2'
-trash_reward_delay: 'run ^give honey:3 ^message §7§oDu hast 3 Honigwaben bekommen! ^playsound entity.experience_orb.pickup category:AMBIENT'
+trash_reward_delay: 'run ^give honey:3 ^notify §7§oDu hast 3 Honigwaben bekommen! ^playsound entity.experience_orb.pickup category:AMBIENT'
 trash_cooldown: 'run ^point trash_amount *0 ^tag add trash_end ^tag remove trash_done ^tag remove trash_active ^objective start cooldown ^journal del trash_done'
 
 trash_reset: 'run ^point trash_amount *0 ^tag remove trash_end'

@@ -46,5 +46,5 @@ Loggt sich der Spieler aus: (objective: logout)
     Bricht die Quest ab, die türen öffnen sich.
 
 Optionales:
-    Die aktuelle Welle könnte an einer Wand oder auf dem Boden mit redstone lamps angezeigt werden, und/oder als chat output (events: setblock / message)
+    Die aktuelle Welle könnte an einer Wand oder auf dem Boden mit redstone lamps angezeigt werden, und/oder als chat output (events: setblock / notify)
 

@@ -1,10 +1,10 @@
-play: 'folder utilities-statistics.util_disc,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12,t13,t14,t15,t16,message,cooldown,message_cooldown,add_cooldown'
+play: 'folder utilities-statistics.util_disc,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12,t13,t14,t15,t16,notify,cooldown,notify_cooldown,add_cooldown'
 add_cooldown: 'tag add cooldown'
 del_cooldown: 'tag del cooldown'
 cooldown: 'folder del_cooldown delay:60'
 
-message: 'message §7§oMusikticket genutzt conditions:!cooldown'
-message_cooldown: 'message §7§oBitte kein Musik Spam [1 Minute] conditions:cooldown'
+notify: 'notify §7§oMusikticket genutzt conditions:!cooldown'
+notify_cooldown: 'notify §7§oBitte kein Musik Spam [1 Minute] conditions:cooldown'
 t1: 'folder ticket1 conditions:ticket1,!cooldown'
 t2: 'folder ticket2 conditions:ticket2,!cooldown'
 t3: 'folder ticket3 conditions:ticket3,!cooldown'

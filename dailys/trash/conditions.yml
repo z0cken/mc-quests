@@ -1,7 +1,7 @@
 trash_active: 'tag trash_active'
 trash_done: 'point trash_amount 10'
 trash_end: 'tag trash_end'
-message_one: 'point trash_amount 9 equal'
+notify_one: 'point trash_amount 9 equal'
 trash_bin1: 'tag trash_bin1'
 trash_bin2: 'tag trash_bin2'
 trash_bin3: 'tag trash_bin3'

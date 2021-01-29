@@ -36,7 +36,7 @@ tag_del_get_wood: 'tag del get_wood'
 
 break_log: 'pickrandom 95%nothing,5%give_item'
 nothing: 'tag del nothing'
-give_item: 'run ^message §7§oFehlerloses Kernholz erhalten. ^give corewood:1 ^journal add talk_rebron ^journal del get_wood'
+give_item: 'run ^notify §7§oFehlerloses Kernholz erhalten. ^give corewood:1 ^journal add talk_rebron ^journal del get_wood'
 remove_wood_objective: 'run ^objective remove special_wood ^journal del get_wood ^journal del talk_rebron'
 take_wood: 'take corewood:1'
 mq_progress: 'give coal:1' #TODO pay some progress (XP)
@@ -60,7 +60,7 @@ wither_quest: 'objective start wither_coal'
 del_wither_quest: 'objective remove wither_coal'
 
 killed_skeleton: 'pickrandom 75%drop_coal,25%nothing'
-drop_coal: 'run ^message &7&oKohlkopf erhalten. ^give wither_coal'
+drop_coal: 'run ^notify &7&oKohlkopf erhalten. ^give wither_coal'
 test_finished: 'folder del_wither_quest,journal_del_get_coal,journal_add_talk_coal condition:has_wither_coal'
 take_wither_coal: 'take wither_coal:$coal_head_amount$'
 

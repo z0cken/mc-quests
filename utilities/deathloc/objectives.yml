@@ -4,4 +4,4 @@ location: 'variable loaction: loc no-chat'
 cooldown: 'delay $cooldown$'
 
 #Minerquest
-egg: 'mobkill SKELETON_HORSE 1 persistent events:kill_horse,journal_add_go_back,journal_del_get_egg,message_egg conditions:!has_egg'
+egg: 'mobkill SKELETON_HORSE 1 persistent events:kill_horse,journal_add_go_back,journal_del_get_egg,notify_egg conditions:!has_egg'
