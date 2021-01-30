@@ -32,7 +32,7 @@ NPC_options:
     text: 'Ich kann dir einmal die Koordinaten deines nächsten Todes sagen, sobald du gestorben bist. Das kostet dich aber 10 Diamanten'
     pointer: 'death_loc_confirm,no'
   'death_skip_ask':
-    text: 'Ich kann deinen nächsten Tod verhindern. Er wird einfach nicht passieren. Aus Tod wird Leben. Kein Verlust, Keine Nebenwirkungen... Naja fast, es klappt nicht in der Metro. Nur 10 Emeralds.'
+    text: 'Ich kann deinen nächsten Tod verhindern. Er wird einfach nicht passieren. Aus Tod wird Leben. Kein Verlust, Keine Nebenwirkungen... Naja fast, es klappt nicht in der Metro. Nur 32 Emeralds.'
     pointer: 'death_skip_confirm,no'
   'bye':
     text: 'Alles klar, wir sehen uns!'
