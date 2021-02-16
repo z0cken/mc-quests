@@ -22,7 +22,7 @@ givePlayer_digger_shovel: 'command give %player% stone_shovel 1'
 addTag_miner_prepareQuest: 'tag add MQ_preparingQuest'
 delTag_miner_prepareQuest: 'tag del MQ_preparingQuest'
 addTag_miner_pickaxeGiven: 'tag add pickaxeGiven'
-givePlayer_miner_pickaxe: 'command minecraft:give %player% minecraft:iron_pickaxe{display:{Name:"\"§fGernods alte Spitzhacke\""},Damage:193} 1'
+givePlayer_miner_pickaxe: 'command minecraft:give %player% minecraft:iron_pickaxe 1'
 
 # Hotel
 addTag_hotel_discountGiven: 'tag add discountGiven'
